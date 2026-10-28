@@ -135,7 +135,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             </nav>
           </div>
           <div className="page overflow-hidden">
-            <p aria-hidden className="display -mb-[0.14em] select-none text-[clamp(4.5rem,17.5vw,15.5rem)] leading-[0.85]">
+            <p aria-hidden className="display -mb-[0.1em] select-none text-[clamp(3.25rem,11vw,9.5rem)] leading-[0.9]">
               Studyverse<span className="text-accent">.</span>
             </p>
           </div>
