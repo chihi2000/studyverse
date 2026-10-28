@@ -1,15 +1,12 @@
 import Link from "next/link";
-import { and, asc, count, eq, gte, ilike, isNotNull, isNull, or, sql } from "drizzle-orm";
+import { and, asc, count, eq, ilike, isNotNull, or, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { clubs, institutes, levels, posts, programs, universities } from "@/db/schema";
-import { ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
-import { ClubMonogram } from "@/components/club-monogram";
+import { clubs, institutes, levels, programs, universities } from "@/db/schema";
+import { ArrowRightIcon, SearchIcon } from "@/components/icons";
 import Image, { type StaticImageData } from "next/image";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
 import { TypedHeadline } from "@/components/typed-headline";
-import { AgendaItem } from "@/components/posts";
-import { clubCategoryLabels } from "@/lib/clubs";
 import crowdImage from "../../public/img/hall-crowd.jpg";
 import heroImage from "../../public/img/hero-hall.jpg";
 import annoncesImage from "../../public/img/pillar-annonces.jpg";
@@ -50,7 +47,7 @@ export default async function Home({ searchParams }: Props) {
 
   if (q) return <SearchResults q={q} rows={rows} />;
 
-  const [[{ instituteCount }], [{ programCount }], pilots, agenda, example, clubList] = await Promise.all([
+  const [[{ instituteCount }], [{ programCount }], pilots, example, [clubHome]] = await Promise.all([
     db.select({ instituteCount: count() }).from(institutes),
     db.select({ programCount: count() }).from(programs),
     db
@@ -68,20 +65,6 @@ export default async function Home({ searchParams }: Props) {
       .innerJoin(universities, eq(institutes.universityId, universities.id))
       .where(eq(institutes.isActive, true))
       .orderBy(asc(institutes.shortName)),
-    // Upcoming dates from the official national calendar (real data).
-    db
-      .select()
-      .from(posts)
-      .where(
-        and(
-          isNull(posts.instituteId),
-          isNull(posts.universityId),
-          eq(posts.category, "holiday"),
-          gte(sql`coalesce(${posts.endsAt}, ${posts.startsAt})`, sql`now()`),
-        ),
-      )
-      .orderBy(asc(posts.startsAt))
-      .limit(3),
     // A real path through the hierarchy, from an active institute.
     db
       .select({
@@ -100,18 +83,22 @@ export default async function Home({ searchParams }: Props) {
       .where(and(eq(institutes.isActive, true), eq(programs.degree, "licence"), isNotNull(programs.officialCode), eq(levels.year, 1)))
       .orderBy(asc(institutes.shortName), asc(programs.officialCode))
       .limit(1),
+    // The first institute that already lists clubs.
     db
-      .select({ slug: clubs.slug, name: clubs.name, category: clubs.category, instituteSlug: institutes.slug, institute: institutes.shortName })
+      .select({ slug: institutes.slug })
       .from(clubs)
       .innerJoin(institutes, eq(clubs.instituteId, institutes.id))
-      .orderBy(asc(institutes.shortName), asc(clubs.name))
-      .limit(5),
+      .orderBy(asc(institutes.shortName))
+      .limit(1),
   ]);
 
   return (
     <>
       <Hero instituteCount={instituteCount} programCount={programCount} activeCount={pilots.length} />
-      <Pillars agenda={agenda} clubList={clubList} />
+      <Pillars
+        clubsHref={clubHome ? `/${clubHome.slug}/clubs` : "#annuaire"}
+        calendarHref={pilots[0] ? `/${pilots[0].slug}?categorie=holiday` : "#annuaire"}
+      />
       {example[0] && <Hierarchy example={example[0]} />}
       <Directory rows={rows} pilots={pilots} />
       <ClosingCta />
@@ -219,34 +206,10 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
 
 /* ── 02 Pillars ──────────────────────────────────────────────────────── */
 
-type AgendaPost = typeof posts.$inferSelect;
-
-function PreviewFrame({ caption, children }: { caption: string; children: React.ReactNode }) {
+function PillarPhoto({ image, alt }: { image: StaticImageData; alt: string }) {
   return (
     <div data-reveal="clip" className="scroll-media">
-      <figure className="border border-line bg-surface shadow-[0_1px_0_var(--line),0_24px_48px_-32px_rgb(25_61_53/0.35)]">
-        <figcaption className="flex items-center justify-between border-b border-line px-4 py-2.5">
-          <span className="eyebrow">{caption}</span>
-          <span aria-hidden className="flex gap-1.5">
-            <span className="size-1.5 rounded-full bg-line" />
-            <span className="size-1.5 rounded-full bg-line" />
-            <span className="size-1.5 rounded-full bg-line" />
-          </span>
-        </figcaption>
-        <div className="px-4">{children}</div>
-      </figure>
-    </div>
-  );
-}
-
-/** A photo revealed with the scroll, with the UI preview overlapping its lower corner. */
-function PhotoPreview({ image, alt, children }: { image: StaticImageData; alt: string; children: React.ReactNode }) {
-  return (
-    <div>
-      <div data-reveal="clip" className="scroll-media">
-        <Image src={image} alt={alt} placeholder="blur" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[4/3] w-full object-cover" />
-      </div>
-      <div className="relative -mt-20 ms-auto w-[88%] sm:-mt-28 sm:w-[78%]">{children}</div>
+      <Image src={image} alt={alt} placeholder="blur" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[4/3] w-full object-cover" />
     </div>
   );
 }
@@ -255,13 +218,15 @@ function Pillar({
   index,
   title,
   text,
-  preview,
+  link,
+  photo,
   flip,
 }: {
   index: string;
   title: string;
   text: string;
-  preview: React.ReactNode;
+  link: { href: string; label: string };
+  photo: React.ReactNode;
   flip?: boolean;
 }) {
   return (
@@ -276,15 +241,19 @@ function Pillar({
         <p data-reveal style={{ "--i": 2 } as React.CSSProperties} className="max-w-md text-lg leading-relaxed text-muted">
           {text}
         </p>
+        <div data-reveal style={{ "--i": 3 } as React.CSSProperties} className="pt-2">
+          <Link href={link.href} className="group inline-flex items-center gap-2 font-medium text-brand">
+            <span className="border-b border-current pb-0.5">{link.label}</span>
+            <ArrowRightIcon size={17} className="transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
+          </Link>
+        </div>
       </div>
-      <div className={`lg:col-span-6 ${flip ? "lg:order-1" : "lg:col-start-7"}`}>{preview}</div>
+      <div className={`lg:col-span-6 ${flip ? "lg:order-1" : "lg:col-start-7"}`}>{photo}</div>
     </div>
   );
 }
 
-type ClubPreview = { slug: string; name: string; category: keyof typeof clubCategoryLabels; instituteSlug: string; institute: string };
-
-function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPreview[] }) {
+function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref: string }) {
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
       <div className="mb-6 max-w-2xl space-y-3">
@@ -298,26 +267,12 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         index="01"
         title="Cours, TD, corrigés et anciens examens."
         text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre et la matière, ouvre le document."
-        preview={
-          <PhotoPreview image={coursImage} alt="Des mains surlignent un polycopié de cours sur une table de salle de lecture, à côté d'un examen annoté.">
-          <PreviewFrame caption="Exemple d'organisation">
-            <div className="py-3">
-              <p className="eyebrow pb-2">Semestre 1</p>
-              <div className="flex items-center justify-between border-y border-line py-3 font-medium">
-                Matière <span className="text-sm font-normal text-muted">4 documents</span>
-              </div>
-              <ul className="divide-y divide-line text-sm">
-                {["Cours · Chapitres 1 à 4", "TD · Série 2", "Examen · Session principale", "Corrigé · Session principale"].map((label) => (
-                  <li key={label} className="flex items-center gap-3 py-2.5">
-                    <FileIcon size={16} className="text-brand" />
-                    <span className="flex-1">{label}</span>
-                    <span className="text-xs font-semibold text-muted">PDF</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </PreviewFrame>
-          </PhotoPreview>
+        link={{ href: "#annuaire", label: "Trouver mes cours et examens" }}
+        photo={
+          <PillarPhoto
+            image={coursImage}
+            alt="Des mains surlignent un polycopié de cours sur une table de salle de lecture, à côté d'un examen annoté."
+          />
         }
       />
 
@@ -326,34 +281,12 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         index="02"
         title="Les clubs de ton établissement."
         text="Robotique, IEEE, entrepreneuriat, design, culture… Découvre les clubs, leurs prochains événements et tout ce qu'ils ont déjà réalisé."
-        preview={
-          <PhotoPreview image={clubsImage} alt="Des étudiants d'un club construisent ensemble un petit robot dans un atelier de la faculté.">
-          <PreviewFrame caption="Clubs sur Studyverse">
-            {clubList.length ? (
-              <ul className="divide-y divide-line">
-                {clubList.map((c) => (
-                  <li key={`${c.instituteSlug}/${c.slug}`}>
-                    <Link
-                      href={`/${c.instituteSlug}/clubs/${c.slug}`}
-                      className="group flex items-center gap-3 py-3 text-sm"
-                    >
-                      <ClubMonogram name={c.name} />
-                      <span className="min-w-0 flex-1">
-                        <span className="block truncate font-medium group-hover:text-brand">{c.name}</span>
-                        <span className="block text-xs text-muted">
-                          {c.institute} · {clubCategoryLabels[c.category]}
-                        </span>
-                      </span>
-                      <ArrowRightIcon size={15} className="text-muted rtl:rotate-180" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="py-6 text-sm text-muted">Les premiers clubs arrivent bientôt.</p>
-            )}
-          </PreviewFrame>
-          </PhotoPreview>
+        link={{ href: clubsHref, label: "Découvrir les clubs" }}
+        photo={
+          <PillarPhoto
+            image={clubsImage}
+            alt="Des étudiants d'un club construisent ensemble un petit robot dans un atelier de la faculté."
+          />
         }
       />
 
@@ -361,23 +294,12 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         index="03"
         title="Les annonces officielles, et une notification quand ça te concerne."
         text="Emplois du temps, examens, règlements et vacances, publiés par les ambassadeurs avec la photo de l'affiche. Suis ta filière et ton année pour être prévenu."
-        preview={
-          <PhotoPreview image={annoncesImage} alt="Une étudiante photographie une annonce officielle tamponnée sur le panneau d'affichage de la faculté.">
-          <PreviewFrame caption="Calendrier officiel 2026-2027">
-            {agenda.length ? (
-              <ul className="divide-y divide-line">
-                {agenda.map((p) => (
-                  <AgendaItem key={p.id} post={p} />
-                ))}
-              </ul>
-            ) : (
-              <p className="py-6 text-sm text-muted">Le calendrier national apparaît ici dès sa publication.</p>
-            )}
-            <p className="flex items-center gap-2 border-t border-line py-2.5 text-xs text-muted">
-              <BellIcon size={14} /> Source : Ministère de l&apos;Enseignement supérieur
-            </p>
-          </PreviewFrame>
-          </PhotoPreview>
+        link={{ href: calendarHref, label: "Voir le calendrier officiel" }}
+        photo={
+          <PillarPhoto
+            image={annoncesImage}
+            alt="Une étudiante photographie une annonce officielle tamponnée sur le panneau d'affichage de la faculté."
+          />
         }
       />
     </section>
