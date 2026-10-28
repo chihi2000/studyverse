@@ -4,7 +4,7 @@ import { DM_Sans, IBM_Plex_Sans_Arabic, Newsreader } from "next/font/google";
 import { RevealObserver } from "@/components/reveal-observer";
 import { SignOutButton } from "@/components/sign-out-button";
 import { Wordmark } from "@/components/wordmark";
-import { getUser } from "@/lib/session";
+import { getUser, managedClubIds } from "@/lib/session";
 import "./globals.css";
 
 const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin", "latin-ext"] });
@@ -38,7 +38,8 @@ export const viewport: Viewport = {
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const user = await getUser();
-  const canPublish = user?.role === "ambassador" || user?.role === "admin";
+  const canPublish =
+    user?.role === "ambassador" || user?.role === "admin" || (user ? (await managedClubIds(user.id)).length > 0 : false);
 
   return (
     <html lang="fr" className={`${dmSans.variable} ${newsreader.variable} ${plexArabic.variable}`}>
@@ -61,8 +62,8 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
               </Link>
               {canPublish && (
                 <Link href="/panel" className="whitespace-nowrap text-muted transition-colors hover:text-ink">
-                  <span className="sm:hidden">Ambassadeur</span>
-                  <span className="hidden sm:inline">Espace ambassadeur</span>
+                  <span className="sm:hidden">Espace</span>
+                  <span className="hidden sm:inline">Mon espace</span>
                 </Link>
               )}
               {user ? (
@@ -94,7 +95,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                 Établissements
               </Link>
               <Link href={canPublish ? "/panel" : "/connexion"} className="hover:text-ink">
-                {canPublish ? "Espace ambassadeur" : "Connexion"}
+                {canPublish ? "Mon espace" : "Connexion"}
               </Link>
             </nav>
           </div>

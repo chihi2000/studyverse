@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { and, asc, count, eq, gte, ilike, isNotNull, isNull, or, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { institutes, levels, posts, programs, universities } from "@/db/schema";
-import { ArrowDownIcon, ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
-import { AgendaItem, CategoryLabel } from "@/components/posts";
+import { clubs, institutes, levels, posts, programs, universities } from "@/db/schema";
+import { ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
+import { ClubMonogram } from "@/components/club-monogram";
+import Image from "next/image";
+import { AgendaItem } from "@/components/posts";
+import { clubCategoryLabels } from "@/lib/clubs";
+import heroImage from "../../public/img/hero-hall.jpg";
 
 export const dynamic = "force-dynamic";
 
@@ -40,7 +44,7 @@ export default async function Home({ searchParams }: Props) {
 
   if (q) return <SearchResults q={q} rows={rows} />;
 
-  const [[{ instituteCount }], [{ programCount }], pilots, agenda, example] = await Promise.all([
+  const [[{ instituteCount }], [{ programCount }], pilots, agenda, example, clubList] = await Promise.all([
     db.select({ instituteCount: count() }).from(institutes),
     db.select({ programCount: count() }).from(programs),
     db
@@ -90,13 +94,18 @@ export default async function Home({ searchParams }: Props) {
       .where(and(eq(institutes.isActive, true), eq(programs.degree, "licence"), isNotNull(programs.officialCode), eq(levels.year, 1)))
       .orderBy(asc(institutes.shortName), asc(programs.officialCode))
       .limit(1),
+    db
+      .select({ slug: clubs.slug, name: clubs.name, category: clubs.category, instituteSlug: institutes.slug, institute: institutes.shortName })
+      .from(clubs)
+      .innerJoin(institutes, eq(clubs.instituteId, institutes.id))
+      .orderBy(asc(institutes.shortName), asc(clubs.name))
+      .limit(5),
   ]);
 
   return (
     <>
       <Hero instituteCount={instituteCount} programCount={programCount} activeCount={pilots.length} />
-      <Problem />
-      <Pillars agenda={agenda} />
+      <Pillars agenda={agenda} clubList={clubList} />
       {example[0] && <Hierarchy example={example[0]} />}
       <Directory rows={rows} pilots={pilots} />
       <ClosingCta />
@@ -137,10 +146,10 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
   const figures = [
     [numberFormat.format(instituteCount), "établissements référencés"],
     [numberFormat.format(programCount), "formations"],
-    [numberFormat.format(activeCount), activeCount > 1 ? "établissements animés par des ambassadeurs" : "établissement animé par des ambassadeurs"],
+    [numberFormat.format(activeCount), activeCount > 1 ? "établissements actifs" : "établissement actif"],
   ];
   return (
-    <section className="page flex min-h-[calc(100svh-var(--header-h))] max-h-[60rem] flex-col justify-center gap-10 pb-16 pt-12">
+    <section className="page pb-20 pt-10 md:pt-14">
       <div className="space-y-6">
         <p className="eyebrow load-in" style={{ "--d": 0 } as React.CSSProperties}>
           Le portail des étudiants en Tunisie
@@ -155,12 +164,12 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
         </h1>
       </div>
 
-      <div className="load-rule h-px w-full bg-ink/20" />
+      <div className="load-rule mt-10 h-px w-full bg-ink/20" />
 
-      <div className="grid gap-10 lg:grid-cols-12">
-        <div className="space-y-6 lg:col-span-7">
+      <div className="mt-10 grid gap-10 lg:grid-cols-12 lg:gap-12">
+        <div className="space-y-8 lg:col-span-5">
           <p className="load-in max-w-xl text-lg leading-relaxed text-muted" style={{ "--d": 3 } as React.CSSProperties}>
-            Actualités, examens, cours et informations officielles de ton établissement. Enfin réunis.
+            Cours, TD, anciens examens, clubs et annonces officielles de ton établissement. Enfin réunis.
           </p>
           <div className="load-in space-y-3" style={{ "--d": 4 } as React.CSSProperties}>
             <SearchForm id="hero-search" />
@@ -168,68 +177,37 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
               Parcourir tous les établissements <ArrowRightIcon size={15} />
             </Link>
           </div>
-        </div>
-
-        <aside
-          aria-label="L'annuaire en chiffres"
-          className="load-in lg:col-span-4 lg:col-start-9"
-          style={{ "--d": 5 } as React.CSSProperties}
-        >
-          <dl className="divide-y divide-line border-y border-line">
+          <dl
+            aria-label="L'annuaire en chiffres"
+            className="load-in grid grid-cols-3 divide-x divide-line border-y border-line"
+            style={{ "--d": 5 } as React.CSSProperties}
+          >
             {figures.map(([value, label]) => (
-              <div key={label} className="grid grid-cols-[5.5rem_1fr] items-baseline gap-3 py-3">
-                <dd className="display text-3xl tabular-nums">{value}</dd>
-                <dt className="text-sm text-muted">{label}</dt>
+              <div key={label} className="space-y-1 px-3 py-3 first:ps-0">
+                <dd className="display text-[1.75rem] leading-none tabular-nums">{value}</dd>
+                <dt className="text-xs leading-snug text-muted">{label}</dt>
               </div>
             ))}
           </dl>
-          <a href="#constat" className="mt-6 inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-ink">
-            <ArrowDownIcon size={16} /> Découvrir
-          </a>
-        </aside>
+        </div>
+
+        <figure className="load-in lg:col-span-7" style={{ "--d": 3 } as React.CSSProperties}>
+          <Image
+            src={heroImage}
+            alt="Une étudiante marche dans le couloir ensoleillé d'une faculté, entre les fenêtres en arcades et les panneaux d'affichage."
+            priority
+            placeholder="blur"
+            sizes="(min-width: 1024px) 58vw, 100vw"
+            className="aspect-[3/2] w-full object-cover"
+          />
+          <figcaption className="mt-2 text-xs text-muted">Image d&apos;illustration</figcaption>
+        </figure>
       </div>
     </section>
   );
 }
 
-/* ── 02 Problem ──────────────────────────────────────────────────────── */
-
-function Problem() {
-  const scattered = ["Facebook.", "WhatsApp.", "Site de la fac."];
-  return (
-    <section id="constat" aria-labelledby="constat-title" className="bg-surface-2/60">
-      <div className="page grid gap-10 py-24 md:py-32 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <div className="space-y-3 lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
-            <p className="eyebrow">02 — Le constat</p>
-            <h2 id="constat-title" className="max-w-xs text-lg leading-relaxed text-muted">
-              Aujourd&apos;hui, une date d&apos;examen se cherche à cinq endroits différents.
-            </h2>
-          </div>
-        </div>
-        <div className="lg:col-span-8">
-          <p className="display space-y-2 text-[clamp(2.6rem,8vw,5.5rem)] text-ink">
-            {scattered.map((word) => (
-              <span key={word} className="scroll-word block">
-                {word}
-              </span>
-            ))}
-            <span className="scroll-word block text-muted">
-              <span className="scroll-word-strike">Messages perdus.</span>
-            </span>
-          </p>
-          <p className="scroll-resolve display mt-16 text-[clamp(2.2rem,6vw,4.25rem)] md:mt-24">
-            Une seule destination.
-            <br />
-            <span className="italic text-brand">Studyverse.</span>
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ── 03 Pillars ──────────────────────────────────────────────────────── */
+/* ── 02 Pillars ──────────────────────────────────────────────────────── */
 
 type AgendaPost = typeof posts.$inferSelect;
 
@@ -282,50 +260,31 @@ function Pillar({
   );
 }
 
-function Pillars({ agenda }: { agenda: AgendaPost[] }) {
+type ClubPreview = { slug: string; name: string; category: keyof typeof clubCategoryLabels; instituteSlug: string; institute: string };
+
+function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPreview[] }) {
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
       <div className="mb-6 max-w-2xl space-y-3">
-        <p className="eyebrow">03 — Ce que Studyverse réunit</p>
+        <p className="eyebrow">02 — Ce que Studyverse réunit</p>
         <h2 id="piliers-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
-          Trois choses dont tu as besoin chaque semaine.
+          Ce dont tu as besoin, toute l&apos;année.
         </h2>
       </div>
 
       <Pillar
         index="01"
-        title="Les annonces officielles, datées et vérifiées."
-        text="Emplois du temps, calendriers d'examens, règlements et vacances, publiés par les ambassadeurs de ton établissement avec la photo de l'affiche officielle."
-        preview={
-          <PreviewFrame caption="Calendrier officiel 2026-2027">
-            {agenda.length ? (
-              <ul className="divide-y divide-line">
-                {agenda.map((p) => (
-                  <AgendaItem key={p.id} post={p} />
-                ))}
-              </ul>
-            ) : (
-              <p className="py-6 text-sm text-muted">Le calendrier national apparaît ici dès sa publication.</p>
-            )}
-            <p className="border-t border-line py-2.5 text-xs text-muted">Source : Ministère de l&apos;Enseignement supérieur</p>
-          </PreviewFrame>
-        }
-      />
-
-      <Pillar
-        flip
-        index="02"
-        title="Examens, corrigés, cours et TD, rangés par matière."
-        text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre, ouvre le document."
+        title="Cours, TD, corrigés et anciens examens."
+        text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre et la matière, ouvre le document."
         preview={
           <PreviewFrame caption="Exemple d'organisation">
             <div className="py-3">
               <p className="eyebrow pb-2">Semestre 1</p>
               <div className="flex items-center justify-between border-y border-line py-3 font-medium">
-                Matière <span className="text-sm font-normal text-muted">3 documents</span>
+                Matière <span className="text-sm font-normal text-muted">4 documents</span>
               </div>
               <ul className="divide-y divide-line text-sm">
-                {["Examen · Session principale", "Corrigé · Session principale", "Examen · Rattrapage"].map((label) => (
+                {["Cours · Chapitres 1 à 4", "TD · Série 2", "Examen · Session principale", "Corrigé · Session principale"].map((label) => (
                   <li key={label} className="flex items-center gap-3 py-2.5">
                     <FileIcon size={16} className="text-brand" />
                     <span className="flex-1">{label}</span>
@@ -339,30 +298,57 @@ function Pillars({ agenda }: { agenda: AgendaPost[] }) {
       />
 
       <Pillar
-        index="03"
-        title="Des notifications qui ne parlent que de toi."
-        text="Suis ton établissement, ta filière et ton année. Une nouvelle date d'examen pour ta promo ? Tu le sais avant le groupe WhatsApp."
+        flip
+        index="02"
+        title="Les clubs de ton établissement."
+        text="Robotique, IEEE, entrepreneuriat, design, culture… Découvre les clubs, leurs prochains événements et tout ce qu'ils ont déjà réalisé."
         preview={
-          <PreviewFrame caption="Exemple de notification">
-            <div className="space-y-4 py-5">
-              <div className="flex flex-wrap gap-2 text-sm">
-                {["Établissement", "Filière", "Année"].map((step, i) => (
-                  <span key={step} className="chip" aria-current={i === 2 ? "true" : undefined}>
-                    {step}
-                  </span>
+          <PreviewFrame caption="Clubs sur Studyverse">
+            {clubList.length ? (
+              <ul className="divide-y divide-line">
+                {clubList.map((c) => (
+                  <li key={`${c.instituteSlug}/${c.slug}`}>
+                    <Link
+                      href={`/${c.instituteSlug}/clubs/${c.slug}`}
+                      className="group flex items-center gap-3 py-3 text-sm"
+                    >
+                      <ClubMonogram name={c.name} />
+                      <span className="min-w-0 flex-1">
+                        <span className="block truncate font-medium group-hover:text-brand">{c.name}</span>
+                        <span className="block text-xs text-muted">
+                          {c.institute} · {clubCategoryLabels[c.category]}
+                        </span>
+                      </span>
+                      <ArrowRightIcon size={15} className="text-muted rtl:rotate-180" />
+                    </Link>
+                  </li>
                 ))}
-              </div>
-              <div className="flex gap-3 border border-line bg-canvas p-3">
-                <span className="grid size-9 shrink-0 place-items-center bg-forest text-on-forest">
-                  <BellIcon size={17} />
-                </span>
-                <div className="min-w-0 space-y-1 text-sm">
-                  <CategoryLabel category="exam_calendar" />
-                  <p className="font-medium">Ton établissement · Examens</p>
-                  <p className="text-muted">Le calendrier des examens de ta promo vient d&apos;être publié.</p>
-                </div>
-              </div>
-            </div>
+              </ul>
+            ) : (
+              <p className="py-6 text-sm text-muted">Les premiers clubs arrivent bientôt.</p>
+            )}
+          </PreviewFrame>
+        }
+      />
+
+      <Pillar
+        index="03"
+        title="Les annonces officielles, et une notification quand ça te concerne."
+        text="Emplois du temps, examens, règlements et vacances, publiés par les ambassadeurs avec la photo de l'affiche. Suis ta filière et ton année pour être prévenu."
+        preview={
+          <PreviewFrame caption="Calendrier officiel 2026-2027">
+            {agenda.length ? (
+              <ul className="divide-y divide-line">
+                {agenda.map((p) => (
+                  <AgendaItem key={p.id} post={p} />
+                ))}
+              </ul>
+            ) : (
+              <p className="py-6 text-sm text-muted">Le calendrier national apparaît ici dès sa publication.</p>
+            )}
+            <p className="flex items-center gap-2 border-t border-line py-2.5 text-xs text-muted">
+              <BellIcon size={14} /> Source : Ministère de l&apos;Enseignement supérieur
+            </p>
           </PreviewFrame>
         }
       />
@@ -370,7 +356,7 @@ function Pillars({ agenda }: { agenda: AgendaPost[] }) {
   );
 }
 
-/* ── 04 Hierarchy ────────────────────────────────────────────────────── */
+/* ── 03 Hierarchy ────────────────────────────────────────────────────── */
 
 type Example = {
   university: string;
@@ -395,7 +381,7 @@ function Hierarchy({ example }: { example: Example }) {
       <div className="page py-24 md:py-32">
         <div className="mb-12 grid gap-6 lg:grid-cols-12">
           <div className="space-y-3 lg:col-span-6">
-            <p className="eyebrow">04 — Ton campus, tes infos</p>
+            <p className="eyebrow">03 — Ton campus, tes infos</p>
             <h2 id="hierarchie-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
               Quatre choix, et tout ce qui te concerne.
             </h2>
@@ -482,7 +468,7 @@ function Directory({ rows, pilots }: { rows: DirectoryRow[]; pilots: Pilot[] }) 
     <section id="annuaire" aria-labelledby="annuaire-title" className="page py-24 md:py-32">
       <div className="grid gap-10 lg:grid-cols-12">
         <div className="space-y-6 lg:col-span-5">
-          <p className="eyebrow">05 — Explorer</p>
+          <p className="eyebrow">04 — Explorer</p>
           <h2 id="annuaire-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
             Trouve ton établissement.
           </h2>

@@ -3,11 +3,14 @@ import Link from "next/link";
 import { forbidden, notFound } from "next/navigation";
 import { and, asc, count, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { documents, institutes, levels, posts, programs } from "@/db/schema";
+import { clubs, documents, institutes, levels, posts, programs } from "@/db/schema";
 import { CategoryLabel } from "@/components/posts";
 import { formatDate } from "@/lib/posts";
 import { canPublishFor, requireRole } from "@/lib/session";
 import { deletePost } from "../actions";
+import { createClub } from "../club-actions";
+import { ClubMonogram } from "@/components/club-monogram";
+import { clubCategoryLabels } from "@/lib/clubs";
 import { PostForm, type AudienceOption } from "./post-form";
 
 export const metadata: Metadata = { title: "Publier" };
@@ -39,6 +42,12 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
     .select({ pending: count() })
     .from(documents)
     .where(and(eq(documents.instituteId, inst.id), eq(documents.status, "pending")));
+
+  const instClubs = await db
+    .select({ id: clubs.id, name: clubs.name, category: clubs.category, logoFileKey: clubs.logoFileKey })
+    .from(clubs)
+    .where(eq(clubs.instituteId, inst.id))
+    .orderBy(asc(clubs.name));
 
   const recent = await db
     .select()
@@ -77,6 +86,49 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
             {pending}
           </span>
         </Link>
+
+        <section aria-labelledby="clubs-panel" className="space-y-3">
+          <h2 id="clubs-panel" className="eyebrow border-b border-ink pb-2">
+            Clubs · {instClubs.length}
+          </h2>
+          {instClubs.length > 0 && (
+            <ul className="divide-y divide-line">
+              {instClubs.map((c) => (
+                <li key={c.id}>
+                  <Link href={`/panel/clubs/${c.id}`} className="group flex items-center gap-3 py-2.5 text-sm">
+                    <ClubMonogram name={c.name} logoKey={c.logoFileKey} />
+                    <span className="min-w-0 flex-1">
+                      <span className="block truncate font-medium group-hover:text-brand">{c.name}</span>
+                      <span className="block text-xs text-muted">{clubCategoryLabels[c.category]}</span>
+                    </span>
+                    <span className="text-xs text-muted">Gérer</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+          <form action={createClub} className="space-y-2 border border-line bg-surface p-3">
+            <input type="hidden" name="instituteId" value={inst.id} />
+            <p className="text-sm font-medium">Ajouter un club</p>
+            <div className="grid grid-cols-[1fr_auto] gap-2">
+              <label className="sr-only" htmlFor="club-name">
+                Nom du club
+              </label>
+              <input id="club-name" name="name" required minLength={2} maxLength={120} placeholder="Nom du club" className="field min-h-10 py-2 text-sm" />
+              <label className="sr-only" htmlFor="club-category">
+                Thème
+              </label>
+              <select id="club-category" name="category" defaultValue="other" className="field min-h-10 py-2 text-sm">
+                {Object.entries(clubCategoryLabels).map(([value, label]) => (
+                  <option key={value} value={value}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <button className="btn btn-secondary btn-sm w-full">Créer et configurer</button>
+          </form>
+        </section>
 
         <section aria-labelledby="recentes">
           <h2 id="recentes" className="eyebrow border-b border-ink pb-2">

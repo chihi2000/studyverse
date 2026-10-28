@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 import { forbidden, redirect } from "next/navigation";
 import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { ambassadorAssignments, users } from "@/db/schema";
+import { ambassadorAssignments, clubAdmins, clubs, users } from "@/db/schema";
 import { auth } from "@/lib/auth";
 
 export type Role = (typeof users.$inferSelect)["role"];
@@ -35,5 +35,33 @@ export async function canPublishFor(user: { id: string; role: Role }, instituteI
     .select()
     .from(ambassadorAssignments)
     .where(and(eq(ambassadorAssignments.userId, user.id), eq(ambassadorAssignments.instituteId, instituteId)));
+  return Boolean(row);
+}
+
+/** Clubs this user administers directly (not via an ambassador role). */
+export async function managedClubIds(userId: string) {
+  const rows = await db.select({ clubId: clubAdmins.clubId }).from(clubAdmins).where(eq(clubAdmins.userId, userId));
+  return rows.map((r) => r.clubId);
+}
+
+/** The panel is open to ambassadors, admins and club admins. */
+export async function requirePanelUser() {
+  const user = await getUser();
+  if (!user) redirect("/connexion?next=/panel");
+  if (user.role === "ambassador" || user.role === "admin") return user;
+  if ((await managedClubIds(user.id)).length === 0) forbidden();
+  return user;
+}
+
+/** Club admins, the institute's ambassadors and admins can manage a club. */
+export async function canManageClub(user: { id: string; role: Role }, clubId: string) {
+  if (user.role === "admin") return true;
+  const [club] = await db.select({ instituteId: clubs.instituteId }).from(clubs).where(eq(clubs.id, clubId));
+  if (!club) return false;
+  if (await canPublishFor(user, club.instituteId)) return true;
+  const [row] = await db
+    .select()
+    .from(clubAdmins)
+    .where(and(eq(clubAdmins.userId, user.id), eq(clubAdmins.clubId, clubId)));
   return Boolean(row);
 }

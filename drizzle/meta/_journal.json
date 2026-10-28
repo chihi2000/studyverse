@@ -43,6 +43,13 @@
       "when": 1793216513165,
       "tag": "0005_third_microbe",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793221188715,
+      "tag": "0006_fair_molly_hayes",
+      "breakpoints": true
     }
   ]
 }

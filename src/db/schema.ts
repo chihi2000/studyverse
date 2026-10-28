@@ -364,3 +364,76 @@ export const pushSubscriptions = pgTable(
   },
   (t) => [index().on(t.instituteId)],
 );
+
+// --- Clubs ---
+
+export const clubCategoryEnum = pgEnum("club_category", [
+  "tech",
+  "science",
+  "entrepreneurship",
+  "arts",
+  "culture",
+  "sport",
+  "social",
+  "other",
+]);
+
+// Student clubs of an institute. Every club uses the same Studyverse layout.
+export const clubs = pgTable(
+  "clubs",
+  {
+    id: uuid().primaryKey().defaultRandom(),
+    instituteId: uuid()
+      .notNull()
+      .references(() => institutes.id, { onDelete: "cascade" }),
+    slug: text().notNull(),
+    name: text().notNull(),
+    category: clubCategoryEnum().notNull().default("other"),
+    description: text(),
+    logoFileKey: text(),
+    website: text(),
+    facebook: text(),
+    instagram: text(),
+    foundedYear: integer(),
+    // Where seeded data came from; empty for clubs created in the panel.
+    sources: text().array().notNull().default([]),
+    ...timestamps,
+  },
+  (t) => [unique().on(t.instituteId, t.slug)],
+);
+
+// Students who manage a club's page and events, appointed by an ambassador or admin.
+export const clubAdmins = pgTable(
+  "club_admins",
+  {
+    userId: text()
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    clubId: uuid()
+      .notNull()
+      .references(() => clubs.id, { onDelete: "cascade" }),
+    createdAt: timestamp({ withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.clubId] }), index().on(t.clubId)],
+);
+
+// Upcoming events, and once past, the club's public archive (with an optional recap and photo).
+export const clubEvents = pgTable(
+  "club_events",
+  {
+    id: uuid().primaryKey().defaultRandom(),
+    clubId: uuid()
+      .notNull()
+      .references(() => clubs.id, { onDelete: "cascade" }),
+    title: text().notNull(),
+    description: text(),
+    location: text(),
+    startsAt: timestamp({ withTimezone: true }).notNull(),
+    endsAt: timestamp({ withTimezone: true }),
+    imageFileKey: text(),
+    recap: text(),
+    authorId: text().references(() => users.id, { onDelete: "set null" }),
+    ...timestamps,
+  },
+  (t) => [index().on(t.clubId, t.startsAt)],
+);

@@ -109,7 +109,7 @@ export function ProgramYearFilter({
   );
 }
 
-export function InstituteTabs({ slug, active }: { slug: string; active: "news" | "exams" }) {
+export function InstituteTabs({ slug, active }: { slug: string; active: "news" | "exams" | "clubs" }) {
   const tab = (href: string, isActive: boolean, label: string) => (
     <Link
       href={href}
@@ -124,10 +124,11 @@ export function InstituteTabs({ slug, active }: { slug: string; active: "news" |
   return (
     <nav
       aria-label="Sections de l'établissement"
-      className="sticky top-[var(--header-h)] z-30 -mx-4 flex gap-7 border-b border-line bg-canvas px-4 sm:-mx-6 sm:px-6"
+      className="sticky top-[var(--header-h)] z-30 -mx-4 flex gap-6 overflow-x-auto border-b border-line bg-canvas px-4 sm:-mx-6 sm:gap-7 sm:px-6"
     >
       {tab(`/${slug}`, active === "news", "Actualités")}
       {tab(`/${slug}/examens`, active === "exams", "Examens & cours")}
+      {tab(`/${slug}/clubs`, active === "clubs", "Clubs")}
     </nav>
   );
 }

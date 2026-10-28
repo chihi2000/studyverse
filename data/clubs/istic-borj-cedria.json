@@ -1,0 +1,50 @@
+{
+  "institute": "istic-borj-cedria",
+  "clubs": [
+    {
+      "slug": "ieee-istic-sb",
+      "name": "IEEE ISTIC Student Branch",
+      "category": "tech",
+      "website": "https://istic.ieee.tn/",
+      "facebook": "https://www.facebook.com/profile.php?id=100080345752240",
+      "instagram": "https://www.instagram.com/ieee.istic.sb",
+      "sources": ["https://istic.ieee.tn/"]
+    },
+    {
+      "slug": "maker-labs-istic",
+      "name": "Maker Labs ISTIC",
+      "category": "tech",
+      "facebook": "https://www.facebook.com/MakerLabsISTIC/",
+      "sources": ["https://www.facebook.com/MakerLabsISTIC/"]
+    },
+    {
+      "slug": "enactus-istic",
+      "name": "Enactus ISTIC Borj Cédria",
+      "category": "entrepreneurship",
+      "website": "https://enactus.org.tn/equipe/enactus-istic-borj-cedria/",
+      "sources": ["https://enactus.org.tn/equipe/enactus-istic-borj-cedria/"]
+    },
+    {
+      "slug": "cloud-computing-club-3c",
+      "name": "Cloud Computing Club (3C)",
+      "category": "tech",
+      "website": "https://cloud-computing-club-3c.firebaseapp.com/",
+      "foundedYear": 2018,
+      "sources": ["https://cloud-computing-club-3c.firebaseapp.com/"]
+    },
+    {
+      "slug": "istic-robotics-club",
+      "name": "ISTIC Robotics Club",
+      "category": "tech",
+      "website": "http://www.istic.rnu.tn/fr/vie-universitaire/istic-robotics-club.html",
+      "sources": ["http://www.istic.rnu.tn/fr/vie-universitaire/istic-robotics-club.html"]
+    },
+    {
+      "slug": "istic-dev-space",
+      "name": "ISTIC DEV SPACE",
+      "category": "tech",
+      "website": "http://www.istic.rnu.tn/fr/vie-universitaire/istic-dev-space.html",
+      "sources": ["http://www.istic.rnu.tn/fr/vie-universitaire/istic-dev-space.html"]
+    }
+  ]
+}

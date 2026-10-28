@@ -4,7 +4,17 @@ import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { and, eq, notInArray, sql } from "drizzle-orm";
 import { db } from "./index";
-import { degreeEnum, instituteLinks, institutes, levels, posts, programs, universities } from "./schema";
+import {
+  clubCategoryEnum,
+  clubs,
+  degreeEnum,
+  instituteLinks,
+  institutes,
+  levels,
+  posts,
+  programs,
+  universities,
+} from "./schema";
 
 const RAW_DIR = path.join(process.cwd(), "data/raw");
 
@@ -239,10 +249,11 @@ async function seed() {
   }
 
   const postCount = await importNationalPosts();
+  const clubCount = await importClubs();
 
   if (process.argv.includes("--demo")) await seedDemoPosts();
   console.log(
-    `Imported ${files.length} universities, ${instituteCount} institutes, ${programCount} programs, ${postCount} national posts.`,
+    `Imported ${files.length} universities, ${instituteCount} institutes, ${programCount} programs, ${postCount} national posts, ${clubCount} clubs.`,
   );
 }
 
@@ -258,6 +269,50 @@ type RawPostsFile = {
     endsAt?: string;
   }[];
 };
+
+type RawClubsFile = {
+  institute: string;
+  clubs: {
+    slug: string;
+    name: string;
+    category: (typeof clubCategoryEnum.enumValues)[number];
+    description?: string;
+    website?: string;
+    facebook?: string;
+    instagram?: string;
+    foundedYear?: number;
+    sources?: string[];
+  }[];
+};
+
+// Clubs found in public sources, from data/clubs/<institute>.json.
+async function importClubs() {
+  const dir = path.join(process.cwd(), "data/clubs");
+  let count = 0;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+    const file: RawClubsFile = JSON.parse(readFileSync(path.join(dir, f), "utf8"));
+    const [inst] = await db.select({ id: institutes.id }).from(institutes).where(eq(institutes.slug, file.institute));
+    if (!inst) throw new Error(`Unknown institute ${file.institute} in data/clubs/${f}`);
+    for (const c of file.clubs) {
+      const values = {
+        instituteId: inst.id,
+        slug: c.slug,
+        name: c.name,
+        category: c.category,
+        description: opt(c.description),
+        website: opt(c.website),
+        facebook: opt(c.facebook),
+        instagram: opt(c.instagram),
+        foundedYear: c.foundedYear ?? null,
+        sources: c.sources ?? [],
+      };
+      // Don't overwrite what club admins edited (description, links) on re-import.
+      await db.insert(clubs).values(values).onConflictDoNothing({ target: [clubs.instituteId, clubs.slug] });
+      count++;
+    }
+  }
+  return count;
+}
 
 // Official announcements that apply to every student, from data/posts/*.json.
 async function importNationalPosts() {
