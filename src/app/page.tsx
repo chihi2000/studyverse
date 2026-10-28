@@ -115,7 +115,7 @@ export default async function Home({ searchParams }: Props) {
 
 /* ── 01 Hero ─────────────────────────────────────────────────────────── */
 
-function SearchForm({ q = "", id }: { q?: string; id: string }) {
+function SearchForm({ q = "", id, onImage = false }: { q?: string; id: string; onImage?: boolean }) {
   return (
     <form action="/" role="search" className="flex w-full gap-2">
       <label htmlFor={id} className="sr-only">
@@ -133,7 +133,9 @@ function SearchForm({ q = "", id }: { q?: string; id: string }) {
           className="field h-14 ps-11 text-[1.05rem]"
         />
       </div>
-      <button className="btn btn-primary h-14 px-5">
+      <button
+        className={`btn h-14 px-5 ${onImage ? "bg-[#f7f5ef] text-forest hover:bg-white" : "btn-primary"}`}
+      >
         <span className="hidden sm:inline">Rechercher</span>
         <ArrowRightIcon className="sm:hidden" />
         <span className="sr-only sm:hidden">Rechercher</span>
@@ -149,61 +151,64 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
     [numberFormat.format(activeCount), activeCount > 1 ? "établissements actifs" : "établissement actif"],
   ];
   return (
-    <section className="page pb-20 pt-10 md:pt-14">
-      <div className="space-y-6">
-        <p className="eyebrow load-in" style={{ "--d": 0 } as React.CSSProperties}>
-          Le portail des étudiants en Tunisie
-        </p>
-        <h1 className="display text-[clamp(3rem,9.2vw,7.5rem)]">
-          <span className="load-in block" style={{ "--d": 1 } as React.CSSProperties}>
-            Tout ton campus.
-          </span>
-          <span className="load-in block italic text-brand" style={{ "--d": 2 } as React.CSSProperties}>
-            Au même endroit.
-          </span>
-        </h1>
-      </div>
+    <>
+      <section className="relative isolate flex min-h-[calc(100svh-var(--header-h))] items-end overflow-hidden bg-forest">
+        <Image
+          src={heroImage}
+          alt="Une étudiante marche dans le couloir ensoleillé d'une faculté, entre les fenêtres en arcades et les panneaux d'affichage."
+          priority
+          fill
+          placeholder="blur"
+          sizes="100vw"
+          className="-z-10 object-cover object-[30%_center]"
+        />
+        {/* Darkens only where the text sits: the bottom on mobile, the right half on desktop. */}
+        <div
+          aria-hidden
+          className="absolute inset-0 -z-10 bg-gradient-to-t from-[#0d1714]/90 via-[#0d1714]/45 to-transparent lg:bg-gradient-to-l lg:from-[#0d1714]/85 lg:via-[#0d1714]/40 lg:to-transparent"
+        />
 
-      <div className="load-rule mt-10 h-px w-full bg-ink/20" />
-
-      <div className="mt-10 grid gap-10 lg:grid-cols-12 lg:gap-12">
-        <div className="space-y-8 lg:col-span-5">
-          <p className="load-in max-w-xl text-lg leading-relaxed text-muted" style={{ "--d": 3 } as React.CSSProperties}>
-            Cours, TD, anciens examens, clubs et annonces officielles de ton établissement. Enfin réunis.
-          </p>
-          <div className="load-in space-y-3" style={{ "--d": 4 } as React.CSSProperties}>
-            <SearchForm id="hero-search" />
-            <Link href="#annuaire" className="link inline-flex items-center gap-1 text-sm">
-              Parcourir tous les établissements <ArrowRightIcon size={15} />
-            </Link>
+        <div className="page pb-12 pt-32 text-[#f7f5ef] lg:pb-16">
+          <div className="space-y-6 lg:ms-auto lg:max-w-[38rem]">
+            <p className="eyebrow load-in !text-[#f7f5ef]/80" style={{ "--d": 0 } as React.CSSProperties}>
+              Le portail des étudiants en Tunisie
+            </p>
+            <h1 className="display text-[clamp(3rem,7.5vw,6rem)]">
+              <span className="load-in block" style={{ "--d": 1 } as React.CSSProperties}>
+                Tout ton campus.
+              </span>
+              <span className="load-in block italic text-[#f3d9c6]" style={{ "--d": 2 } as React.CSSProperties}>
+                Au même endroit.
+              </span>
+            </h1>
+            <p className="load-in max-w-lg text-lg leading-relaxed text-[#f7f5ef]/85" style={{ "--d": 3 } as React.CSSProperties}>
+              Cours, TD, anciens examens, clubs et annonces officielles de ton établissement. Enfin réunis.
+            </p>
+            <div className="load-in space-y-3" style={{ "--d": 4 } as React.CSSProperties}>
+              <SearchForm id="hero-search" onImage />
+              <Link
+                href="#annuaire"
+                className="inline-flex items-center gap-1 text-sm text-[#f7f5ef] underline decoration-[#f7f5ef]/40 underline-offset-[3px] hover:decoration-[#f7f5ef]"
+              >
+                Parcourir tous les établissements <ArrowRightIcon size={15} />
+              </Link>
+            </div>
           </div>
-          <dl
-            aria-label="L'annuaire en chiffres"
-            className="load-in grid grid-cols-3 divide-x divide-line border-y border-line"
-            style={{ "--d": 5 } as React.CSSProperties}
-          >
-            {figures.map(([value, label]) => (
-              <div key={label} className="space-y-1 px-3 py-3 first:ps-0">
-                <dd className="display text-[1.75rem] leading-none tabular-nums">{value}</dd>
-                <dt className="text-xs leading-snug text-muted">{label}</dt>
-              </div>
-            ))}
-          </dl>
         </div>
+        <p className="absolute bottom-3 start-4 text-[0.7rem] text-[#f7f5ef]/60 sm:start-6">Image d&apos;illustration</p>
+      </section>
 
-        <figure className="load-in lg:col-span-7" style={{ "--d": 3 } as React.CSSProperties}>
-          <Image
-            src={heroImage}
-            alt="Une étudiante marche dans le couloir ensoleillé d'une faculté, entre les fenêtres en arcades et les panneaux d'affichage."
-            priority
-            placeholder="blur"
-            sizes="(min-width: 1024px) 58vw, 100vw"
-            className="aspect-[3/2] w-full object-cover"
-          />
-          <figcaption className="mt-2 text-xs text-muted">Image d&apos;illustration</figcaption>
-        </figure>
+      <div className="page">
+        <dl aria-label="L'annuaire en chiffres" className="grid grid-cols-3 divide-x divide-line border-b border-line">
+          {figures.map(([value, label]) => (
+            <div key={label} className="space-y-1 px-3 py-5 first:ps-0 sm:px-6">
+              <dd className="display text-[clamp(1.75rem,4vw,2.5rem)] leading-none tabular-nums">{value}</dd>
+              <dt className="text-xs leading-snug text-muted sm:text-sm">{label}</dt>
+            </div>
+          ))}
+        </dl>
       </div>
-    </section>
+    </>
   );
 }
 
