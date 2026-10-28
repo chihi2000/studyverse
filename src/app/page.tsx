@@ -3,15 +3,12 @@ import { and, asc, count, eq, ilike, isNotNull, or, sql } from "drizzle-orm";
 import { db } from "@/db";
 import { clubs, institutes, levels, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, SearchIcon } from "@/components/icons";
-import Image, { type StaticImageData } from "next/image";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
+import { AnnouncementsIcon, ClubsIcon, CoursesIcon } from "@/components/pillar-icons";
 import { TypedHeadline } from "@/components/typed-headline";
 import crowdImage from "../../public/img/hall-crowd.jpg";
 import heroImage from "../../public/img/hero-hall.jpg";
-import annoncesImage from "../../public/img/pillar-annonces.jpg";
-import clubsImage from "../../public/img/pillar-clubs.jpg";
-import coursImage from "../../public/img/pillar-cours.jpg";
 import studyImage from "../../public/img/students-studying.jpg";
 
 export const dynamic = "force-dynamic";
@@ -206,102 +203,75 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
 
 /* ── 02 Pillars ──────────────────────────────────────────────────────── */
 
-function PillarPhoto({ image, alt }: { image: StaticImageData; alt: string }) {
-  return (
-    <div data-reveal="clip" className="scroll-media">
-      <Image src={image} alt={alt} placeholder="blur" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[4/3] w-full object-cover" />
-    </div>
-  );
-}
-
 function Pillar({
   index,
+  icon,
   title,
   text,
   link,
-  photo,
-  flip,
 }: {
-  index: string;
+  index: number;
+  icon: React.ReactNode;
   title: string;
   text: string;
   link: { href: string; label: string };
-  photo: React.ReactNode;
-  flip?: boolean;
 }) {
+  const delay = (n: number) => ({ "--i": index * 2 + n }) as React.CSSProperties;
   return (
-    <div className="grid items-center gap-10 border-t border-line py-16 md:py-20 lg:grid-cols-12 lg:gap-12">
-      <div className={`space-y-4 lg:col-span-5 ${flip ? "lg:order-2 lg:col-start-8" : ""}`}>
-        <span data-reveal className="display block text-[4.5rem] leading-none text-accent">
-          {index}
-        </span>
-        <h3 data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(1.9rem,3.6vw,2.75rem)]">
-          {title}
-        </h3>
-        <p data-reveal style={{ "--i": 2 } as React.CSSProperties} className="max-w-md text-lg leading-relaxed text-muted">
-          {text}
-        </p>
-        <div data-reveal style={{ "--i": 3 } as React.CSSProperties} className="pt-2">
-          <Link href={link.href} className="group inline-flex items-center gap-2 font-medium text-brand">
-            <span className="border-b border-current pb-0.5">{link.label}</span>
-            <ArrowRightIcon size={17} className="transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
-          </Link>
-        </div>
+    <li className="flex flex-col gap-4 border-b border-line py-10 last:border-b-0 md:border-b-0 md:border-e md:px-8 md:first:ps-0 md:last:border-e-0 md:last:pe-0">
+      <div data-reveal style={delay(0)} className="flex items-end justify-between">
+        <span className="text-brand">{icon}</span>
+        <span className="display text-[2.75rem] leading-none text-accent">0{index + 1}</span>
       </div>
-      <div className={`lg:col-span-6 ${flip ? "lg:order-1" : "lg:col-start-7"}`}>{photo}</div>
-    </div>
+      <h3 data-reveal style={delay(1)} className="display text-[1.65rem] leading-tight">
+        {title}
+      </h3>
+      <p data-reveal style={delay(1)} className="leading-relaxed text-muted">
+        {text}
+      </p>
+      <div data-reveal style={delay(2)} className="mt-auto pt-2">
+        <Link href={link.href} className="group inline-flex items-center gap-2 font-medium text-brand">
+          <span className="border-b border-current pb-0.5">{link.label}</span>
+          <ArrowRightIcon size={17} className="transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
+        </Link>
+      </div>
+    </li>
   );
 }
 
 function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref: string }) {
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
-      <div className="mb-6 max-w-2xl space-y-3">
+      <div className="mb-12 max-w-2xl space-y-3">
         <p data-reveal className="eyebrow">02 — Ce que Studyverse réunit</p>
         <h2 id="piliers-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
           Ce dont tu as besoin, toute l&apos;année.
         </h2>
       </div>
 
-      <Pillar
-        index="01"
-        title="Cours, TD, corrigés et anciens examens."
-        text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre et la matière, ouvre le document."
-        link={{ href: "#annuaire", label: "Trouver mes cours et examens" }}
-        photo={
-          <PillarPhoto
-            image={coursImage}
-            alt="Des mains surlignent un polycopié de cours sur une table de salle de lecture, à côté d'un examen annoté."
-          />
-        }
-      />
-
-      <Pillar
-        flip
-        index="02"
-        title="Les clubs de ton établissement."
-        text="Robotique, IEEE, entrepreneuriat, design, culture… Découvre les clubs, leurs prochains événements et tout ce qu'ils ont déjà réalisé."
-        link={{ href: clubsHref, label: "Découvrir les clubs" }}
-        photo={
-          <PillarPhoto
-            image={clubsImage}
-            alt="Des étudiants d'un club construisent ensemble un petit robot dans un atelier de la faculté."
-          />
-        }
-      />
-
-      <Pillar
-        index="03"
-        title="Les annonces officielles, et une notification quand ça te concerne."
-        text="Emplois du temps, examens, règlements et vacances, publiés par les ambassadeurs avec la photo de l'affiche. Suis ta filière et ton année pour être prévenu."
-        link={{ href: calendarHref, label: "Voir le calendrier officiel" }}
-        photo={
-          <PillarPhoto
-            image={annoncesImage}
-            alt="Une étudiante photographie une annonce officielle tamponnée sur le panneau d'affichage de la faculté."
-          />
-        }
-      />
+      <ul className="grid border-t border-ink md:grid-cols-3">
+        <Pillar
+          index={0}
+          icon={<CoursesIcon />}
+          title="Cours, TD, corrigés et anciens examens."
+          text="Une bibliothèque partagée par les étudiants et vérifiée avant publication, rangée par filière, année, semestre et matière."
+          link={{ href: "#annuaire", label: "Trouver mes cours et examens" }}
+        />
+        <Pillar
+          index={1}
+          icon={<ClubsIcon />}
+          title="Les clubs de ton établissement."
+          text="Robotique, IEEE, entrepreneuriat, design, culture… Leurs prochains événements et tout ce qu'ils ont déjà réalisé."
+          link={{ href: clubsHref, label: "Découvrir les clubs" }}
+        />
+        <Pillar
+          index={2}
+          icon={<AnnouncementsIcon />}
+          title="Les annonces officielles, et une notification quand ça te concerne."
+          text="Emplois du temps, examens, règlements et vacances, publiés avec la photo de l'affiche. Suis ta filière et ton année."
+          link={{ href: calendarHref, label: "Voir le calendrier officiel" }}
+        />
+      </ul>
     </section>
   );
 }
