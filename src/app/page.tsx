@@ -1,103 +1,110 @@
-import Image from "next/image";
+import Link from "next/link";
+import { asc, eq, ilike, or } from "drizzle-orm";
+import { db } from "@/db";
+import { institutes, universities } from "@/db/schema";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+type Props = { searchParams: Promise<{ q?: string }> };
+
+export default async function Home({ searchParams }: Props) {
+  const q = (await searchParams).q?.trim() ?? "";
+  const search = q
+    ? or(ilike(institutes.shortName, `%${q}%`), ilike(institutes.nameFr, `%${q}%`), ilike(institutes.city, `%${q}%`))
+    : undefined;
+
+  const rows = await db
+    .select({
+      slug: institutes.slug,
+      shortName: institutes.shortName,
+      nameFr: institutes.nameFr,
+      city: institutes.city,
+      isActive: institutes.isActive,
+      universitySlug: universities.slug,
+      university: universities.nameFr,
+      sector: universities.sector,
+    })
+    .from(institutes)
+    .innerJoin(universities, eq(institutes.universityId, universities.id))
+    .where(search)
+    .orderBy(asc(universities.sector), asc(universities.nameFr), asc(institutes.shortName));
+
+  const active = rows.filter((r) => r.isActive);
+  const byUniversity = new Map<string, typeof rows>();
+  for (const r of rows) byUniversity.set(r.universitySlug, [...(byUniversity.get(r.universitySlug) ?? []), r]);
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="space-y-8">
+      <section className="space-y-2">
+        <h1 className="text-2xl font-semibold tracking-tight">Choisis ton établissement</h1>
+        <p className="text-black/60 dark:text-white/60">
+          Emplois du temps, calendriers d&apos;examens, annonces et vacances, au même endroit.
+        </p>
+        <form className="pt-2">
+          <input
+            type="search"
+            name="q"
+            defaultValue={q}
+            placeholder="Rechercher : ENSIT, FMT, Sfax, design…"
+            className="w-full rounded-xl border border-black/15 bg-transparent px-4 py-2.5 dark:border-white/15"
+          />
+        </form>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {active.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="text-sm font-medium uppercase tracking-wide text-black/50 dark:text-white/50">Disponibles</h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {active.map((inst) => (
+              <li key={inst.slug}>
+                <Link
+                  href={`/${inst.slug}`}
+                  className="block h-full rounded-xl border border-black/10 p-4 transition hover:border-black/30 dark:border-white/10 dark:hover:border-white/30"
+                >
+                  <p className="font-semibold">{inst.shortName}</p>
+                  <p className="mt-1 text-sm text-black/70 dark:text-white/70">{inst.nameFr}</p>
+                  <p className="mt-3 text-xs text-black/50 dark:text-white/50">
+                    {inst.university} · {inst.city}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section className="space-y-3">
+        <h2 className="text-sm font-medium uppercase tracking-wide text-black/50 dark:text-white/50">
+          Tous les établissements ({rows.length})
+        </h2>
+        {rows.length === 0 && <p className="text-black/60 dark:text-white/60">Aucun résultat pour « {q} ».</p>}
+        <div className="divide-y divide-black/10 rounded-xl border border-black/10 dark:divide-white/10 dark:border-white/10">
+          {[...byUniversity.values()].map((list) => (
+            <details key={list[0].universitySlug} open={Boolean(q)} className="group">
+              <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-medium">
+                {list[0].university}
+                <span className="text-sm font-normal text-black/50 dark:text-white/50">{list.length}</span>
+              </summary>
+              <ul className="pb-2">
+                {list.map((inst) => (
+                  <li key={inst.slug}>
+                    <Link
+                      href={`/${inst.slug}`}
+                      className="flex items-baseline gap-2 px-4 py-1.5 text-sm hover:bg-black/5 dark:hover:bg-white/5"
+                    >
+                      <span className="shrink-0 font-medium">{inst.shortName}</span>
+                      <span className="truncate text-black/60 dark:text-white/60">{inst.nameFr}</span>
+                      {inst.city && (
+                        <span className="ms-auto shrink-0 text-xs text-black/40 dark:text-white/40">{inst.city}</span>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
     </div>
   );
 }

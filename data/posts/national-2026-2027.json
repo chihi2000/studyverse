@@ -1,0 +1,65 @@
+{
+  "source": "Circulaire MESRS n°28/2026 du 1er juillet 2026 — calendrier de l'année universitaire 2026-2027",
+  "sourceUrl": "https://www.mes.tn/image.php?id=21088",
+  "publishedAt": "2026-07-01T09:00:00+01:00",
+  "posts": [
+    {
+      "importKey": "national-2026-2027-calendrier",
+      "category": "announcement",
+      "title": "Calendrier officiel de l'année universitaire 2026-2027",
+      "body": "Rentrée le mardi 1er septembre 2026 pour les instituts préparatoires, les écoles d'ingénieurs, l'ENAU, les facultés de médecine, de médecine dentaire et de pharmacie, l'ENMV de Sidi Thabet et les ISET ; le samedi 12 septembre 2026 pour tous les autres établissements. L'année compte au moins 28 semaines d'enseignement. Les dates d'examens sont fixées par chaque établissement. Les dates de l'Aïd el-Fitr, de l'Aïd el-Adha et du Ras el-Am el-Hijri seront annoncées ultérieurement."
+    },
+    {
+      "importKey": "national-2026-2027-evacuation",
+      "category": "holiday",
+      "title": "Fête de l'Évacuation",
+      "startsAt": "2026-10-15T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-vacances-hiver",
+      "category": "holiday",
+      "title": "Vacances d'hiver",
+      "body": "Du samedi 12 décembre 2026 après les cours au dimanche 27 décembre 2026.",
+      "startsAt": "2026-12-12T00:00:00+01:00",
+      "endsAt": "2026-12-27T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-revolution",
+      "category": "holiday",
+      "title": "Fête de la Révolution",
+      "startsAt": "2026-12-17T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-nouvel-an",
+      "category": "holiday",
+      "title": "Jour de l'An",
+      "startsAt": "2027-01-01T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-vacances-printemps",
+      "category": "holiday",
+      "title": "Vacances de printemps",
+      "body": "Du vendredi 19 mars 2027 après les cours au dimanche 4 avril 2027.",
+      "startsAt": "2027-03-19T00:00:00+01:00",
+      "endsAt": "2027-04-04T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-independance",
+      "category": "holiday",
+      "title": "Fête de l'Indépendance",
+      "startsAt": "2027-03-20T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-martyrs",
+      "category": "holiday",
+      "title": "Journée des Martyrs",
+      "startsAt": "2027-04-09T00:00:00+01:00"
+    },
+    {
+      "importKey": "national-2026-2027-travail",
+      "category": "holiday",
+      "title": "Fête du Travail",
+      "startsAt": "2027-05-01T00:00:00+01:00"
+    }
+  ]
+}

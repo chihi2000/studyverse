@@ -1,0 +1,1340 @@
+{
+  "university": {
+    "slug": "universite-de-monastir",
+    "nameFr": "Université de Monastir",
+    "nameAr": "جامعة المنستير",
+    "nameEn": "University of Monastir",
+    "city": "Monastir",
+    "website": "https://um.rnu.tn/",
+    "facebook": "https://www.facebook.com/monastir.university/",
+    "otherLinks": [
+      "https://um.rnu.tn/en/the-university/history/",
+      "https://www.universite.tn/Universite-de-Monastir.html"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir",
+      "https://www.universite.tn/Universite-de-Monastir.html",
+      "https://2024.www.auf.org/afrique-centrale-grands-lacs/membres/nos-membres/universite-de-monastir"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fsm-monastir",
+      "shortName": "FSM",
+      "nameFr": "Faculté des Sciences de Monastir",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.fsm.rnu.tn",
+      "facebook": "https://www.facebook.com/FSMonastir.tn/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Chimie (chimie fine)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Chimie (chimie matériaux plastiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Chimie (analyse et traitement des eaux, analyse physio-chimique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire (scientifique)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Sciences Physiques",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Physique (Instrumentation)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Réseaux informatiques (Technologies des réseaux informatique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Sciences de l'informatique",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Mathématiques (Mathématiques, Mathématiques et applications)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Chimie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Physique",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Physico-chimie de la matière condensée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Mathématiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Matériaux, dispositifs et systèmes microélectroniques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Informatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        },
+        {
+          "nameFr": "Chimie organique appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1977. Facebook page self-described as official. Masters 2026-2027 applications ran 8 Jun-9 Jul 2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-de-monastir.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17315/Candidature-aux-masters-de-la-Faculte-des-Sciences-de-Monastir-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fmm-monastir",
+      "shortName": "FMM",
+      "nameFr": "Faculté de Médecine de Monastir",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "https://www.fmm.tn",
+      "facebook": "https://www.facebook.com/Faculte.Medecine.Monastir/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.medecine-monastir.org"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme national de docteur en médecine",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-medecine-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1980. fmm.tn homepage mentions a 'Digitalisation e-Administration & e-Learning' service but no platform URL was found. universite.tn lists www.medecine-monastir.org (likely old). A separate page facebook.com/profile.php?id=198939013596416 is labelled unofficial. Classes start 1 Sept 2026 (national calendar). No sourced equipment list found. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/faculte-de-medecine-de-monastir.html",
+        "https://www.fmm.tn/homepage/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fmd-monastir",
+      "shortName": "FMDM",
+      "nameFr": "Faculté de Médecine Dentaire de Monastir",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.fmdm.rnu.tn",
+      "facebook": "https://www.facebook.com/@FMDM2018/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/Facult%C3%A9-de-m%C3%A9decine-dentaire-de-Monastir-FMDM-268690753130/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme national de docteur en médecine dentaire",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-medecine-dentaire-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1975; the only dental medicine faculty in Tunisia; English-language track opened 2022 (L'Economiste Maghrébin). Two Facebook pages found, neither clearly marked official (the @FMDM2018 one links fmdm.rnu.tn). No published student instrument/kit list found (searched FR). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/faculte-de-medecine-dentaire-de-monastir.html",
+        "https://en.wikipedia.org/wiki/Faculty_of_Dental_Medicine_of_Monastir",
+        "https://www.leconomistemaghrebin.com/2022/08/29/enseignement-superieur-tunisie-etudier-medecine-dentaire-anglais-desormais-possible/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fphm-monastir",
+      "shortName": "FPHM",
+      "nameFr": "Faculté de Pharmacie de Monastir",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.fphm.rnu.tn",
+      "facebook": "https://www.facebook.com/FacPharmaMonastir/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Développement des médicaments",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-pharmacie-de-monastir.html"
+        },
+        {
+          "nameFr": "Biotechnologie et immunologie appliquées aux maladies transmissibles",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-pharmacie-de-monastir.html"
+        },
+        {
+          "nameFr": "Biologie des maladies vasculaires",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-pharmacie-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national de docteur en pharmacie",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-de-pharmacie-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1975. A masters notice PDF is hosted on fphm.rnu.tn. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/faculte-de-pharmacie-de-monastir.html",
+        "https://fphm.rnu.tn/userfiles/files/Mast%C3%A8res/AVIS%20AUX%20ETUDIANTS%20MASTERES%202026.pdf",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fsegma-mahdia",
+      "shortName": "FSEGMA",
+      "nameFr": "Faculté des Sciences Économiques et de Gestion de Mahdia",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "http://www.fsegma.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Marketing (Web marketing)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Comptabilité (Techniques comptables et financières)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Informatique de gestion (Commerce Electronique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Monnaie, Finance et Banque (Techniques d'Assurance)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "LF en Economie (Monnaie, finance et banque)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "LF en gestion (Finance / Management)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "Méthodes quantitatives",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        },
+        {
+          "nameFr": "Méthodes scientifiques de gestion",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1988. Website per fr.wikipedia (universite.tn gives an old mes.tn path). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/faculte-des-sciences-economiques-et-de-gestion-de-mahdia.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enim-monastir",
+      "shortName": "ENIM",
+      "nameFr": "École Nationale d'Ingénieurs de Monastir",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.enim.rnu.tn",
+      "facebook": "https://www.facebook.com/ecole.nationale.dingenieurs.de.monastir/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie textile",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Génie énergétique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Automatique et maintenance industrielle, option : Maintenance industrielle",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Automatique et maintenance industrielle, option : Automatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie textile : option : Production textile",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie textile : option : Production habillement",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie textile : option : Chimie textile",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie mécanique :option : Production",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie mécanique :option : Conception",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie énergétique :option : Systèmes thermiques",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie énergétique :option : Energie et environnement",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie électrique :option : Informatique industrielle",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie électrique :option : Electrotechnique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie électrique :option : Electronique industrielle",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "ING.ENIM (association des ingénieurs ENIM)",
+          "url": "https://www.facebook.com/ING.ENIMonastir/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "IEEE ENIM Student Branch",
+          "url": "https://www.facebook.com/ieee.enim.sb/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Club Enim AeroSpace",
+          "url": "https://www.facebook.com/enim.aerospace/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1987. Registration 2026-2027 opened 28 Aug 2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/ecole-nationale-d-ingenieurs-de-monastir.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17982/Inscription-des-etudiants-de-l-Ecole-Nationale-d-Ingenieurs-de-Monastir-2026-2027",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "essts-monastir",
+      "shortName": "ESSTSM",
+      "nameFr": "École Supérieure des Sciences et Techniques de la Santé de Monastir",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.esstsm.org",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Sciences pharmaceutiques",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Secrétariat médical et documentation",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Kinésothérapie et Physiothérapie (Physiothérapie)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Prothèse dentaire",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en biologie médicale (Analyses biologiques / morphologie des cellules)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA Imagerie médicale et radiothérapie",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Obstétrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        },
+        {
+          "nameFr": "LA Anesthésie Réanimation",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1990. Rentrée 12/09/2026, registration 1-12 Sept 2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-monastir.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18042/Inscription-des-etudiants-de-l-Ecole-Superieure-des-Sciences-et-Techniques-de-La-Sante-de-Monastir-2026-2027",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "isbm-monastir",
+      "shortName": "ISBM",
+      "nameFr": "Institut Supérieur de Biotechnologie de Monastir",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.isbm.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Agroalimentaire et nutrition (Contrôle de la qualité des aliments)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Biotechnologie (Biotechnologie marine et aquaculture / Biotechnologie appliquée au secteur de la santé)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Sciences de la vie (biologie cellulaire et moléculaire et biotechnologie)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Biotechnologies appliquées aux bioressources aquatiques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Qualité alimentaire et bio procédés danalyse",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Génome humain",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Génétique et biodiversité aquatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Conservation et valorisation des ressources végétales",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Biologie et santé",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        },
+        {
+          "nameFr": "Aquaculture et biotechnologie marine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2001. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-de-biotechnologie-de-monastir.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipeim-monastir",
+      "shortName": "IPEIM",
+      "nameFr": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.ipeim.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Technique",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-preparatoire-aux-etudes-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Physique-Chimie",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-preparatoire-aux-etudes-d-ingenieurs-de-monastir.html"
+        },
+        {
+          "nameFr": "Math-Physique",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-preparatoire-aux-etudes-d-ingenieurs-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1992. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-preparatoire-aux-etudes-d-ingenieurs-de-monastir.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isimm-monastir",
+      "shortName": "ISIMM",
+      "nameFr": "Institut Supérieur d'Informatique et de Mathématiques de Monastir",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.isimm.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Informatique de gestion (technologie systèmes d'informations)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en sciences et technologies de linformation et de la communication (tech, électronique et télécommunications)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Mathématiques",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en Sciences de l'informatique",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        },
+        {
+          "nameFr": "LF en STIC (Electronique)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Informatique (Systèmes informatiques et logiciels)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2002. Site posts exam calendars (not past papers). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-et-de-mathematiques-de-monastir.html",
+        "http://www.isimm.rnu.tn/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "islaat-moknine",
+      "shortName": "ISLAATM",
+      "nameFr": "Institut Supérieur des Langues Appliquées aux Affaires et au Tourisme de Moknine",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Moknine",
+      "governorate": "Monastir",
+      "website": "http://www.islaatm.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Espagnol (Tourisme et Patrimoine)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-langues-appliquees-aux-affaires-et-au-tourisme-de-moknine.html"
+        },
+        {
+          "nameFr": "LA en animation touristique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-langues-appliquees-aux-affaires-et-au-tourisme-de-moknine.html"
+        },
+        {
+          "nameFr": "LA en Anglais (Anglais des affaires)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-langues-appliquees-aux-affaires-et-au-tourisme-de-moknine.html"
+        },
+        {
+          "nameFr": "LA en Français (Techniques de gestion et dadministration)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-langues-appliquees-aux-affaires-et-au-tourisme-de-moknine.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2001. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-langues-appliquees-aux-affaires-et-au-tourisme-de-moknine.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isima-mahdia",
+      "shortName": "ISIMa",
+      "nameFr": "Institut Supérieur d'Informatique de Mahdia",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "http://www.isima.rnu.tn",
+      "facebook": "https://www.facebook.com/ISIMahdiaOfficiel/",
+      "instagram": "",
+      "otherLinks": [
+        "https://isima.rnu.tn/fra/articles/1371/emploi-du-temps-",
+        "https://www.facebook.com/isimahdia/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en réseaux informatiques (Technologies des réseaux informatiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Informatique (Systèmes informatiques et logiciels)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-de-mahdia.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2004. Two Facebook pages found; 'ISIMahdiaOfficiel' chosen by name. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-d-informatique-de-mahdia.html",
+        "https://isima.rnu.tn/fra/articles/1371/emploi-du-temps-",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-mahdia",
+      "shortName": "ISSATMH",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Mahdia",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "https://issatmh.rnu.tn/",
+      "facebook": "https://www.facebook.com/issatmh.rnu.tn/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/ISSATmh"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Agroalimentaire et nutrition (Contrôle de la qualité des aliments)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-sciences-appliquees-et-de-technologie-de-mahdia.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire (MP)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-sciences-appliquees-et-de-technologie-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Science TIC (Electronique et Télécommunications)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-sciences-appliquees-et-de-technologie-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Physique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-sciences-appliquees-et-de-technologie-de-mahdia.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2005. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-sciences-appliquees-et-de-technologie-de-mahdia.html",
+        "https://issatmh.rnu.tn/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-mahdia",
+      "shortName": "ISAMMH",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Mahdia",
+      "nameAr": "المعهد العالي للفنون و الحرف بالمهدية",
+      "type": "institut",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "https://isammh.rnu.tn/",
+      "facebook": "https://www.facebook.com/p/ISAM-Mahdia-100063692886577/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/ISAM-Mahdia-777001998999587/",
+        "https://isammh.rnu.tn/m/",
+        "https://isammh.rnu.tn/fra/galerie/",
+        "https://isammh.rnu.tn/fra/contact",
+        "https://isammh.rnu.tn/fra/mastere/nouveau/",
+        "https://isammh.rnu.tn/fra/articles/1206/calendrier-des-examens-de-la-session-principale--semestre1--janvier-2022.-",
+        "https://isammh.rnu.tn/fra/articles/1425/avis-inscription",
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-arts-et-metiers-de-mahdia.html"
+      ],
+      "newsPage": "https://isammh.rnu.tn/fra/articles/categorie/p/1/2/nouveautes",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Design Espace (tronc commun 1re année) - orientation code; 2025 last admitted score 125.68",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "236207",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/184/Institut-Superieur-des-Arts-et-Metiers-de-Mahdia"
+        },
+        {
+          "nameFr": "Licence en Design Produit (tronc commun 1re année)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "236208",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/184/Institut-Superieur-des-Arts-et-Metiers-de-Mahdia"
+        },
+        {
+          "nameFr": "Licence en Design Image (tronc commun 1re année)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "236209",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/184/Institut-Superieur-des-Arts-et-Metiers-de-Mahdia"
+        },
+        {
+          "nameFr": "Design produit, spécialité création industrielle",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isammh.rnu.tn/fra/pages/86/Design-produit-sp%C3%A9cialit%C3%A9-cr%C3%A9ation-industrielle"
+        },
+        {
+          "nameFr": "Design produit, spécialité bijoux",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isammh.rnu.tn/fra/pages/87/design-produit--specialite-bijoux"
+        },
+        {
+          "nameFr": "Design espace, spécialité architecture d'intérieur",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isammh.rnu.tn/fra/pages/88/Design-espace-sp%C3%A9cialit%C3%A9-architecture-d%E2%80%99int%C3%A9rieur"
+        },
+        {
+          "nameFr": "Design espace, spécialité scénographie",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isammh.rnu.tn/fra/pages/118/Design-espace-sp%C3%A9cialit%C3%A9-Sc%C3%A9nographie"
+        },
+        {
+          "nameFr": "Design image, spécialité publicité graphique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isammh.rnu.tn/fra/pages/89/Design-image-sp%C3%A9cialit%C3%A9-publicit%C3%A9-graphique"
+        },
+        {
+          "nameFr": "Licence nationale co-construite en Design Céramique (الإجازة ذات البناء المشترك في تصميم الخزف)",
+          "degree": "licence",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/13917/"
+        },
+        {
+          "nameFr": "Mastère professionnel en Design (1re année commune; parcours design produit cité)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://isammh.rnu.tn/fra/pages/120/Mast%C3%A8res-professionnels-en-Design"
+        },
+        {
+          "nameFr": "Mastère de recherche en Design",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://isammh.rnu.tn/eng/mastere"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "No institute-published supply list was found. Program pages confirm workshop-based practice in product design (industrial creation, jewelry), space design (interior architecture, scenography), image design (graphic advertising) and ceramics; a 2012 article mentions jewelry/craft students in workshops. GENERIC (not ISAMMH) references only: a general ceramics guide (ceramiste.net/le-materiel-de-poterie-indispensable/) lists estèque, ébauchoirs en bois, rouleau + tasseaux, planche de bois non vernie, aiguille, éponge, couteau; a French DNMADE design supply list (lycée Loritz 2026-2027 PDF) cites a laptop (>=1920x1080, >=512 GB SSD) and Photoshop, Illustrator, Rhino, AutoCAD, SketchUp. Confirm with ISAMMH departments before publishing.",
+      "notes": "Under Université de Monastir; created 2005 (fr.wikipedia). Address: Avenue/Rue Taher Haddad, 5100 Mahdia; institutional phone +216 73 697 382 (search snippet of isammh.rnu.tn). Official site isammh.rnu.tn posts 'Nouveautés' (avis, emplois du temps, exam calendars, results) - cached items seen date from 2022-2023 so posting frequency is unclear; Facebook page 'ISAM Mahdia' (self-described 'Page officiel', ~10k likes, links isammh.rnu.tn) likely carries day-to-day announcements; an older second page also exists (~9.4k likes). Masters 2026-2027: applications 10/11-25 July 2026 via isammh.rnu.tn (orientini). Master application is online via the institute site; research master selection = file + written/practical test (2023-24 page). Design céramique: orientini (23-07-2024) says the co-built licence was open to ISAMMH students who completed L2 Design Produit (création industrielle or bijoux); a um.rnu.tn notice snippet describes it as for Design Produit graduates (licence or master), one year = one semester of teaching + one semester end-of-studies internship. Treat duration/entry level as unconfirmed. universite.tn directory only lists 'LA en Design Produit (Création artisanale / Bijoux)' (outdated). No Moodle, Instagram, public student group or old-exam archive found. Note: 'ISAMM' is also used by Institut Supérieur des Arts Multimédia de la Manouba (facebook.com/Isamm.Tunisia) - do not confuse. isammh.rnu.tn and um.rnu.tn could not be fetched directly from the research environment; content comes from search-engine snippets.",
+      "sources": [
+        "https://isammh.rnu.tn/fr/",
+        "https://isammh.rnu.tn/fra/pages/86/Design-produit-sp%C3%A9cialit%C3%A9-cr%C3%A9ation-industrielle",
+        "https://isammh.rnu.tn/fra/pages/87/design-produit--specialite-bijoux",
+        "https://isammh.rnu.tn/fra/pages/88/Design-espace-sp%C3%A9cialit%C3%A9-architecture-d%E2%80%99int%C3%A9rieur",
+        "https://isammh.rnu.tn/fra/pages/118/Design-espace-sp%C3%A9cialit%C3%A9-Sc%C3%A9nographie",
+        "https://isammh.rnu.tn/fra/pages/89/Design-image-sp%C3%A9cialit%C3%A9-publicit%C3%A9-graphique",
+        "https://isammh.rnu.tn/fra/pages/90/masteres",
+        "https://isammh.rnu.tn/fra/pages/120/Mast%C3%A8res-professionnels-en-Design",
+        "https://isammh.rnu.tn/eng/mastere",
+        "https://isammh.rnu.tn/fra/mastere/nouveau/",
+        "https://isammh.rnu.tn/fra/contact",
+        "https://isammh.rnu.tn/fra/articles/categorie/p/1/2/nouveautes",
+        "https://um.rnu.tn/fr/etablissements/instituts/institut-sup%C3%A9rieur-des-arts-et-m%C3%A9tiers-de-mahdia/",
+        "http://www.um.rnu.tn/fr/formations/formation-lmd/licence/la-en-design-isamm/",
+        "https://um.rnu.tn/media/6839/design-ceramique_avis.pdf",
+        "https://www.orientini.com/FR/etablissement/184/Institut-Superieur-des-Arts-et-Metiers-de-Mahdia",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/13917/",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17645/Candidature-aux-masters-de-l-Institut-Superieur-des-Arts-et-Metiers-de-Mahdia-2026-2027",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/705/Appel-a-candidature-aux-differents-masteres-de-l-ISAM-Mahdia",
+        "https://www.facebook.com/p/ISAM-Mahdia-100063692886577/",
+        "https://www.facebook.com/ISAM-Mahdia-777001998999587/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir",
+        "https://ceramiste.net/le-materiel-de-poterie-indispensable/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseah-mahdia",
+      "shortName": "ISEAHM",
+      "nameFr": "Institut Supérieur des Études Appliquées en Humanités de Mahdia",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "http://www.iseahm.rnu.tn",
+      "facebook": "https://www.facebook.com/ISEAHMahdia.PageOfficielle/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Animation touristique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-etudes-appliquees-en-humanites-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Allemand",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-etudes-appliquees-en-humanites-de-mahdia.html"
+        },
+        {
+          "nameFr": "LA en Italien",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-etudes-appliquees-en-humanites-de-mahdia.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2002. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-etudes-appliquees-en-humanites-de-mahdia.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ismm-monastir",
+      "shortName": "ISMMM",
+      "nameFr": "Institut Supérieur des Métiers de la Mode de Monastir",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Monastir",
+      "governorate": "Monastir",
+      "website": "http://www.ismmm.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Administration des affaires (secteur du textile et de la mode)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-metiers-de-la-mode-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Design produit ( Accessoires de mode)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-metiers-de-la-mode-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Design produit (Textile)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-metiers-de-la-mode-de-monastir.html"
+        },
+        {
+          "nameFr": "LA en Design produit (Habillement)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-metiers-de-la-mode-de-monastir.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 2003. fr.wikipedia gives ismmm.net, universite.tn gives www.ismmm.rnu.tn. Fashion/textile design students likely need studio supplies but no sourced list found. An ISAMMH article mentions a workshop held at this institute. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Monastir/institut-superieur-des-metiers-de-la-mode-de-monastir.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Monastir",
+        "https://isammh.rnu.tn/fra/articles/5/atelier-a-l-institut-suparieur-des-matiers-de-la-mode-de-monastir"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier de l'année universitaire 2026-2027 (national, MESRS)",
+      "academicYear": "2026-2027",
+      "url": "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/17558/",
+      "summary": "National calendar (Ministry of Higher Education circular as relayed by orientini.com): classes start 1 Sept 2026 for preparatory institutes, engineering schools, faculties of medicine/dental medicine/pharmacy and ISETs; 12 Sept 2026 for all other institutions. Min. 28 teaching weeks. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027 + religious holidays (dates TBD). Exam periods not stated."
+    }
+  ],
+  "gaps": [
+    "um.rnu.tn and all *.rnu.tn institute sites of Monastir were unreachable from the research environment (connection refused); data relies on search snippets, universite.tn, Wikipedia, orientini.",
+    "No Université de Monastir-specific 2026-2027 calendar found; only the national ministry calendar.",
+    "Arabic names missing for most institutes (only ISAMMH found).",
+    "No Moodle/e-learning URLs confirmed; no public old-exam archives found; no Telegram groups found.",
+    "No sourced equipment lists for medicine/dentistry (FMM, FMDM) or ISAMMH design/ceramics.",
+    "Facebook pages not found for ISBM, IPEIM, ISIMM, ESSTSM, ISLAATM, ISMMM, FSEGMA; university Facebook page (monastir.university) is from a search snippet, verify.",
+    "Program lists for most institutes come from the universite.tn directory and look outdated."
+  ]
+}

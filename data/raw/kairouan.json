@@ -1,0 +1,684 @@
+{
+  "university": {
+    "slug": "universite-de-kairouan",
+    "nameFr": "Université de Kairouan",
+    "nameAr": "جامعة القيروان",
+    "nameEn": "University of Kairouan",
+    "city": "Kairouan",
+    "website": "https://univ-k.rnu.tn/fr",
+    "facebook": "https://www.facebook.com/universitekairouan",
+    "otherLinks": [
+      "https://univ-k.rnu.tn/ar",
+      "https://univ-k.rnu.tn/fr/actualites-univk/nouveautes",
+      "https://univ-k.rnu.tn/fr/actualites-univk/nouveautes/calendrier-des-evenements",
+      "https://www.youtube.com/@universitekairouan-gz7fi",
+      "https://archive-univ-k.rnu.tn/reorientation/form.php?cible=acceuil"
+    ],
+    "sources": [
+      "https://univ-k.rnu.tn/fr",
+      "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Kairouan"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "flsh-kairouan",
+      "shortName": "FLSHK",
+      "nameFr": "Faculté des Lettres et des Sciences Humaines de Kairouan",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "https://flshk.rnu.tn",
+      "facebook": "https://www.facebook.com/flshkairouan/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Design Image",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Gestion & développement du patrimoine archeologique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Multimédia appliquée au patrimoine",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Espagnol",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Italien",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Français",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Anglais (Anglais des affaires)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Animation touristique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en philosophie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en Méthodes et techniques d'archéologie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation françaises",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation anglaises",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation arabes",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        },
+        {
+          "nameFr": "Etudes comparatives en langue, littérature et civilisation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/faculte-des-lettres-et-des-sciences-humaines-de-kairouan.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fst-sidi-bouzid",
+      "shortName": "FSTSB",
+      "nameFr": "Faculté des Sciences et Techniques de Sidi Bouzid",
+      "nameAr": "كلية العلوم و التقنيات بسيدي بوزيد",
+      "type": "faculte",
+      "city": "Sidi Bouzid",
+      "governorate": "Sidi Bouzid",
+      "website": "https://fstsbz.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [
+        "https://fstsbz.rnu.tn/useruploads/files/EMPLOI%20DU%20TEMPS%20ETUDIANT%20DEPARTEMENT%20INFORMATIQUE.pdf",
+        "https://www.orientini.com/FR/etablissement/222/Faculte-des-Sciences-et-Techniques-de-Sidi-Bouzid"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de recherche en physico-chimie des matériaux de haute performance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/13943/Candidature-aux-masters-de-la-Faculte-des-Sciences-et-Techniques-de-Sidi-Bouzid-2024-2025"
+        },
+        {
+          "nameFr": "Mastère professionnel en technologie des procédés alimentaires et contrôle qualité",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/13943/Candidature-aux-masters-de-la-Faculte-des-Sciences-et-Techniques-de-Sidi-Bouzid-2024-2025"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Publishes timetables as PDFs under fstsbz.rnu.tn/useruploads/. Licence list not collected (check orientini page).",
+      "sources": [
+        "https://univ-k.rnu.tn/fr/university-establishments/2",
+        "https://www.orientini.com/FR/etablissement/222/Faculte-des-Sciences-et-Techniques-de-Sidi-Bouzid"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isig-kairouan",
+      "shortName": "ISIGK",
+      "nameFr": "Institut Supérieur d'Informatique et de Gestion de Kairouan",
+      "nameAr": "المعهد العالي للإعلامية والتصرف بالقيروان",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "https://isigk.rnu.tn",
+      "facebook": "https://www.facebook.com/people/Institut-sup%C3%A9rieur-dinformatique-et-de-gestion-kairouan/100057108774675/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Marketing (Web Marketing)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Economie et finances internationales (Banque et assurance)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Réseaux informatiques (technologies des réseaux informatiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Informatique de gestion (E-services)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Comptabilité (Techniques comptables et financières)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en gestion (Administration des affaires)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        },
+        {
+          "nameFr": "LF en sciences de l'Informatique",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Étudiants isig kairouan (UGET)",
+          "url": "https://www.facebook.com/people/%C3%89tudiants-isig-kairouan/100054568685342/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Enactus ISIG Kairouan",
+          "url": "https://www.facebook.com/people/Enactus-ISIG-Kairouan/100078017973191/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Facebook URL taken from the university's establishment page. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-d-informatique-et-de-gestion-de-kairouan.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-kairouan",
+      "shortName": "ISAMK",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Kairouan",
+      "nameAr": "المعهد العالي للفنون والحرف بالقيروان",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "http://www.isamk.rnu.tn",
+      "facebook": "https://www.facebook.com/isamkairouan.tn",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Design Image (Publicité graphique / Illustration et bande dessinée)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Arts Plastiques (Céramique / Verrerie / Tissage / Mosaïque)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Design Produit (Création industrielle / Création artisanale / Mobilier / Bijoux)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kairouan.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Arts plastiques track includes ceramics, glass, weaving, mosaic (universite.tn) - no sourced equipment list found. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kairouan.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/4",
+        "https://www.orientini.com/FR/etablissement/142/Institut-Superieur-des-Arts-et-Metiers-de-Kairouan---(ISAMK)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isejp-kairouan",
+      "shortName": "ISEJPK",
+      "nameFr": "Institut Supérieur des Études Juridiques et Politiques de Kairouan",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "http://www.isejpk.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Droit du commerce international",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-juridiques-et-politiques-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Droit de l'Entreprise et des affaires",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-juridiques-et-politiques-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Droit des affaires foncières",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-juridiques-et-politiques-de-kairouan.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-juridiques-et-politiques-de-kairouan.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-kairouan",
+      "shortName": "ISSATKR",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Kairouan",
+      "nameAr": "المعهد العالي للعلوم التطبيقية والتكنولوجيا بالقيروان",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "https://issatkr.rnu.tn/",
+      "facebook": "https://www.facebook.com/IssatDeKairouan/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/Kairouan.Issatk/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Génie Mécanique ( Mécanique, productique et informatique industrielle)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-sciences-appliquees-et-de-technologie-de-kairouan.html"
+        },
+        {
+          "nameFr": "LA en Electronique, Electrotechnique et Automatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-sciences-appliquees-et-de-technologie-de-kairouan.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Two Facebook pages; official one not confirmed. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-sciences-appliquees-et-de-technologie-de-kairouan.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/6"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-kasserine",
+      "shortName": "ISAMKas",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Kasserine",
+      "nameAr": "المعهد العالي للفنون و الحرف بالقصرين",
+      "type": "institut",
+      "city": "Kasserine",
+      "governorate": "Kasserine",
+      "website": "http://www.isamkas.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Design Espace (Architecture d'intérieur)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kasserine.html"
+        },
+        {
+          "nameFr": "LA en Design Produit (Création artisanale / Mobilier)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kasserine.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-kasserine.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/7",
+        "https://www.orientini.com/AR/etablissement/187/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseahs-sbeitla",
+      "shortName": "ISEASHS",
+      "nameFr": "Institut Supérieur des Études Appliquées en Sciences Humaines de Sbeïtla",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sbeïtla",
+      "governorate": "Kasserine",
+      "website": "http://www.iseahs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Animation touristique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-appliquees-en-sciences-humaines-de-sbeitla.html"
+        },
+        {
+          "nameFr": "LA en Espagnol",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-appliquees-en-sciences-humaines-de-sbeitla.html"
+        },
+        {
+          "nameFr": "LA en Anglais (Anglais des affaires)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-appliquees-en-sciences-humaines-de-sbeitla.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-etudes-appliquees-en-sciences-humaines-de-sbeitla.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/8"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-sidi-bouzid",
+      "shortName": "ISAMSB",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Sidi Bouzid",
+      "nameAr": "المعهد العالي للفنون والحرف بسيدي بوزيد",
+      "type": "institut",
+      "city": "Sidi Bouzid",
+      "governorate": "Sidi Bouzid",
+      "website": "https://isamsb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Design Produit (Création artisanale /Mobilier)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-sidi-bouzid.html"
+        },
+        {
+          "nameFr": "LA en Design Espace (Architecture d'intérieur)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-sidi-bouzid.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-arts-et-metiers-de-sidi-bouzid.html",
+        "https://univ-k.rnu.tn/fr/university-establishments/9",
+        "https://www.orientini.com/FR/etablissement/211/Institut-Superieur-des-Arts-et-Metiers-de-SidiBouzid---(ISAMS)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ismai-kairouan",
+      "shortName": "ISMAIK",
+      "nameFr": "Institut Supérieur des Mathématiques Appliquées et de l'Informatique de Kairouan",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "https://ismaik.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn lists law licences for this institute (apparent copy error) - excluded; programs not collected.",
+      "sources": [
+        "https://univ-k.rnu.tn/fr/university-establishments/10",
+        "https://www.universite.tn/Universite-de-Kairouan/institut-superieur-des-mathematiques-appliquees-et-de-l-informatique-de-kairouan.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-kasserine",
+      "shortName": "ISSATKas",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Kasserine",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Kasserine",
+      "governorate": "Kasserine",
+      "website": "https://issatkas.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs not collected.",
+      "sources": [
+        "https://univ-k.rnu.tn/fr/university-establishments/11"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipei-kairouan",
+      "shortName": "IPEIK",
+      "nameFr": "Institut Préparatoire aux Études d'Ingénieurs de Kairouan",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "https://ipeik.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Engineering preparatory institute; specific prep tracks not collected. Classes start 1 Sept 2026 (national calendar).",
+      "sources": [
+        "https://univ-k.rnu.tn/fr/university-establishments/12"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier de l'année universitaire 2026-2027 (national, MESRS)",
+      "academicYear": "2026-2027",
+      "url": "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/17558/",
+      "summary": "National calendar (Ministry of Higher Education circular as relayed by orientini.com): classes start 1 Sept 2026 for preparatory institutes, engineering schools, faculties of medicine/dental medicine/pharmacy and ISETs; 12 Sept 2026 for all other institutions. Min. 28 teaching weeks. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027 + religious holidays (dates TBD). Exam periods not stated."
+    }
+  ],
+  "gaps": [
+    "No Kairouan-specific 2026-2027 academic calendar on univ-k.rnu.tn (only an events calendar and student-election notice for 2026-2027).",
+    "Arabic names missing for several institutes (the Arabic site shows French names).",
+    "Facebook not found for FSTSB, ISAM Kasserine, ISAM Sidi Bouzid, ISEJPK, ISEASHS, ISMAIK, ISSATKas, IPEIK.",
+    "Program lists for ISMAIK, ISSATKas, IPEIK and FSTSB licences not collected; others from outdated universite.tn directory.",
+    "No Moodle, exam archives or Telegram groups found; no sourced equipment lists for ISAM design/crafts students.",
+    "fr.wikipedia also lists 'Institut supérieur des études technologiques de Kasserine' (ISETs are under DGET; not on the official univ-k list) - excluded."
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "university": {
+    "slug": "dget",
+    "nameFr": "Direction Générale des Études Technologiques (réseau des ISET)",
+    "nameAr": "الإدارة العامة للدراسات التكنولوجية",
+    "nameEn": "General Directorate of Technological Studies (ISET network)",
+    "city": "Radès",
+    "website": "",
+    "facebook": "",
+    "otherLinks": [
+      "https://concours-isets.rnu.tn/"
+    ],
+    "sources": [
+      "https://www.lapresse.tn/2026/07/16/instituts-superieurs-des-etudes-technologiques-des-formations-adaptees-aux-besoins-de-leconomie/",
+      "https://www.universite.tn/instituts-superieurs-des-etudes-technologiques/index.html",
+      "https://www.leconomistemaghrebin.com/2025/08/19/concours-retour-aux-etudes-a-iset-inscription-en-ligne-jusquau-15-septembre-dget/"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "iset-rades",
+      "shortName": "ISET Radès",
+      "nameFr": "Institut Supérieur des Études Technologiques de Radès",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Radès",
+      "governorate": "Ben Arous",
+      "website": "http://www.isetr.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-rades.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-nabeul",
+      "shortName": "ISET Nabeul",
+      "nameFr": "Institut Supérieur des Études Technologiques de Nabeul",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Nabeul",
+      "governorate": "Nabeul",
+      "website": "http://www.isetn.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-nabeul.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-sidi-bouzid",
+      "shortName": "ISET Sidi Bouzid",
+      "nameFr": "Institut Supérieur des Études Technologiques de Sidi Bouzid",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Sidi Bouzid",
+      "governorate": "Sidi Bouzid",
+      "website": "http://www.isetsbz.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-sidi-bouzid.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-kairouan",
+      "shortName": "ISET Kairouan",
+      "nameFr": "Institut Supérieur des Études Technologiques de Kairouan",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "http://www.isetkr.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-kairouan.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-gafsa",
+      "shortName": "ISET Gafsa",
+      "nameFr": "Institut Supérieur des Études Technologiques de Gafsa",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "https://isetgf.rnu.tn",
+      "facebook": "https://www.facebook.com/ISETGF16/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Administration des affaires",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetgf.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Génie civil",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetgf.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Génie électrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetgf.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetgf.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Technologies de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetgf.rnu.tn/fr/formation/licences"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-gafsa.html",
+        "https://isetgf.rnu.tn/fr/formation/licences"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-beja",
+      "shortName": "ISET Béja",
+      "nameFr": "Institut Supérieur des Études Technologiques de Béja",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Béja",
+      "governorate": "Béja",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "No website listed on universite.tn; ISET Béja confirmed by orientini 2026-2027 registration notice.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-beja.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17975/Inscription-des-etudiants-de-l-Institut-Superieur-des-Etudes-Technologiques-de-Beja-pour-l-annee-universitaire-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-charguia",
+      "shortName": "ISET Charguia",
+      "nameFr": "Institut Supérieur des Études Technologiques de Charguia",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Charguia (Tunis)",
+      "governorate": "Tunis",
+      "website": "http://www.isetch.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Site returned 403 when checked. Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-charguia.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-sfax",
+      "shortName": "ISET Sfax",
+      "nameFr": "Institut Supérieur des Études Technologiques de Sfax",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://isetsf.rnu.tn",
+      "facebook": "https://www.facebook.com/isetsf",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie civil",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Génie des procédés",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Management",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Technologies de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Comptabilité & Finances",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        },
+        {
+          "nameFr": "Commerce & Distribution",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsf.rnu.tn/fr/licences"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-sfax.html",
+        "https://isetsf.rnu.tn/fr/licences"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-kebili",
+      "shortName": "ISET Kébili",
+      "nameFr": "Institut Supérieur des Études Technologiques de Kébili",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Kébili",
+      "governorate": "Kébili",
+      "website": "http://www.isetke.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-kebili.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-gabes",
+      "shortName": "ISET Gabès",
+      "nameFr": "Institut Supérieur des Études Technologiques de Gabès",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.isetgb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-djerba",
+      "shortName": "ISET Djerba",
+      "nameFr": "Institut Supérieur des Études Technologiques de Djerba",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Djerba",
+      "governorate": "Médenine",
+      "website": "http://www.isetjb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-jerba.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-kef",
+      "shortName": "ISET Le Kef",
+      "nameFr": "Institut Supérieur des Études Technologiques de Le Kef",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "http://www.isetkf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-kef.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-zaghouan",
+      "shortName": "ISET Zaghouan",
+      "nameFr": "Institut Supérieur des Études Technologiques de Zaghouan",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Zaghouan",
+      "governorate": "Zaghouan",
+      "website": "http://www.isetzg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-zaghouan.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-sousse",
+      "shortName": "ISET Sousse",
+      "nameFr": "Institut Supérieur des Études Technologiques de Sousse",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "https://isetso.rnu.tn",
+      "facebook": "https://www.facebook.com/Iset.So.2021",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie électrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetso.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetso.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Management",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetso.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Technologie de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetso.rnu.tn/fr/formation/licences"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-sousse.html",
+        "https://isetso.rnu.tn/fr/formation/licences"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-mahdia",
+      "shortName": "ISET Mahdia",
+      "nameFr": "Institut Supérieur des Études Technologiques de Mahdia",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Mahdia",
+      "governorate": "Mahdia",
+      "website": "http://www.isetma.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-mahdia.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-siliana",
+      "shortName": "ISET Siliana",
+      "nameFr": "Institut Supérieur des Études Technologiques de Siliana",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Siliana",
+      "governorate": "Siliana",
+      "website": "https://isetsl.rnu.tn",
+      "facebook": "https://www.facebook.com/profile.php?id=61587965021256",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie civil",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+        },
+        {
+          "nameFr": "Génie électrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+        },
+        {
+          "nameFr": "Sciences économiques et de gestion",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+        },
+        {
+          "nameFr": "Technologies de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-siliana.html",
+        "https://isetsl.rnu.tn/fr/formation/licences-nationale"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-jendouba",
+      "shortName": "ISET Jendouba",
+      "nameFr": "Institut Supérieur des Études Technologiques de Jendouba",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Jendouba",
+      "governorate": "Jendouba",
+      "website": "https://isetj.rnu.tn",
+      "facebook": "https://www.facebook.com/groups/1668321083438698",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie électrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetj.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetj.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Sciences économiques et de gestion",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetj.rnu.tn/fr/formation/licences"
+        },
+        {
+          "nameFr": "Technologies de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isetj.rnu.tn/fr/formation/licences"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-jendouba.html",
+        "https://isetj.rnu.tn/fr/formation/licences"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-kasserine",
+      "shortName": "ISET Kasserine",
+      "nameFr": "Institut Supérieur des Études Technologiques de Kasserine",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Kasserine",
+      "governorate": "Kasserine",
+      "website": "http://www.isetks.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-kasserine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-ksar-hellal",
+      "shortName": "ISET Ksar Hellal",
+      "nameFr": "Institut Supérieur des Études Technologiques de Ksar Hellal",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Ksar Hellal",
+      "governorate": "Monastir",
+      "website": "http://www.isetkh.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Textile-oriented ISET per La Presse (16 Jul 2026). Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-ksar-hellal.html",
+        "https://www.lapresse.tn/2026/07/16/instituts-superieurs-des-etudes-technologiques-des-formations-adaptees-aux-besoins-de-leconomie/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-tataouine",
+      "shortName": "ISET Tataouine",
+      "nameFr": "Institut Supérieur des Études Technologiques de Tataouine",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Tataouine",
+      "governorate": "Tataouine",
+      "website": "http://www.isetta.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-tataouine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-tozeur",
+      "shortName": "ISET Tozeur",
+      "nameFr": "Institut Supérieur des Études Technologiques de Tozeur",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Tozeur",
+      "governorate": "Tozeur",
+      "website": "https://isett.rnu.tn",
+      "facebook": "https://www.facebook.com/iset.tozeur.officielle/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie civil",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isett.rnu.tn/fr/nos-licences"
+        },
+        {
+          "nameFr": "Génie électrique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isett.rnu.tn/fr/nos-licences"
+        },
+        {
+          "nameFr": "Génie mécanique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isett.rnu.tn/fr/nos-licences"
+        },
+        {
+          "nameFr": "Technologies de l'informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://isett.rnu.tn/fr/nos-licences"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs/departments read from the ISET's official site menu (Licence nationale / licence appliquée, LMD).",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-tozeur.html",
+        "https://isett.rnu.tn/fr/nos-licences"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iset-bizerte",
+      "shortName": "ISET Bizerte",
+      "nameFr": "Institut Supérieur des Études Technologiques de Bizerte",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Bizerte",
+      "governorate": "Bizerte",
+      "website": "http://www.isetb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-bizerte.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iset-medenine",
+      "shortName": "ISET Médenine",
+      "nameFr": "Institut Supérieur des Études Technologiques de Médenine",
+      "nameAr": "",
+      "type": "iset",
+      "city": "Médenine",
+      "governorate": "Médenine",
+      "website": "http://www.isetmd.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website taken from the universite.tn directory page (third-party directory); site did not respond from our network unless programs are listed.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-de-medenine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isetcom-el-ghazala",
+      "shortName": "ISET'COM",
+      "nameFr": "Institut Supérieur des Études Technologiques en Communications de Tunis (El Ghazala)",
+      "nameAr": "",
+      "type": "iset",
+      "city": "El Ghazala (Ariana)",
+      "governorate": "Ariana",
+      "website": "https://www.isetcom.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.isetcom.mincom.tn"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Listed in the ISET section of universite.tn; domain isetcom.tn responds. Tutelle likely shared with the communications ministry (mincom domain) - not verified whether it is counted in the DGET's 25.",
+      "sources": [
+        "https://www.universite.tn/Instituts-Superieurs-des-Etudes-Technologiques/institut-superieur-des-etudes-technologiques-en-communications-el-ghazala.html"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Circulaire n°28/2026 - calendrier universitaire 2026-2027 (ISET: rentrée mardi 1er septembre 2026)",
+      "academicYear": "2026-2027",
+      "url": "https://www.mes.tn/image.php?id=21088",
+      "summary": "Official MESRS circular dated 1 July 2026, addressed incl. to the DGET director general: ISETs start Tue 1 Sep 2026 (with prep/engineering/medical schools); other institutions Sat 12 Sep 2026; winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027."
+    }
+  ],
+  "gaps": [
+    "Network counts 25 ISETs per La Presse (Jul 2026); universite.tn lists 23 ISETs + ISET'COM - the 25th is unconfirmed.",
+    "No official DGET website found (only concours-isets.rnu.tn).",
+    "Most ISET sites (41.229.250.4 host and isetr/isetkr) did not respond from our network: programs/Facebook for 17 ISETs not collected.",
+    "Official orientation codes for ISET licences not collected (need guide d'orientation 2026).",
+    "Common department pattern seen on 6 sites: Technologies de l'informatique, Génie électrique, Génie mécanique, Génie civil, Sciences économiques et de gestion / Administration des affaires, Génie des procédés - not verified for the others."
+  ]
+}

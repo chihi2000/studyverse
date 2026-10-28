@@ -1,0 +1,427 @@
+{
+  "university": {
+    "slug": "universite-virtuelle-de-tunis",
+    "nameFr": "Université Virtuelle de Tunis",
+    "nameAr": "جامعة تونس الافتراضية",
+    "nameEn": "Virtual University of Tunis",
+    "city": "Tunis",
+    "website": "https://www.uvt.rnu.tn/",
+    "facebook": "",
+    "otherLinks": [
+      "https://www.uvt.rnu.tn/actualites",
+      "https://ent.uvt.rnu.tn/",
+      "https://training.uvt.tn",
+      "https://force.uvt.tn",
+      "https://research.uvt.tn/",
+      "https://cooc-labs.uvt.tn/",
+      "http://rel.uvt.rnu.tn/",
+      "http://pf-mh.uvt.rnu.tn/view/subjects/Memoirestheses.html",
+      "http://application.uvt.rnu.tn/inscription_etudiant/",
+      "http://application.uvt.rnu.tn/guide-etudiant/basic-html/#1"
+    ],
+    "sources": [
+      "https://www.uvt.rnu.tn/",
+      "https://fr.wikipedia.org/wiki/Université_virtuelle_de_Tunis",
+      "https://www.uvt.rnu.tn/documents/presentation-UVT/uvt-missions-realisations.pdf",
+      "https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "uvt-tunis",
+      "shortName": "UVT",
+      "nameFr": "Université Virtuelle de Tunis (formations propres)",
+      "nameAr": "جامعة تونس الافتراضية",
+      "type": "other",
+      "city": "Tunis (Montplaisir)",
+      "governorate": "Tunis",
+      "website": "https://www.uvt.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [
+        "https://ent.uvt.rnu.tn/",
+        "https://ent.uvt.rnu.tn/uvt/helpdesk/index.php?a=add",
+        "https://force.uvt.tn",
+        "https://projets.uvt.tn",
+        "https://research.uvt.tn/"
+      ],
+      "newsPage": "https://www.uvt.rnu.tn/actualites",
+      "moodleOrElearning": "https://training.uvt.tn",
+      "studentSpace": "http://application.uvt.rnu.tn/inscription_etudiant/",
+      "programs": [
+        {
+          "nameFr": "Licence Réseaux IoT (RIOT) - essentiellement à distance, examens présentiels",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/riot"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion - mention Management (LSG-LM), hybride",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/lm"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion - Sciences Comptables (LSC)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/"
+        },
+        {
+          "nameFr": "Licence Réseau et Cybersécurité (RC)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/"
+        },
+        {
+          "nameFr": "Licence E-Business",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/"
+        },
+        {
+          "nameFr": "Bachelor's Degree in Islamic Sciences: Jurisprudence and Its Principles (AR/EN)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Mastère Ingénierie des Systèmes Emergents (ISEM)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère professionnel Business Analytics and Data Science (BADS)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère Ingénierie du Logiciel - Open Source (MP2L)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère Optimisation et Modernisation de l'Entreprise (MOME)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère Management intégré: Qualité, Hygiène, Sécurité et Environnement (MPQHSE)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère Comptabilité (MPC)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Mastère Ingénierie Financière (MPIF)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/bads"
+        },
+        {
+          "nameFr": "Ongoing Training in English (OTE)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.uvt.rnu.tn/"
+        },
+        {
+          "nameFr": "Formations qualifiantes et certifiantes (FORCE platform)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.uvt.rnu.tn/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [
+        {
+          "description": "Dépôt des PFE, mémoires et thèses (archive of student theses, not exams)",
+          "url": "http://pf-mh.uvt.rnu.tn/view/subjects/Memoirestheses.html"
+        }
+      ],
+      "equipmentNotes": "Distance programmes run on the UVT online platform (training.uvt.tn); students need internet access and a computer (implied by mode, no explicit equipment list found).",
+      "notes": "Created by decree n°2002-112 of 28 Jan 2002; became an EPST by later decree; missions set by decree n°430 of 6 May 2019; new organigramme decree n°226 of 7 Apr 2021 (UVT 'Missions et réalisations', 2022). Address: 13 Rue Ibn Nadim, 1073 Montplaisir, Tunis. ROLE FOR OTHER INSTITUTIONS: UVT runs the national Moodle-based ENT (https://ent.uvt.rnu.tn) installed on UVT servers, with a dedicated space per public university institution, managed by a CEL (UVT correspondent in each institution, or the university's DDEV) who creates course categories/spaces per study plan, secured with enrolment keys, and assigns teachers; part of the national project to generalise online teaching for all public universities (CEL roadmap PDF). Other faculties (e.g. Faculté de Médecine de Tunis) run their Moodle via UVT since 2018 (search result citing FMT charte graphique, medium confidence). UVT also runs annual webinars for ENT teacher-users (e.g. 3-6 Nov 2026). UVT degree exams are held in person at UVT exam centres. Courses use the Moodle-style path /my/courses.php on training.uvt.tn (software inferred). No official Facebook page found.",
+      "sources": [
+        "https://www.uvt.rnu.tn/",
+        "https://www.uvt.rnu.tn/riot",
+        "https://www.uvt.rnu.tn/lm",
+        "https://www.uvt.rnu.tn/bads",
+        "https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf",
+        "https://www.uvt.rnu.tn/documents/presentation-UVT/uvt-missions-realisations.pdf",
+        "https://fr.wikipedia.org/wiki/Université_virtuelle_de_Tunis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isefc-tunis",
+      "shortName": "ISEFC",
+      "nameFr": "Institut Supérieur de l'Éducation et de la Formation Continue",
+      "nameAr": "المعهد العالي للتربية و التكوين المستمر",
+      "type": "institut",
+      "city": "Tunis (Montplaisir)",
+      "governorate": "Tunis",
+      "website": "http://www.isefc.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.uvt.rnu.tn/l-universite/l-isefc"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence appliquée en informatique de gestion",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Licence appliquée en réseau informatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Licence appliquée en génie civil",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Licence appliquée en Maintenance Industrielle",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Licence appliquée en génie électronique, électrotechnique et automatisme",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées"
+        },
+        {
+          "nameFr": "Licence fondamentale de langue arabe",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale de langue française",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale d'histoire",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale de géographie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale en sciences de l'éducation",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale en sciences de la vie et de la terre",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale de Mathématiques",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Licence fondamentale de physique et de chimie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Éducation à la Santé",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-professionnels"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Nouvelles Technologies Éducatives",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-professionnels"
+        },
+        {
+          "nameFr": "Mastère Professionnel en information et orientation scolaire et universitaire",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-professionnels"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Sciences de la vie et de la Terre)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Mathématiques)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Physiques et Techniques)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Histoire – Géographie)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Arabe)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Français)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        },
+        {
+          "nameFr": "Mastère de recherche en Didactique des disciplines (Option: Anglais)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Placed under UVT supervision by circular of 20 Oct 2009 (UVT missions doc). Offers présentiel/hybrid programmes per UVT doc ('Formations présentielles et hybrides (ISEFC)'). Research themes: didactique, sciences de l'éducation, pédagogie universitaire. isefc.rnu.tn did not respond during research.",
+      "sources": [
+        "https://www.uvt.rnu.tn/l-universite/l-isefc",
+        "https://www.uvt.rnu.tn/formations/formations-isefc/licences-appliquées",
+        "https://www.uvt.rnu.tn/formations/formations-isefc/licences-fondamentales",
+        "https://www.uvt.rnu.tn/formations/formations-isefc/masters-professionnels",
+        "https://www.uvt.rnu.tn/formations/formations-isefc/masters-de-recherche",
+        "https://www.uvt.rnu.tn/documents/presentation-UVT/uvt-missions-realisations.pdf"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027",
+      "academicYear": "2026-2027",
+      "url": "https://www.webdo.tn/fr/actualite/national/rentree-universitaire-2026-27-en-tunisie-le-calendrier-officiel-devoile/400656/",
+      "summary": "National calendar: rentrée 12 Sept 2026 for most institutions (1 Sept for engineering/medical/ISET); winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. No UVT-specific calendar found."
+    }
+  ],
+  "gaps": [
+    "No UVT-specific 2026-2027 academic calendar found",
+    "No official UVT Facebook/Instagram found",
+    "Orientation codes for UVT LSG first year not found",
+    "List of which institutions actively use ent.uvt.rnu.tn not public",
+    "ISEFC website unreachable; no ISEFC news page or social links",
+    "No public student groups or exam archives found"
+  ]
+}

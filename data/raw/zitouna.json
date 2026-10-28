@@ -1,0 +1,177 @@
+{
+  "university": {
+    "slug": "universite-ez-zitouna",
+    "nameFr": "Université Ez-Zitouna",
+    "nameAr": "جامعة الزيتونة",
+    "nameEn": "University of Ez-Zitouna",
+    "city": "Tunis",
+    "website": "https://uz.rnu.tn/fr",
+    "facebook": "https://www.facebook.com/profile.php?id=100057802503724",
+    "otherLinks": [
+      "https://uz.rnu.tn/ar",
+      "https://uz.rnu.tn/fr/actualites",
+      "https://uz.rnu.tn/fr/actualites/archive-des-annonces",
+      "https://uz.rnu.tn/fr/formation/licences-nationale",
+      "https://uz.rnu.tn/fr/formation/masteres-professionnels",
+      "https://uz.rnu.tn/fr/formation/mastere-de-recherche",
+      "https://uz.rnu.tn/fr/formation/doctorat",
+      "https://uz.rnu.tn/fr/vie-estudiantine/clubs",
+      "https://uz.rnu.tn/ar/app"
+    ],
+    "sources": [
+      "https://uz.rnu.tn/fr",
+      "https://uz.rnu.tn/ar",
+      "https://en.wikipedia.org/wiki/University_of_Ez-Zitouna"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "isth-tunis",
+      "shortName": "ISTT",
+      "nameFr": "Institut Supérieur de Théologie de Tunis",
+      "nameAr": "المعهد العالي لأصول الدين بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.isth.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "https://uz.rnu.tn/fr/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        { "nameFr": "Licence nationale en Sciences théologiques (العلوم الشرعية)", "degree": "licence", "kind": null, "officialCode": "10139", "durationYears": 3, "source": "https://uz.rnu.tn/fr/formation/licences-nationale" },
+        { "nameFr": "Licence nationale en Arts du patrimoine islamique", "degree": "licence", "kind": null, "officialCode": "", "durationYears": 3, "source": "https://uz.rnu.tn/fr/formation/licences-nationale" },
+        { "nameFr": "Mastère professionnel Restauration et maintenance du patrimoine islamique", "degree": "master", "kind": "professionnel", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/masteres-professionnels" },
+        { "nameFr": "Mastère professionnel Pédagogie appliquée aux sciences religieuses", "degree": "master", "kind": "professionnel", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/masteres-professionnels" },
+        { "nameFr": "Mastère professionnel Science successorale", "degree": "master", "kind": "professionnel", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/masteres-professionnels" },
+        { "nameFr": "Mastère de recherche Sciences religieuses et dialogue des civilisations (Sciences du Coran, du Hadith et de la Sira / Croyances et religions comparées)", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Civilisation islamique", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Sciences religieuses et droit", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Économie et finance islamique", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Doctorat Sciences islamiques", "degree": "doctorat", "kind": null, "officialCode": "", "durationYears": null, "source": "https://uz.rnu.tn/fr/formation/doctorat" },
+        { "nameFr": "Doctorat Économie et finance islamique", "degree": "doctorat", "kind": null, "officialCode": "", "durationYears": null, "source": "https://uz.rnu.tn/fr/formation/doctorat" }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address 21 rue Sidi Abi El Kacem Jelizi, place Maakel Ezzaim, 1008 Tunis (university page). Announcements are posted centrally on uz.rnu.tn; the institute's own site isth.rnu.tn is described as archived on Wikipedia. Facebook linked on the institute page is the university's page. Orientini lists 'الإجازة في العلوم الشرعية' code 10139 at this institute (123 seats 2026, last score 2025: 95.39) - cross-check only.",
+      "sources": [
+        "https://uz.rnu.tn/ar/%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D9%84%D8%A3%D8%B5%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D8%A8%D8%AA%D9%88%D9%86%D8%B3",
+        "https://uz.rnu.tn/fr/formation/licences-nationale",
+        "https://www.orientini.com/AR/Fiche_Orientation_Universitaire_Tunisie/110139/الإجازة-في-العلوم-الشرعية"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isci-tunis",
+      "shortName": "ISCIT",
+      "nameFr": "Institut Supérieur de Civilisation Islamique de Tunis",
+      "nameAr": "المعهد العالي للحضارة الإسلامية بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.isci.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "https://uz.rnu.tn/fr/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        { "nameFr": "Licence nationale en Sciences islamiques (العلوم الإسلامية)", "degree": "licence", "kind": null, "officialCode": "10138", "durationYears": 3, "source": "https://uz.rnu.tn/fr/formation/licences-nationale" },
+        { "nameFr": "Licence nationale en Conservation-restauration du patrimoine culturel matériel", "degree": "licence", "kind": null, "officialCode": "", "durationYears": 3, "source": "https://uz.rnu.tn/fr/formation/licences-nationale" },
+        { "nameFr": "Mastère professionnel Lectures (Qiraat) du Coran: sciences du Coran et exégèse", "degree": "master", "kind": "professionnel", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/masteres-professionnels" },
+        { "nameFr": "Mastère de recherche Hadith et ses sciences", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Croyances et philosophie islamique", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Civilisation islamique", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Jurisprudence islamique et politique selon la Charia", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Mastère de recherche Didactique des études islamiques", "degree": "master", "kind": "recherche", "officialCode": "", "durationYears": 2, "source": "https://uz.rnu.tn/fr/formation/mastere-de-recherche" },
+        { "nameFr": "Doctorat Sciences islamiques", "degree": "doctorat", "kind": null, "officialCode": "", "durationYears": null, "source": "https://uz.rnu.tn/fr/formation/doctorat" }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address 11 rue Jamaa El Haoua, place Maakel Ezzaim, 1008 Tunis. The licence page text reads 'Sciences Islamiques Conservation / Restauration du Patrimoine Culturel Matériel' — interpreted as two licences (medium confidence). Code 10138 from orientini (cross-check only). Orientini reports a distance licence in Fiqh and its principles with Université Virtuelle de Tunis, and 2026-2027 registration via www.inscription.tn. isci.rnu.tn is described as archived on Wikipedia.",
+      "sources": [
+        "https://uz.rnu.tn/ar/%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D9%84%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D8%A8%D8%AA%D9%88%D9%86%D8%B3",
+        "https://uz.rnu.tn/fr/formation/licences-nationale",
+        "https://www.orientini.com/AR/Fiche_Orientation_Universitaire_Tunisie/10138/Licence-EN-SCIENCE-ISLAMIQUE",
+        "https://orientini.com/AR/Annonces_Orientation_Formation_Emploi/18032/تسجيل-طلبة-المعهد-العالي-للحضارة-الإسلامية-بتونس-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issi-kairouan",
+      "shortName": "ISSIK",
+      "nameFr": "Institut Supérieur des Sciences Islamiques de Kairouan",
+      "nameAr": "المعهد العالي للعلوم الإسلامية بالقيروان",
+      "type": "institut",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "https://uz.rnu.tn/fr/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        { "nameFr": "Licence nationale en Sciences islamiques", "degree": "licence", "kind": null, "officialCode": "270138", "durationYears": 3, "source": "https://uz.rnu.tn/fr/formation/licences-nationale" }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Also named 'Institut Supérieur des Etudes Islamiques de Kairouan' on the licence page. Code 270138 from orientini establishment page (cross-check only). In Aug 2024 it opened a national licence in Islamic sciences for holders of a licence/maîtrise (orientini). Orientini mentions a research master in Islamic sciences at the institute — not confirmed on uz.rnu.tn. No own website found.",
+      "sources": [
+        "https://uz.rnu.tn/ar/%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D9%84%D9%84%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D9%8A%D8%B1%D9%88%D8%A7%D9%86",
+        "https://uz.rnu.tn/fr/formation/licences-nationale",
+        "https://orientini.com/FR/etablissement/11481/Institut Supérieur Des Sciences Islamiques de Kairouan - (ISSIK)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ceik-kairouan",
+      "shortName": "CEIK",
+      "nameFr": "Centre des Etudes Islamiques de Kairouan",
+      "nameAr": "مركز الدراسات الإسلامية بالقيروان",
+      "type": "other",
+      "city": "Kairouan",
+      "governorate": "Kairouan",
+      "website": "http://www.ceik.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "https://uz.rnu.tn/fr/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institution (Wikipedia), not a teaching institute; no programs listed. Address: avenue Beit El Hikma, 3100 Kairouan, BP 209.",
+      "sources": [
+        "https://uz.rnu.tn/ar/%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA/%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D9%8A%D8%B1%D9%88%D8%A7%D9%86",
+        "https://en.wikipedia.org/wiki/University_of_Ez-Zitouna"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (Ministère de l'Enseignement Supérieur)",
+      "academicYear": "2026-2027",
+      "url": "https://www.leconomistemaghrebin.com/2026/07/07/tunisie-voici-le-calendrier-universitaire-2026-2027/",
+      "summary": "Classes start 12 Sept 2026 for non-engineering/non-medical institutions; winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. National press report; no Zitouna-specific calendar found."
+    }
+  ],
+  "gaps": [
+    "No Zitouna-specific 2026-2027 calendar on uz.rnu.tn (event calendar menu empty).",
+    "Institute websites isth.rnu.tn / isci.rnu.tn / ceik.rnu.tn not verified (Wikipedia says the first two are archived); all institute pages on uz.rnu.tn link only the university Facebook page.",
+    "No Moodle/e-learning platform found; only an extranet at https://uz.rnu.tn/ar/app.",
+    "No public student groups or old-exam archives found.",
+    "Orientation codes only from orientini (cross-check needed with the official guide).",
+    "No equipment notes found."
+  ]
+}

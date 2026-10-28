@@ -1,0 +1,1482 @@
+{
+  "university": {
+    "slug": "universite-de-jendouba",
+    "nameFr": "Université de Jendouba",
+    "nameAr": "جامعة جندوبة",
+    "nameEn": "University of Jendouba",
+    "city": "Jendouba",
+    "website": "https://uj.rnu.tn/fr",
+    "facebook": "https://www.facebook.com/UNIVERSITE.JENDOUBA",
+    "otherLinks": [
+      "https://uj.rnu.tn/fr/categories/1/actualites",
+      "https://uj.rnu.tn/fr/events-calendar?event_types_ids%5B0%5D=1",
+      "https://uj.rnu.tn/fr/formations",
+      "https://ent.uvt.rnu.tn/"
+    ],
+    "sources": [
+      "https://uj.rnu.tn/fr",
+      "https://uj.rnu.tn/fr/formations",
+      "https://www.universite.tn/Universite-de-Jendouba.html"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fsjeg-jendouba",
+      "shortName": "FSJEGJ",
+      "nameFr": "Faculté des Sciences Juridiques, Economiques et de Gestion de Jendouba",
+      "nameAr": "كلية العلوم القانونية والإقتصادية والتصرف بجندوبة",
+      "type": "faculte",
+      "city": "Jendouba",
+      "governorate": "Jendouba",
+      "website": "https://fsjegj.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Droit",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Informatique de Gestion",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences Économiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Comptabilité-Contrôle-Audit",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en fouille, analyse et visualisation des données",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Management du Sport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit de l'Entreprise et des Affaires",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit des Affaires Foncières",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cybernétique et Marketing",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Commerce et Affaires Internationales",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Banque et Assurance",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Économie Sociale et Solidaire",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Informatique de Gestion (Données, Connaissances, et Systèmes Distribués)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Monnaie, Finance et Banque",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Économiques : Politiques de Développement Économique Régional",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Privé",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Droit",
+          "nameAr": "الإجازة في القانون",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "180301,280301,380301,480301,580301,680301,980301",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/46/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280311,380311,480311,580311,680311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/46/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280312,380312,480312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/46/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280318,380318,480318,580318,680318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/46/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Campus Universitaire Mohamed Yaalaoui, Jendouba (per university site footer).",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/46/x",
+        "https://www.universite.tn/Universite-de-Jendouba/faculte-des-sciences-juridiques-economiques-et-de-gestion-de-jendouba.html",
+        "https://uj.rnu.tn/fr/university-establishments/2",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "intek-kef",
+      "shortName": "INTEK",
+      "nameFr": "Institut National des Technologies et des Sciences du Kef",
+      "nameAr": "المعهد الوطني للتكنولوجيا والعلوم بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "https://intek.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire en sciences appliquées et technologie",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur en sciences appliquées et technologie, spécialité génie biomédical",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "مرحلة تحضيرية مندمجة في الهندسة البيولوجية والبيوطبية",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "282515",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/11486/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/11486/x",
+        "https://uj.rnu.tn/fr/university-establishments/3",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isshj-jendouba",
+      "shortName": "ISSHJ",
+      "nameFr": "Institut Supérieur des Sciences Humaines de Jendouba",
+      "nameAr": "المعهد العالي للعلوم الإنسانية بجندوبة",
+      "type": "institut",
+      "city": "Jendouba",
+      "governorate": "Jendouba",
+      "website": "https://isshj.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de l'éducation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Histoire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Français",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Géographie de l'environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Français : langue étrangère",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Anglais d'affaires et communication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Expertise sociologique en éducation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Histoire : territoire et patrimoine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Langues, Littérature et Civilisation Françaises",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Lettres et Humanités",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280102",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/134/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280103",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/134/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Histoire",
+          "nameAr": "الإجازة في التاريخ",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280123",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/134/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "الاجازة في جغرافية البيئة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280159",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/134/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/134/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/134/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-des-sciences-humaines-de-jendouba.html",
+        "https://uj.rnu.tn/fr/university-establishments/4",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "islai-beja",
+      "shortName": "ISLAIB",
+      "nameFr": "Institut Supérieur des Langues Appliquées et d'Informatique de Béja",
+      "nameAr": "المعهد العالي للغات التطبيقية و الاعلامية بباجة",
+      "type": "institut",
+      "city": "Béja",
+      "governorate": "Béja",
+      "website": "https://islaib.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences de l'Informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Traduction : Allemand",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Systèmes Embarqués et Internet of Things",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Master Professionnel en Data Science",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "184102,284102,384102,484102,584102,684102,984102",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/154/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Espagnol",
+          "nameAr": "الإجازة في الإسبانية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "184104,284104,384104,484104,584104,684104,984104",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/154/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Traduction",
+          "nameAr": "الإجازة في الترجمة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "184147,284147,384147,484147,584147,684147,984147",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/154/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "284523,384523,584523,684523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/154/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/154/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-des-langues-appliquees-et-d-informatique-de-beja.html",
+        "https://uj.rnu.tn/fr/university-establishments/5",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isi-kef",
+      "shortName": "ISIKEF",
+      "nameFr": "Institut Supérieur d'Informatique du Kef",
+      "nameAr": "المعهد العالي للإعلامية بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "https://isikef.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Science de l'Informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des réseaux et systèmes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Administration et Sécurité des Réseaux Informatiques (ASRI)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Application Web Intelligentes",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Systèmes d'informations et web",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282523",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/194/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Systèmes Informatiques",
+          "nameAr": "الإجازة في هندسة نظم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282524",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/194/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/194/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-de-l-informatique-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/6",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "iseah-kef",
+      "shortName": "ISEAHK",
+      "nameFr": "Institut Supérieur des Etudes Appliquées en Humanités du Kef",
+      "nameAr": "المعهد العالي للدراسات التطبيقية في الإنسانيات بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "https://iseahkf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Français",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences de l'éducation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Culture et Communication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Éducation, Enseignement et Intégration des TIC",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Humanités et Audiovisuel",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282102",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/132/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282103",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/132/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/132/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/132/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-des-etudes-appliquees-en-humanites-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/7",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isam-siliana",
+      "shortName": "ISAMS",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Siliana",
+      "nameAr": "المعهد العالي للفنون و الحرف بسليانة",
+      "type": "institut",
+      "city": "Siliana",
+      "governorate": "Siliana",
+      "website": "https://isamsl.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Arts Visuels - Photographie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Arts Visuels - Céramique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Design d'Espace, spécialité Architecture Intérieure",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Design Image, spécialité Publicité Graphique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Design Espace",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Design Image",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Design Produit",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Arts Plastiques",
+          "nameAr": "الإجازة في الفنون التشكيلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "286202",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/182/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Design Espace",
+          "nameAr": "الإجازة في تصميم الفضاء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "286207",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/182/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Design Image",
+          "nameAr": "الاجازة في تصميم الصورة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "286209",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/182/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/182/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-des-arts-et-metiers-de-siliana.html",
+        "https://uj.rnu.tn/fr/university-establishments/8",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ismt-kef",
+      "shortName": "ISMTK",
+      "nameFr": "Institut Supérieur de Musique et de Théâtre du Kef",
+      "nameAr": "المعهد العالي للموسيقى و المسرح بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "https://ismtkef.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Musique et Musicologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Théâtre et Arts de Spectacles",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "الإجازة في المسرح و فنون العرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282200",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/181/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Musique Et Musicologie",
+          "nameAr": "الإجازة في الموسيقى و العلوم الموسيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282201",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/181/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn gives www.istmk.rnu.tn; university site gives ismtkef.rnu.tn (used here).",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/181/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-de-musique-et-de-theatre-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/9",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isp-tabarka",
+      "shortName": "ISPT",
+      "nameFr": "Institut Sylvo-Pastoral de Tabarka",
+      "nameAr": "معهد الغابات والمراعي بطبرقة",
+      "type": "institut",
+      "city": "Tabarka",
+      "governorate": "Jendouba",
+      "website": "http://www.isptabarka.agrinet.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Agronomie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur en Foresterie et Aménagement du Territoire",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Forestières et Pastorales (S.F.P)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Agronomie",
+          "nameAr": "الإجازة في العلوم الفلاحية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "280844",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/31/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "agrinet.tn domain suggests co-supervision with the Ministry of Agriculture (IRESA) - inference.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/31/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-sylvo-pastoral-de-tabarka.html",
+        "https://uj.rnu.tn/fr/university-establishments/10",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "esa-kef",
+      "shortName": "ESAK",
+      "nameFr": "Ecole Supérieure d'Agriculture du Kef",
+      "nameAr": "المدرسة العليا للفلاحة بالكاف",
+      "type": "ecole",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "http://www.esakef.agrinet.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Agronomie : Techniques de Production Agricole",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur en Sciences Agronomiques",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Agronomie",
+          "nameAr": "الإجازة في العلوم الفلاحية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282844",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/34/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/34/x",
+        "https://www.universite.tn/Universite-de-Jendouba/ecole-superieure-d-agriculture-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/11",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "esim-medjez",
+      "shortName": "ESIM",
+      "nameFr": "Ecole Supérieure des Ingénieurs de Medjez El Bab",
+      "nameAr": "المدرسة العليا لمهندسي التجهيز الريفي بمجاز الباب",
+      "type": "ecole",
+      "city": "Medjez El Bab",
+      "governorate": "Béja",
+      "website": "http://www.esim.agrinet.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Hydromécanique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur Génie de l'Eau et Aménagement",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur en Génie Topographique et Géomatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Ingénieur en Génie Mécanique et Industries Agricoles",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère professionnel en Énergies Renouvelables dans les Industries Agricoles",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Changements Climatiques et Gestion de l'Eau",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Génie des Équipements Industriels et Agricoles",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Formerly École Supérieure des Ingénieurs de l'Equipement Rural (ESIER, www.esier.agrinet.tn per universite.tn/orientini).",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Jendouba/ecole-superieure-des-ingenieurs-de-l-equipement-rural-de-medjez-el-bab.html",
+        "https://uj.rnu.tn/fr/university-establishments/12",
+        "https://uj.rnu.tn/fr/formations",
+        "https://www.orientini.com/FR/etablissement/11434/x"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "issep-kef",
+      "shortName": "ISSEPK",
+      "nameFr": "Institut Supérieur du Sport et de l'Education Physique du Kef",
+      "nameAr": "المعهد  العالي للرياضة والتربية البدنية بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "http://www.issepk.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Doctorat en Sciences et Techniques des Activités Physiques et Sportives",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences et Techniques des Activités Physiques et Sportives",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Physiologie et Biomécanique de l'exercice",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Didactique de l'éducation physique et des APSA",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences humaines et sociales appliquées aux APS",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Science Et Techniques Des Activités Physiques Et Sportives",
+          "nameAr": "الإجازة في علوم وتقنيات الأنشطة البدنية والرياضة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282450",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/173/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/173/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-de-l-education-physique-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/13",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "issi-kef",
+      "shortName": "ISSIK",
+      "nameFr": "Institut Supérieur des Sciences Infirmières du Kef",
+      "nameAr": "المعهد العالي لعلوم التمريض بالكاف",
+      "type": "institut",
+      "city": "Le Kef",
+      "governorate": "Le Kef",
+      "website": "http://www.issikf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences infirmières",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "282797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/207/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "283797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/207/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/207/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-des-sciences-infirmieres-du-kef.html",
+        "https://uj.rnu.tn/fr/university-establishments/14",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isb-beja",
+      "shortName": "ISBB",
+      "nameFr": "Institut Supérieur de Biotechnologie de Béja",
+      "nameAr": "المعهد العالي للبيوتكنولوجيا بباجة",
+      "type": "institut",
+      "city": "Béja",
+      "governorate": "Béja",
+      "website": "http://isbb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Biotechnologie : parcours Biotechnologie Animal",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Biotechnologie : parcours Biotechnologie Végétal",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences du Vivant et de l'Environnement : parcours Gestion et Valorisation des Bioressources",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences du Vivant : parcours Biologie Moléculaire et Cellulaire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences Technologie des Aliments : parcours Contrôle Qualité des Aliments",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence en Sciences Technologie des Aliments : parcours Industrie et Procédés Alimentaires",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Technologies Appliquées aux Produits Laitiers et Carnés",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Valorisation des Plantes Aromatiques et Médicinales",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Valorisation et Transformation des Céréales",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://uj.rnu.tn/fr/formations"
+        },
+        {
+          "nameFr": "Licence En Sciences Du Vivant",
+          "nameAr": "الإجازة في علوم الأحياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "284509",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/195/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Sc. Du Vivant Et Environnement",
+          "nameAr": "الإجازة في علوم الأحياء و المحيط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "284512",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/195/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "284546",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/195/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        },
+        {
+          "nameFr": "Licence En Sciences Et Technologies Alimentaires",
+          "nameAr": "الإجازة في علوم وتقنيات الأغذية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "284841",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/195/x",
+          "note": "orientation entry (orientini, national guide data); may duplicate a licence above"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/195/x",
+        "https://www.universite.tn/Universite-de-Jendouba/institut-superieur-de-biotechnologie-de-beja.html",
+        "https://uj.rnu.tn/fr/university-establishments/1",
+        "https://uj.rnu.tn/fr/formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "crrgc-beja",
+      "shortName": "CRRGCB",
+      "nameFr": "Centre Régional des Recherches en Grandes Cultures de Béja",
+      "nameAr": "",
+      "type": "other",
+      "city": "Béja",
+      "governorate": "Béja",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research centre listed among university establishments; no teaching programs listed.",
+      "sources": [
+        "https://uj.rnu.tn/fr/university-establishments/15"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (circulaire du Ministère de l'Enseignement supérieur, rapportée par La Presse)",
+      "academicYear": "2026-2027",
+      "url": "https://fr.allafrica.com/stories/202607070170.html",
+      "summary": "National, not university-specific. Rentrée Tue 1 Sep 2026 for IPEI, engineering schools, medical/dental/pharmacy faculties and ISETs; Sat 12 Sep 2026 for all other institutions. Min. 28 weeks of teaching. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Aid dates set later. No exam-session dates given."
+    }
+  ],
+  "gaps": [
+    "uj.rnu.tn was reachable: establishment list and formations are official. Institute pages there show no institute-specific Facebook or Arabic names (Arabic names taken from orientini).",
+    "No 2026-2027 university-specific calendar found on uj.rnu.tn; ISSHJ registration 28 Aug-12 Sep 2026 per orientini.",
+    "Official *.rnu.tn sites (university and most institutes) refused connections from the research environment, so news pages, Moodle URLs and calendars on them could not be checked live.",
+    "No institute-specific Facebook/Instagram pages, public student groups (Facebook/Telegram) or old-exam archives could be confirmed via search; left empty rather than guessed.",
+    "Equipment needs: no source found stating field-specific equipment; left empty.",
+    "universite.tn program lists use pre-reform (LA/LF) names and may be outdated; orientini data (codes, 2025 cut-offs) is third-party but mirrors the national orientation guide - cross-check with orientation.tn guide.",
+    "Masters are mostly missing except where universite.tn or the university site list them.",
+    "ISETs in the region (DGET network, not under the university) are excluded."
+  ]
+}

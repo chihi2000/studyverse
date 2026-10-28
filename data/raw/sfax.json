@@ -1,0 +1,2136 @@
+{
+  "university": {
+    "slug": "universite-de-sfax",
+    "nameFr": "Université de Sfax",
+    "nameAr": "جامعة صفاقس",
+    "nameEn": "University of Sfax",
+    "city": "Sfax",
+    "website": "https://uss.rnu.tn",
+    "facebook": "https://www.facebook.com/universityofsfax",
+    "otherLinks": [
+      "https://www.linkedin.com/school/université-de-sfax",
+      "https://www.univ-sfax.tn (redirects to uss.rnu.tn)",
+      "https://ent.uvt.rnu.tn/"
+    ],
+    "sources": [
+      "https://www.universite.tn/Universite-de-Sfax.html",
+      "https://en.wikipedia.org/wiki/University_of_Sfax",
+      "https://uss.rnu.tn/storage/app/public/pages/May2025/eeaLOGVVPXsWWxQ4lj8i.pdf",
+      "https://uss.rnu.tn/storage/app/public/pages/January2025/FZdvjgex71RxZaXgiPap.pdf"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fss-sfax",
+      "shortName": "FSS",
+      "nameFr": "Faculté des Sciences de Sfax",
+      "nameAr": "كلية العلوم بصفاقس",
+      "type": "faculte",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://fss.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Chimie",
+          "nameAr": "الإجازة في الكيمياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240501,340501,540501",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Physique- Chimie",
+          "nameAr": "الإجازة في الفيزياء و الكيمياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240502,340502,540502",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Physique",
+          "nameAr": "الإجازة في الفيزياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240503,340503,540503",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Physique - Energie",
+          "nameAr": "الإجازة في الفيزياء و الطاقة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240504,340504,540504",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Mathématiques Appliquées",
+          "nameAr": "الاٍجازة في الرياضيات التطبيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240505,340505,540505,640505",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Mathématiques",
+          "nameAr": "الإجازة في الرياضيات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240507,340507,540507,640507",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Du Vivant",
+          "nameAr": "الإجازة في علوم الأحياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240509,340509",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Terre",
+          "nameAr": "الإجازة في علوم الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240510,340510,540510",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Sc. Du Vivant Et Environnement",
+          "nameAr": "الإجازة في علوم الأحياء و المحيط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240512,340512",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Vie Et De La Terre",
+          "nameAr": "الإجازة في علوم الحياة و الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240513,340513",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Intégré",
+          "nameAr": "مرحلة تحضيرية مندمجة",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "240518,340518,540518,640518",
+          "durationYears": 5,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Scientifique",
+          "nameAr": "مرحلة تحضيرية علمية",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "240522,340522,640522",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240523,340523,540523,640523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Systèmes Informatiques",
+          "nameAr": "الإجازة في هندسة نظم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240524,340524,540524,640524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240546,340546",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Physique Des Matériaux",
+          "nameAr": "الإجازة في فيزياء المواد",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240551,340551,540551",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240629,340629,540629,640629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Biologie-Géologie",
+          "nameAr": "مرحلة تحضيرية: بيولوجيا - جيولوجيا",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "240832,340832",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/70/x"
+        },
+        {
+          "nameFr": "Instrumentation et communication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Sciences des matériaux",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Physique des matériaux diélectriques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Mathématiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Géosciences appliquées aux ressources et environnement naturel (en collaboration avec l''ENIS)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Chimie organique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Chimie inorganique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Biologie moléculaire et cellulaire",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Biologie et écophysiologie des organismes végétaux",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Biodiversité et ressources aquatiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address: Route de la Soukra km 3.5, Sfax. fss.rnu.tn hosts official notices under /useruploads/files/. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/70/x",
+        "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fsegs-sfax",
+      "shortName": "FSEGS",
+      "nameFr": "Faculté des Sciences Economiques et de Gestion de Sfax",
+      "nameAr": "كلية العلوم الإقتصادية والتصرف بصفاقس",
+      "type": "faculte",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.fsegs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240311,340311,440311,540311,640311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/67/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240312,340312,440312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/67/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240318,340318,440318,540318,640318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/67/x"
+        },
+        {
+          "nameFr": "Révision comptable",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Systèmes d'information et nouvelles technologies",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Sciences économiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Recherches opérationnelles et gestion de la production",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Monnaie, finance et économie internationale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Gestion et internationalisation des économies",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Dynamique économique et financière",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Comptabilité",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/67/x",
+        "https://www.universite.tn/Universite-de-Sfax/faculte-des-sciences-economiques-et-de-gestion-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fms-sfax",
+      "shortName": "FMS",
+      "nameFr": "Faculté de Médecine de Sfax",
+      "nameAr": "كلية الطب بصفاقس",
+      "type": "faculte",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.fmsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Médecine",
+          "nameAr": "الطب",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "240700",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/68/x"
+        },
+        {
+          "nameFr": "Sexologie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Bases moléculaires de pathologie humaine",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Toxicologie professionnelle et de l''environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Médecine transfusionnelle",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Médecine du sport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Médecine d'urgence",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Médecine manuelle et pathologie du rachis",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Hypertension artérielle",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Gériatrie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Epileptologie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Antibiothérapie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Anatomie de la chirurgie viscérale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Adolescentologie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national de docteur en médecine",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Medicine admission via national orientation (code 240700). Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/68/x",
+        "https://www.universite.tn/Universite-de-Sfax/faculte-de-medecine-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fds-sfax",
+      "shortName": "FDS",
+      "nameFr": "Faculté de Droit de Sfax",
+      "nameAr": "كلية الحقوق بصفاقس",
+      "type": "faculte",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.fdsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Droit",
+          "nameAr": "الإجازة في القانون",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140301,240301,340301,440301,540301,640301,940301",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/71/x"
+        },
+        {
+          "nameFr": "Droit social",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-droit-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Droit Public et commerce international",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-droit-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Droit privé",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-droit-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Droit des affaires",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-de-droit-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/71/x",
+        "https://www.universite.tn/Universite-de-Sfax/faculte-de-droit-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "flshs-sfax",
+      "shortName": "FLSHS",
+      "nameFr": "Faculté des Lettres et Sciences Humaines de Sfax",
+      "nameAr": "كلية الآداب والعلوم الإنسانية بصفاقس",
+      "type": "faculte",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.flshs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Arabe",
+          "nameAr": "الإجازة في العربية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140101,240101,340101,440101,640101",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140102,240102,340102,440102,540102,640102,940102",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140103,240103,340103,440103,540103,640103,940103",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Espagnol",
+          "nameAr": "الإجازة في الإسبانية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140104,240104,340104,440104,540104,640104,940104",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Italien",
+          "nameAr": "الإجازة في الإيطالية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140105,240105,340105,440105,540105,640105,940105",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Sociologie",
+          "nameAr": "الإجازة في علم الاجتماع",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140120,240120,340120,440120,540120,640120",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Philosophie",
+          "nameAr": "الإجازة في الفلسفة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140122,240122,340122,440122,540122,640122,940122",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Histoire",
+          "nameAr": "الإجازة في التاريخ",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140123,240123,340123,440123,540123,640123,940123",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Géographie",
+          "nameAr": "الإجازة في الجغرافيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140124,240124,340124,440124,540124,640124",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Traduction",
+          "nameAr": "الإجازة في الترجمة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140147,240147,340147,440147,540147,640147,940147",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Licence En Conservation Des Biens Culturels",
+          "nameAr": "الإجازة في حفظ الممتلكات الثقافية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "140161,240161,340161,440161,540161,640161,940161",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/69/x"
+        },
+        {
+          "nameFr": "Philosophie",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Anglais",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "English language and linguistics",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Histoire de la philosophie et philosophie générale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Histoire moderne et contemporaine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Littérature française",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Langue, littérature et civilisation arabes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/69/x",
+        "https://www.universite.tn/Universite-de-Sfax/faculte-des-lettres-et-sciences-humaines-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enis-sfax",
+      "shortName": "ENIS",
+      "nameFr": "Ecole Nationale d'Ingénieurs de Sfax",
+      "nameAr": "المدرسة الوطنية للمهندسين بصفاقس",
+      "type": "ecole",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://enis.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Nouvelles technologies de l'information et du commerce électronique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Management de l'ingénierie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Génie logistique et technologies de l'information et de la communication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Mécanique et ingénierie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Matériaux et surfaces",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Conversion électrique des énergies renouvelables",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Nouvelles technologies des systèmes informatiques dédiés",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Génie de l'environnement et de l'aménagement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Génie biologique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Electronique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Commande automatique et informatique industrielle",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en informatique option: Informatique de la décision",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en informatique option: Sciences de l''Informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en géoressources et environnement : option : Géoressources",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en géoressources et environnement : option : Aménagement et environnement",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électromécanique : option : Productique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électromécanique : option : Mécanique et structure",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électromécanique : option : Machines thermiques et construction maritime",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électrique :option : Ingénierie des systèmes informatiques",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électrique :option : Electrotechnique et électricité industrielle",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électrique :option : Electronique et nouvelles technologies",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électrique :option : Automatique et informatique industrielle",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie des matériaux :option : Céramique et composites",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie des matériaux :option : Moules et plasturgie",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie biologique :option : Génie alimentaire",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie biologique :option : Biotechnologie",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Engineering cycle entry via national engineering competition (concours), not bac orientation. Address listed as Route de la Soukra km 4, Sfax. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/1054/x",
+        "https://www.universite.tn/Universite-de-Sfax/ecole-nationale-d-ingenieurs-de-sfax.html",
+        "https://en.wikipedia.org/wiki/National_Engineering_School_of_Sfax"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enetcom-sfax",
+      "shortName": "ENET'Com",
+      "nameFr": "Ecole Nationale d'Electronique et des Télécommunications de Sfax",
+      "nameAr": "المدرسة الوطنية للإلكترونيك والإتصالات بصفاقس",
+      "type": "ecole",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://enetcom.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Techn. De Information Et Communication",
+          "nameAr": "الإجازة في تكنولوجيات المعلومات والاتصالات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240573,340573,540573,640573",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/1059/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Located at Technopôle de Sfax, Route de Tunis km 11. Per search summaries of enetcom.rnu.tn: engineering cycle (6 semesters) in electronic communication systems, telecommunications, industrial computing (G2I), and data engineering & decision systems; research masters. 2026-27 registration via www.inscription.tn (third-party report). Not listed on universite.tn directory. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/1059/x",
+        "https://enetcom.rnu.tn/en/the-school/overview",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/18087/Inscription-des-etudiants-de-l-Ecole-nationale-d-electronique-et-des-telecommunications-de-Sfax-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "escs-sfax",
+      "shortName": "ESCS",
+      "nameFr": "Ecole Supérieure de Commerce de Sfax",
+      "nameAr": "المدرسة العليا للتجارة بصفاقس",
+      "type": "ecole",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.escs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241311,341311,441311,541311,641311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/78/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241312,341312,441312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/78/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241318,341318,441318,541318,641318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/78/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "المالية",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3192",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/78/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "التجارة الإلكترونية",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3200",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/78/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "ادارة الأعمال",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3207",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/78/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "Gestion des situations d''urgence",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-de-commerce-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Transport, logistique, aménagement et développement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-de-commerce-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Nouvelles technologies et gestion comptable, fiscale et financière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-de-commerce-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Commerce international",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-de-commerce-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/78/x",
+        "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-de-commerce-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esstss-sfax",
+      "shortName": "ESSTSS",
+      "nameFr": "Ecole Supérieure des Sciences et Techniques de la Santé de Sfax",
+      "nameAr": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+      "type": "ecole",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.esstssfax.org",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Anesthésie Réanimation",
+          "nameAr": "الإجازة في التبنيج والإنعاش",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240740",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "Licence En Imagerie Médicale Et Radiothérapie",
+          "nameAr": "الإجازة في التصوير الطبي والمداواة بالأشعة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240741",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "Licence En Biologie Médicale",
+          "nameAr": "الإجازة في البيولوجيا الطبية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240743",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "Licence En Physiothérapie",
+          "nameAr": "الإجازة في العلاج الطبيعي",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240744",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "الإجازة في المبصريات و النظارات الطبية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240749",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "Licence En Instrumentation Opératoire",
+          "nameAr": "الإجازة في أدواتية قاعة العمليات الجراحية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240750",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Maïeutiques - Sage Femme",
+          "nameAr": "الإجازة في علوم التوليد   قابلة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240799",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/81/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn lists website www.esstssfax.org (not verified, may be stale).",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/81/x",
+        "https://www.universite.tn/Universite-de-Sfax/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ihec-sfax",
+      "shortName": "IHEC Sfax",
+      "nameFr": "Institut des Hautes Etudes Commerciales de Sfax",
+      "nameAr": "معهد الدراسات التجارية العليا بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://ihecsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "243312,343312,443312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/145/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "243318,343318,443318,543318,643318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/145/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "ihecsf.rnu.tn publishes exam calendars as PDFs under /useruploads/files/. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/145/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-des-hautes-etudes-commerciales-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipeis-sfax",
+      "shortName": "IPEIS",
+      "nameFr": "Institut Préparatoire aux Etudes d'Ingénieurs de Sfax",
+      "nameAr": "المعهد التحضيري للدراسات الهندسية بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.ipeis.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle Préparatoire Scientifique",
+          "nameAr": "مرحلة تحضيرية علمية",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "241522",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/74/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Biologie-Géologie",
+          "nameAr": "مرحلة تحضيرية: بيولوجيا   جيولوجيا",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "241832",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/74/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/74/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-preparatoire-aux-etudes-d-ingenieurs-de-sfax.html",
+        "https://en.wikipedia.org/wiki/Sfax_Preparatory_Engineering_Institute"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isaa-sfax",
+      "shortName": "ISAAS",
+      "nameFr": "Institut Supérieur d'Administration des Affaires de Sfax",
+      "nameAr": "المعهد العالي لادارة الاعمال بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.isaas.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "242311",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/129/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "242312",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/129/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "242318",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/129/x"
+        },
+        {
+          "nameFr": "Entreprenariat",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-administration-des-affaires-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/129/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-administration-des-affaires-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isecs-sfax",
+      "shortName": "ISECS",
+      "nameFr": "Institut Supérieur d'Electronique et de Communication de Sfax",
+      "nameAr": "المعهد العالي للإلكترونيك و الإتصال بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.isecs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Informatique industrielle (Maintenance des systèmes informatiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-electronique-et-de-communication-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "LA en réseaux informatiques (technologies des réseaux et télécommunications)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-electronique-et-de-communication-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "LA en Science TIC (Technologies de l'Electronique et de la communication)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-electronique-et-de-communication-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "No current orientation codes parsed from orientini for this institute; program list is from universite.tn (legacy). Status should be verified. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/143/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-electronique-et-de-communication-de-sfax.html"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "isims-sfax",
+      "shortName": "ISIMS",
+      "nameFr": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+      "nameAr": "المعهد العالي للاعلامية و الملتميديا بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "https://isimsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle Préparatoire Intégré",
+          "nameAr": "مرحلة تحضيرية مندمجة",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "241518,341518,541518,641518",
+          "durationYears": 5,
+          "source": "https://www.orientini.com/AR/etablissement/128/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241523,341523,541523,641523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/128/x"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en informatique et techniques du multimédia & du Web",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-informatique-et-de-multimedia-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Domain is isimsf.rnu.tn (not isims). Created by decree of 14 Aug 2001. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/128/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-d-informatique-et-de-multimedia-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isbs-sfax",
+      "shortName": "ISBS",
+      "nameFr": "Institut Supérieur de Biotechnologie de Sfax",
+      "nameAr": "المعهد العالي للبيوتكنولوجيا بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.isbs.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Mesures Et Instrumentation",
+          "nameAr": "الإجازة في القياسات والأدواتية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240550,340550,540550",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Procedes Industrielles",
+          "nameAr": "الاجازة في هندسة الأساليب الصناعية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240576,340576,540576,640576",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        },
+        {
+          "nameFr": "Licence En Génie Biomédicale",
+          "nameAr": "الإجازة في الهندسة البيوطبية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240759,340759,540759,640759",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Et Technologies Alimentaires",
+          "nameAr": "الإجازة في علوم وتقنيات الأغذية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240841,340841",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        },
+        {
+          "nameFr": "Licence En Sc. Du Vivant Et Environnement",
+          "nameAr": "الإجازة في علوم الأحياء و المحيط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241512,341512",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241546,341546",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/144/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/144/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-de-biotechnologies-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isgis-sfax",
+      "shortName": "ISGIS",
+      "nameFr": "Institut Supérieur de Gestion Industrielle de Sfax",
+      "nameAr": "المعهد العالي للتصرف الصناعي بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.isgis.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240570,340570,540570,640570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "Licence En Génie Industrielle",
+          "nameAr": "الاجازة في الهندسة الصناعية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240577,340577,540577,640577",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "Licence En Génie Logistique",
+          "nameAr": "الإجازة في الهندسة اللوجستية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240672,340672,540672,640672",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "Licence En Science Du Transport",
+          "nameAr": "الاجازة في علوم النقل",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240673,340673,440673,540673,640673",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241629,341629,541629,641629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "244311,344311,444311,544311,644311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/146/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "التصرف المندمج في الجودة والسالمة والمحيط",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3201",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/146/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "Gestion par objectifs",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-de-gestion-industrielle-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/146/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-de-gestion-industrielle-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ism-sfax",
+      "shortName": "ISMS",
+      "nameFr": "Institut Supérieur de Musique de Sfax",
+      "nameAr": "المعهد العالي للموسيقى بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.ismsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Musique Et Musicologie",
+          "nameAr": "الإجازة في الموسيقى و العلوم الموسيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240201",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/102/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "الإجازة في هندسة الصوت والتكنولوجيات الحديثة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240247",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/102/x"
+        },
+        {
+          "nameFr": "Musique et Ethnomusicologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-de-musique-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/102/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-de-musique-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-sfax",
+      "shortName": "ISAMS",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Sfax",
+      "nameAr": "المعهد العالى للفنون و الحرف بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.isams.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Arts Plastiques",
+          "nameAr": "الإجازة في الفنون التشكيلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240202",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Licence En Design Espace",
+          "nameAr": "الإجازة في تصميم الفضاء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240207",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Licence En Design Produit",
+          "nameAr": "الاجازة في تصميم المنتوج",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240208",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Licence En Design Image",
+          "nameAr": "الاجازة في تصميم الصورة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240209",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Licence En Cinéma Et Audiovisuel",
+          "nameAr": "الإجازة في السينما والسمعي البصري",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240265",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Licence En Art Et Midiations",
+          "nameAr": "الإجازة في الفنون و الوسائط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240622",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/152/x"
+        },
+        {
+          "nameFr": "Arts plastiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Design, option : Design textile et habillement",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Design, option : Design graphique",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Design, option : Design mobilier",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Design, option : Design Aménagement",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/152/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-arts-et-metiers-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issep-sfax",
+      "shortName": "ISSEPS",
+      "nameFr": "Institut Supérieur du Sport et de l'Education Physique de Sfax",
+      "nameAr": "المعهد العالي للرياضة و التربية البدنية بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.issepsf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Science Et Techniques Des Activités Physiques Et Sportives",
+          "nameAr": "الإجازة في علوم وتقنيات الأنشطة البدنية والرياضة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240450",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/172/x"
+        },
+        {
+          "nameFr": "Sciences et techniques des activités physiques et sportives",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sfax/institut-superieur-du-sport-et-de-l-education-physique-de-sfax.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/172/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-du-sport-et-de-l-education-physique-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issi-sfax",
+      "shortName": "ISSI Sfax",
+      "nameFr": "Institut Supérieur des Sciences Infirmières de Sfax",
+      "nameAr": "المعهد العالي لعلوم التمريض بصفاقس",
+      "type": "institut",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "240797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/205/x"
+        },
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "241797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/205/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn lists \"www.issisfax.rns.tn\" (likely typo/stale); left blank.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/205/x",
+        "https://www.universite.tn/Universite-de-Sfax/institut-superieur-des-sciences-infirmieres-de-sfax.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "institut-olivier-sfax",
+      "shortName": "IO",
+      "nameFr": "Institut de l'Olivier",
+      "nameAr": "",
+      "type": "other",
+      "city": "Sfax",
+      "governorate": "Sfax",
+      "website": "http://www.iosfax.agrinet.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute (Olive Tree Institute); universite.tn lists it as \"Institut Zitouna de Sfax\" (zitouna = olive) with site www.iosfax.agrinet.tn. Wikipedia also lists a Biotechnology Center (Centre de Biotechnologie de Sfax). No teaching programs listed.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sfax/institut-zitouna-de-sfax.html",
+        "https://en.wikipedia.org/wiki/University_of_Sfax"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (circulaire du Ministère de l'Enseignement supérieur, rapportée par La Presse)",
+      "academicYear": "2026-2027",
+      "url": "https://fr.allafrica.com/stories/202607070170.html",
+      "summary": "National, not university-specific. Rentrée Tue 1 Sep 2026 for IPEI, engineering schools, medical/dental/pharmacy faculties and ISETs; Sat 12 Sep 2026 for all other institutions. Min. 28 weeks of teaching. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Aid dates set later. No exam-session dates given."
+    }
+  ],
+  "gaps": [
+    "University documents count 19-20 teaching establishments (05 facultés, 04 écoles, 10-11 instituts) + 1 research institute; 20 teaching establishments listed here. Facebook URL comes from university PDFs (via search summary), not verified live.",
+    "2026-27 per-institute rentrée/registration dates appear only on orientini (e.g. FSS prep 6 Sep, licence/master 12 Sep 2026).",
+    "Official *.rnu.tn sites (university and most institutes) refused connections from the research environment, so news pages, Moodle URLs and calendars on them could not be checked live.",
+    "No institute-specific Facebook/Instagram pages, public student groups (Facebook/Telegram) or old-exam archives could be confirmed via search; left empty rather than guessed.",
+    "Equipment needs: no source found stating field-specific equipment; left empty.",
+    "universite.tn program lists use pre-reform (LA/LF) names and may be outdated; orientini data (codes, 2025 cut-offs) is third-party but mirrors the national orientation guide - cross-check with orientation.tn guide.",
+    "Masters are mostly missing except where universite.tn or the university site list them.",
+    "ISETs in the region (DGET network, not under the university) are excluded."
+  ]
+}

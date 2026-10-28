@@ -1,0 +1,732 @@
+{
+  "university": {
+    "slug": "universite-de-gafsa",
+    "nameFr": "Université de Gafsa",
+    "nameAr": "جامعة قفصة",
+    "nameEn": "University of Gafsa",
+    "city": "Gafsa",
+    "website": "http://www.ugaf.rnu.tn",
+    "facebook": "",
+    "otherLinks": [
+      "https://ent.uvt.rnu.tn/"
+    ],
+    "sources": [
+      "https://www.universite.tn/Universite-de-Gafsa.html",
+      "https://en.wikipedia.org/wiki/University_of_Gafsa",
+      "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/9618/"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fsgf-gafsa",
+      "shortName": "FSGF",
+      "nameFr": "Faculté des Sciences de Gafsa",
+      "nameAr": "كلية العلوم بقفصة",
+      "type": "faculte",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.fsgf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Géomatique Et Application",
+          "nameAr": "الاجازة في علوم الجيوماتيك والتطبيقات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260168,360168,560168,660168",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Chimie",
+          "nameAr": "الإجازة في الكيمياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260501,360501,560501",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Physique",
+          "nameAr": "الإجازة في الفيزياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260503,360503,560503",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Physique - Energie",
+          "nameAr": "الإجازة في الفيزياء و الطاقة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260504,360504,560504",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Mathématiques Appliquées",
+          "nameAr": "الاٍجازة في الرياضيات التطبيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260505,360505,560505,660505",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Mathématiques",
+          "nameAr": "الإجازة في الرياضيات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260507,360507,560507,660507",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Du Vivant",
+          "nameAr": "الإجازة في علوم الأحياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260509,360509",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Terre",
+          "nameAr": "الإجازة في علوم الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260510,360510,560510",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Vie Et De La Terre",
+          "nameAr": "الإجازة في علوم الحياة و الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260513,360513",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260523,360523,560523,660523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260546,360546",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260570,360570,560570,660570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Génie Énergétique",
+          "nameAr": "الإجازة في الهندسة الطاقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260603,360603,560603",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260629,360629,560629,660629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/114/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "ميكاترونيك",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3193",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/114/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "هندسة وإدارة الطاقة",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3212",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/114/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/114/x",
+        "https://www.universite.tn/Universite-de-Gafsa/faculte-des-sciences-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "eniga-gafsa",
+      "shortName": "ENIGa",
+      "nameFr": "Ecole Nationale d'Ingénieurs de Gafsa",
+      "nameAr": "المدرسة الوطنية للمهندسين بقفصة",
+      "type": "ecole",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "https://eniga.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "",
+          "nameAr": "الهندسة الكيميائية الصناعية والمناجم",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "90006",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/11429/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "هندسة الطاقة والتقنيات البيئية",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "90007",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/11429/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "الهندسة الكهروميكانيكية",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "90008",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/11429/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Campus Zidi Ahmed Zaroug, Gafsa. Engineering programs (Génie Chimie Industrielle et Minier, Génie Energétique et Technologies Environnementales, Génie Electromécanique) listed on orientini and EUR-ACE database; entry via national concours.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/11429/x",
+        "https://eniga.rnu.tn/useruploads/files/Cahier%20de%20charge%20TDR-01-2024-PAQ_DGSE-%20ENIGA.pdf",
+        "https://eurace.enaee.eu/node/78918"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipeigf-gafsa",
+      "shortName": "IPEIGF",
+      "nameFr": "Institut Préparatoire aux Etudes d'Ingénieurs de Gafsa",
+      "nameAr": "المعهد التحضيري للدراسات الهندسية بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle Préparatoire Scientifique",
+          "nameAr": "مرحلة تحضيرية علمية",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "260522",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/214/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "No website found.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/214/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-preparatoire-aux-etudes-d-ingenieur-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isaeg-gafsa",
+      "shortName": "ISAEG",
+      "nameFr": "Institut Supérieur d'Administration des Entreprises de Gafsa",
+      "nameAr": "المعهد العالي لإدارة المؤسسات بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.isaeg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260311,360311,460311,560311,660311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/159/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260312,360312,460312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/159/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260318,360318,460318,560318,660318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/159/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "محاسبة ومراقبة وتدقيق",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3195",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/159/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        },
+        {
+          "nameFr": "",
+          "nameAr": "إدارة وبعث المؤسسات الصغرى والمتوسطة",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3211",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/159/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/159/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-d-administration-des-entreprises-de-gafsa.html",
+        "https://edirc.repec.org/data/isaegtn.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-gafsa",
+      "shortName": "ISAMGF",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Gafsa",
+      "nameAr": "المعهد العالي للفنون و الحرف بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.isamgf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Musique Et Musicologie",
+          "nameAr": "الإجازة في الموسيقى و العلوم الموسيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260201",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/188/x"
+        },
+        {
+          "nameFr": "Licence En Design Espace",
+          "nameAr": "الإجازة في تصميم الفضاء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260207",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/188/x"
+        },
+        {
+          "nameFr": "Licence En Design Produit",
+          "nameAr": "الاجازة في تصميم المنتوج",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260208",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/188/x"
+        },
+        {
+          "nameFr": "Licence En Design Image",
+          "nameAr": "الاجازة في تصميم الصورة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260209",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/188/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/188/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-d-arts-et-metiers-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseah-gafsa",
+      "shortName": "ISEAHGF",
+      "nameFr": "Institut Supérieur des Etudes Appliquées en Humanités de Gafsa",
+      "nameAr": "المعهد العالي للدراسات التطبيقية في الانسانيات بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.iseahgf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Arabe",
+          "nameAr": "الإجازة في العربية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260101",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/127/x"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260102",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/127/x"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260103",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/127/x"
+        },
+        {
+          "nameFr": "Licence En Sociologie",
+          "nameAr": "الإجازة في علم الاجتماع",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260120",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/127/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/127/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-des-etudes-appliquees-en-humanites-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseah-tozeur",
+      "shortName": "ISEAHTZ",
+      "nameFr": "Institut Supérieur des Etudes Appliquées en Humanités de Tozeur",
+      "nameAr": "المعهد العالي للدراسات التطبيقية في الإنسانيات بتوزر",
+      "type": "institut",
+      "city": "Tozeur",
+      "governorate": "Tozeur",
+      "website": "http://www.iseahtz.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "263103",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/198/x"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "263477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/198/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/198/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-des-etudes-appliquees-en-humanites-de-tozeur.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-gafsa",
+      "shortName": "ISSATGF",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Gafsa",
+      "nameAr": "المعهد العالي للعلوم التطبيقية و التكنولوجيا بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.issatgf.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Ingénierie Des Systèmes Informatiques",
+          "nameAr": "الإجازة في هندسة نظم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260524,360524,560524,660524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/189/x"
+        },
+        {
+          "nameFr": "Licence En Techn. De Information Et Communication",
+          "nameAr": "الإجازة في تكنولوجيات المعلومات والاتصالات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260573,360573,560573,660573",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/189/x"
+        },
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "261570,361570,561570,661570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/189/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "261629,361629,561629,661629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/189/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "إدارة الصيانة الصناعية",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3213",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/189/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/189/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-des-sciences-appliquees-et-de-technologie-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isste-gafsa",
+      "shortName": "ISSTEG",
+      "nameFr": "Institut Supérieur des Sciences et des Technologies de l'Energie de Gafsa",
+      "nameAr": "المعهد العالي لعلوم وتكنولوجيا الطاقة بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "http://www.issteg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Energétique (Energétique / Maintenance des systèmes energétiques / Energies renouvelables et environnement)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-des-sciences-et-des-technologies-de-l-energie-de-gafsa.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "No current orientation codes parsed from orientini; program from universite.tn (legacy). Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/199/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-des-sciences-et-des-technologies-de-l-energie-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issep-gafsa",
+      "shortName": "ISSEPGF",
+      "nameFr": "Institut Supérieur du Sport et de l'Education Physique de Gafsa",
+      "nameAr": "المعهد العالي للرياضة و التربية البدنية بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Science Et Techniques Des Activités Physiques Et Sportives",
+          "nameAr": "الإجازة في علوم وتقنيات الأنشطة البدنية والرياضة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260450",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/200/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn lists www.issatgf.rnu.tn as its website, which is ISSAT Gafsa's domain (likely an error); left blank.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/200/x",
+        "https://www.universite.tn/Universite-de-Gafsa/institut-superieur-du-sport-et-de-l-education-physique-de-gafsa.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isssed-gafsa",
+      "shortName": "ISSSEG",
+      "nameFr": "Institut Supérieur des Sciences Sociales et de l'Education de Gafsa",
+      "nameAr": "المعهد العالي للعلوم الاجتماعية والتربية بقفصة",
+      "type": "institut",
+      "city": "Gafsa",
+      "governorate": "Gafsa",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "260477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/11482/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "French name as given in orientini page URL. Address Route de Tozeur, Gafsa per orientini (that is the university address). Not on universite.tn.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/11482/x"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (circulaire du Ministère de l'Enseignement supérieur, rapportée par La Presse)",
+      "academicYear": "2026-2027",
+      "url": "https://fr.allafrica.com/stories/202607070170.html",
+      "summary": "National, not university-specific. Rentrée Tue 1 Sep 2026 for IPEI, engineering schools, medical/dental/pharmacy faculties and ISETs; Sat 12 Sep 2026 for all other institutions. Min. 28 weeks of teaching. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Aid dates set later. No exam-session dates given."
+    }
+  ],
+  "gaps": [
+    "University Facebook page not found.",
+    "Possible nursing institute in Gafsa not confirmed by any source; not listed.",
+    "Official *.rnu.tn sites (university and most institutes) refused connections from the research environment, so news pages, Moodle URLs and calendars on them could not be checked live.",
+    "No institute-specific Facebook/Instagram pages, public student groups (Facebook/Telegram) or old-exam archives could be confirmed via search; left empty rather than guessed.",
+    "Equipment needs: no source found stating field-specific equipment; left empty.",
+    "universite.tn program lists use pre-reform (LA/LF) names and may be outdated; orientini data (codes, 2025 cut-offs) is third-party but mirrors the national orientation guide - cross-check with orientation.tn guide.",
+    "Masters are mostly missing except where universite.tn or the university site list them.",
+    "ISETs in the region (DGET network, not under the university) are excluded."
+  ]
+}

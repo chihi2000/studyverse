@@ -1,0 +1,3624 @@
+{
+  "university": {
+    "slug": "universite-de-carthage",
+    "nameFr": "Université de Carthage",
+    "nameAr": "جامعة قرطاج",
+    "nameEn": "University of Carthage",
+    "city": "Tunis (Amilcar)",
+    "website": "https://ucar.rnu.tn/",
+    "facebook": "https://www.facebook.com/UniversiteDeCarthage/",
+    "otherLinks": [
+      "https://ucar.rnu.tn/events-et-news/",
+      "http://www.concours.ucar.rnu.tn/",
+      "https://ucar.rnu.tn/%F0%9F%93%A2-university-of-carthage-masters-applications-2026-2027/",
+      "https://proemploi.ucar.rnu.tn",
+      "https://pmo.ucar.rnu.tn/",
+      "https://www.linkedin.com/company/université-of-carthage/",
+      "https://www.youtube.com/@universitedecarthage3017",
+      "https://ucar.rnu.tn/undergraduate-study/",
+      "https://ucar.rnu.tn/postgraduate-study/"
+    ],
+    "sources": [
+      "https://ucar.rnu.tn/",
+      "https://ucar.rnu.tn/?p=1733",
+      "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+      "https://www.orientini.com/e/univ_4"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "istic-borj-cedria",
+      "shortName": "ISTIC",
+      "nameFr": "Institut Supérieur des Technologies de l'Information et de la Communication de Borj Cédria",
+      "nameAr": "المعهد العالي لتكنولوجيا المعلومات والإتصال ببرج السدرية",
+      "type": "institut",
+      "city": "Borj Cédria",
+      "governorate": "Ben Arous",
+      "website": "http://www.istic.rnu.tn/",
+      "facebook": "https://www.facebook.com/ucar.istic/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/ISTIC.TN",
+        "https://www.facebook.com/ISTIC.OFFICIEL/",
+        "http://www.istic.rnu.tn/fr/emplois-de-temps.html",
+        "http://www.istic.rnu.tn/fr/calendrier-universitaire.html",
+        "http://www.istic.rnu.tn/fr/formation/licences/licences.html",
+        "http://www.istic.rnu.tn/fr/formation/masters/mastere-professionnel/consultation-mp.html",
+        "https://fr.linkedin.com/company/isticborjcedria",
+        "https://www.linkedin.com/company/istic.tunisie",
+        "https://www.inscription.tn",
+        "https://www.orientini.com/go/9632master.ucar.rnu"
+      ],
+      "newsPage": "http://www.istic.rnu.tn/fr/actualités.html",
+      "moodleOrElearning": "",
+      "studentSpace": "http://www.istic.rnu.tn/ent",
+      "programs": [
+        {
+          "nameFr": "Licence en Science de l’Informatique \"Computer Science\" – Génie Logiciel et Système d'Information",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "523",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des Systèmes Informatique \"Computer Engineering\" – Systèmes Embarqués et Internet des Objets",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "524",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des Systèmes Informatique \"Computer Engineering\" – Ingénierie des Réseaux et Systèmes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "524",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Technologies de l’Information et de la Communication – Télécommunications",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "573",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Automatique et Informatique Industrielle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "629",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Robotique, Informatique et Systèmes de Communication – Robotique, Informatique et Systèmes de Communication",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Mécatronique – Mécatronique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Infotronique – Infotronique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sécurité des réseaux et Communications Embarquées – Sécurité des réseaux et Communications Embarquées",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Robotique, Informatique et Systèmes de Communication – M2 Data Science and Smart Services (D3S)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17338/Candidature-aux-masters-de-l-Institut-Superieur-des-Technologies-de-L-Information-et-Communication-Borj-Cedria-2026-2027"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Robotique, Informatique et Systèmes de Communication – M2 Systèmes Autonomes Intelligents et Communicants (SAIC)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17338/Candidature-aux-masters-de-l-Institut-Superieur-des-Technologies-de-L-Information-et-Communication-Borj-Cedria-2026-2027"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "IEEE ISTIC Student Branch (IEEE ISTIC SB)",
+          "url": "https://istic.ieee.tn/",
+          "platform": "other",
+          "public": true
+        },
+        {
+          "name": "IEEE ISTIC SB (Facebook)",
+          "url": "https://www.facebook.com/profile.php?id=100080345752240",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "IEEE ISTIC SB (Instagram)",
+          "url": "https://www.instagram.com/ieee.istic.sb",
+          "platform": "other",
+          "public": true
+        },
+        {
+          "name": "Maker Labs ISTIC (robotics club)",
+          "url": "https://www.facebook.com/MakerLabsISTIC/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Enactus ISTIC Borj Cedria (team listing on Enactus Tunisia)",
+          "url": "https://enactus.org.tn/equipe/enactus-istic-borj-cedria/",
+          "platform": "other",
+          "public": true
+        },
+        {
+          "name": "Cloud Computing Club - 3C (student club founded Oct 2018)",
+          "url": "https://cloud-computing-club-3c.firebaseapp.com/",
+          "platform": "other",
+          "public": true
+        },
+        {
+          "name": "ISTIC Robotics Club (page on institute site)",
+          "url": "http://www.istic.rnu.tn/fr/vie-universitaire/istic-robotics-club.html",
+          "platform": "other",
+          "public": true
+        },
+        {
+          "name": "ISTIC DEV SPACE (page on institute site)",
+          "url": "http://www.istic.rnu.tn/fr/vie-universitaire/istic-dev-space.html",
+          "platform": "other",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Located at the Technopole de Borj Cédria (Ben Arous). Departments listed on the site: Informatique et Mathématiques, Informatique Industrielle, Télécommunication, Technologies Éducatives. Official site istic.rnu.tn was unreachable from outside Tunisia during research (connection refused, Oct 2026); Wayback copies (latest 2025-06) show news only up to 'Planning examen session Mai 2024' and timetables categories per licence (LF Science de l'Informatique, LA Informatique Industrielle, LF Télécommunication, LA Réseaux et Télécommunication, LA Systèmes Automatiques, LA Systèmes Embarqués). Archived pages also contained injected pharmacy spam text, suggesting the CMS was compromised — treat the site as stale; recent announcements appear to go to Facebook (facebook.com/ucar.istic = 'ISTIC Borj-Cédria', ~11-14k followers; facebook.com/ISTIC.OFFICIEL = 'Modérateur Istic', posted 2025 graduation notice and 2024-2025 calendar; facebook.com/ISTIC.TN is the link in the website footer). Which FB page is the current official one is not confirmed. News list mentions 'Avis de Mutation, Réintégrations et Exclus Prepa 2022-2023', suggesting a preparatory cycle, unconfirmed. Website licence page names: LF Computer Science (GL & SI), Computer Engineering (Systèmes embarqués & IoT; Ingénierie des Réseaux et Systèmes), Automatique et informatique industrielle, Informatique réseaux et télécommunications. Orientini (2026 data): capacity 130 per licence; last orientation scores 164.68 (523), 155.83 (524), 135.65 (573), 131.26 (629); codes are orientini/guide codes, cross-check with orientation.tn. 2026-2027: licence registration online via inscription.tn from 7 Sept 2026, on-site 9-10 Sept (L1) and 11 Sept (L2/L3), rentrée 12 Sept 2026; master applications 10 June–10 July 2026 via UCAR master platform. Orientini hosts PDFs Avis_inscription_Licence_ISTIC_2026-2027.pdf and REGLEMENT_INTERIEUR_ISTIC_2026-2027.pdf. The ENT link (/ent) is from the archived menu; target not verified. No Moodle, public student Facebook/Telegram groups or exam archives found.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Institut_sup%C3%A9rieur_des_technologies_de_l%27information_et_de_la_communication",
+        "https://web.archive.org/web/2025/http://www.istic.rnu.tn/fr/",
+        "https://web.archive.org/web/2026/http://www.istic.rnu.tn/fr/formation/licences/licences.html",
+        "https://web.archive.org/web/2026/http://www.istic.rnu.tn/fr/emplois-de-temps.html",
+        "https://www.orientini.com/FR/etablissement/226/Institut-Superieur-des-Technologies-Informatiques-et-de-Telecommunications-de-Borj-Cedria---(ISTITBC)",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18030/Inscription-des-etudiants-de-l-Institut-Superieur-des-Technologies-de-l--Information-et-Comminication-Borj-Cedria-2026-2027",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17338/Candidature-aux-masters-de-l-Institut-Superieur-des-Technologies-de-L-Information-et-Communication-Borj-Cedria-2026-2027",
+        "https://istic.ieee.tn/contact/",
+        "https://www.facebook.com/ucar.istic/",
+        "https://www.facebook.com/ISTIC.OFFICIEL/",
+        "https://www.facebook.com/MakerLabsISTIC/",
+        "https://enactus.org.tn/equipe/enactus-istic-borj-cedria/",
+        "https://cloud-computing-club-3c.firebaseapp.com/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enstab-borj-cedria",
+      "shortName": "ENSTAB",
+      "nameFr": "École Nationale des Sciences et Technologies Avancées de Borj Cédria",
+      "nameAr": "المدرسة الوطنية للعلوم و للتكنولوجيات المتقدمة ببرج السدرية",
+      "type": "ecole",
+      "city": "Borj Cédria",
+      "governorate": "Ben Arous",
+      "website": "http://www.enstab.rnu.tn/",
+      "facebook": "https://www.facebook.com/ENSTABorjCedria",
+      "instagram": "",
+      "otherLinks": [
+        "https://enstab.tn/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère Professionnel en Ingénierie de l’Innovation et transfert de Technologie (2I 2T) – Ingénierie de l’Innovation et Transfert de Technologie (2I 2T)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Génie Energétique – Management et Digitalisation de l'Energie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur en technologies avancées – option Systèmes énergétiques et technologies propres",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://eurace.enaee.eu/node/78900"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur en technologies avancées – option Électronique avancée et nanotechnologie",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://eurace.enaee.eu/node/78904"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Engineering school; EUR-ACE label and ISO 21001 in 2024 (managers.tn). EUR-ACE database lists website enstab.tn; Wayback has enstab.rnu.tn titled ENSTAB. Has an IEEE student branch per IEEE Tunisia section.",
+      "sources": [
+        "https://web.archive.org/web/2026/http://www.enstab.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/11430/",
+        "https://eurace.enaee.eu/node/78900",
+        "https://managers.tn/2024/11/27/enstab-des-distinctions-qui-renforcent-son-attractivite-internationale",
+        "https://ieee.tn/units/student-branches/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "insat-tunis",
+      "shortName": "INSAT",
+      "nameFr": "Institut National des Sciences Appliquées et de Technologie",
+      "nameAr": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا",
+      "type": "institut",
+      "city": "Tunis (Centre Urbain Nord)",
+      "governorate": "Tunis",
+      "website": "http://insat.rnu.tn/",
+      "facebook": "https://www.facebook.com/insat.rnu.tn/",
+      "instagram": "https://www.instagram.com/insat.tunisie/",
+      "otherLinks": [
+        "https://www.linkedin.com/school/national-institute-of-applied-science-and-technology/"
+      ],
+      "newsPage": "http://insat.rnu.tn/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère Professionnel en Métrologie et ingénierie de la qualité – Métrologie et ingénierie de la qualité",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Cycle ingénieur INSAT – première année commune en deux filières: MPI (mathématiques, physique, informatique) ou CBA (chimie, biologie appliquées), puis spécialisation",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://en.wikipedia.org/wiki/National_Institute_of_Applied_Science_and_Technology"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Junior Entreprise INSAT",
+          "url": "https://www.facebook.com/junior.entreprise.insat",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founding year given as 1996 (infobox) or 1992 depending on source. Engineering specialisations not listed in sources fetched.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Institute_of_Applied_Science_and_Technology",
+        "https://web.archive.org/web/2026/http://insat.rnu.tn/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ihec-carthage",
+      "shortName": "IHEC Carthage",
+      "nameFr": "Institut des Hautes Études Commerciales de Carthage",
+      "nameAr": "معهد الدراسات العليا التجارية بقرطاج",
+      "type": "institut",
+      "city": "Carthage",
+      "governorate": "Tunis",
+      "website": "https://ihec.rnu.tn/fr",
+      "facebook": "https://www.facebook.com/ihec.carthage",
+      "instagram": "https://www.instagram.com/ihec.carthage_officiel",
+      "otherLinks": [
+        "https://www.linkedin.com/company/ihec-carthage42/",
+        "https://www.youtube.com/@IHECCarthageOfficiel",
+        "https://ihec.rnu.tn/fr/actualites/archive-des-annonces",
+        "https://ihec.rnu.tn/fr/etudiants/clubs-footer",
+        "https://ihec.rnu.tn/fr/etudiants/pre-inscriptions-en-ligne"
+      ],
+      "newsPage": "https://ihec.rnu.tn/fr/categories/1/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de Gestion – Management",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Marketing",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Finance",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Comptabilité",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Informatique de Gestion « Business Computing » – Business Intelligence",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Monnaie, Finance et Banques – Ingénierie Économique et Financière",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Finance – Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Management – Management, Stratégie et Conseil",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Marketing – Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Comptabilité – Comptabilité, Audit et Reporting",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Economie – Intelligence Economique Africaine (IEA)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Informatique de Gestion (Business Computing) – Big Data Analytics and E-Commerce",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Comptabilité – Préparatoire à la révision comptable",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Entrepreneuriat – Entrepreneuriat",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Marketing – Marketing Moderne et Veille Stratégique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Finance – Analyste Financier",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Finance – Banque et Assurance",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Marketing – Marketing Digital",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Finance – Private equity & Financements alternatifs",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Management – Management for Hospitality and Tourism",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Site is live and posts 2026-2027 registration notices (FR/AR). Site mentions a new LSG licence with module equivalences for first year. The UCAR undergraduate page lists, under IHEC, a block of science programs that duplicates FSB (page error) — excluded here.",
+      "sources": [
+        "https://ihec.rnu.tn/fr",
+        "https://www.orientini.com/AR/etablissement/47/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "enau-tunis",
+      "shortName": "ENAU",
+      "nameFr": "École Nationale d'Architecture et d'Urbanisme de Tunis",
+      "nameAr": "المدرسة الوطنية للهندسة المعمارية و التعمير بتونس",
+      "type": "ecole",
+      "city": "Sidi Bou Saïd / Carthage",
+      "governorate": "Tunis",
+      "website": "http://www.enau.rnu.tn/",
+      "facebook": "https://www.facebook.com/enaudaap/",
+      "instagram": "",
+      "otherLinks": [
+        "https://enaudepartements.wixsite.com/plateforme",
+        "http://www.enau.rnu.tn/premier-cycle-enau/",
+        "http://enau.jimdo.com/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de Recherche en Science de l'architecture – Science de l'architecture",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Urbanisme et Aménagement – Urbanisme et Aménagement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Urbanisme – Urbanisme",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Building Information Modeling (BIM) – Building Information Modeling",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Héritage, Valorisation et Numérisation – Héritage et Régénération",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme national d'architecte (Architecture)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "203",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/8/"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Facebook group linked from the ENAU website (name not verified)",
+          "url": "https://www.facebook.com/groups/472323206882380",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "No official supply list found. ENAU's first-cycle curriculum (enau.rnu.tn/premier-cycle-enau) includes an 'atelier d'initiation à la mise en forme' (architectural representation, freehand and design drawing), an 'atelier de dessin' (perspective, croquis, dessin géométral), plastic-arts workshops (2D/3D composition, experimenting with materials) and descriptive geometry — implying drawing instruments and model-making materials, but specific items are not stated by an ENAU source. Source: http://www.enau.rnu.tn/premier-cycle-enau/",
+      "notes": "Address on archived site: Rue El Quods, Site Archéologique de Carthage. Classes start 1 Sept 2026 (ENAU listed with engineering schools in the 2026-2027 ministry calendar). Site menu mentions a professional master in architecture – BIM. Orientini lists code 203 'الهندسة المعمارية'. Departments platform on wixsite appears as 'Actualités' in search results (not verified as official).",
+      "sources": [
+        "https://web.archive.org/web/2026/http://www.enau.rnu.tn/",
+        "https://web.archive.org/web/2026/http://www.enau.rnu.tn/premier-cycle-enau/",
+        "https://www.orientini.com/AR/etablissement/8/",
+        "https://www.universite.tn/Universite-de-Carthage/ecole-nationale-d-architecture-et-d-urbanisme-de-tunis.html",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "supcom-tunis",
+      "shortName": "Sup'Com",
+      "nameFr": "École Supérieure des Communications de Tunis",
+      "nameAr": "المدرسة العليا للمواصلات بتونس",
+      "type": "ecole",
+      "city": "Ariana (Pôle El Ghazala)",
+      "governorate": "Ariana",
+      "website": "https://www.supcom.tn/",
+      "facebook": "https://www.facebook.com/supcom.universite.carthage/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.linkedin.com/school/sup'com/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère Professionnel en Cyber Sécurité Opérationnelle – Cyber Sécurité Opérationnelle",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Technologies de l’Information et de la Communication – Sciences des Données pour les Nouveaux Métiers du Numérique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en télécommunications",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_sup%C3%A9rieure_des_communications_de_Tunis"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Dual supervision (Higher Education + Communication Technologies ministries, 'cotutelle'). Founded 1998 replacing ESPTT. Wikipedia also mentions masters in telecom (Réseaux; Contenu multimédia; Circuits et systèmes des réseaux télécom; Système de transmission à haut débit) and doctorate.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89cole_sup%C3%A9rieure_des_communications_de_Tunis",
+        "https://web.archive.org/web/2026/http://www.supcom.tn/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "essai-tunis",
+      "shortName": "ESSAI",
+      "nameFr": "École Supérieure de la Statistique et de l'Analyse de l'Information",
+      "nameAr": "المدرسة العليا للإحصاء و تحليل المعلومات",
+      "type": "ecole",
+      "city": "Ariana (Charguia II)",
+      "governorate": "Ariana",
+      "website": "http://www.essai.rnu.tn/",
+      "facebook": "https://www.facebook.com/Ecole-Sup%C3%A9rieure-de-la-Statistique-et-de-lAnalyse-de-lInformation-600916513253321/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.linkedin.com/school/essai-tunis/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme d'ingénieur en statistique et analyse de l'information",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_sup%C3%A9rieure_de_la_statistique_et_de_l%27analyse_de_l%27information"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "Curriculum covers statistical programming with R, SAS and Stata (Wikipedia) — software, not a required-equipment list.",
+      "notes": "Founded 2001.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89cole_sup%C3%A9rieure_de_la_statistique_et_de_l%27analyse_de_l%27information",
+        "https://web.archive.org/web/2026/http://www.essai.rnu.tn/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fsb-bizerte",
+      "shortName": "FSB",
+      "nameFr": "Faculté des Sciences de Bizerte",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Bizerte (Zarzouna)",
+      "governorate": "Bizerte",
+      "website": "http://www.fsb.rnu.tn/",
+      "facebook": "https://www.facebook.com/Facult-des-Sciences-de-Bizerte-553365098137392/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "https://fsb-mastere.com/plateformefsb/loging-student.php",
+      "programs": [
+        {
+          "nameFr": "Licence en Mathématiques – Mathématiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Mathématiques – Mathématiques et Informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Physique – Physique des Capteurs",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Physique des Matériaux – Matériaux Composites et Avancés",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Physique et Energie – Physique et Energie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Physique-Chimie – Physique-Chimie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Chimie – Chimie Fine",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Chimie – Chimie Industrielle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Chimie – Recherche",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences du Vivant – Biologie Moléculaire et Cellulaire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences du Vivant et Environnement – Biosurveillance des Ecosystèmes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de la Vie et de la Terre – Sciences de la Vie et de la Terre",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de la Terre – Géoressources et Environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de la Terre – Sciences et Techniques de Géologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Science de l’Informatique \"Computer Science\" – Génie Logiciel et Système d'Information",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des Systèmes Informatique \"Computer Engineering\" – Systèmes Embarqués et Internet des Objets",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Technologies de l’Information et de la Communication – Télécommunications",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Automatique et Informatique Industrielle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Energétique – Froid et Climatisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Biotechnologie – Contrôle Qualité des Aliments et Hygiène",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Science de l'informatique (Computer Science) – Sciences Informatiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Hydrogéosciences et Environnement – Hydrogéosciences et Environnement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Géologie Appliquée – Géologie Appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Biologie Moléculaire, Cellulaire et Biotechnologie – Physiologie Cellulaire et Moléculaire Végétale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Biologie Moléculaire, Cellulaire et Biotechnologie – Régulations Fonctionnelle et Moléculaire Animales",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Biologie des Organismes, des Populations et de l'Environnement – Sciences de l’Environnement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Mathématiques – Mathématiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Chimie – Chimie Organique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Chimie – Chimie Inorganique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Physique – Physique de la Matière et Applications",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Ingénierie des Systèmes Informatiques \"Computer Engineering\" – Expert Systèmes, Réseaux et Virtualisation (eSRV)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Science de l'informatique (Computer Science) – Data Science",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Géoressources et applications – Géoressources et applications",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Mathématiques Appliquées – Mathématiques et Sciences des données",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Biologie et Management Environnemental – Surveillance et Gestion Intégrée de l'Environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Technologies de l’Information et de la Communication – Systèmes Intelligents Communicants",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Electronique, Electrotechnique et Automatique – Intégration des systèmes électroniques dédiés aux énergies renouvelables",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Génie Energétique – Génie Climatique et Maitrise de l'Energie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Biologie et Santé – Sécurité Sanitaire des Aliments",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Physique – Valorisation des Ressources Naturelles",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Chimie – Analyses physico-chimiques et applications Industrielles",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Chimie – Chimie Industrielle et Pétrochimie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Gestion de l'Environnement et Métiers de l'EAU (GEME) – Gestion de l'Environnement et Métiers de l'EAU",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Student/master platform fsb-mastere.com linked from the FSB website (login; not accessed). City given as Bizerte; Zarzouna not sourced.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.fsb.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enicarthage",
+      "shortName": "ENICarthage",
+      "nameFr": "École Nationale d'Ingénieurs de Carthage",
+      "nameAr": "المدرسة الوطنية للمهندسين بقرطاج",
+      "type": "ecole",
+      "city": "Ariana (Charguia II)",
+      "governorate": "Ariana",
+      "website": "http://www.enicarthage.rnu.tn/",
+      "facebook": "https://www.facebook.com/Ecole-Nationale-dIng%C3%A9nieurs-de-Carthage-ENICarthage-532762086862252/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de Recherche en Electronique, Electrotechnique et automatique (EEA) – Automatique, Robotique et Traitement de l'Information (ARTI)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Electronique, Electrotechnique et automatique (EEA) – Wind Energy SciencEs and Technologies (WESET)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Technologies de l'Information et de la Communication – Réseaux et Multimédia",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur – Mécatronique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Carthage"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur – Génie informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Carthage"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur – Génie des systèmes industriels et logistique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Carthage"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Formerly École Supérieure de Technologie et d'Informatique (ESTI, created 2002); ESTI licences ended 2012-2013.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.enicarthage.rnu.tn/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enib-bizerte",
+      "shortName": "ENIB",
+      "nameFr": "École Nationale d'Ingénieurs de Bizerte",
+      "nameAr": "المدرسة الوطنية للمهندسين ببنزرت",
+      "type": "ecole",
+      "city": "Bizerte",
+      "governorate": "Bizerte",
+      "website": "https://enib.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère Professionnel en Electromécanique – Ingénierie de la Maintenance",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – Génie mécanique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://en.wikipedia.org/wiki/National_Engineering_School_of_Bizerte"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – Génie industriel",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://en.wikipedia.org/wiki/National_Engineering_School_of_Bizerte"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – Génie civil",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://en.wikipedia.org/wiki/National_Engineering_School_of_Bizerte"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founded 2009. ISO 9001/21001 certified (La Presse, July 2026). Facebook page not found (facebook.com/enibrest is ENIB Brest, France — not this school).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Engineering_School_of_Bizerte",
+        "https://enib.rnu.tn/en/quality-assurance/strategic-plan1",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ept-la-marsa",
+      "shortName": "EPT",
+      "nameFr": "École Polytechnique de Tunisie",
+      "nameAr": "المدرسة التونسية للتقنيات",
+      "type": "ecole",
+      "city": "La Marsa",
+      "governorate": "Tunis",
+      "website": "http://www.ept.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de Recherche en Ingénierie Avancée – IoT et Traitement de Données",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Ingénierie Avancée – Systèmes Complexes Intelligents",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Economie et Finance Quantitatives – Optimisation Economique et Financière",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – option Économie et gestion scientifiques",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_polytechnique_de_Tunisie"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – option Mécanique et structures",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_polytechnique_de_Tunisie"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur – option Signaux et systèmes",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_polytechnique_de_Tunisie"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created by law 91-42 (1991), classes since 1994. Doctoral schools in applied mathematics and applied mechanics.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89cole_polytechnique_de_Tunisie",
+        "https://web.archive.org/web/2026/http://www.ept.rnu.tn/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-mateur",
+      "shortName": "ISSAT Mateur",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Mateur",
+      "nameAr": "المعهد العالي للعلوم التطبيقية و التكنولوجيا بماطر",
+      "type": "institut",
+      "city": "Mateur",
+      "governorate": "Bizerte",
+      "website": "http://www.issatm.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Electronique Industrielle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Science de l’Informatique \"Computer Science\" – Génie Logiciel et Système d'Information",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des Systèmes Informatique \"Computer Engineering\" – Systèmes Embarqués et Internet des Objets",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Ingénierie des Systèmes Informatique \"Computer Engineering\" – Ingénierie des Réseaux et Systèmes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Technologies de l’Information et de la Communication – Télécommunications",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Automatique et Informatique Industrielle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Electronique Automobile",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Electronique, Electrotechnique et Automatique – Systèmes Embarqués",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Ingénierie des Systèmes Informatiques (Computer Engineering) – Cyber Physical Systems",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Réseaux et Télécommunications – Services et Sécurité des Réseaux",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Réseaux et Télécommunications – Technologies des Réseaux et Télécommunications",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Electronique, Electrotechnique et Automatique – Commande des Systèmes Industriels (CSI)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.issatm.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/120/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isteub-tunis",
+      "shortName": "ISTEUB",
+      "nameFr": "Institut Supérieur des Technologies de l'Environnement, de l'Urbanisme et du Bâtiment",
+      "nameAr": "المعهد العالي لتكنلوجيات البيئة والعمران والبنيان",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Génie Civil – Bâtiment",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Civil – Construction Métallique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Civil – Infrastructures",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Civil – Planification et Gestion des Chantiers",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Civil – Hydraulique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Urbanisme et Aménagement – Urbanisme et Aménagement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Génie civil – Génie civil et environnement MGCE",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Urbanisme – Planification Urbaine Durable et Gouvernance au Maghreb",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Génie Civil – Gestion des Projets de Génie Civil",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Génie Civil – Génie civil et risques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Génie Civil – Eau et Environnement côtier",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website not verified (isteub.rnu.tn resolves in DNS but no usable archived page).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/AR/etablissement/11467/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "isste-borj-cedria",
+      "shortName": "ISSTE",
+      "nameFr": "Institut Supérieur des Sciences et Technologies de l'Environnement de Borj Cédria",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Borj Cédria",
+      "governorate": "Ben Arous",
+      "website": "http://www.isste.rnu.tn/",
+      "facebook": "https://www.facebook.com/HIESTBC/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "http://www.isste.rnu.tn/events/",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Chimie – Chimie de l'Environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Mathématiques Appliquées – Statistiques Environnementales",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Physique-Chimie – Physique-Chimie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences du Vivant et Environnement – Protection et Technologies de l’Environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Génie Energétique – Energétique et Environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de la Terre – Eau et Environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence Co-construite en Biotechnologie – Environnement, Analyse et Valorisation Industrielle des Substances Bioactives",
+          "degree": "licence",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Génie Energétique – Énergétique et Procédés",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Génie des Procédés – Traitement et valorisation des eaux",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Environnement et Ingénierie du Vivant",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Energétique – Energie solaire",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Eco-labellisation et Accompagnement Environnemental des Entreprises – Gestion intégrée Sécurité, Qualité et Environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Archived site has event/announcement posts (PFE deadlines, welcome day, Tunivisions club launch). Same campus area as ISTIC — do not confuse.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.isste.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipest-la-marsa",
+      "shortName": "IPEST",
+      "nameFr": "Institut Préparatoire aux Études Scientifiques et Techniques",
+      "nameAr": "",
+      "type": "institut",
+      "city": "La Marsa",
+      "governorate": "Tunis",
+      "website": "http://www.ipest.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Preparatory institute for engineering entrance exams (an IPEST student ranked 1st nationally in MP stream, 2025 per UCAR news). Program list not fetched.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.ipest.rnu.tn/",
+        "https://ucar.rnu.tn/?p=8112"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipei-bizerte",
+      "shortName": "IPEIB",
+      "nameFr": "Institut Préparatoire aux Études d'Ingénieurs de Bizerte",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Bizerte",
+      "governorate": "Bizerte",
+      "website": "http://www.ipeib.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website from an archived page titled \"ipeib\"; content not verified.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.ipeib.rnu.tn/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "ipei-nabeul",
+      "shortName": "IPEIN",
+      "nameFr": "Institut Préparatoire aux Études d'Ingénieurs de Nabeul",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Nabeul",
+      "governorate": "Nabeul",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "No website verified.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "fsjpst-tunis",
+      "shortName": "FSJPST",
+      "nameFr": "Faculté des Sciences Juridiques, Politiques et Sociales de Tunis",
+      "nameAr": "كلية العلوم القانونية والسياسية والإجتماعية بتونس",
+      "type": "faculte",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.fsjpst.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Droit – Droit Privé",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Droit – Droit Public",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit des Affaires – Droit de la Propriété Intellectuelle et du Numérique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit des Affaires – Contentieux des Affaires",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Politiques et Gouvernance Démocratique – Gouvernance Démocratique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit privé – Droit Privé",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public – Droit de l'Union Européenne",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Privé – Droit Pénal et Sciences Criminelles",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public – Droit Public Interne",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public – Droits Humains et Droit International Humanitaire",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public – Droit International Public",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit des Affaires – Droit de l'Entreprise",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Anglo-Saxon – Droit Anglo-Saxon",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit International et Relations Maghreb-Europe – Droit International et Relations Maghreb-Europe",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Public – Droit de l'Environnement et du Développement Durable",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit de la santé – Droit de la Santé",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit Privé – Droit Bancaire et Boursier",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit Public – Droit Fiscal et des Contentieux",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Gouvernance et Lutte Contre la Corruption – Gouvernance et Lutte Contre la Corruption",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Droits Humains et Droit Humanitaire – Droits Humains et Droit Humanitaire",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Politiques et Gouvernance Démocratique – Sciences Politiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Gouvernance et lutte contre la corruption – Gouvernance du secteur privé",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Gouvernance et lutte contre la corruption – Parcours général",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit Public – Gouvernance de la Commande Publique. Ecole Supérieure de Commerce de Tunis+ Institut Supérieur des Arts du Multimédia de la Manouba+ IHEC",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Informatique de Gestion – Informatique Décisionnelle et Intelligente Appliquée à la Gestion (IDIAG)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Archived homepage exists but had no title; website medium confidence.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.fsjpst.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/45/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fseg-nabeul",
+      "shortName": "FSEGN",
+      "nameFr": "Faculté des Sciences Économiques et de Gestion de Nabeul",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Nabeul",
+      "governorate": "Nabeul",
+      "website": "http://www.fsegn.rnu.tn/",
+      "facebook": "https://www.facebook.com/profile.php?id=100057095305797",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Informatique de Gestion « Business Computing » – Business Information System",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Informatique de Gestion « Business Computing » – Business Intelligence",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Informatique de Gestion « Business Computing » – E-Business",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences Economiques – Commerce et Finance Internationale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences Economiques – Monnaie, Finance, Banque, Assurance",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences Economiques – Analyse et Politique Economique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Comptabilité",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Finance",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Gestion des Ressources Humaines",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Marketing",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Management",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Marketing – Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Monnaie, Finance et Banques – Monnaie, Finance et Banques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Informatique de Gestion (Business Computing) – Informatique d’Aide à la Décision",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Finance – Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Economie du Transport et Logistique – Logistique du commerce international",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Informatique de Gestion (Business Computing) – Ingénierie des Systèmes d’Information et des Connaissances",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Assurance, Banque et Finance – Ingénierie Economique et Financière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Marketing – Marketing Touristique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Comptabilité – Comptabilité et Fiscalité",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Ingénierie de la Qualité – Ingénierie de la Qualité",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.fsegn.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isg-bizerte",
+      "shortName": "ISG Bizerte",
+      "nameFr": "Institut Supérieur de Gestion de Bizerte",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Bizerte",
+      "governorate": "Bizerte",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences Economiques – Ingénierie Economique et Financière",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Management",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Marketing",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Logistique et Production",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Comptabilité",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Informatique de Gestion « Business Computing » – Business Intelligence",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Marketing – Marketing entrepreneurial et innovation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Comptabilité – Comptabilité, Contrôle et Système d'information",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Management – Management International",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Finance – Ingénierie Financière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Tourisme durable – Tourisme durable",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Management de la qualité et innovation – Management de la qualité et innovation",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Informatique de Gestion (Business Computing) – Système d’Information Décisionnel et Data Science",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website and Facebook not found. universite.tn lists an \"Institut supérieur de commerce et de comptabilité de Bizerte\" — possibly a former name, unverified.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17405/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Bizerte-2026-2027",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "islt-tunis",
+      "shortName": "ISLT",
+      "nameFr": "Institut Supérieur des Langues de Tunis",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.islt.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Arabe – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Français – Traduction",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Français – Communication",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Français – Médiation Culturelle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Anglais – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Italien – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Italien – Communication Interculturelle et Tourisme",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Espagnol – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Espagnol – Communication Interculturelle et Tourisme",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Allemand – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Russe – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Russe – Communication Interculturelle et Tourisme",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Chinois – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Langue, Littérarture et Civilisation Arabes – Langue, Littérarture et Civilisation Arabes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Anglais – Linguistique Appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Anglais – Cross Cultural Poetics English",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Linguistique Générale – Linguistique Générale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Communication Interculturelle (Allemand-Espagnol-Italien-Russe) – Communication Interculturelle (Allemand-Espagnol-Italien-Russe)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Littérature Française Moderne – Littérature Française",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Arabe-Langue étrangère – L'Arabe: Langue étrangère",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Anglais de Communication – Anglais de Communication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Russe Appliqué au Tourisme et au Patrimoine – Russe Appliqué au Tourisme et au Patrimoine",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Traduction – Traduction",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.islt.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "islai-nabeul",
+      "shortName": "ISLAIN",
+      "nameFr": "Institut Supérieur des Langues Appliquées et d'Informatique de Nabeul",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Nabeul",
+      "governorate": "Nabeul",
+      "website": "http://www.islain.rnu.tn/",
+      "facebook": "https://www.facebook.com/pages/Islain/218929118276603",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Arabe – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Français – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Anglais – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Italien – Langue, Lettres et Civilisation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Littérature, Linguistique et Histoire de la Langue Française – Littérature, Linguistique et Histoire de la Langue Française",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Anglais – Anglais des Affaires et du Tourisme",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Français – Français du tourisme et gestion du patrimoine",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Called \"Institut Supérieur des Langues de Nabeul\" on the UCAR programs page.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.islain.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isba-nabeul",
+      "shortName": "ISBAN",
+      "nameFr": "Institut Supérieur des Beaux-Arts de Nabeul",
+      "nameAr": "المعهد العالى للفنون الجميلة بنابل",
+      "type": "institut",
+      "city": "Nabeul",
+      "governorate": "Nabeul",
+      "website": "http://www.isban.rnu.tn/",
+      "facebook": "https://www.facebook.com/ISBANNabeul",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Arts Plastiques – Photographie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Arts Plastiques – Gravure",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Arts Plastiques – Céramique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Arts Plastiques – Peinture",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Arts Plastiques – Sculpture",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Arts Plastiques – Tissage",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Design Image – Publicité Graphique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Design Image – Publicité Audiovisuelle",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Design Espace – Architecture d’intérieur",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Design Produit – Mobilier",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Arts Plastiques – Théories de la Création",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Design Image – Publicité Graphique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Arts Plastiques – Sculpture",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Arts Plastiques – Céramique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Design Espace – Architecture d’Intérieur",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Fine arts / design programs; no sourced equipment list found.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.isban.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/104/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esac-gammarth",
+      "shortName": "ESAC",
+      "nameFr": "École Supérieure de l'Audiovisuel et du Cinéma de Gammarth",
+      "nameAr": "المدرسة العليا للسمعي البصري والسينما بقمرت",
+      "type": "ecole",
+      "city": "Gammarth",
+      "governorate": "Tunis",
+      "website": "http://www.esac.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de Recherche en Cinéma et Audiovisuel – Sciences et Techniques de l'Audiovisuel et du cinéma",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Assistanat à la Réalisation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Image et lumière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Montage",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Production audiovisuelle",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Son et mixage",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Cinéma et Audiovisuel – Décor de plateau",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Licence programs not listed on UCAR undergraduate page.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.esac.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/11457/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "intes-tunis",
+      "shortName": "INTES",
+      "nameFr": "Institut National du Travail et des Études Sociales de Tunis",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.intes.rnu.tn/",
+      "facebook": "http://www.facebook.com/pages/Institut-national-du-travail-et-des-etudes-sociales-de-Tunis-INTES/149143298435808",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences du Travail – Sciences du Travail",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences Economiques – Analyse et Politique Economique: Economie du travail",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Gestion des Ressources Humaines",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Service Social – Développement et Protection Sociale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Service Social – Service Social d'Entreprise",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Service Social – Service Social Scolaire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Service Social – Défense Sociale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Intervention sociale – Médiation Familiale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Droit Social – Droit Social",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de Gestion – Management des Organisations d’Economie Sociale et Solidaire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Santé et Sécurité au Travail – Sante et Sécurité au Travail",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Service social – Service social",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Droit Privé – Droit Social",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Migration Internationale – Migration Internationale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Economie Sociale et Solidaire – Organisation et Projets",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Droit Privé – Droit du travail et de la protection sociale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Intervention Sociale – Intervention Sociale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Protection de l'Enfance à Besoins Spécifiques – Protection de l'Enfance à Besoins Spécifiques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-supervised (cotutelle).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.intes.rnu.tn/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isce-carthage",
+      "shortName": "ISCE",
+      "nameFr": "Institut Supérieur des Cadres de l'Enfance",
+      "nameAr": "المعهد العالي لإطارات الطفولة بقرطاج درمش",
+      "type": "institut",
+      "city": "Carthage Dermech",
+      "governorate": "Tunis",
+      "website": "http://www.isce.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de l’Education – Education de l'Enfant",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de l’Education – Education Préscolaire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Arts et médiations – Enfance et médiations artistiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences psychologiques et éducatives – Education de l’enfant",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Art et Médiation – Communication Audiovisuelle pour les Educateurs de l’Enfant",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Archived site showed \"Web Under Construction\". Co-supervised (cotutelle).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.isce.rnu.tn/",
+        "https://www.orientini.com/e/univ_4",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "inat-tunis",
+      "shortName": "INAT",
+      "nameFr": "Institut National Agronomique de Tunisie",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.inat.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère de Recherche en Science de la production végétale – Amélioration des plantes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Biotechnologie Animale – Biotechnologie Animale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Aliments Traditionnels pour un Développement Durable (AT2D)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Intensification Ecologique des Systèmes Agricoles (IESA) – Intensification Ecologique des Systèmes Agricoles (IESA)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Géomatique appliquée à l'agriculture et à l'environnement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Gouvernance de l’Eau et Développement Durable",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Gestion durable et résiliente aux changements climatiques des agroécosystèmes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences de la Mer – Conservation et Restauration des Ecosystèmes Marins (CREM)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences Agronomiques – Elevage Intelligent pour une Conservation et une Utilisation Durable des Ressources Génétiques Animales",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Production Avicole et Technologie de Fabrication des Aliments Avicoles – Production Avicole et Technologie de Fabrication des Aliments Composés",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Irrigation et Drainage – Irrigation et Drainage",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-supervised with the Ministry of Agriculture (cotutelle).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.inat.tn/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ihet-sidi-dhrif",
+      "shortName": "IHET",
+      "nameFr": "Institut des Hautes Études Touristiques de Sidi Dhrif",
+      "nameAr": "معهد الدراسات السياحية العليا بسيدي الظريف",
+      "type": "institut",
+      "city": "Sidi Dhrif (Sidi Bou Saïd)",
+      "governorate": "Tunis",
+      "website": "http://www.ihet.rnu.tn/",
+      "facebook": "https://www.facebook.com/IHET.SidiDhrif/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Tourisme – Management Touristique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Tourisme – Guide Touristique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Hôtellerie – Management de la Restauration",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Hôtellerie – Management de l’Hébergement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Pofessionnelle en Tourisme et Hôtellerie – Technique d'orgnisation hôtelière et tourestique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Pofessionnelle en Tourisme et Hôtellerie – Gastronomie et organisation de la restauration",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Archived site showed \"Ouverture Bientôt\". Wikipedia name: Institut des études touristiques supérieures de Sidi Dhrif.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.ihet.rnu.tn/",
+        "https://www.orientini.com/AR/etablissement/175/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esiat-tunis",
+      "shortName": "ESIAT",
+      "nameFr": "École Supérieure des Industries Alimentaires de Tunis",
+      "nameAr": "المدرسة العليا للصناعات الغذائية بتونس",
+      "type": "ecole",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.esiat.agrinet.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Industries Alimentaires – Industries et Procédés Alimentaires",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sciences et Technologies Agro-alimentaires – Innovation et Valorisation en Industries Alimentaires (IVIA)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel Co-Construit en Sciences et Technologies Alimentaires – Management Agroalimentaire et Ingénierie des Projets et de l'Innovation",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1976; co-supervised (cotutelle, agriculture).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/AR/etablissement/36/",
+        "https://www.universite.tn/Universite-de-Carthage/ecole-superieure-des-industries-alimentaires-de-tunis.html",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esa-mateur",
+      "shortName": "ESA Mateur",
+      "nameFr": "École Supérieure d'Agriculture de Mateur",
+      "nameAr": "المدرسة العليا للفلاحة بماطر",
+      "type": "ecole",
+      "city": "Mateur",
+      "governorate": "Bizerte",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Agronomie – Production Animale et Ressources Alimentaires",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sciences Agronomiques – Innovations en élevage et adaptation aux changements climatiques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sciences Agronomiques – Collecte, Conservation et Valorisation des Produits Agricoles (CCV-PA)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website not verified. Cotutelle.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/AR/etablissement/33/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esa-mograne",
+      "shortName": "ESA Mograne",
+      "nameFr": "École Supérieure d'Agriculture de Mograne",
+      "nameAr": "المدرسة العليا للفلاحة بمقرن",
+      "type": "ecole",
+      "city": "Mograne",
+      "governorate": "Zaghouan",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Agronomie – Création et Gestion des Entreprises Agricoles",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Gestion IntégRée de l’Eau et Agriculture Durable (GIREAD) – Gestion IntégRée de l’Eau et Agriculture Durable (GIREAD)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Agronomie – Gouvernance des Ressources Naturelles et Développement Territorial",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sciences Agronomiques – Marketing des produits agro-alimentaires",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website not verified. Cotutelle.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/AR/etablissement/32/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ispa-bizerte",
+      "shortName": "ISPA",
+      "nameFr": "Institut Supérieur de Pêche et d'Aquaculture de Bizerte",
+      "nameAr": "المعهد العالي للصيد البحري و تربية الأحياء المائية ببنزرت",
+      "type": "institut",
+      "city": "Bizerte",
+      "governorate": "Bizerte",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de la Mer – Froid et Valorisation des Produits Aquatiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Licence en Sciences de la Mer – Pêche et Aquaculture",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://ucar.rnu.tn/undergraduate-study/"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Sciences de la Mer – Ingénierie et gestion durable des ressources halieutiques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ucar.rnu.tn/postgraduate-study/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Website not verified. Cotutelle.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.orientini.com/AR/etablissement/156/",
+        "https://ucar.rnu.tn/undergraduate-study/",
+        "https://ucar.rnu.tn/postgraduate-study/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isepbg-soukra",
+      "shortName": "ISEP-BG",
+      "nameFr": "Institut Supérieur des Études Préparatoires en Biologie et Géologie de La Soukra",
+      "nameAr": "",
+      "type": "institut",
+      "city": "La Soukra",
+      "governorate": "Ariana",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Wikipedia names it \"Institut préparatoire aux études biologiques et géologiques de La Soukra\". Website not found. Cotutelle.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://www.universite.tn/Universite-de-Carthage/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "instm",
+      "shortName": "INSTM",
+      "nameFr": "Institut National des Sciences et Technologies de la Mer",
+      "nameAr": "",
+      "type": "other",
+      "city": "",
+      "governorate": "",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute shown among UCAR institution logos (INSTM); not a teaching institution; details not verified.",
+      "sources": [
+        "https://ucar.rnu.tn/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "inrat",
+      "shortName": "INRAT",
+      "nameFr": "Institut National de Recherches Agronomiques de Tunisie",
+      "nameAr": "",
+      "type": "other",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.inrat.agrinet.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute (cotutelle), no student programs.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.inrat.agrinet.tn/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "inrgref",
+      "shortName": "INRGREF",
+      "nameFr": "Institut National de Recherches en Génie Rural, Eaux et Forêts",
+      "nameAr": "",
+      "type": "other",
+      "city": "",
+      "governorate": "",
+      "website": "http://www.inrgref.agrinet.tn/",
+      "facebook": "https://www.facebook.com/people/Institut-National-De-Recherche-En-G%C3%A9nie-Rural-Eaux-et-For%C3%AAts/61584779048579/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.linkedin.com/company/inrgref"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute (cotutelle), no student programs.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Carthage",
+        "https://web.archive.org/web/2026/http://www.inrgref.agrinet.tn/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier de l'année universitaire 2026-2027 (Ministère de l'Enseignement Supérieur, national)",
+      "academicYear": "2026-2027",
+      "url": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17558/",
+      "summary": "Classes start 1 Sept 2026 for prep engineering institutes, engineering schools, ENAU, medical faculties, ENMV and ISETs; 12 Sept 2026 for all other institutions. Min. 28 weeks of classes. Holidays: Evacuation Day 15 Oct 2026; Revolution Day 17 Dec 2026; winter break 12-27 Dec 2026; 1 Jan 2027; spring break 19 Mar-4 Apr 2027; Independence Day 20 Mar; Martyrs' Day 9 Apr; Labour Day 1 May 2027; Mawlid, Eid al-Fitr, Eid al-Adha, Hijri New Year dates set later. Exam dates not given (attached circular PDF not checked). No UCAR-specific 2026-2027 calendar found."
+    },
+    {
+      "title": "ISTIC Borj Cédria – inscription et rentrée 2026-2027",
+      "academicYear": "2026-2027",
+      "url": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18030/Inscription-des-etudiants-de-l-Institut-Superieur-des-Technologies-de-l--Information-et-Comminication-Borj-Cedria-2026-2027",
+      "summary": "Online registration on inscription.tn from 7 Sept 2026; L1 on-site 9-10 Sept, L2/L3 11 Sept; rentrée 12 Sept 2026."
+    }
+  ],
+  "gaps": [
+    "No UCAR-level academic calendar 2026-2027 found on ucar.rnu.tn; only the national ministry calendar (via orientini/press).",
+    "UCAR site states 35 institutions but publishes no complete list; list here built from Wikipedia, UCAR program pages and UCAR logos (36 entries incl. 3 research institutes). Possible missing/renamed entries (e.g. ISCC Bizerte vs ISG Bizerte) unverified.",
+    "Most *.rnu.tn institute sites were unreachable from outside Tunisia; websites/Facebook were taken from Wayback Machine snapshots and may be outdated.",
+    "No official websites/Facebook found for ISG Bizerte, IPEIN, ESA Mateur, ESA Mograne, ISPA Bizerte, ISEP-BG, ISTEUB, ENIB (Facebook).",
+    "Engineering/prep programs for INSAT, IPEST, IPEIB, IPEIN, ISEP-BG, INAT, ESIAT not fully listed; UCAR program pages cover licences/masters only and omit some institutes (e.g. ESSAI, EPT licences, ESAC licences).",
+    "Arabic names missing for several institutes where no source gave them.",
+    "ISTIC: no Moodle/e-learning, no public student Facebook groups or Telegram channels, no exam archives found; which Facebook page is the current official one is unconfirmed; official site appears stale since 2024.",
+    "No public old-exam archives found for any UCAR institute.",
+    "No sourced equipment lists (ENAU architecture, ISBAN fine arts) found.",
+    "Orientation codes only gathered for ISTIC (orientini) and ENAU; should be cross-checked with the official guide on orientation.tn."
+  ]
+}

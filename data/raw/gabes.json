@@ -1,0 +1,1175 @@
+{
+  "university": {
+    "slug": "universite-de-gabes",
+    "nameFr": "Université de Gabès",
+    "nameAr": "جامعة قابس",
+    "nameEn": "University of Gabès",
+    "city": "Gabès",
+    "website": "http://www.univgb.rnu.tn",
+    "facebook": "",
+    "otherLinks": [
+      "https://ent.uvt.rnu.tn/"
+    ],
+    "sources": [
+      "https://www.universite.tn/Universite-de-Gabes.html",
+      "https://en.wikipedia.org/wiki/University_of_Gab%C3%A8s",
+      "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/9602/"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fsg-gabes",
+      "shortName": "FSG",
+      "nameFr": "Faculté des Sciences de Gabès",
+      "nameAr": "كلية العلوم بقابس",
+      "type": "faculte",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.fsg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Chimie",
+          "nameAr": "الإجازة في الكيمياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250501,350501,550501",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Physique",
+          "nameAr": "الإجازة في الفيزياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250503,350503,550503",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Mathématiques",
+          "nameAr": "الإجازة في الرياضيات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250507,350507,550507,650507",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Du Vivant",
+          "nameAr": "الإجازة في علوم الأحياء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250509,350509",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Terre",
+          "nameAr": "الإجازة في علوم الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250510,350510,550510",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Sc. Du Vivant Et Environnement",
+          "nameAr": "الإجازة في علوم الأحياء و المحيط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250512,350512",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De La Vie Et De La Terre",
+          "nameAr": "الإجازة في علوم الحياة و الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250513,350513",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250523,350523,550523,650523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Systèmes Informatiques",
+          "nameAr": "الإجازة في هندسة نظم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250524,350524,550524,650524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250546,350546",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Mesures Et Instrumentation",
+          "nameAr": "الإجازة في القياسات والأدواتية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250550,350550,550550",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Physique Des Matériaux",
+          "nameAr": "الإجازة في فيزياء المواد",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250551,350551,550551",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250629,350629,550629,650629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/72/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/72/x",
+        "https://www.universite.tn/Universite-de-Gabes/faculte-des-sciences-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enig-gabes",
+      "shortName": "ENIG",
+      "nameFr": "Ecole Nationale d'Ingénieurs de Gabès",
+      "nameAr": "المدرسة الوطنية للمهندسين بقابس",
+      "type": "ecole",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "https://enig.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Génie civil",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Automatique et techniques intelligentes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Génie chimique des procédés",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie électrique -automatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie des télécommunications - réseaux-",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie civil",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national d''ingénieur en génie chimique des procédés",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Engineering entry via national concours. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/1056/x",
+        "https://www.universite.tn/Universite-de-Gabes/ecole-nationale-d-ingenieurs-de-gabes.html",
+        "https://enig.rnu.tn/eng/pages/870/eng/home",
+        "https://en.wikipedia.org/wiki/University_of_Gab%C3%A8s"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ipei-gabes",
+      "shortName": "IPEIGb",
+      "nameFr": "Institut Préparatoire aux Etudes d'Ingénieurs de Gabès",
+      "nameAr": "المعهد التحضيري للدراسات الهندسية بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle Préparatoire Scientifique",
+          "nameAr": "مرحلة تحضيرية علمية",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "250522",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/11485/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Biologie-Géologie",
+          "nameAr": "مرحلة تحضيرية: بيولوجيا   جيولوجيا",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "250832",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/11485/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Not listed on universite.tn; found on orientini with 2025 orientation codes. No official website found.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/11485/x"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isimg-gabes",
+      "shortName": "ISIMG",
+      "nameFr": "Institut Supérieur d'Informatique et de Multimédia de Gabès",
+      "nameAr": "المعهد العالي للإعلامية و الملتيميديا بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "https://isimg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Art Et Midiations",
+          "nameAr": "الإجازة في الفنون و الوسائط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150622,250622,350622,450622,550622,650622",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/147/x"
+        },
+        {
+          "nameFr": "Cycle Préparatoire Intégré",
+          "nameAr": "مرحلة تحضيرية مندمجة",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "250518,350518,550518,650518",
+          "durationYears": 5,
+          "source": "https://www.orientini.com/AR/etablissement/147/x"
+        },
+        {
+          "nameFr": "Licence En Techn. De Information Et Communication",
+          "nameAr": "الإجازة في تكنولوجيات المعلومات والاتصالات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250573,350573,550573,650573",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/147/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251523,351523,551523,651523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/147/x"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Systèmes Informatiques",
+          "nameAr": "الإجازة في هندسة نظم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251524,351524,551524,651524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/147/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "isimg.rnu.tn publishes exam calendars under /useruploads/files/. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/147/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-d-informatique-et-de-multimedia-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isgg-gabes",
+      "shortName": "ISGG",
+      "nameFr": "Institut Supérieur de Gestion de Gabès",
+      "nameAr": "المعهد العالي للتصرف بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.isggb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Informatique De Gestion",
+          "nameAr": "الإجازة في إعلامية التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250311,350311,450311,550311,650311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/97/x"
+        },
+        {
+          "nameFr": "Licence En Sciences Economiques",
+          "nameAr": "الاجازة في العلوم الاقتصادية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250312,350312,450312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/97/x"
+        },
+        {
+          "nameFr": "Licence En Sciences De Gestion",
+          "nameAr": "الإجازة في علوم التصرف",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250318,350318,450318,550318,650318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/97/x"
+        },
+        {
+          "nameFr": "Génie financière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Gabes/institut-superieur-de-gestion-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/97/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-de-gestion-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-gabes",
+      "shortName": "ISAMG",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Gabès",
+      "nameAr": "المعهد العالي للفنون و الحرف بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.isamgb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Conservation Et Restauration Des Biens Culturels",
+          "nameAr": "الإجازة في المحافظة على الممتلكات الثقافية و ترميمها",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150162,250162,350162,450162,550162,650162,950162",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/130/x"
+        },
+        {
+          "nameFr": "Licence En Musique Et Musicologie",
+          "nameAr": "الإجازة في الموسيقى و العلوم الموسيقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150201,250201,350201,450201,550201,650201,950201",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/130/x"
+        },
+        {
+          "nameFr": "Licence En Arts Plastiques",
+          "nameAr": "الإجازة في الفنون التشكيلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150202,250202,350202,450202,550202,650202,950202",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/130/x"
+        },
+        {
+          "nameFr": "Licence En Design Espace",
+          "nameAr": "الإجازة في تصميم الفضاء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150207,250207,350207,450207,550207,650207,950207",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/130/x"
+        },
+        {
+          "nameFr": "Licence En Design Image",
+          "nameAr": "الاجازة في تصميم الصورة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150209,250209,350209,450209,550209,650209,950209",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/130/x"
+        },
+        {
+          "nameFr": "Esthétiques et techniques des arts",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": null,
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-arts-et-metiers-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        },
+        {
+          "nameFr": "Diplôme national en art et métiers",
+          "degree": "other",
+          "kind": null,
+          "officialCode": null,
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-arts-et-metiers-de-gabes.html",
+          "note": "universite.tn directory; program names appear to predate the LMD/licence-nationale reform, may be outdated"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/130/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-arts-et-metiers-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isejg-gabes",
+      "shortName": "ISEJG",
+      "nameFr": "Institut Supérieur des Etudes Juridiques de Gabès",
+      "nameAr": "المعهد العالي للدراسات القانونية بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "https://isejg.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Droit",
+          "nameAr": "الإجازة في القانون",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250301",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/158/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/158/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-etudes-juridiques-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "islg-gabes",
+      "shortName": "ISLG",
+      "nameFr": "Institut Supérieur des Langues de Gabès",
+      "nameAr": "المعهد العالي للغات بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.islgb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Arabe",
+          "nameAr": "الإجازة في العربية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150101,250101,350101,450101,650101",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150102,250102,350102,450102,550102,650102,950102",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150103,250103,350103,450103,550103,650103,950103",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Espagnol",
+          "nameAr": "الإجازة في الإسبانية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150104,250104,350104,450104,550104,650104,950104",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Italien",
+          "nameAr": "الإجازة في الإيطالية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150105,250105,350105,450105,550105,650105,950105",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Allemand",
+          "nameAr": "الإجازة في الألمانية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150106,250106,350106,450106,550106,650106,950106",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "150477,250477,350477,450477,550477,650477",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/113/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/113/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-langues-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-gabes",
+      "shortName": "ISSATG",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Gabès",
+      "nameAr": "المعهد العالي للعلوم التطبيقية و التكنولوجيا بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "https://issatgb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Génie Civil",
+          "nameAr": "الإجازة في الهندسة المدنية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250568,350568,550568,650568",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/148/x"
+        },
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250570,350570,550570,650570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/148/x"
+        },
+        {
+          "nameFr": "Licence En Ingénierie Des Procedes Industrielles",
+          "nameAr": "الاجازة في هندسة الأساليب الصناعية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250576,350576,550576,650576",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/148/x"
+        },
+        {
+          "nameFr": "Licence En Génie Énergétique",
+          "nameAr": "الإجازة في الهندسة الطاقية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250603,350603,550603",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/148/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251629,351629,551629,651629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/148/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "issatgb.rnu.tn publishes exam calendars under /useruploads/files/. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/148/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-sciences-appliquees-et-de-technologie-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isste-gabes",
+      "shortName": "ISSTEG",
+      "nameFr": "Institut Supérieur des Sciences et Techniques des Eaux de Gabès",
+      "nameAr": "المعهد العالي لعلوم و تقنيات المياه  بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "http://www.isstegb.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Sciences De La Terre",
+          "nameAr": "الإجازة في علوم الأرض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251510,351510,551510",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/190/x"
+        },
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251570,351570,551570,651570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/190/x"
+        },
+        {
+          "nameFr": "",
+          "nameAr": "التصرف المندمج في المياه",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "3214",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/190/x",
+          "note": "Listed on orientini outside the bac orientation code table (likely master/engineering entry); verify."
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/190/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-sciences-et-techniques-des-eaux-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issig-gabes",
+      "shortName": "ISSIG",
+      "nameFr": "Institut Supérieur des Systèmes Industriels de Gabès",
+      "nameAr": "المعهد العالي للمنظومات الصناعية بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "https://issig.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Génie Mécanique",
+          "nameAr": "الإجازة في الهندسة الميكانيكية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "252570,352570,552570,652570",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/192/x"
+        },
+        {
+          "nameFr": "Licence En Electronique Électrotechnique Et Automatisme",
+          "nameAr": "الإجازة في الإلكترونيك والكهروتقنية والآلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "252629,352629,552629,652629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/192/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Short name ISSIG is also used by the nursing institute of Gabès; disambiguate. Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/192/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-systemes-industriels-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issi-gabes",
+      "shortName": "ISSI Gabès",
+      "nameFr": "Institut Supérieur des Sciences Infirmières de Gabès",
+      "nameAr": "المعهد العالي لعلوم التمريض بقابس",
+      "type": "institut",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "250797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/206/x"
+        },
+        {
+          "nameFr": "L.En Sc. Infirmieres",
+          "nameAr": "الإجازة في علوم التمريض",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "251797",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/206/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "orientini abbreviates it ISSIG (same as Systèmes Industriels). No website found.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/206/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-sciences-infirmieres-de-gabes.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isim-medenine",
+      "shortName": "ISIMed",
+      "nameFr": "Institut Supérieur d'Informatique de Médenine",
+      "nameAr": "المعهد العالي للإعلامية بمدنين",
+      "type": "institut",
+      "city": "Médenine",
+      "governorate": "Médenine",
+      "website": "http://www.isim.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Sciences De L'Informatique",
+          "nameAr": "الإجازة في علوم الإعلامية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254523,354523,554523,654523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/202/x"
+        },
+        {
+          "nameFr": "Licence En Techn. De Information Et Communication",
+          "nameAr": "الإجازة في تكنولوجيات المعلومات والاتصالات",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254573,354573,554573,654573",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/AR/etablissement/202/x"
+        },
+        {
+          "nameFr": "Informatique Industrielle",
+          "nameAr": "الإعلامية الصناعية",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "989594",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/202/x"
+        },
+        {
+          "nameFr": "Ingénierie Des Logiciels Et Connaissances",
+          "nameAr": "هندسة البرمجيات والمعارف",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "989595",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/202/x"
+        },
+        {
+          "nameFr": "Electroniques Embarquées Et Systèmes De Communication",
+          "nameAr": "الإلكترونيك المحمول ونظم الاتصال",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "989593",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/etablissement/202/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/202/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-d-informatique-de-medenine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isbam-medenine",
+      "shortName": "ISBAM",
+      "nameFr": "Institut Supérieur de Biologie Appliquée de Médenine",
+      "nameAr": "المعهد العالي للبيولوجيا التطبيقية بمدنين",
+      "type": "institut",
+      "city": "Médenine",
+      "governorate": "Médenine",
+      "website": "https://isbam.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Sc. Du Vivant Et Environnement",
+          "nameAr": "الإجازة في علوم الأحياء و المحيط",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254512",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/166/x"
+        },
+        {
+          "nameFr": "Licence En Biotechnologie",
+          "nameAr": "الإجازة في البيوتكنولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254546",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/166/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "isbam.rnu.tn publishes exam calendars (e.g. Calendrier-Examen-session-janvier-2024) under /useruploads/files/.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/166/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-de-biologie-appliquee-de-medenine.html",
+        "https://isbam.rnu.tn/useruploads/files/Calendrier-Examen-session-janvier-2024_VF.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseah-medenine",
+      "shortName": "ISEAHMed / ISSHM",
+      "nameFr": "Institut Supérieur des Etudes Appliquées en Humanités de Médenine",
+      "nameAr": "المعهد العالي للعلوم الإنسانية بمدنين",
+      "type": "institut",
+      "city": "Médenine",
+      "governorate": "Médenine",
+      "website": "http://www.iseahmd.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Arabe",
+          "nameAr": "الإجازة في العربية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254101",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/191/x"
+        },
+        {
+          "nameFr": "Licence En Anglais",
+          "nameAr": "الإجازة في الإنقليزية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254102",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/191/x"
+        },
+        {
+          "nameFr": "Licence En Français",
+          "nameAr": "الإجازة في الفرنسية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254103",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/191/x"
+        },
+        {
+          "nameFr": "Licence En Allemand",
+          "nameAr": "الإجازة في الألمانية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254106",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/191/x"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "254477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/191/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "orientini names it المعهد العالي للعلوم الإنسانية بمدنين (Institut Supérieur des Sciences Humaines de Médenine, ISSHM); universite.tn uses the ISEAH name. Likely the same institution under two names; verify.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/191/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-etudes-appliquees-en-humanites-de-medenine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isam-tataouine",
+      "shortName": "ISAMT",
+      "nameFr": "Institut Supérieur des Arts et Métiers de Tataouine",
+      "nameAr": "المعهد العالي للفنون و الحرف بتطاوين",
+      "type": "institut",
+      "city": "Tataouine",
+      "governorate": "Tataouine",
+      "website": "http://www.isamt.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence En Anthropologie",
+          "nameAr": "الإجازة في الأنتروبولوجيا",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "256118",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/201/x"
+        },
+        {
+          "nameFr": "Licence En Arts Plastiques",
+          "nameAr": "الإجازة في الفنون التشكيلية",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "256202",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/201/x"
+        },
+        {
+          "nameFr": "Licence En Design Espace",
+          "nameAr": "الإجازة في تصميم الفضاء",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "256207",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/201/x"
+        },
+        {
+          "nameFr": "Licence En Design Image",
+          "nameAr": "الاجازة في تصميم الصورة",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "256209",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/201/x"
+        },
+        {
+          "nameFr": "Licence En Education Et Enseignement",
+          "nameAr": "الإجازة في التربية والتعليم",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "256477",
+          "durationYears": null,
+          "source": "https://www.orientini.com/AR/etablissement/201/x"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Official *.rnu.tn sites were unreachable from the research environment (connection refused); website taken from universite.tn directory, not live-verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/201/x",
+        "https://www.universite.tn/Universite-de-Gabes/institut-superieur-des-arts-et-metiers-de-tataouine.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fm-gabes",
+      "shortName": "FMG",
+      "nameFr": "Faculté de Médecine de Gabès",
+      "nameAr": "كلية الطب بقابس",
+      "type": "faculte",
+      "city": "Gabès",
+      "governorate": "Gabès",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Only evidence: a 2020 University of Gabès rentrée schedule (relayed by orientini) lists كلية الطب بقابس. Not on universite.tn or orientini establishment pages; no website or programs found. Verify existence/status.",
+      "sources": [
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/9602/"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (circulaire du Ministère de l'Enseignement supérieur, rapportée par La Presse)",
+      "academicYear": "2026-2027",
+      "url": "https://fr.allafrica.com/stories/202607070170.html",
+      "summary": "National, not university-specific. Rentrée Tue 1 Sep 2026 for IPEI, engineering schools, medical/dental/pharmacy faculties and ISETs; Sat 12 Sep 2026 for all other institutions. Min. 28 weeks of teaching. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Aid dates set later. No exam-session dates given."
+    }
+  ],
+  "gaps": [
+    "University Facebook page exists per uniRank (~40k followers) but URL not found.",
+    "Arid Regions Institute (Institut des Régions Arides, Médenine) is listed by Wikipedia as a research institution; not included as an institute entry.",
+    "Faculté de Médecine de Gabès status unconfirmed.",
+    "Official *.rnu.tn sites (university and most institutes) refused connections from the research environment, so news pages, Moodle URLs and calendars on them could not be checked live.",
+    "No institute-specific Facebook/Instagram pages, public student groups (Facebook/Telegram) or old-exam archives could be confirmed via search; left empty rather than guessed.",
+    "Equipment needs: no source found stating field-specific equipment; left empty.",
+    "universite.tn program lists use pre-reform (LA/LF) names and may be outdated; orientini data (codes, 2025 cut-offs) is third-party but mirrors the national orientation guide - cross-check with orientation.tn guide.",
+    "Masters are mostly missing except where universite.tn or the university site list them.",
+    "ISETs in the region (DGET network, not under the university) are excluded."
+  ]
+}

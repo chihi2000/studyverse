@@ -1,0 +1,1506 @@
+{
+  "university": {
+    "slug": "universite-de-tunis",
+    "nameFr": "Université de Tunis",
+    "nameAr": "جامعة تونس",
+    "nameEn": "University of Tunis",
+    "city": "Tunis",
+    "website": "https://utunis.rnu.tn/fr",
+    "facebook": "https://www.facebook.com/profile.php?id=100075599301089",
+    "otherLinks": [
+      "https://utunis.rnu.tn/fr/categories/1/actualites",
+      "https://utunis.rnu.tn/fr/nouveautes/archives-des-annonces",
+      "https://utunis.rnu.tn/fr/nouveautes/calendrier-des-evenements",
+      "https://utunis.rnu.tn/fr/catalogues-de-formations",
+      "https://utunis.rnu.tn/fr/ecoles-doctorales",
+      "https://utunis.rnu.tn/fr/etudiants",
+      "https://utunis.rnu.tn/fr/app",
+      "http://www.biruni.tn/accueil.php"
+    ],
+    "sources": [
+      "https://utunis.rnu.tn/fr",
+      "https://utunis.rnu.tn/ar",
+      "https://utunis.rnu.tn/fr/university-establishments/1"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fshst-tunis",
+      "shortName": "FSHST",
+      "nameFr": "Faculté des Sciences Humaines et Sociales de Tunis",
+      "nameAr": "كلية العلوم الإنسانية والاجتماعية تونس",
+      "type": "faculte",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "https://www.fshst.rnu.tn/",
+      "facebook": "https://www.facebook.com/Page.Officielle.FSHST",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.fshst.rnu.tn/ar/",
+        "https://espaces.fshst.rnu.tn/master/",
+        "https://espaces.fshst.rnu.tn/ed/",
+        "https://espaces.fshst.rnu.tn/langues/",
+        "https://espaces.fshst.rnu.tn/android/app/fshst.apk",
+        "https://www.fshst.rnu.tn/telechargements/",
+        "https://www.digitalhumanities.rnu.tn/"
+      ],
+      "newsPage": "https://www.fshst.rnu.tn/annonces-scolarite/",
+      "moodleOrElearning": "",
+      "studentSpace": "https://espaces.fshst.rnu.tn/services/",
+      "programs": [
+        {
+          "nameFr": "Licence nationale en Langue, littérature et civilisation arabes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Langue et littérature françaises",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Langue et littérature anglaises",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Histoire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Géographie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Géomatique et aménagement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Psychologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Sociologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Licence nationale en Philosophie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.fshst.rnu.tn/licences/"
+        },
+        {
+          "nameFr": "Mastère professionnel en Psychologie (Neuropsychologie clinique; Psychologie clinique et psychopathologie)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Géomatique, aménagement et environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Sociologie du développement local et action associative",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Teaching English to Speakers of Other Languages (TESOL)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences de l'éducation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Sociologie du changement social",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences du patrimoine, art et archéologie islamiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Société, territoire et mémoire durant toutes les époques historiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Philosophie (Savoirs et sociétés)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Démographie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Langue, littérature et civilisation anglaises",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Langue, littérature et civilisation arabes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Littérature française et histoire de l'art",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Géographie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Psychologie clinique et psychopathologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Agrégation (Philosophie, Géographie, Histoire)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Doctorat (Langue, littérature et civilisation arabes; Langue et littérature françaises; Histoire, archéologie et sciences du patrimoine; Philosophie; Sociologie; Démographie; Géographie; Psychologie)",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address 94 Bd du 9 Avril 1938, 1007 Tunis. Site has a 'Services en ligne' block (Espace Etudiant, Espace Enseignant, Espace Doctorant, candidature masters, degré de langue étrangère, Android app). Announcements also appear on the homepage and /avis-important/. Founded 1958; ~6000 students per university page. Also offers language teaching (Turkish, Russian, Spanish, Italian, Hebrew, Latin, Aramaic).",
+      "sources": [
+        "https://www.fshst.rnu.tn/",
+        "https://www.fshst.rnu.tn/licences/",
+        "https://utunis.rnu.tn/fr/university-establishments/1",
+        "https://utunis.rnu.tn/fr/catalogues-de-formations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ipeit-tunis",
+      "shortName": "IPEIT",
+      "nameFr": "Institut Préparatoire aux Etudes d'Ingénieurs de Tunis",
+      "nameAr": "المعهد التحضيري للدراسات الهندسية بتونس",
+      "type": "institut",
+      "city": "Tunis (Montfleury)",
+      "governorate": "Tunis",
+      "website": "http://www.ipeit.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire Mathématiques-Physique (MP)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-preparatoire-aux-etudes-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire Physique-Chimie (PC)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-preparatoire-aux-etudes-d-ingenieurs-de-tunis.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created by law 95-40 of 24 April 1995 (university page). Montfleury location per Kapitalis 2015 article. Official website was unreachable from the research environment, so news page/Facebook not verified.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/2",
+        "https://www.universite.tn/Universite-de-Tunis/institut-preparatoire-aux-etudes-d-ingenieurs-de-tunis.html",
+        "https://kapitalis.com/tunisie/2015/10/23/tunis-decouverte-de-tracts-appelant-au-jihad-a-luniversite/embed/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isg-tunis",
+      "shortName": "ISGT",
+      "nameFr": "Institut Supérieur de Gestion de Tunis",
+      "nameAr": "المعهد العالي للتصرف بتونس",
+      "type": "institut",
+      "city": "Tunis (Le Bardo)",
+      "governorate": "Tunis",
+      "website": "https://isg.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Gestion (Comptabilité, Marketing, GRH, Management, Finance)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence en Informatique de gestion",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence en Marketing (Relations commerciales et distribution)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Monnaie, Finance et Banque",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Management (qualité et sécurité de l'environnement)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Économie et finance internationales (techniques du commerce international)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17359/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Tunis-2026-2027"
+        },
+        {
+          "nameFr": "Mastère de recherche Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17359/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Tunis-2026-2027"
+        },
+        {
+          "nameFr": "Mastère professionnel Comptabilité",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17359/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Tunis-2026-2027"
+        },
+        {
+          "nameFr": "Mastère professionnel Assurance et actuariat",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17359/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Tunis-2026-2027"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Licence list comes from universite.tn (third-party directory, likely outdated LMD-era names). Master list is a partial 2026-2027 call reported by orientini (cross-check only; also mentions administration/business strategy research master, financial engineering and risk management professional masters). AllAfrica (2025) reports 9 licences, 18 masters (6 research, 12 professional) and 2 doctorates. Contact info@isg.rnu.tn. Official site unreachable from research environment.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/3",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-gestion-de-tunis.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17359/Candidature-aux-masters-de-l-Institut-Superieur-de-Gestion-de-Tunis-2026-2027",
+        "https://fr.allafrica.com/stories/202507170466.html"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "isbat-tunis",
+      "shortName": "ISBAT",
+      "nameFr": "Institut Supérieur des Beaux-Arts de Tunis",
+      "nameAr": "المعهد العالي للفنون الجميلة بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.isbat.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Arts visuels",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "10202",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence en Design (Image / Espace / Produit)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "10207",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Design produit (création artisanale / industrielle)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Design espace (architecture d'intérieur)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Design image (publicité graphique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Arts plastiques (art mural, céramique, photographie, sculpture, textile)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences et techniques des arts (Théorie de l'art / Arts et métiers / Arts plastiques)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from universite.tn (third-party, possibly outdated). Codes 10202/10207 reported by orientini via search snippet (cross-check only). Orientini 2024-2025 master call mentions research masters in Arts plastiques, Design and théorie de la création plus professional masters. Contact isbat@isbat.rnu.tn. Official site unreachable from research environment.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/4",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-beaux-arts-de-tunis.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/13777/_Candidature-aux-masters-de-l-Institut-Superieur-des-Beaux-Arts-de-Tunis-2024-2025",
+        "https://en.wikipedia.org/wiki/Tunis_Institute_of_Fine_Arts"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ismt-tunis",
+      "shortName": "ISMT",
+      "nameFr": "Institut Supérieur de Musique de Tunis",
+      "nameAr": "المعهد العالي للموسيقى بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.ismt.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Interprétation de la musique occidentale",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-musique.html"
+        },
+        {
+          "nameFr": "Licence Interprétation de la musique arabe",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-musique.html"
+        },
+        {
+          "nameFr": "Licence Arts de la musique et musicologie",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-musique.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences culturelles option Musique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-musique.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Programs from universite.tn (third-party, possibly outdated). Official site unreachable from research environment.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/5",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-musique.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isad-tunis",
+      "shortName": "ISADT",
+      "nameFr": "Institut Supérieur d'Art Dramatique de Tunis",
+      "nameAr": "المعهد العالي للفن المسرحي بتونس",
+      "type": "institut",
+      "city": "Tunis (El Omrane)",
+      "governorate": "Tunis",
+      "website": "http://www.isad.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Techniques du théâtre et des arts de la scène (son / éclairage)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+        },
+        {
+          "nameFr": "Licence Théâtre et arts de la scène (arts de la marionnette)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+        },
+        {
+          "nameFr": "Licence Production dramatique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+        },
+        {
+          "nameFr": "Licence Théâtre et arts de la scène (arts du comédien)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences culturelles option théâtre",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Current form since 1982 (university page). University page mentions acting, puppetry, theatre mediation, master's and doctoral research. Contact contact@isad.rnu.tn. Official site unreachable from research environment.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/6",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-d-art-dramatique.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ismp-tunis",
+      "shortName": "ISMPT",
+      "nameFr": "Institut Supérieur des Métiers du Patrimoine de Tunis",
+      "nameAr": "المعهد العالي لمهن التراث",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.ismpt.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Arts et techniques de décoration patrimoniale",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-sciences-culturelles-et-metiers-du-patrimoine-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Patrimoine (patrimoine naturel)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-sciences-culturelles-et-metiers-du-patrimoine-de-tunis.html"
+        },
+        {
+          "nameFr": "Licence Techniques de documentation et de développement du patrimoine",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-sciences-culturelles-et-metiers-du-patrimoine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère professionnel Développement touristique du patrimoine",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/13951/الترشح-للماجستير-بالمعهد-العالي-لمهن-التراث-بتونس-2024-2025"
+        },
+        {
+          "nameFr": "Mastère professionnel Conservation et restauration des biens patrimoniaux",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/13951/الترشح-للماجستير-بالمعهد-العالي-لمهن-التراث-بتونس-2024-2025"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created by decree 1189 of 30 May 2000 (university page). Formerly listed on universite.tn as 'Institut Supérieur des Sciences Culturelles et Métiers du Patrimoine'. Orientini lists ISMPT among institutions for licences in conservation/restoration of cultural property and museology/heritage management (names translated from Arabic; cross-check only). Master names translated from Arabic orientini announcements.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/7",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-sciences-culturelles-et-metiers-du-patrimoine-de-tunis.html",
+        "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/13951/الترشح-للماجستير-بالمعهد-العالي-لمهن-التراث-بتونس-2024-2025"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hide-tunis",
+      "shortName": "HIDE",
+      "nameFr": "Institut Supérieur d'Ingénierie Numérique de Tunis (Higher Institute of Digital Engineering of Tunis)",
+      "nameAr": "المعهد العالي للهندسة الرقمية بتونس",
+      "type": "institut",
+      "city": "Tunis (Bab Saadoun / Borj Zouara)",
+      "governorate": "Tunis",
+      "website": "https://hide.rnu.tn/",
+      "facebook": "https://www.facebook.com/share/1Mub7rJB8w/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.youtube.com/@HIDE-m5l",
+        "https://hide.rnu.tn/en/home/advertisement-archives",
+        "https://hide.rnu.tn/en/programs/research-masters"
+      ],
+      "newsPage": "https://hide.rnu.tn/en/home/news",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire intégré (PI-IN1, PI-IN2) Maths-Physique-Informatique",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "11518",
+          "durationYears": 2,
+          "source": "https://hide.rnu.tn/en/programs/academic-programs-specializations"
+        },
+        {
+          "nameFr": "Cycle ingénieur AI Engineering - spécialisation Data",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://hide.rnu.tn/en/programs/academic-programs-specializations"
+        },
+        {
+          "nameFr": "Cycle ingénieur AI Engineering - spécialisation Industry (Industrie 4.0, robotique, énergies renouvelables)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://hide.rnu.tn/en/programs/academic-programs-specializations"
+        },
+        {
+          "nameFr": "Cycle ingénieur AI Engineering - spécialisation Arts and Humanities (art numérique, humanités numériques)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://hide.rnu.tn/en/programs/academic-programs-specializations"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founded 8 July 2024 per Managers.tn; 5-year AI engineering curriculum. Address 27 rue Florian, Borj Zouara (Bab Saadoun). French name and preparatory code 11518 come from an orientini Q&A ('Institut supérieur d'ingénierie numérique de Tunis', MPI started Sept 2024) - cross-check only. Facebook is a share link from the official site. Research masters listed in menu without details.",
+      "sources": [
+        "https://hide.rnu.tn/",
+        "https://hide.rnu.tn/en/programs/academic-programs-specializations",
+        "https://utunis.rnu.tn/fr/university-establishments/8",
+        "https://managers.tn/2025/07/14/hide-une-nouvelle-ere-pour-lingenierie-numerique-en-tunisie/",
+        "https://www.orientini.com/FR/Orientation_Tunisie_question_reponse/1443/_"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isajc-bir-el-bey",
+      "shortName": "ISAJC",
+      "nameFr": "Institut Supérieur de l'Animation pour la Jeunesse et la Culture",
+      "nameAr": "المعهد العالي للتنشيط الشبابي و الثقافي بتونس",
+      "type": "institut",
+      "city": "Bir El Bey",
+      "governorate": "",
+      "website": "https://isajc.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Animation touristique",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-l-animation-pour-la-jeunesse-et-la-culture.html"
+        },
+        {
+          "nameFr": "Licence Animation culturelle et de la jeunesse",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-l-animation-pour-la-jeunesse-et-la-culture.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Sciences culturelles option animation et loisirs",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-l-animation-pour-la-jeunesse-et-la-culture.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "School created 1943 at Bir El Bey; current name since 1995 merger (university page). Contact isajc@isajc.rnu.tn.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/9",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-de-l-animation-pour-la-jeunesse-et-la-culture.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "essect-tunis",
+      "shortName": "ESSECT",
+      "nameFr": "École Supérieure des Sciences Économiques et Commerciales de Tunis",
+      "nameAr": "المدرسة العليا للعلوم الاقتصادية والتجارية بتونس",
+      "type": "ecole",
+      "city": "Tunis (Montfleury)",
+      "governorate": "Tunis",
+      "website": "https://essect.rnu.tn/",
+      "facebook": "https://www.facebook.com/essec.tunis",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.youtube.com/@essectofficiel3421",
+        "https://essect.rnu.tn/fr/actualites-evenements/calendrier-universitaire",
+        "https://essect.rnu.tn/fr/actualites-evenements/calendrier-des-evenements"
+      ],
+      "newsPage": "https://essect.rnu.tn/fr/actualites-evenements/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "https://essect.rnu.tn/fr/app",
+      "programs": [
+        {
+          "nameFr": "Licence Sciences de gestion (GRH, Comptabilité, Finance, Management, Marketing)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Sciences économiques (Analyse et politique économique, Économie des affaires, Ingénierie économique et financière, Monnaie-finance-banque-assurance)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Informatique de gestion (Systèmes d'information pour les affaires)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Économie numérique et entrepreneuriat",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Ingénierie et analyse économique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Commerce international et entrepreneuriat",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Comptabilité, contrôle et audit",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Digital management et innovation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Digital marketing",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Finance (gestion des risques)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel GRH: dialogue social et négociation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Management et marketing du luxe",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Digitalisation des services",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Finance digitale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Management de l'innovation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Gestion des ONG",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Management entrepreneurial et marketing des industries culturelles et créatives",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Économie du développement régional",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Macroéconomie et finance internationale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Management et stratégies des organisations",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Décisions marketing et innovation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Doctorat Sciences de gestion (Management) / Sciences économiques",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address 4 rue Abou Zakaria El Hafsi, 1089 Montfleury, Tunis. Publishes its own 2026-2027 calendar and study plans (plans d'études) online. Student association Junior ESSECT exists (managers.tn). Calendar mentions a '3rd E-Business' track not in the university catalogue.",
+      "sources": [
+        "https://essect.rnu.tn/",
+        "https://essect.rnu.tn/fr/actualites-evenements/calendrier-universitaire",
+        "https://utunis.rnu.tn/fr/catalogues-de-formations",
+        "https://essect.rnu.tn/userfiles/files/Appel_masters_26_27.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ensit-tunis",
+      "shortName": "ENSIT",
+      "nameFr": "École Nationale Supérieure d'Ingénieurs de Tunis",
+      "nameAr": "المدرسة الوطنية العليا للمهندسين بتونس",
+      "type": "ecole",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "https://ensit.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme d'ingénieur Génie électrique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur Génie mathématiques appliquées et modélisation",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur Génie mécanique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur Génie industriel",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur Génie civil",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur Génie informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Ingénierie avancée des systèmes robotisés et intelligence artificielle (IASRIA, co-diplomation UVT)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Industrie 4.0",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère professionnel Management des technologies intelligentes et propriétés industrielles",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Physique des matériaux (Matériaux et énergies renouvelables)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Informatique (Systèmes intelligents)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Génie électrique (REITA, SIAA)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Génie mécanique (ICPM)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Mathématiques (Data science)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Doctorat Génie mécanique / Génie électrique / Sciences physiques",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Formerly ESSTT (École Supérieure des Sciences et Techniques de Tunis) per universite.tn listing - medium confidence. Wikipedia lists www.ensit.tn as website; ensit.rnu.tn hosts the quality charter PDF. Official site refused connections from research environment. Not to be confused with ENIT (Tunis El Manar).",
+      "sources": [
+        "https://utunis.rnu.tn/fr/catalogues-de-formations",
+        "https://utunis.rnu.tn/fr/university-establishments/11",
+        "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27ing%C3%A9nieurs_de_Tunis",
+        "https://ensit.rnu.tn/storage/app/public/Qualit%C3%A9/Charte_Qualite_ENSIT%202025FR.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ens-tunis",
+      "shortName": "ENS",
+      "nameFr": "École Normale Supérieure de Tunis",
+      "nameAr": "دار المعلمين العليا",
+      "type": "ecole",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.ens.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Arabe",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Français",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Philosophie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Histoire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Géographie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Physique (Physique fondamentale)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Licence Mathématiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Mastère de recherche Langue, littératures et civilisation anglaises (Approches interdisciplinaires aux littératures du monde anglophone)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/catalogues-de-formations"
+        },
+        {
+          "nameFr": "Préparation à l'agrégation (lettres, sciences humaines, sciences exactes)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis/ecole-normale-superieure.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Admission by national competition (concours) after preparatory institutes; 2026 concours applications 18 Jan-12 Jun 2026, written exams 2-4 Jul 2026 (L'Economiste Maghrébin). Domain www.ens.rnu.tn did not resolve from research environment.",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/12",
+        "https://utunis.rnu.tn/fr/catalogues-de-formations",
+        "https://www.universite.tn/Universite-de-Tunis/ecole-normale-superieure.html",
+        "https://www.leconomistemaghrebin.com/?p=663872"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iseah-zaghouan",
+      "shortName": "ISEAHZ",
+      "nameFr": "Institut Supérieur des Etudes Appliquées en Humanités de Zaghouan",
+      "nameAr": "معهد زغوان العالي للدراسات الإنسانية التطبيقية في زغوان",
+      "type": "institut",
+      "city": "Zaghouan",
+      "governorate": "Zaghouan",
+      "website": "http://www.iseahz.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence Français (français appliqué à la communication)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-etudes-appliquees-en-humanites-de-zaghouan.html"
+        },
+        {
+          "nameFr": "Licence Anglais",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-etudes-appliquees-en-humanites-de-zaghouan.html"
+        },
+        {
+          "nameFr": "Mastère professionnel Langue française et éducation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17671/_Candidature-aux-masters-de-l-Institut-Superieur-des-Etudes-Appliquees-en-Humanite-de-Zaghouan-2026-2027"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Licence list from universite.tn (old directory); master from orientini 2026-2027 call (cross-check only, list appeared incomplete).",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/13",
+        "https://www.universite.tn/Universite-de-Tunis/institut-superieur-des-etudes-appliquees-en-humanites-de-zaghouan.html",
+        "https://lapresse.tn/2025/07/01/ceremonie-de-remise-des-diplomes-et-valorisation-de-linnovation-pedagogique-a-linstitut-superieur-des-etudes-appliquees-en-humanite-de-zaghouan/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "ipelsht-tunis",
+      "shortName": "IPELSHT",
+      "nameFr": "Institut Préparatoire aux Etudes Littéraires et des Sciences Humaines de Tunis",
+      "nameAr": "المعهد التحضيري للدراسات الأدبية والعلوم الإنسانية تونس",
+      "type": "institut",
+      "city": "Tunis (El Gorjani / Montfleury Supérieur)",
+      "governorate": "Tunis",
+      "website": "https://ipelsht.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire littéraire (Arabe / Anglais / Français)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/university-establishments/14"
+        },
+        {
+          "nameFr": "Cycle préparatoire sciences humaines (Philosophie / Histoire / Géographie)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://utunis.rnu.tn/fr/university-establishments/14"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created by decree 2002-1623 of 9 July 2002. Prepares for ENS entrance competition (duration 2 years assumed from 'cycle préparatoire', not stated explicitly - medium confidence).",
+      "sources": [
+        "https://utunis.rnu.tn/fr/university-establishments/14"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tbs-tunis",
+      "shortName": "TBS",
+      "nameFr": "Tunis Business School",
+      "nameAr": "المعهد العالي للأعمال بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "",
+      "website": "https://tunis-business-school.tn/",
+      "facebook": "https://www.facebook.com/tbschool",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.linkedin.com/school/tunis-business-school-university-of-tunis/",
+        "https://tunis-business-school.tn/event/",
+        "https://tunis-business-school.tn/campus-life/student-clubs/",
+        "https://tunis-business-school.tn/publication/"
+      ],
+      "newsPage": "https://tunis-business-school.tn/post/",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Bachelor in Business Administration (BSBA) - major Accounting",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 4,
+          "source": "https://tunis-business-school.tn/academics/bachelor-business-administration/"
+        },
+        {
+          "nameFr": "Bachelor in Business Administration (BSBA) - major Business Analytics",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 4,
+          "source": "https://tunis-business-school.tn/academics/bachelor-business-administration/"
+        },
+        {
+          "nameFr": "Bachelor in Business Administration (BSBA) - major Finance",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 4,
+          "source": "https://tunis-business-school.tn/academics/bachelor-business-administration/"
+        },
+        {
+          "nameFr": "Bachelor in Business Administration (BSBA) - major Marketing",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 4,
+          "source": "https://tunis-business-school.tn/academics/bachelor-business-administration/"
+        },
+        {
+          "nameFr": "Bachelor in Business Administration (BSBA) - major Information Technology",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 4,
+          "source": "https://tunis-business-school.tn/academics/bachelor-business-administration/"
+        },
+        {
+          "nameFr": "Master in Business Analytics",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://tunis-business-school.tn/academics/masters/"
+        },
+        {
+          "nameFr": "Master of Management of Non-Profit Organizations",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://tunis-business-school.tn/academics/masters/"
+        },
+        {
+          "nameFr": "Master in Fintech",
+          "degree": "master",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://tunis-business-school.tn/academics/masters/"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Teaching in English; BSBA under decree 2019-162; International Economics offered as minor only; admission includes English entrance exam (Wikipedia). IACBE accredited. Exact campus location not verified (university page only shows Tunis). Double degree TBS-HHN exists.",
+      "sources": [
+        "https://tunis-business-school.tn/",
+        "https://tunis-business-school.tn/post/",
+        "https://tunis-business-school.tn/academics/bachelor-business-administration/",
+        "https://tunis-business-school.tn/academics/masters/",
+        "https://en.wikipedia.org/wiki/Tunis_Business_School"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (Ministère de l'Enseignement Supérieur)",
+      "academicYear": "2026-2027",
+      "url": "https://www.leconomistemaghrebin.com/2026/07/07/tunisie-voici-le-calendrier-universitaire-2026-2027/",
+      "summary": "Rentrée 1 Sept 2026 for prépas, engineering schools, medicine; 12 Sept 2026 for other institutions. Min 28 weeks of classes. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Press report of the ministry decision, applies to all public universities incl. Université de Tunis."
+    },
+    {
+      "title": "ESSECT calendrier universitaire 2026-2027",
+      "academicYear": "2026-2027",
+      "url": "https://essect.rnu.tn/fr/actualites-evenements/calendrier-universitaire",
+      "summary": "S1 1 Sep 2026-15 Jan 2027 (DS1 9-14 Nov, DS2 7-12 Dec, principal exams 6-15 Jan 2027); S2 from 16 Jan 2027 (principal exams 11-23 May, results 4 Jun, control session 12-23 Jun, results 2 Jul 2027). Holiday dates on this page (13-27 Dec, 15-29 Mar) differ slightly from the ministry press reports."
+    }
+  ],
+  "gaps": [
+    "Most institute websites (*.rnu.tn: ENSIT, ISG, IPEIT, ISBAT, ISMT, ISAD, ISMPT, ISAJC, ISEAHZ, IPELSHT) refused connections or did not resolve from the research environment; news pages, Moodle and Facebook not verified for them.",
+    "No university-wide 2026-2027 calendar found on utunis.rnu.tn; only ministry press reports and ESSECT's calendar.",
+    "Programs for ISG, ISBAT, ISMT, ISAD, ISMPT, ISAJC, ISEAHZ come from universite.tn (third-party, possibly outdated) and orientini; official university catalogue page only covered ENSIT, ENS, ESSECT, FSHST.",
+    "Orientation codes mostly missing (only a few from orientini).",
+    "No public student groups (Facebook/Telegram) or old-exam archives found; web search did not index Facebook.",
+    "No equipment notes found in sources.",
+    "Older directories list ISEFC (Institut Supérieur de l'Education et de la Formation Continue), ISEAHT (Institut Supérieur des Etudes Appliquées en Humanités de Tunis) and Institut National du Patrimoine under Université de Tunis; they are NOT on the current official establishment list, current status unknown.",
+    "Arabic name for TBS taken from TBS news titles; FR name for HIDE from orientini only."
+  ]
+}

@@ -1,0 +1,159 @@
+"use server";
+
+import { revalidatePath } from "next/cache";
+import { forbidden } from "next/navigation";
+import { and, eq } from "drizzle-orm";
+import { z } from "zod";
+import { db } from "@/db";
+import { ambassadorAssignments, institutes, levels, postCategoryEnum, posts, programs, users } from "@/db/schema";
+import { canPublishFor, requireRole } from "@/lib/session";
+import { saveUpload, UploadError } from "@/lib/uploads";
+
+export type FormState = { error?: string; ok?: boolean } | undefined;
+
+// Empty and missing form fields both become undefined.
+const optionalText = z
+  .string()
+  .trim()
+  .optional()
+  .transform((v) => v || undefined);
+
+// Dates come from <input type="date"> and are local to Tunisia (UTC+1, no DST).
+const optionalDate = optionalText.pipe(
+  z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/)
+    .transform((d) => new Date(`${d}T00:00:00+01:00`))
+    .optional(),
+);
+
+const postSchema = z
+  .object({
+    instituteId: z.uuid(),
+    category: z.enum(postCategoryEnum.enumValues),
+    title: z.string().trim().min(3, "Titre trop court.").max(200, "Titre trop long."),
+    body: optionalText.pipe(z.string().max(5000, "Texte trop long.").optional()),
+    // "" = whole institute, "p:<programId>" or "l:<levelId>".
+    audience: z
+      .string()
+      .regex(/^(|p:[0-9a-f-]{36}|l:[0-9a-f-]{36})$/)
+      .default(""),
+    startsAt: optionalDate,
+    endsAt: optionalDate,
+    sourceUrl: optionalText.pipe(
+      z
+        .url({ protocol: /^https?$/, error: "Lien source invalide (http ou https)." })
+        .optional(),
+    ),
+    official: z.literal("on").optional(),
+  })
+  .refine((v) => !v.endsAt || (v.startsAt && v.endsAt >= v.startsAt), {
+    error: "La date de fin doit suivre la date de début.",
+  });
+
+export async function createPost(_prev: FormState, formData: FormData): Promise<FormState> {
+  const user = await requireRole("ambassador", "admin");
+  const parsed = postSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) return { error: parsed.error.issues[0].message };
+  const input = parsed.data;
+
+  if (!(await canPublishFor(user, input.instituteId))) forbidden();
+
+  // Resolve the audience and make sure it belongs to this institute.
+  let programId: string | null = null;
+  let levelId: string | null = null;
+  if (input.audience.startsWith("p:")) {
+    programId = input.audience.slice(2);
+  } else if (input.audience.startsWith("l:")) {
+    levelId = input.audience.slice(2);
+    const [level] = await db.select().from(levels).where(eq(levels.id, levelId));
+    if (!level) return { error: "Public concerné introuvable." };
+    programId = level.programId;
+  }
+  if (programId) {
+    const [program] = await db
+      .select({ id: programs.id })
+      .from(programs)
+      .where(and(eq(programs.id, programId), eq(programs.instituteId, input.instituteId)));
+    if (!program) return { error: "Public concerné introuvable." };
+  }
+
+  let sourceFileKey: string | null = null;
+  const photo = formData.get("photo");
+  if (photo instanceof File && photo.size > 0) {
+    try {
+      sourceFileKey = await saveUpload(photo);
+    } catch (err) {
+      if (err instanceof UploadError) return { error: err.message };
+      throw err;
+    }
+  }
+
+  await db.insert(posts).values({
+    instituteId: input.instituteId,
+    programId,
+    levelId,
+    category: input.category,
+    title: input.title,
+    body: input.body ?? null,
+    startsAt: input.startsAt ?? null,
+    endsAt: input.endsAt ?? null,
+    sourceUrl: input.sourceUrl ?? null,
+    sourceFileKey,
+    // "Verified" means the ambassador vouches for it and attached the official notice.
+    verified: Boolean(input.official && (input.sourceUrl || sourceFileKey)),
+    authorId: user.id,
+  });
+
+  revalidatePath("/", "layout");
+  return { ok: true };
+}
+
+export async function deletePost(formData: FormData) {
+  const user = await requireRole("ambassador", "admin");
+  const id = z.uuid().parse(formData.get("postId"));
+  const [post] = await db.select().from(posts).where(eq(posts.id, id));
+  if (!post?.instituteId || !(await canPublishFor(user, post.instituteId))) forbidden();
+  await db.delete(posts).where(eq(posts.id, id));
+  revalidatePath("/", "layout");
+}
+
+// --- Admin ---
+
+const roleSchema = z.object({ userId: z.string().min(1), role: z.enum(["student", "ambassador", "admin"]) });
+
+export async function setRole(formData: FormData) {
+  const admin = await requireRole("admin");
+  const { userId, role } = roleSchema.parse(Object.fromEntries(formData));
+  // Avoid locking the last admin out by accident.
+  if (userId === admin.id) return;
+  await db.update(users).set({ role }).where(eq(users.id, userId));
+  revalidatePath("/panel/admin");
+}
+
+export async function assignInstitute(formData: FormData): Promise<void> {
+  await requireRole("admin");
+  const userId = z.string().min(1).parse(formData.get("userId"));
+  const slug = z.string().trim().min(1).parse(formData.get("institute"));
+  const [inst] = await db.select({ id: institutes.id }).from(institutes).where(eq(institutes.slug, slug));
+  if (!inst) return;
+
+  await db.insert(ambassadorAssignments).values({ userId, instituteId: inst.id }).onConflictDoNothing();
+  // Assigning an ambassador onboards the institute and promotes students.
+  await db.update(institutes).set({ isActive: true }).where(eq(institutes.id, inst.id));
+  await db
+    .update(users)
+    .set({ role: "ambassador" })
+    .where(and(eq(users.id, userId), eq(users.role, "student")));
+  revalidatePath("/", "layout");
+}
+
+export async function unassignInstitute(formData: FormData) {
+  await requireRole("admin");
+  const userId = z.string().min(1).parse(formData.get("userId"));
+  const instituteId = z.uuid().parse(formData.get("instituteId"));
+  await db
+    .delete(ambassadorAssignments)
+    .where(and(eq(ambassadorAssignments.userId, userId), eq(ambassadorAssignments.instituteId, instituteId)));
+  revalidatePath("/panel/admin");
+}

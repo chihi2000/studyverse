@@ -1,0 +1,397 @@
+{
+  "calendars": [
+    {
+      "name": "Circulaire MESRS n°28/2026 - Calendrier de l'année universitaire 2026-2027",
+      "url": "https://www.mes.tn/image.php?id=21088",
+      "summary": "Official circular dated 1 July 2026 (scanned PDF, Arabic). Rentrée Tue 1 Sep 2026 for prep institutes, engineering schools, ENAU, faculties of medicine/dentistry/pharmacy, ENMV Sidi Thabet and ISETs; Sat 12 Sep 2026 for all others. Min. 28 weeks of teaching. Holidays: 15 Oct 2026 Évacuation; 17 Dec 2026 Révolution; winter break 12 Dec (after classes)-27 Dec 2026; 1 Jan 2027; spring break 19 Mar (after classes)-4 Apr 2027; 20 Mar 2027 Indépendance; 9 Apr 2027 Martyrs; 1 May 2027 Travail; Aïd el-Fitr, Aïd el-Adha and Ras el-Am el-Hijri (1 day) to be fixed later by the Mufti. No exam periods in the circular (set by each institution).",
+      "sources": [
+        "https://www.mes.tn/image.php?id=21088",
+        "https://www.mes.tn/cilculaire.php?code_menu=58",
+        "https://www.leconomistemaghrebin.com/2026/07/07/tunisie-voici-le-calendrier-universitaire-2026-2027/"
+      ],
+      "academicYear": "2026-2027",
+      "confidence": "high"
+    },
+    {
+      "name": "MESRS circulars page (المناشير)",
+      "url": "https://www.mes.tn/cilculaire.php?code_menu=58",
+      "summary": "Lists all yearly circulars (calendar, orientation calendar, scholarships abroad, etc.). Good page to monitor for news.",
+      "sources": [
+        "https://www.mes.tn/cilculaire.php?code_menu=58"
+      ]
+    },
+    {
+      "name": "Calendrier orientation universitaire 2026",
+      "url": "https://www.mes.tn/cilculaire.php?code_menu=58",
+      "summary": "Circular 'روزنامة عمليات التوجيه الجامعي لسنة 2026'. Press: guide online 23 Jun 2026; codes by SMS 26 Jun; lauréats' turn choices 3-5 Jul, results 8 Jul 2026.",
+      "sources": [
+        "https://www.webdo.tn/fr/actualite/national/orientation-universitaire-2026-le-guide-sera-mis-en-ligne-le-23-juin-2026/393962/",
+        "https://businessnews.com.tn/2026/06/24/orientation-universitaire-2026-le-guide-officiel-en-ligne-pour-les-nouveaux-bacheliers-tunisiens/1407356/"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Décret présidentiel n°2022-631 du 14 juillet 2022 - cadre général du régime des études et conditions d'obtention de la licence (LMD)",
+      "url": "https://idaraty.tn/fr/publications/decret-presidentiel-2022-631-14-juillet-2022-cadre-general-regime-etudes-conditions-obtention-diplome-national-licence-differents-domaines-formation-mentions-parcours-systeme-lmd",
+      "summary": "Current framework for the licence: organisation of exams, evaluation, progression and annual passage (replaced décret 2008-3123; old rules applied to earlier cohorts until 2022-2023).",
+      "sources": [
+        "https://idaraty.tn/fr/publications/decret-presidentiel-2022-631-14-juillet-2022-cadre-general-regime-etudes-conditions-obtention-diplome-national-licence-differents-domaines-formation-mentions-parcours-systeme-lmd",
+        "https://managers.tn/2022/07/22/universite-le-regime-lmd-plus-flexible-pour-2022-2023"
+      ]
+    },
+    {
+      "name": "Décret n°2012-1227 - cadre général du mastère (LMD)",
+      "url": "https://supcom.tn/storage/app/public/documents/January2024/fajuZoO4E340aS5MnEAR.pdf",
+      "summary": "Mastère: mixed regime (contrôle continu + final semester exams, one rattrapage session); exam regime set per mastère by ministerial order.",
+      "sources": [
+        "https://supcom.tn/storage/app/public/documents/January2024/fajuZoO4E340aS5MnEAR.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Décret n°2013-47 - cadre général du doctorat (LMD)",
+      "url": "",
+      "summary": "Sets the doctorate framework; cited by institutional documents. Official text not fetched.",
+      "sources": [
+        "https://supcom.tn/storage/app/public/documents/January2024/jD79y7l3wHFpdyrMHv8F.pdf"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Décret n°2008-2716 - organisation des universités et établissements",
+      "url": "",
+      "summary": "Organisational decree on universities and their functioning (not the exam regime itself).",
+      "sources": [
+        "https://supcom.tn/storage/app/public/documents/January2024/fajuZoO4E340aS5MnEAR.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "MESRS - textes réglementaires (النصوص المنظمة)",
+      "url": "https://www.mes.tn/cilculaire.php?code_menu=48",
+      "summary": "Ministry page of regulatory texts; also 'parcours LMD' link http://www.parcours-lmd.salima.tn on mes.tn homepage.",
+      "sources": [
+        "https://www.mes.tn/"
+      ]
+    },
+    {
+      "name": "Texte juridique de l'enseignement supérieur privé",
+      "url": "https://www.mes.tn/page.php?code_menu=148&code_menu_parent=54",
+      "summary": "Legal framework for private higher education on mes.tn.",
+      "sources": [
+        "https://www.mes.tn/"
+      ]
+    }
+  ],
+  "orientation": [
+    {
+      "name": "Portail national de l'orientation universitaire",
+      "url": "https://www.orientation.tn",
+      "summary": "Official platform: guide d'orientation 2026 (preliminary version online 23 Jun 2026, >1,200 / 1,204 formations), criteria (score formulas, last admitted scores, steps, reorientation), online choices. Site refused connections from our network; exact guide PDF URL not obtained.",
+      "sources": [
+        "https://www.lapresse.tn/2026/06/18/guide-de-lorientation-universitaire-plus-de-1200-formations-nouvelles/",
+        "https://businessnews.com.tn/2026/06/24/orientation-universitaire-2026-le-guide-officiel-en-ligne-pour-les-nouveaux-bacheliers-tunisiens/1407356/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Inscription universitaire en ligne",
+      "url": "https://www.inscription.tn",
+      "summary": "Common national site for annual online university registration (cited by institutes' 2026-2027 notices).",
+      "sources": [
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17975/Inscription-des-etudiants-de-l-Institut-Superieur-des-Etudes-Technologiques-de-Beja-pour-l-annee-universitaire-2026-2027"
+      ]
+    },
+    {
+      "name": "Annuaire des universités (mes.tn)",
+      "url": "https://www.mes.tn/annuaire.php?code_menu=22",
+      "summary": "Official directory of universities on the ministry website.",
+      "sources": [
+        "https://www.mes.tn/"
+      ]
+    },
+    {
+      "name": "Liste officielle des établissements privés agréés (mes.tn)",
+      "url": "https://www.mes.tn/page.php?code_menu=147&code_menu_parent=54",
+      "summary": "90 authorized private institutions (Jul 2026 press); ministry warns against fake/unauthorized schools.",
+      "sources": [
+        "https://businessnews.com.tn/2026/07/29/universites-privees-attention-aux-arnaques/1412300/"
+      ]
+    },
+    {
+      "name": "Concours ISET (DGET)",
+      "url": "https://concours-isets.rnu.tn/",
+      "summary": "DGET online platform for ISET competitions (e.g. 'retour aux études').",
+      "sources": [
+        "https://www.leconomistemaghrebin.com/2025/08/19/concours-retour-aux-etudes-a-iset-inscription-en-ligne-jusquau-15-septembre-dget/"
+      ]
+    },
+    {
+      "name": "Université Virtuelle de Tunis (UVT)",
+      "url": "https://www.uvt.rnu.tn",
+      "summary": "Public university producing online courses for Tunisian universities; hosts national e-learning.",
+      "sources": [
+        "https://www.uvt.rnu.tn"
+      ]
+    }
+  ],
+  "openData": [
+    {
+      "name": "data.gov.tn - Liste des établissements publics d'enseignement supérieur",
+      "url": "https://catalog.data.gov.tn/dataset/etablissements-publics-d-enseignement-superieur-en-tunisie",
+      "summary": "XLS by MESRS (updated 2024-03-04). Seed for institution table.",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_show?id=etablissements-publics-d-enseignement-superieur-en-tunisie"
+      ],
+      "format": "XLS"
+    },
+    {
+      "name": "data.gov.tn - Liste des universités publiques",
+      "url": "https://catalog.data.gov.tn/dataset/les-universites-etatiques-publiques-en-tunisie",
+      "summary": "MESRS dataset (2024-03-04).",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "data.gov.tn - Liste des diplômes habilités",
+      "url": "https://catalog.data.gov.tn/dataset/les-diplomes-de-l-enseignement-superieur-en-tunisie",
+      "summary": "Authorized diplomas (2024-03-05). Useful for program catalogue.",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "data.gov.tn - Domaines d'études",
+      "url": "https://catalog.data.gov.tn/dataset/les-domaines-de-l-enseignements-superieur-en-tunisie",
+      "summary": "Field-of-study taxonomy.",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "data.gov.tn - Effectifs étudiants par domaine et établissement 2021-2023",
+      "url": "https://catalog.data.gov.tn/dataset/effectifs-etudiants-inscrits-par-domaine-et-par-etablissement-public-entre-2021-2023",
+      "summary": "Enrolment by field/university/institution.",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "data.gov.tn - Diplômés 2021-2022",
+      "url": "https://catalog.data.gov.tn/dataset/les-etudiants-diplomes-des-universites-en-2021-2022",
+      "summary": "Graduates by gender, field, specialty, institution.",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "data.gov.tn - Annuaire de l'enseignement supérieur agricole (IRESA)",
+      "url": "https://catalog.data.gov.tn/dataset/annuaire-des-etablissements-de-l-enseignement-superieur-agricole",
+      "summary": "Agricultural higher-ed institutions (Ministry of Agriculture/IRESA).",
+      "sources": [
+        "https://catalog.data.gov.tn/api/3/action/package_search?q=enseignement%20sup%C3%A9rieur"
+      ]
+    },
+    {
+      "name": "MESRS - statistiques et indicateurs",
+      "url": "https://www.mes.tn/page.php?code_menu=13",
+      "summary": "Yearly indicators (2024-2025: 272,884 public / 51,680 private students per press).",
+      "sources": [
+        "https://africanmanager.com/le-ministere-de-lenseignement-superieur-et-de-la-recherche-scientifique-publie-les-indicateurs-de-lannee-universitaire-2024-2025/"
+      ]
+    }
+  ],
+  "studentServices": [
+    {
+      "name": "OOUN - Office des Œuvres Universitaires pour le Nord",
+      "url": "https://www.ooun.rnu.tn",
+      "summary": "Housing (online requests via www.ooun.rnu.tn/fr/etudiant/login, new bacheliers from 20 Aug 2026; governorates Tunis, Ariana, Ben Arous, Manouba, Kef, Jendouba, Béja, Bizerte, Siliana, Zaghouan, Nabeul) and scholarships/prime d'intégration/prêt 2026-2027: new students 7 Sep-31 Dec 2026, renewals 10 Sep-31 Dec 2026, paper files by 15 Jan 2027 (registered mail); PhD 5 Oct 2026-15 May 2027.",
+      "sources": [
+        "https://www.lapresse.tn/2026/08/14/enseignement-superieur-looun-ouvre-les-inscriptions-en-ligne-pour-le-logement-universitaire-2026/",
+        "https://www.lapresse.tn/2026/08/26/enseignement-superieur-ouverture-des-candidatures-pour-les-bourses-aides-et-prets-universitaires-2026-2027/"
+      ],
+      "category": "housing,scholarships",
+      "confidence": "high"
+    },
+    {
+      "name": "OOUC - Office des Œuvres Universitaires pour le Centre",
+      "url": "https://oouc.rnu.tn",
+      "summary": "Centre region office (Sousse, Monastir, Kairouan...). Launched official Android app 'MyOOUC' on Play Store. Domain resolves; content not fetched.",
+      "sources": [
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/14994/Annonce-du-lancement-de-l-application-officielle-de-l-OOUC-sur-Play-Store"
+      ],
+      "category": "housing,scholarships,restaurants",
+      "confidence": "medium"
+    },
+    {
+      "name": "OOUS - Office des Œuvres Universitaires pour le Sud",
+      "url": "https://oous.rnu.tn",
+      "summary": "South region office; e.g. Restaurant universitaire Ali Chergui (Sfax) registrations 26 Aug-31 Oct 2026, 2 TND fee, in person with CIN, enrolment proof, 2 photos, stamped envelope; returning students recharge meal card.",
+      "sources": [
+        "https://www.tunisienumerique.com/sfax-ouverture-des-inscriptions-au-service-de-restauration-universitaire-pour-lannee-2026-2027/"
+      ],
+      "category": "restaurants,housing,scholarships",
+      "confidence": "medium"
+    },
+    {
+      "name": "Procédures bourse universitaire (idaraty.tn)",
+      "url": "https://www.idaraty.tn/public/fr/procedures/obtention-dune-bourse-universitaire-en-tunisie-nouveau-bachelier",
+      "summary": "Government procedure sheets for scholarships (new bachelier, former student, master, foreign students); income ceiling tied to SMIG.",
+      "sources": [
+        "https://www.idaraty.tn/public/fr/procedures/obtention-dune-bourse-universitaire-en-tunisie-nouveau-bachelier",
+        "https://idaraty.tn/fr/procedures/obtention-dune-bourse-universitaire-en-tunisie-ancien-etudiant"
+      ],
+      "category": "scholarships",
+      "confidence": "medium"
+    },
+    {
+      "name": "Bourses d'études à l'étranger (MESRS)",
+      "url": "https://www.mes.tn/cilculaire.php?code_menu=58",
+      "summary": "Circulars for master/PhD grants abroad 2027-2028 and grants for top 2026 bac laureates.",
+      "sources": [
+        "https://www.mes.tn/cilculaire.php?code_menu=58"
+      ],
+      "category": "scholarships"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Rivezli.tn",
+      "url": "https://rivezli.tn",
+      "summary": "Paid/edu platform: university courses aligned with Tunisian programs (Prépa, Économie-Gestion, Droit). Based Centre Urbain Nord, Tunis. Competitor.",
+      "sources": [
+        "https://rivezli.tn",
+        "https://www.tanitjobs.com/offres/enseignement-tunis/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "MedBridge",
+      "url": "https://www.medbridge.tn",
+      "summary": "Medical-student revision: QCM bank, séries, examens blancs, notes; résidanat prep. iOS app id6745227424.",
+      "sources": [
+        "https://www.medbridge.tn",
+        "https://apps.apple.com/cd/app/medbridge/id6745227424"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "PrepaProfs",
+      "url": "https://www.prepaprofs.com",
+      "summary": "Learning platform for classes préparatoires / concours preparation.",
+      "sources": [
+        "https://www.prepaprofs.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Mes Devoirs",
+      "url": "https://www.mesdevoirs.tn",
+      "summary": "Free platform for programming, algorithms and CS fundamentals.",
+      "sources": [
+        "https://www.mesdevoirs.tn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Orientini",
+      "url": "https://www.orientini.com",
+      "summary": "Orientation guide: filières, admission scores per program/institution, institution sheets, news on registrations/concours (AR/FR). Strong SEO competitor for institution pages.",
+      "sources": [
+        "https://orientini.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Université Virtuelle de Tunis (UVT)",
+      "url": "https://www.uvt.rnu.tn",
+      "summary": "Public e-learning provider; official online course content.",
+      "sources": [
+        "https://www.uvt.rnu.tn"
+      ]
+    },
+    {
+      "name": "Etudoc",
+      "url": "https://www.etudoc.com",
+      "summary": "Tunisian document-sharing site (exams, courses, all levels) launched years ago; current status unknown.",
+      "sources": [
+        "https://www.kapitalis.com/archive/187-kanal/12567-lancement-d-un-site-tunisien-de-partage-de-documents"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Fasqi",
+      "url": "",
+      "summary": "Secondary-school (7e-bac) courses/exercises platform; adjacent, not university.",
+      "sources": [
+        "https://www.webdo.tn/fr/actualite/national/fasqi-com-plateforme-educative-ligne-lyceens/160610/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "bac.org.tn",
+      "url": "https://www.bac.org.tn",
+      "summary": "Shop of bac books/series/résumés; adjacent (pre-university).",
+      "sources": [
+        "https://www.bac.org.tn"
+      ]
+    },
+    {
+      "name": "Tounsi-Learn",
+      "url": "",
+      "summary": "Named by the client as a competitor; no web presence found under this name.",
+      "sources": [],
+      "confidence": "low"
+    },
+    {
+      "name": "MESRS Facebook page",
+      "url": "http://www.facebook.com/pages/Enseignement-sup%C3%A9rieur-et-recherche-scientifique-en-Tunisie/116562446655",
+      "summary": "Official ministry Facebook linked from mes.tn.",
+      "sources": [
+        "https://www.mes.tn/lien_utile.php?code_menu=10"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Mytek - Matériel de dessin",
+      "url": "https://www.mytek.tn/bureautique/fourniture-de-bureau/coloriage-pate-a-modeler/materiel-de-dessin.html",
+      "summary": "Tunisian online retailer with drawing-supplies category (general, not architecture-specific).",
+      "sources": [
+        "https://www.mytek.tn/bureautique/fourniture-de-bureau/coloriage-pate-a-modeler/materiel-de-dessin.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Faculté de Médecine Dentaire de Monastir - programme PCMD",
+      "url": "https://orientini.com/FR/Orientation_Tunisie_question_reponse/383/_Quels-sont-les-contenus-et-le-programme-des-etudes-en-Medecine-Dentaire-",
+      "summary": "Only dental faculty in Tunisia; PCMD (2 years) includes biomatériaux, odontologie conservatrice, prothèse conjointe (TP-heavy). No official kit list found.",
+      "sources": [
+        "https://orientini.com/FR/Orientation_Tunisie_question_reponse/383/_Quels-sont-les-contenus-et-le-programme-des-etudes-en-Medecine-Dentaire-"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Guide de l'étudiant FMT 2024",
+      "url": "https://fmt.rnu.tn/wp-content/uploads/2025/01/COM-GD-01-01-Guide-etudiant-fmt-2024-FRANCAIS.pdf",
+      "summary": "Faculty of Medicine Tunis student guide (infrastructure, simulation platform); no explicit dress/equipment list found in summary.",
+      "sources": [
+        "https://fmt.rnu.tn/wp-content/uploads/2025/01/COM-GD-01-01-Guide-etudiant-fmt-2024-FRANCAIS.pdf"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "No official per-field equipment lists (medicine, dentistry, pharmacy, architecture, fine arts, engineering) found online; must be collected from faculties/student associations.",
+    "No specialized Tunisian student-supply shops (medical attire, architecture/fine-arts) confirmed by sources.",
+    "orientation.tn refused connections: exact 2026 guide PDF URL not captured.",
+    "Large Facebook groups / Telegram channels for exam sharing not identifiable via search (Facebook not indexable); none recorded.",
+    "Tounsi-Learn not found online.",
+    "OOUC/OOUS 2026-2027 scholarship/housing calendars and restaurant ticket prices not found.",
+    "Official exam-regime text (régime des examens) for each diploma not fetched from JORT; mes.tn PDFs are scanned images.",
+    "Exam session dates are set per university/institution, not nationally."
+  ]
+}

@@ -1,0 +1,2068 @@
+{
+  "university": {
+    "slug": "universite-tunis-el-manar",
+    "nameFr": "Université de Tunis El Manar",
+    "nameAr": "جامعة تونس المنار",
+    "nameEn": "University of Tunis El Manar",
+    "city": "Tunis",
+    "website": "https://www.utm.rnu.tn",
+    "facebook": "https://www.facebook.com/UniversiteDeTunisElManar/",
+    "otherLinks": [
+      "https://utm.uvt.tn",
+      "https://www.facebook.com/PEEUTM/",
+      "https://www.facebook.com/p/UTM-Vie-estudiantine-100076106144243/",
+      "https://www.orientini.com/FR/e/univ_3",
+      "https://www.universite.tn/Universite-de-Tunis-El-Manar.html"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar",
+      "https://www.universite.tn/Universite-de-Tunis-El-Manar.html",
+      "https://www.orientini.com/FR/e/univ_3",
+      "https://fmt.rnu.tn/fr/cours-en-ligne/"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fst-tunis",
+      "shortName": "FST",
+      "nameFr": "Faculté des Sciences Mathématiques, Physiques et Naturelles de Tunis (Faculté des Sciences de Tunis)",
+      "nameAr": "كلية العلوم للرياضيات والفيزياء والطبيعيات بتونس",
+      "type": "faculte",
+      "city": "Tunis (Campus El Manar)",
+      "governorate": "Tunis",
+      "website": "https://fst.rnu.tn",
+      "facebook": "https://www.facebook.com/fst.rnu.tn/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/p/Facult%C3%A9-des-Sciences-de-Tunis-Officiel-100063593558162/",
+        "https://www.facebook.com/faculte.fst/",
+        "https://www.facebook.com/FST.UTM/",
+        "https://www.facebook.com/dsi.fst/",
+        "https://fst.rnu.tn/fr/scolarite",
+        "https://fst.rnu.tn/fr/imprimes-utiles",
+        "https://fst.rnu.tn/fr/direction-des-etudes"
+      ],
+      "newsPage": "https://fst.rnu.tn/public/fr",
+      "moodleOrElearning": "https://utm.uvt.tn",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en géomatique et application",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210168/310168/510168/610168",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en chimie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210501/310501/510501",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en physique-chimie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210502/310502/510502",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en physique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210503/310503/510503",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en physique-énergie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210504/310504/510504",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en mathématiques appliquées",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210505/310505/510505/610505",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en mathématiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210507/310507/510507/610507",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences de la terre",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210510/310510/510510",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences du vivant et environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210512/310512",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences de la vie et de la terre",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210513/310513",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en chimie - sciences du vivant",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210514/310514/510514",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en ingénierie des systèmes informatiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210524/310524/510524/610524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en technologies de l'information et de la communication",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210573/310573/510573/610573",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en électronique, électrotechnique et automatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210629/310629/510629/610629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences du vivant",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211509/311509",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences de l'informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "212523/312523/512523/612523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire intégré",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "210518/310518/510518/610518",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire biologie-géologie",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "210832/310832",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire scientifique mathématiques-physique (MP)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "211322/311322/611322",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire scientifique physique-chimie (PC)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "211422/311422/611422",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Ingénieur en Informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Ingénieur en Chimie analytique et instrumentation",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Ingénieur en Géosciences",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Ingénieur en Électronique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Géomatique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Géophysique appliquée",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Hygiène et sécurité appliquées",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Systèmes, réseaux et télécommunication",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Etat solide",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Ecologie évolutive",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Mathématiques appliquées",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Matière condensée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Mathématiques fondamentales",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Matière molle",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Productivité végétale",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Physique quantique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Chimie analytique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Biologie des écosystèmes aquatiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Electronique des systèmes intégrés",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Fluides et transferts",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Géologie appliquée à l'environnement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Génétique humaine et modèles animaux",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Génétique moléculaire et biotechnologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Immunologie fondamentale et appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Microbiologie et épidémiologie moléculaire",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Neurophysiologie cellulaire et moléculaire",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Chimie organique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Physiologie appliquée et physiopathologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Structures et modèles géologiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Analyse des bassins (titre tronqué sur la source)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Biochimie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Informatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Ressources minérales : exploration et valorisation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "IEEE FST Student Branch",
+          "url": "https://www.facebook.com/ieeefstsb/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "campus el manar (fdspt)+(fsegt)+(fst)",
+          "url": "https://www.facebook.com/p/campus-el-manar-fdsptfsegtfst-100064741024572/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Avis (exam calendars, timetables, doctorate notices) posted under fst.rnu.tn/fr/actualite/... Several Facebook pages claim to be official; facebook.com/fst.rnu.tn and the 'Faculté des Sciences de Tunis Officiel' page (which says it relays www.fst.rnu.tn) are the strongest candidates. Program codes are orientini codes (first digit varies by bac section); master/engineering lists from orientini may be partially outdated. utm.uvt.tn is the UTM e-learning platform (cited by FMT); not confirmed for FST specifically. *.rnu.tn sites could not be fetched directly from the research environment.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/17/Faculte-des-Sciences-Mathematiques-Physiques-et-Naturelles-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-des-sciences-de-tunis.html",
+        "https://fst.rnu.tn/fr/actualite/les-emplois-du-temps-s1-au-2023-2024",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17428/Candidature-aux-masters-de-la-Faculte-des-Sciences-de-Tunis-2026-2027",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fmt-tunis",
+      "shortName": "FMT",
+      "nameFr": "Faculté de Médecine de Tunis",
+      "nameAr": "كلية الطب بتونس",
+      "type": "faculte",
+      "city": "Tunis (La Rabta)",
+      "governorate": "Tunis",
+      "website": "https://fmt.rnu.tn",
+      "facebook": "https://www.facebook.com/Facult%C3%A9-de-Medecine-de-Tunis-69730182117/",
+      "instagram": "",
+      "otherLinks": [
+        "https://fmt.rnu.tn/fr/guide-de-letudiant/",
+        "https://fmt.rnu.tn/wp-content/uploads/2025/01/COM-GD-01-01-Guide-etudiant-fmt-2024-FRANCAIS.pdf",
+        "https://fmt.rnu.tn/fr/plateforme-des-stages/",
+        "https://fmt.rnu.tn/fr/2eme-cycle/",
+        "https://fmt.rnu.tn/wp-content/uploads/2023/02/Reglement-interieur-FMT_juillet-2022_VF.pdf"
+      ],
+      "newsPage": "https://fmt.rnu.tn",
+      "moodleOrElearning": "https://utm.uvt.tn",
+      "studentSpace": "https://fmt.rnu.tn/fr/plateforme-des-stages/",
+      "programs": [
+        {
+          "nameFr": "Médecine (Diplôme national de docteur en médecine)",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "210700",
+          "durationYears": null,
+          "source": "https://www.orientini.com/FR/etablissement/18/Faculte-de-Medecine-de-Tunis"
+        },
+        {
+          "nameFr": "Mastère spécialisé Médecine de la reproduction",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Psychiatrie légale et expertale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Toxicologie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Réparation juridique du dommage corporel",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Motricité et explorations fonctionnelles digestives",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Médecine subaquatique et hyperbare",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Médecine du travail",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Médecine d'urgence et de catastrophes",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Médecine appliquée au sport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé La douleur",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Handicap et réhabilitation des handicapés",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Gériatrie",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Echocardiographie et Doppler",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Acupuncture",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère de recherche Génétique humaine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Faculté de Médecine de Tunis : Page d'Etudiant",
+          "url": "https://www.facebook.com/fmttv/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Association 3S - Faculté de Médecine de Tunis",
+          "url": "https://www.facebook.com/Association.3S.FMT/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Faculte De Medecine TMSS (Tunis, Monastir, Sfax, Sousse)",
+          "url": "https://www.facebook.com/Faculte.de.Medecine.TMSS/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "FMT internal regulations (July 2022) require a white cotton lab coat (blouse blanche) during TP and TD, and attire compliant with health/hygiene/safety rules allowing identification. For clinical internships (stages), a clean buttoned white coat with an ID badge is part of the dress code (FMT objectives & regulations page). No official list of personal medical instruments (e.g. stethoscope) was found. Sources: https://fmt.rnu.tn/wp-content/uploads/2023/02/Reglement-interieur-FMT_juillet-2022_VF.pdf , https://fmt.rnu.tn/en/objectifs-et-reglement-en/",
+      "notes": "FMT course page says its online teaching platform is on utm.uvt.tn (Virtual University of Tunis); older 2019 list pointed to ent.uvt.rnu.tn. Stage platform reported at stages-fmt.rnu.tn. Orientation code 210700 from orientini. Student guide available in FR and EN. Official Facebook page not confirmed; the listed one ('Faculté de Medecine de Tunis', ~9.7K likes) is a best guess.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/18/Faculte-de-Medecine-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-medecine-de-tunis.html",
+        "https://fmt.rnu.tn/fr/cours-en-ligne/",
+        "https://fmt.rnu.tn/en/objectifs-et-reglement-en/",
+        "https://fmt.rnu.tn/fr/guide-de-letudiant/",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "enit",
+      "shortName": "ENIT",
+      "nameFr": "École Nationale d'Ingénieurs de Tunis",
+      "nameAr": "المدرسة الوطنية للمهندسين بتونس",
+      "type": "ecole",
+      "city": "Tunis (Campus El Manar)",
+      "governorate": "Tunis",
+      "website": "https://enit.rnu.tn",
+      "facebook": "https://www.facebook.com/ENIT.TUNISIA/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/enit.tunis/",
+        "https://www.facebook.com/ENITunis",
+        "https://www.facebook.com/ENITiens/",
+        "https://enit.rnu.tn/wp-content/uploads/2024/Guide%20-Eleve-Ing-ENIT-2024-2025_v03.pdf",
+        "https://enit.rnu.tn/formation/",
+        "https://enit.rnu.tn/ressources/",
+        "https://en.wikipedia.org/wiki/National_Engineering_School_of_Tunis"
+      ],
+      "newsPage": "https://enit.rnu.tn",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Ingénieur - Gestion des systèmes industriels et services (AR: تسيير الأنظمة الصناعية والخدمات)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Génie industriel",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Techniques avancées (avec ENSTA Paris)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Génie électrique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Génie mécanique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Télécommunications",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Génie hydraulique et environnement",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Ingénieur - Génie civil",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Automatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Systèmes d'énergie électrique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Modélisation mathématique et calcul scientifique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Traitement de l'information et biologie moléculaire (AR: معالجة المعلومات وجزئيات الكائنات)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Systèmes de communications",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Informatique : systèmes, réseaux et services",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Signaux, systèmes et données",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Système d'information technique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Management de l'innovation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Politique de l'ingénierie et de la technologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Master de recherche Génie civil",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT"
+        },
+        {
+          "nameFr": "Mastère spécialisé Techniques et calculs avancés en génie civil",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Sources alternatives en eau",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Réseaux électriques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Ingénierie des systèmes de télécommunications",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Géomatique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        },
+        {
+          "nameFr": "Mastère spécialisé Création d'entreprises et management de l'innovation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "ENIT (page relaying an official ENIT Facebook group, groups/168839866524056)",
+          "url": "https://www.facebook.com/groups/168839866524056/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Club Robotique ENIT",
+          "url": "https://www.facebook.com/club.robotique.enit/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Club Génie Électrique - ENIT",
+          "url": "https://www.facebook.com/ClubGenieElectriqueEnit",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "ENIT says ~400 national-competition laureates join each year across nine specialties (3-year cycle). Six departments (Wikipedia): industrial, mechanical, civil, electrical engineering, ICT, applied mathematics. Homepage carries exam schedules, PFE defence schedules, enrolment notices. Engineering list from orientini (9 specialties); universite.tn (older) also lists Hydrométéorologie. Student guide 2024-2025 contains exam/absence rules. Group visibility (public/closed) not verified.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/1038/(Ecole-nationale-d-ingenieurs-de-Tunis-(ENIT",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-nationale-d-ingenieurs-de-tunis.html",
+        "https://en.wikipedia.org/wiki/National_Engineering_School_of_Tunis",
+        "https://enit.rnu.tn/en/home-en/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ipeiem",
+      "shortName": "IPEIEM",
+      "nameFr": "Institut Préparatoire aux Études d'Ingénieurs d'El Manar",
+      "nameAr": "المعهد التحضيري للدراسات الهندسية بالمنار",
+      "type": "institut",
+      "city": "Tunis (Campus El Manar)",
+      "governorate": "Tunis",
+      "website": "https://ipeiem.rnu.tn",
+      "facebook": "https://www.facebook.com/Ipeielmanar/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/biblioprepaelmanar/",
+        "https://www.facebook.com/PAQ.DGSE.IPEIEM/",
+        "https://en.wikipedia.org/wiki/El_Manar_Preparatory_Engineering_Institute"
+      ],
+      "newsPage": "https://ipeiem.rnu.tn",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire Physique-Chimie (PC)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-preparatoire-aux-etudes-d-ingenieurs-d-el-manar.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire Mathématiques-Physique (MP)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-preparatoire-aux-etudes-d-ingenieurs-d-el-manar.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire Technologie (T)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-preparatoire-aux-etudes-d-ingenieurs-d-el-manar.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Uget_Ipeiem (student union page)",
+          "url": "https://www.facebook.com/p/Uget_Ipeiem-100079506909107/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [
+        {
+          "description": "National engineering entrance competition (MP/PC/T/BG) jury reports with per-subject analysis of written exams (official, not full archives of papers)",
+          "url": "https://concours-ingenieurs.rnu.tn/documents/rapports/rapport_jury_2024.pdf"
+        },
+        {
+          "description": "Concours jury report 2020",
+          "url": "https://concours-ingenieurs.rnu.tn/documents/rapports/rapport_jury_2020.pdf"
+        }
+      ],
+      "equipmentNotes": "",
+      "notes": "Founded 2001, located opposite ENIT on El Manar campus (techno-science.net). Prepares for the national engineering entrance competitions; sections MP, PC, T per universite.tn. Arabic name not found in a source (given name is a standard rendering - verify). Rentrée for prep institutes 2026-2027: 1 Sept 2026.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-preparatoire-aux-etudes-d-ingenieurs-d-el-manar.html",
+        "https://en.wikipedia.org/wiki/El_Manar_Preparatory_Engineering_Institute",
+        "https://www.techno-science.net/fr/definitions/institut-preparatoire-aux-etudes-d-ingenieurs-d-el-manar",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/15938/Inscription-des-etudiants-de-l-Institut-Preparatoire-aux-Etudes-d-Ingenieurs-El-Manar-2025-2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isi-ariana",
+      "shortName": "ISI",
+      "nameFr": "Institut Supérieur d'Informatique (d'El Manar)",
+      "nameAr": "المعهد العالي للإعلامية",
+      "type": "institut",
+      "city": "Ariana",
+      "governorate": "Ariana",
+      "website": "http://www.isi.rnu.tn",
+      "facebook": "https://www.facebook.com/institut.superieur.informatique/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.isi.rnu.tn/tag/avis/",
+        "http://www.isi.rnu.tn/services/"
+      ],
+      "newsPage": "http://www.isi.rnu.tn/actus/",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en sciences de l'informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211523/311523/511523/611523",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        },
+        {
+          "nameFr": "Licence en ingénierie des systèmes informatiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211524/311524/511524/611524",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        },
+        {
+          "nameFr": "Licence en électronique, électrotechnique et automatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211629/311629/511629/611629",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        },
+        {
+          "nameFr": "Ingénieur en informatique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        },
+        {
+          "nameFr": "Master professionnel Sécurité des systèmes informatiques communicants et embarqués (titre tronqué sur la source)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        },
+        {
+          "nameFr": "Master de recherche Informatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address 2 Rue Abou Raihane Bayrouni, 2080 Ariana (third-party listing). Site mentions a 'Digital ISI' platform (Dec 2024) - URL not found. Facebook page unverified (it links to isi.rnu.tn content). Universite.tn (older) lists LA informatique, réseaux, informatique industrielle and a mastère in security of systems.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/117/Institut-Superieur-de-L-Informatique",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-d-informatique-d-el-manar.html",
+        "http://www.isi.rnu.tn/actus/",
+        "https://oceanexpert.org/institute/22690"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issbat",
+      "shortName": "ISSBAT",
+      "nameFr": "Institut Supérieur des Sciences Biologiques Appliquées de Tunis",
+      "nameAr": "المعهد العالي للعلوم البيولوجية التطبيقية بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.issbat.rnu.tn",
+      "facebook": "https://www.facebook.com/issbat/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en sciences du vivant et environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211512",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/155/Institut-des-Sciences-Biologiques-Appliquees"
+        },
+        {
+          "nameFr": "Licence en biotechnologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "211546",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/155/Institut-des-Sciences-Biologiques-Appliquees"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Enactus ISSBAT",
+          "url": "https://www.facebook.com/p/Enactus-Institut-Sup%C3%A9rieur-des-Sciences-Biologiques-Appliqu%C3%A9es-de-Tunis-61552220972979/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Facebook page lists address on Rue Zouheir Essafi, Tunis. Do not confuse with ISBAT (Beaux-Arts de Tunis). Universite.tn also mentions LA tracks (plant biotech, microorganisms, food quality control; environmental protection) and a mastère spécialisé (unnamed).",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/155/Institut-des-Sciences-Biologiques-Appliquees",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-des-sciences-biologiques-appliquees.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fseg-tunis",
+      "shortName": "FSEGT",
+      "nameFr": "Faculté des Sciences Économiques et de Gestion de Tunis",
+      "nameAr": "كلية العلوم الاقتصادية والتصرف بتونس",
+      "type": "faculte",
+      "city": "Tunis (Campus El Manar)",
+      "governorate": "Tunis",
+      "website": "https://fsegt.rnu.tn",
+      "facebook": "https://www.facebook.com/fsegtuniselmanar/",
+      "instagram": "",
+      "otherLinks": [
+        "https://fsegt.rnu.tn/plan-de-site/",
+        "https://fsegt.rnu.tn/faq-2/",
+        "https://fsegt.rnu.tn/masteres-de-recherche/"
+      ],
+      "newsPage": "https://fsegt.rnu.tn",
+      "moodleOrElearning": "",
+      "studentSpace": "https://fsegt.rnu.tn/plan-de-site/",
+      "programs": [
+        {
+          "nameFr": "Licence en informatique de gestion",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "213311/313311/413311/513311/613311",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences économiques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "213312/313312/413312",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences de gestion",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "213318/313318/413318/513318/613318",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Banques",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Comptabilité",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Évaluation et gestion des risques en finance",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Statistiques appliquées",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Affaires commerciales internationales",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Comptabilité",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Finance",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Méthodes quantitatives",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Economie et finance internationales",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Economie monétaire et bancaire",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Marketing",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Management",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Etudiants FSEGT (volunteer-run student page)",
+          "url": "https://www.facebook.com/etudiants.fsegt/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Les étudiants de l'FSEGT campus el manar",
+          "url": "https://www.facebook.com/FSEGT.elmanar/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1958 (BnF). Student space has 'Avis', 'Avis d'absence', 'Avis de rattrapage' sections (site map). FAQ explains exams: main session per semester + rattrapage; progression with 75% of credits. Older universite.tn list also mentions applied licences and mastères spécialisés (energy economics, e-management, banking & financial markets...).",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/44/Faculte-des-Sciences-Economiques-et-de-Gestion-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-des-sciences-economique-et-de-gestion-de-tunis.html",
+        "https://fsegt.rnu.tn/plan-de-site/",
+        "https://data.bnf.fr/14635373/universite_de_tunis-el_manar_faculte_des_sciences_economiques_et_gestion/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "fdspt",
+      "shortName": "FDSPT",
+      "nameFr": "Faculté de Droit et des Sciences Politiques de Tunis",
+      "nameAr": "كلية الحقوق والعلوم السياسية بتونس",
+      "type": "faculte",
+      "city": "Tunis (Campus El Manar)",
+      "governorate": "Tunis",
+      "website": "http://www.fdspt.rnu.tn",
+      "facebook": "https://www.facebook.com/fdspt.page.officielle/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/fac.droit.tunis/",
+        "https://www.facebook.com/ecole.doctorale.2016.FDSPT/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en droit",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110301/210301/310301/410301/510301/610301/910301",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Droit des affaires",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Droit des affaires foncières",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Droit privé",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Sciences criminelles",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Sciences politiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Droit public et sciences politiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "نادي الثقافة القانونية FDSPT",
+          "url": "https://www.facebook.com/Student.Voice.Tunisia/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "UGET FDSPT",
+          "url": "https://www.facebook.com/UGET.Fdspt.1/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Older universite.tn list also mentions applied licences (droit des affaires foncières, fiscalité, droit de l'entreprise, contentieux) and additional research masters (droit public interne/international, droit des contrats et investissements, environnement et urbanisme). Official Facebook page not confirmed; fdspt.page.officielle self-describes as official.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/43/Faculte-de-Droit-et-des-Sciences-Politiques-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/faculte-de-droit-et-des-sciences-politiques-de-tunis.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "esstst",
+      "shortName": "ESSTST",
+      "nameFr": "École Supérieure des Sciences et Techniques de la Santé de Tunis",
+      "nameAr": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+      "type": "ecole",
+      "city": "Tunis (Bab Souika / La Rabta area)",
+      "governorate": "Tunis",
+      "website": "",
+      "facebook": "https://www.facebook.com/ESSTST/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/esststt/",
+        "https://www.facebook.com/p/Mast%C3%A8re-de-recherche-en-sciences-de-la-nutrition-Esstst-100076151172881/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en hygiène, sécurité et environnement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110742/210742/310742/910742",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en orthophonie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110745/210745/310745",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en nutrition humaine",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110747/210747/310747/910747",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en ergothérapie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110748/210748/310748/910748",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en puériculture",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110754/210754/310754/910754",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sciences maïeutiques - sage-femme",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110799/210799/310799/910799",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en anesthésie réanimation",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210740/310740",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en imagerie médicale et radiothérapie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210741/310741",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en biologie médicale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210743/310743",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en appareillage orthopédique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210746/310746",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en instrumentation opératoire",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210750/310750",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Nutrition humaine",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "MASEER ESSTST (student club)",
+          "url": "https://www.facebook.com/maseerEsstst/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founded 1989; co-supervised by Ministry of Health and Higher Education (fr-academic wiki mirror). Website uncertain: universite.tn lists www.paramedicalis.com (likely outdated); a Facebook page lists esstst.tn - neither verified. Do not confuse with ESSTT (Université de Tunis). Paramedical fields usually require white coats, but no ESSTST source found.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/39/Ecole-Superieur-des-Sciences-et-Techniques-de-La-Sante-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-tunis.html",
+        "https://fr-academic.com/dic.nsf/frwiki/560956"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "istmt",
+      "shortName": "ISTMT",
+      "nameFr": "Institut Supérieur des Technologies Médicales de Tunis",
+      "nameAr": "المعهد العالي للتكنولوجيات الطبية بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "https://istmt.rnu.tn",
+      "facebook": "https://www.facebook.com/istmt.rnu.tn/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/p/Institut-Sup%C3%A9rieur-des-Technologies-M%C3%A9dicales-de-Tunis-ISTMT-100063958451359/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire intégré en génie biomédical",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "210516/310516/510516/610516",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire intégré en génie biotechnologies de la santé",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "210517/310517",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Cycle préparatoire biologie-géologie",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "211832/311832",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en biotechnologie médicale",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210545/310545",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en audioprothèse",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210753/310753",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en génie biomédical",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210759/310759/510759/610759",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Systèmes électroniques embarqués (titre tronqué)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Génie biomédical",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Biophysique, radio-physique et imagerie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "MedTech Radio Web ISTMT",
+          "url": "https://www.facebook.com/medTechradioweb/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Facebook page lists 9 Rue Zouhair Essafi, Tunis. Housed in former Faculty of Medicine premises. Master entries on orientini not explicitly attributed - low certainty. Biology-geology prep listing on orientini may be a listing artefact.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/116/Institut-Superieur-des-Technologies-Medicales-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-des-technologies-medicales.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issht",
+      "shortName": "ISSHT",
+      "nameFr": "Institut Supérieur des Sciences Humaines de Tunis",
+      "nameAr": "المعهد العالي للعلوم الإنسانية بتونس",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.issht.rnu.tn",
+      "facebook": "https://www.facebook.com/p/Institut-Sup%C3%A9rieur-des-Sciences-Humaines-de-Tunis-100075852971955/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/p/INSTITUT-SUPERIEUR-DES-SCIENCES-HUMAINES-DE-TUNIS-100069931473651/",
+        "https://www.facebook.com/anthropoISSHT/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en anthropologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110118/210118/310118/410118/510118/610118/910118",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en langue des signes",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110119/210119/310119/410119/510119/610119/910119",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en archéologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "110167/210167/310167/410167/510167/610167/910167",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en espagnol",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111104/211104/311104/411104/511104/611104/911104",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en italien",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111105/211105/311105/411105/511105/611105/911105",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en allemand",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111106/211106/311106/411106/511106/611106/911106",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en sociologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111120/211120/311120/411120/511120/611120",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en psychologie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111121/211121/311121/411121/511121/611121/911121",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en philosophie",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "111122/211122/311122/411122/511122/611122/911122",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en arabe",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "112101/212101/312101/412101/612101",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "112102/212102/312102/412102/512102/612102/912102",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Licence en français",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "112103/212103/312103/412103/512103/612103/912103",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Traduction appliquée aux droits (titre tronqué)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Ingénierie en intervention psychosociale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Anglais et relations internationales",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Interprétation spécialisée en langue des signes (titre tronqué)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Neuropsychologie clinique",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Psychologie du travail : formation, orientation et évaluation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Inter-cultural studies",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Langues, lettres et civilisation arabes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Littératures et linguistique françaises",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Philosophie des lumières et de la modernité (titre tronqué)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Master de recherche Sociologie et développement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis"
+        },
+        {
+          "nameFr": "Agrégation de philosophie (préparation)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-des-sciences-humaines-de-tunis.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Issht (student page)",
+          "url": "https://www.facebook.com/issht.students/",
+          "platform": "facebook",
+          "public": true
+        },
+        {
+          "name": "Club de Français ISSHT",
+          "url": "https://www.facebook.com/clubdefrancaisISSHT/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "One Facebook page labelled 'PAGE OFFICIELLE' gives 26 rue Darghouth Bacha, Tunis. Several pages share the name; official one not confirmed. Do not confuse with ISEAHT.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/99/Institut-Superieur-des-Sciences-Humaines-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-des-sciences-humaines-de-tunis.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issit",
+      "shortName": "ISSIT",
+      "nameFr": "Institut Supérieur des Sciences Infirmières de Tunis",
+      "nameAr": "المعهد العالي لعلوم التمريض بتونس",
+      "type": "institut",
+      "city": "Tunis (La Rabta)",
+      "governorate": "Tunis",
+      "website": "http://www.issit.tn",
+      "facebook": "https://www.facebook.com/p/ISSITInstitut-Sup%C3%A9rieur-des-Sciences-Infirmi%C3%A8res-de-Tunis-100068104867383/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/ISSIT.Page.Officielle.v2.0/",
+        "https://www.facebook.com/tn.issit/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en sciences infirmières",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "210797/211797",
+          "durationYears": 3,
+          "source": "https://www.orientini.com/FR/etablissement/203/Institut-Superieur-des-Sciences-des-Soins-Medicaux-de-Tunis"
+        },
+        {
+          "nameFr": "Master professionnel Gestion des soins critiques : urgences",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/etablissement/203/Institut-Superieur-des-Sciences-des-Soins-Medicaux-de-Tunis"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founded 2006 (Facebook page intro). Orientini lists it as 'Institut Supérieur des Sciences des Soins Médicaux de Tunis'. Master M184 not explicitly tied to ISSIT on source - low certainty.",
+      "sources": [
+        "https://www.orientini.com/FR/etablissement/203/Institut-Superieur-des-Sciences-des-Soins-Medicaux-de-Tunis",
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-superieur-des-sciences-infirmieres-de-tunis.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iblv",
+      "shortName": "IBLV",
+      "nameFr": "Institut Bourguiba des Langues Vivantes",
+      "nameAr": "معهد بورقيبة للغات الحية",
+      "type": "institut",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.iblv.rnu.tn",
+      "facebook": "https://www.facebook.com/institutbourguiba/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/p/IBLV-Depuis-1964-100063477965178/",
+        "https://www.facebook.com/p/Bourguiba-school-IBLV-Tunis-100078238771842/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cours annuels de langues (anglais, français et autres) - intensif 16h/sem, semi-intensif 8h/sem, extensif 4h/sem",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 1,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-bourguiba-des-langues-vivantes.html"
+        },
+        {
+          "nameFr": "Cours d'arabe pour non-arabophones (3 sessions/an)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-bourguiba-des-langues-vivantes.html"
+        },
+        {
+          "nameFr": "Cours personnalisés : anglais, français, allemand, italien, espagnol, japonais, hébreu, chinois",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-bourguiba-des-langues-vivantes.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1962 by presidential decree. Annual courses run from ~2nd week of October to end of May. Has regional centres (e.g. Banlieue Sud, Gafsa) with own Facebook pages. No licence programmes found in orientation data; diplomas section empty on source.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-bourguiba-des-langues-vivantes.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "institut-pasteur-tunis",
+      "shortName": "IPT",
+      "nameFr": "Institut Pasteur de Tunis",
+      "nameAr": "معهد باستور بتونس",
+      "type": "other",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "https://www.pasteur.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute listed among UTM establishments; no student programs listed. Arabic name is a standard rendering, not from source.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-pasteur.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "irvt",
+      "shortName": "IRVT",
+      "nameFr": "Institut de Recherche Vétérinaire de Tunis",
+      "nameAr": "",
+      "type": "other",
+      "city": "Tunis",
+      "governorate": "Tunis",
+      "website": "http://www.iresa.agrinet.tn/fr/instit/p_irvt.htm",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institute listed among UTM establishments (also under IRESA/agriculture); no student programs listed.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Tunis-El-Manar/institut-de-recherche-veterinaire-de-tunis.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tunis_El_Manar"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier national de l'année universitaire 2026-2027 (Ministère de l'Enseignement Supérieur) - applies to UTM establishments",
+      "academicYear": "2026-2027",
+      "url": "https://www.tunisienumerique.com/le-ministere-de-lenseignement-superieur-fixe-le-calendrier-de-lannee-universitaire-2026-2027/",
+      "summary": "Rentrée 1 Sept 2026 for prep institutes, engineering schools, medicine faculties (relevant: IPEIEM, ENIT, FMT); 12 Sept 2026 for other establishments. Min. 28 teaching weeks. Winter break 12-27 Dec 2026; spring break 19 Mar - 4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Eid dates TBD. No exam periods given. No UTM-specific calendar found."
+    }
+  ],
+  "gaps": [
+    "*.rnu.tn sites (utm, fst, fmt, enit...) refused connections from the research environment; data comes from search snippets, universite.tn and orientini (cross-check source)",
+    "No UTM-specific 2026-2027 calendar or exam calendar found (only national ministry calendar)",
+    "Program codes are orientini codes (first digit varies by bac section); not verified against official guide 2026; master lists may be outdated",
+    "Official Facebook page ambiguous for several institutes (FST, FMT, FDSPT, ISSHT, ISSIT); ISI Facebook unverified",
+    "ESSTST official website unconfirmed (esstst.tn vs paramedicalis.com)",
+    "No public Telegram channels found; Facebook groups mostly pages rather than groups",
+    "No public old-exam archives found for any UTM institute (only national engineering concours jury reports)",
+    "Moodle: only utm.uvt.tn (cited by FMT) found; institute-specific e-learning not confirmed",
+    "Equipment lists only found for FMT (white coat); none for ESSTST/ISSIT/ISTMT/FST labs",
+    "Arabic names for IPEIEM, Pasteur not sourced; IRVT Arabic name missing; IBLV degree programmes unknown"
+  ]
+}

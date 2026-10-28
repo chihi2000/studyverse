@@ -1,0 +1,1626 @@
+{
+  "university": {
+    "slug": "universite-de-sousse",
+    "nameFr": "Université de Sousse",
+    "nameAr": "جامعة سوسة",
+    "nameEn": "University of Sousse",
+    "city": "Sousse",
+    "website": "https://www.uc.rnu.tn",
+    "facebook": "",
+    "otherLinks": [
+      "https://front.uso.rnu.tn/assets/cooperation/files/livretdAccueilUSO_compressed.pdf",
+      "https://www.universite.tn/Universite-de-Sousse.html",
+      "https://www.orientini.com/FR/etablissement/1042/Universite-de-Sousse"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+      "https://www.universite.tn/Universite-de-Sousse.html",
+      "https://www.orientini.com/FR/etablissement/1042/Universite-de-Sousse"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "fdsp-sousse",
+      "shortName": "FDSPS",
+      "nameFr": "Faculté de Droit et des Sciences Politiques de Sousse",
+      "nameAr": "كلية الحقوق والعلوم السياسية بسوسة",
+      "type": "faculte",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.fdseps.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Droit des Ressources Humaines",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Comptabilité (Techniques comptables et financières)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Droit de l'Entreprise et des affaires",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Contentieux administratif et fiscal",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Economie (Economie et finance internationales / Economie des Organisations et des Réseaux / Economie quantitative)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en gestion (Finance / Marketing / gestion des ressources humaines / gestion fiscale)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Droit privé",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Droit Public",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "Economie du tourisme",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "Commerce international et exportation",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "Droit Public",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "Droit fiscal",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        },
+        {
+          "nameFr": "Droit des affaires",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "universite.tn names it 'Faculté de Droit et des Sciences Economiques et Politiques' (old name, website www.fdseps.rnu.tn). Rentrée 12 Sept 2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/faculte-de-droit-et-des-sciences-economiques-et-politiques-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18012/Inscription-des-etudiants-de-la-Faculte-de-Droit-et-des-Sciences-Politiques-de-Sousse-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fms-sousse",
+      "shortName": "FMS",
+      "nameFr": "Faculté de Médecine de Sousse (Ibn El Jazzar)",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.medecinesousse.org",
+      "facebook": "https://www.facebook.com/fmsousse/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.medecinesousse.com",
+        "https://www.facebook.com/p/Page-de-la-Facult%C3%A9-de-M%C3%A9decine-de-Sousse-100064419502831/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cardiologie du sport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Médecine du sport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Médecine d'urgence",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Médecine communautaire",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Management des services de santé",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Informatique médicale",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Hygiène hospitalière",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Dermatologie professionnelle et de l'environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Thalassothérapie et thermalisme",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Homéopathie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national de docteur en médecine",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 1974. Website: universite.tn gives www.medecinesousse.org, Wikipedia gives www.medecinesousse.com - verify. First English-taught MD cohort graduated 2025; thesis-management online platform launched Sept 2026 (La Presse). Older Facebook page labelled 1974-2023. No sourced equipment list found. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/faculte-de-medecine-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://en.wikipedia.org/wiki/Faculty_of_Medicine_of_Sousse",
+        "https://www.lapresse.tn/2026/09/03/gestion-des-theses-de-doctorat-la-faculte-de-medecine-de-sousse-lance-une-plateforme-en-ligne/",
+        "https://lapresse.tn/2025/05/02/faculte-de-medecine-a-sousse-premiere-promotion-de-diplomes-en-medecine-enseignee-en-anglais/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "flsh-sousse",
+      "shortName": "FLSHS",
+      "nameFr": "Faculté des Lettres et des Sciences Humaines de Sousse",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "https://fls.rnu.tn/public/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Métiers du livre & lication",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Métiers de patrimoine",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Anglais (Anglais des affaires)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Français",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Géographie (géographie de l'environnement et des ressources naturelles)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Géographie (géographie de l'aménagement & de l'environnement )",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Histoire-Géographie (hisoire, géographie)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation françaises",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation anglaises",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en langue, littérature et civilisation arabes",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Arabe",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature française, option : Littérature et civilisation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature française, option : Langue",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature anglaises, option : Littérature",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature arabes, option : Littérature",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature arabes, option : Civilisation",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Langue et littérature arabes, option : Langue",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Histoire contemporaine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Histoire moderne",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        },
+        {
+          "nameFr": "Histoire ancienne",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/faculte-des-lettres-et-des-sciences-humaines-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fseg-sousse",
+      "shortName": "FSEGSo",
+      "nameFr": "Faculté des Sciences Économiques et de Gestion de Sousse",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Mastère professionnel Entrepreneuriat Bleu et Management Environnemental (nouveau, 2026-2027)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17812/la-Faculte-des-Sciences-Economiques-et-Gestion-de-Sousse-:-Candidature-au-nouveau-Master-Professionnel"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Listed by fr.wikipedia; missing from universite.tn list. Domain fsegso.rnu.tn appears in RePEc but flagged as broken - not confirmed. Rentrée 12 Sept 2026 (orientini).",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://edirc.repec.org/data/fseustn.html",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17970/Inscription-des-etudiants-de-la-Faculte-des-Sciences-Economiques-et-Gestion-de-Sousse-2026-2027"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "eniso-sousse",
+      "shortName": "ENISo",
+      "nameFr": "École Nationale d'Ingénieurs de Sousse",
+      "nameAr": "المدرسة الوطنية للمهندسين بسوسة",
+      "type": "ecole",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.eniso.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "http://www.eniso.rnu.tn/fr/list_cat.php?catid=1",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme national d'ingénieur en Mécatronique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-nationale-d-ingenieurs-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en Informatique Appliquée",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-nationale-d-ingenieurs-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en Electronique industrielle",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-nationale-d-ingenieurs-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Established 2005 (en.wikipedia). Site posts exam calendars/announcements. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/ecole-nationale-d-ingenieurs-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://en.wikipedia.org/wiki/National_Engineering_School_of_Sousse",
+        "http://www.eniso.rnu.tn/fr/list_cat.php?catid=1"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "essths-hammam-sousse",
+      "shortName": "ESSTHS",
+      "nameFr": "École Supérieure des Sciences et de la Technologie de Hammam Sousse",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Hammam Sousse",
+      "governorate": "Sousse",
+      "website": "https://essths.rnu.tn/public/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire (scientifique)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en Energétique  (Energétique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en Electronique et électrotechnique et automatique (électrotechnique & informatique industrielle)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en Physique (Matériaux)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en STIC (Informatique et Electronique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LF en Physique",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LF en Mathématiques",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "Université de Sousse - ESSTHS (unofficial page)",
+          "url": "https://www.facebook.com/Universite.sousse.essths",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Rentrée 2026-2027: engineering cycle 01/09/2026, licence+master 14/09/2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-des-technologies-de-hammam-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18063/Inscription-des-etudiants-de-l-Ecole-Superieure-des-Sciences-et-Technologies-de-Hammam-Sousse-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "essts-sousse",
+      "shortName": "ESSTSS",
+      "nameFr": "École Supérieure des Sciences et Techniques de la Santé de Sousse",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.esstssousse.com",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Nursing",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Techniques du bloc opératoire",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Urgence et Réanimation",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Secrétariat médical et documentation",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Kinésothérapie et Physiothérapie (Hydro- thalasso- thermalisme / Physiothérapie)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "1st-year registration 10/09/2026 (orientini). Website from universite.tn (esstssousse.com) not verified. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/ecole-superieure-des-sciences-et-techniques-de-la-sante-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/17840/Inscription-des-etudiants-de-l-Ecole-Superieure-des-Sciences-et-Techniques-de-La-Sante-de-Sousse-2026-2027"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "isa-chott-meriem",
+      "shortName": "ISA-CM",
+      "nameFr": "Institut Supérieur Agronomique de Chott Mériem",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Chott Mériem",
+      "governorate": "Sousse",
+      "website": "http://www.isa-cm.agrinet.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Horticulture",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "LA en Aménagement des Paysages",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Cycle préparatoire (biologie-géologie)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Protection des plantes et environnement",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Paysage, territoire et patrimoine",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Agriculture durable",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en production animale : option : Petits élevages",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en production animale : option : Elevage des ruminants",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en horticulture :options : Technique et commerce des produits horticoles",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en horticulture :options : Semences et plants",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en horticulture :options : Protection des plantes",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en horticulture :options : Production horticole",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en horticulture :options : Agriculture biologique",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en génie des systèmes horticoles",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en architecture des paysages",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        },
+        {
+          "nameFr": "Biologie- géologie",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "fr.wikipedia lists 'École supérieure d'horticulture et d'élevage de Chott Meriem' (older name); also under IRESA (agriculture ministry) per its agrinet.tn domain. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-agronomique-de-chott-meriem.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ihec-sousse",
+      "shortName": "IHEC Sousse",
+      "nameFr": "Institut des Hautes Études Commerciales de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.ihecso.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en comptabilité (gestion comptable)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-des-hautes-etudes-commerciales-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Marketing (Techniques du Marketing)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-des-hautes-etudes-commerciales-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Gestion de la qualité",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-des-hautes-etudes-commerciales-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Gestion (Finance / Hautes Etudes Commerciales",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-des-hautes-etudes-commerciales-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Rentrée 12 Sept 2026. Do not confuse with private 'IHE Sousse'. No Facebook page found. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-des-hautes-etudes-commerciales-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18062/Inscription-des-etudiants-de-l-Institut-des-Hautes-Etudes-Commerciales-de-Sousse-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isff-sousse",
+      "shortName": "ISFFS",
+      "nameFr": "Institut Supérieur de Finances et de Fiscalité de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.isffs.rnu.tn",
+      "facebook": "https://www.facebook.com/www.isffs.rnu.tn/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Management (gestion des petites et moyennes entreprises)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html"
+        },
+        {
+          "nameFr": "LA EN GESTION FISCALE",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Finance ( ingénierie financière et marchés)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Gestion comptable",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Gestion fiscale",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-finance-et-de-fiscalite-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isg-sousse",
+      "shortName": "ISGS",
+      "nameFr": "Institut Supérieur de Gestion de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.isgs.rnu.tn",
+      "facebook": "https://www.facebook.com/ISGS.1995/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Economie et Finance internationales (Techniques du Commerce international)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Management (Gestion touristique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Marketing (Communication publicitaire)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Comptabilité (Techniques comptables et financières)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Finance ( Ingénierie financière et marchés)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Informatique de gestion (technologie systèmes d'informations)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Informatique de gestion",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Gestion (Comptabilité / Management / Marketing / Finance)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Comptabilité  Contrôle  Audit",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Finance",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Entrepreneuriat et création d'entreprises",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Entrepreneuriat",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Finance et commerce international",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        },
+        {
+          "nameFr": "Statistique appliquée à la gestion",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Facebook page links isgs.rnu.tn but not explicitly marked official. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-gestion-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isitcom-hammam-sousse",
+      "shortName": "ISITCom",
+      "nameFr": "Institut Supérieur d'Informatique et des Technologies de Communication de Hammam Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Hammam Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.infcom.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Informatique (Technologies du multimédia et du web)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-d-informatique-et-des-technologies-de-communication-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en Réseaux informatiques (Technologies des réseaux informatiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-d-informatique-et-des-technologies-de-communication-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "LA en Sciences et technologies de l'information et de la communication (Technologies des communications)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-d-informatique-et-des-technologies-de-communication-de-hammam-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en informatique à distance",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-d-informatique-et-des-technologies-de-communication-de-hammam-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-d-informatique-et-des-technologies-de-communication-de-hammam-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ism-sousse",
+      "shortName": "ISMS",
+      "nameFr": "Institut Supérieur de Musique de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.ismso.rnu.tn",
+      "facebook": "https://www.facebook.com/p/Institut-Sup%C3%A9rieur-de-Musique-de-Sousse-100063621906774/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Eveil musicale",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Animation musicale",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Arts de la musique et Musicologie (Musique et musicologie / Interprétation de la musique arabe /  Interprétation de la musique occidentale)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique, sciences et techniques de la musique, option : La gestion et l'administration de la musique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique, sciences et techniques de la musique, option : La musique occidentale appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique, sciences et techniques de la musique, option : La musique arabe appliquée",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique, sciences et techniques de la musique, option : Musicologie",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Facebook page labelled 'Page officielle', posts master applications. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-musique-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isba-sousse",
+      "shortName": "ISBAS",
+      "nameFr": "Institut Supérieur des Beaux-Arts de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.isbas.rnu.tn",
+      "facebook": "https://www.facebook.com/ISBAS2/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Design Produit (Création artisanale /Création industrielle )",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Design Espace (Architecture d'intérieur / Scénographie)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Design Image (Publicité graphique)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Arts Plastiques (Sculpture / Photographie)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Design (Image / espace)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en Arts Visuels (arts plastiques)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique et pratiques des arts visuels, option : Arts visuels",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "Esthétique et pratiques des arts visuels, option : Arts plastiques",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'arts et métiers, option : Art et communication",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'arts et métiers, option : Architecture d'intérieur et scénographie",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Fine arts / design: no sourced equipment list found. Masters 2026-2027 call on orientini (research masters in Arts plastiques and Design + professional masters). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-de-beaux-arts-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17573/Candidature-aux-masters-de-l-Institut-Superieur-des-Beaux-Arts-de-Sousse-2026-2027",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/10918/Candidature-aux-masters-de-l-Institut-Superieur-des-Beaux-Arts-de-Sousse-2022-2023"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issat-sousse",
+      "shortName": "ISSATSo",
+      "nameFr": "Institut Supérieur des Sciences Appliquées et de Technologie de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.issatso.rnu.tn",
+      "facebook": "https://www.facebook.com/www.issatso.rnu.tn/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.issatso.rnu.tn/fo/emplois/exams.php"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire intégré (scientifique)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Electromécanique (Mécatronique industrielle)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Electronique Electrotechnique et Automatique (Electrotechnique et Electronique industriel / Electronique et informatique industrielle)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en génie civil (Mécanique des matériaux et structures)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en génie mécanique (Conception et Fabrication)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Energétique (Chauffage et climatisation)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Informatique (Technologies du multimédia et du Web)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en réseaux informatiques (Administration des réseaux et services)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Informatique industrielle (Systèmes et automatismes)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        },
+        {
+          "nameFr": "Diplôme national d'ingénieur en informatique instantanée",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Exams page has exam calendars (not past papers). Registration 2026-2027: prep + engineering 21/08-02/09/2026, L1 28/08-09/09/2026 (orientini). Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-appliquees-et-de-technologie-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "http://www.issatso.rnu.tn/fo/emplois/exams.php",
+        "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/17807/Inscription-des-etudiants-de-l-Institut-Superieur-des-Sciences-Appliquees-et-de-Technologie-de-Sousse-2026-2027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "issis-sousse",
+      "shortName": "ISSIS / ISSSMS",
+      "nameFr": "Institut Supérieur des Sciences Infirmières de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.sciencesinfirmieres.tn",
+      "facebook": "https://www.facebook.com/issisousse/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/issisoussa/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Sciences Infirmières",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-infirmieres-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "orientini uses the name 'Institut Supérieur des Sciences des Soins Médicaux de Sousse' on the ISSIS page (likely renamed) and lists a research master in nursing sciences. Two Facebook pages found; don't confuse with private 'I.S.I.S' institute. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-des-sciences-infirmieres-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://www.orientini.com/FR/etablissement/204/Institut-Superieur-des-Sciences-Infirmieres-de-Sousse---(ISSIS)",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18066/Inscription-des-etudiants-de-l-Institut-Superieur-des-Sciences-des-Soins-Medicaux-de-Sousse-2026-2027"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "istl-sousse",
+      "shortName": "ISTLS",
+      "nameFr": "Institut Supérieur du Transport et de la Logistique de Sousse",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sousse",
+      "governorate": "Sousse",
+      "website": "http://www.istls.rnu.tn",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "LA en Technologies du Trasport",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en Génie Logistique (Logistique industrielle / Logistique de distribution / Logistique des Produits Spécifiques)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        },
+        {
+          "nameFr": "LA en techniques du transport et logistique (Transport terrestre / transport maritime / transport multimodal)",
+          "degree": "licence",
+          "kind": "appliquee",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        },
+        {
+          "nameFr": "LF en transport et logistique (Sciences du transport et de la logistique / Sécurité logistique / Informatique du transport et de la logistique)",
+          "degree": "licence",
+          "kind": "fondamentale",
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        },
+        {
+          "nameFr": "Logistique et gestion des transport",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        },
+        {
+          "nameFr": "Sciences des transports et de la logistique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "orientini 2026-2027 notice uses 'Institut Supérieur de Transport et de Services de Communication de Sousse' - possibly a rename or an orientini error; unverified. Program list from the universite.tn directory; it uses older LMD names and may be outdated - verify against the institute site / orientation guide.",
+      "sources": [
+        "https://www.universite.tn/Universite-de-Sousse/institut-superieur-du-transport-et-de-la-logistique-de-sousse.html",
+        "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Sousse",
+        "https://orientini.com/FR/Annonces_Orientation_Formation_Emploi/18060/Inscription-des-etudiants-de-l-Institut-Superieur-de-Transport-et-de-Services-de-Communication-de-Sousse-2026-2027"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier de l'année universitaire 2026-2027 (national, MESRS)",
+      "academicYear": "2026-2027",
+      "url": "https://www.orientini.com/AR/Annonces_Orientation_Formation_Emploi/17558/",
+      "summary": "National calendar (Ministry of Higher Education circular as relayed by orientini.com): classes start 1 Sept 2026 for preparatory institutes, engineering schools, faculties of medicine/dental medicine/pharmacy and ISETs; 12 Sept 2026 for all other institutions. Min. 28 teaching weeks. Winter break 12-27 Dec 2026; spring break 19 Mar-4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027 + religious holidays (dates TBD). Exam periods not stated."
+    }
+  ],
+  "gaps": [
+    "Official domain unclear: uc.rnu.tn (Wikipedia, universite.tn, orientini) vs uso.rnu.tn (WHED, front.uso.rnu.tn PDF); both unreachable from research environment.",
+    "University-level Facebook page not found; no Sousse-specific 2026-2027 calendar (national calendar only).",
+    "Arabic names missing for most institutes.",
+    "Facebook not found for FLSHS, FDSPS, ENISo, ISITCom, IHEC, ESSTSS, ISA-CM, ISTLS, FSEG Sousse.",
+    "No Moodle URLs, public student groups/Telegram channels, or past-exam archives confirmed.",
+    "No sourced equipment lists for medicine (FMS) or fine arts (ISBAS).",
+    "Program lists mostly from universite.tn directory (outdated naming)."
+  ]
+}

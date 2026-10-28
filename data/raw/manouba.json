@@ -1,0 +1,1145 @@
+{
+  "university": {
+    "slug": "universite-de-la-manouba",
+    "nameFr": "Université de la Manouba",
+    "nameAr": "جامعة منوبة",
+    "nameEn": "University of Manouba",
+    "city": "Manouba",
+    "website": "https://uma.rnu.tn/",
+    "facebook": "https://www.facebook.com/profile.php?id=100057490538599",
+    "otherLinks": [
+      "https://www.youtube.com/@UNIVERSITE_MANOUBA",
+      "https://uma.rnu.tn/fr/categories/1/nouveautes",
+      "https://uma.rnu.tn/fr/catalogue-de-formation",
+      "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+    ],
+    "sources": [
+      "https://uma.rnu.tn/",
+      "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+      "https://en.wikipedia.org/wiki/Manouba_University"
+    ]
+  },
+  "institutes": [
+    {
+      "slug": "isamm-manouba",
+      "shortName": "ISAMM",
+      "nameFr": "Institut Supérieur des Arts Multimédia de la Manouba",
+      "nameAr": "المعهد العالي لفنون الملتيميديا بمنوبة",
+      "type": "institut",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://isa2m.rnu.tn/",
+      "facebook": "https://www.facebook.com/profile.php?id=100063945285880",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire intégré Math, Physique, Informatique (MPI)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "12518",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Diplôme d'ingénieur en informatique appliquée au multimédia (options: Ingénierie du Logiciel INLOG, Image Numérique et Réalité Virtuelle INREV)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Sciences de l'Informatique (parcours: Informatique et Multimédia; Big Data et Analyse des Données; Internet des Objets et Systèmes Intelligents Interactifs)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10523",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Art et Médiation (Communication et Multimédia)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10622",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Cinéma et Audiovisuel (filière à test; parcours Image & Lumière, Réalisation & Production, Montage, Son)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10265",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "No source found listing required student equipment. Catalogue subjects (3D modelling/animation, video editing, sound recording, prise de vues, étalonnage, Arduino/Raspberry/ESP IoT programming) suggest software/hardware needs but no official equipment list was found.",
+      "notes": "Founded in 2000 (UMA page). Official site isa2m.rnu.tn is a JSF app (redirects to index.faces) that could not be read; email domain isamm.uma.tn. ISAMM MPI: 80% continue to engineering, 20% to licence. ISAMM engineering programme reported accredited by ASIIN/EUR-ACE (LinkedIn post via search, not verified). ISAMM piloted digitised exam scripts with ESCT and ESEN (UMA newsletter). Arabic name seen on campus signage in catalogue photo: 'المعهد العالي لفنون الملتيميديا بمنوبة' (from image, medium confidence). UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/8",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://uma.rnu.tn/userfiles/files/Newsletter/2022/newsumajanvier%202022.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ensi-manouba",
+      "shortName": "ENSI",
+      "nameFr": "École Nationale des Sciences de l'Informatique",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://www.ensi.rnu.tn/",
+      "facebook": "https://www.facebook.com/p/Ecole-Nationale-des-sciences-de-lInformatique-100085598258430/",
+      "instagram": "",
+      "otherLinks": [
+        "https://ensi-uma.tn"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme national d'ingénieur en sciences de l'informatique (entrée après cycle préparatoire + concours national, ou licence + concours spécifique)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Sciences de l'Informatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère de recherche en bio-informatique",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Doctorat d'informatique",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Founded 1984 (Wikipedia). Specialisation tracks listed by UMA: Génie Logiciel, Intelligence Artificielle, Data Science pour le Computer Vision, Ingénierie Informatique pour la Finance, Services et Technologies de l'IoT, Systèmes et Logiciels Embarqués. Labels ASIIN/EUR-ACE shown in catalogue. ensi.rnu.tn refused connections during research (also ensi-uma.tn cited by Wikipedia). UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/2",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://en.wikipedia.org/wiki/Manouba_University",
+        "https://uma.rnu.tn/fr/catalogue-de-formation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mse-manouba",
+      "shortName": "MSE",
+      "nameFr": "Manouba School of Engineering (École Nationale d'Ingénieurs de la Manouba)",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://mse.rnu.tn/",
+      "facebook": "https://www.facebook.com/Manouba.School.of.Engineering",
+      "instagram": "https://www.instagram.com/mse_engineering/",
+      "otherLinks": [
+        "https://tn.linkedin.com/company/manouba-school-of-engineering",
+        "https://www.youtube.com/@mse1781",
+        "https://manouba-school-engineering.web.app/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "National Engineering Degree - Geomatics Engineering (after integrated MPI preparatory cycle, taught in English)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "11526",
+          "durationYears": 5,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "National Engineering Degree - Ecological Engineering (after integrated MPI preparatory cycle, taught in English)",
+          "degree": "engineering",
+          "kind": null,
+          "officialCode": "11525",
+          "durationYears": 5,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Created 25 April 2022 (Wikipedia). Programmes taught entirely in English; 80% of integrated-prep students continue to engineering, 20% to a bachelor's. UMA page also lists https://manouba-school-engineering.web.app/. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/15",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://mse.rnu.tn/",
+        "https://en.wikipedia.org/wiki/Manouba_University"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "essted-tunis",
+      "shortName": "ESSTED",
+      "nameFr": "École Supérieure des Sciences et Technologies du Design",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Tunis (Den Den)",
+      "governorate": "Manouba",
+      "website": "https://essted.rnu.tn/",
+      "facebook": "https://www.facebook.com/EssteDesign/",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Design Image (Publicité graphique; Publicité audiovisuelle)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11209",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Design Espace (Architecture d'intérieur; Scénographie)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11207",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Design Produit (Design produit; Packaging)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11208",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère Professionnel en design produit",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel en design espace",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel en design image",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Design pour le Développement Durable",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel co-construit en Design et Technologies Packaging",
+          "degree": "master",
+          "kind": "co-construite",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère de recherche en design",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Doctorat en Sciences et Technologies du design",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "No official equipment list found. Catalogue subjects include dessin/perspective, maquettes et prototypage, infographie/visualisation 3D, photographie publicitaire.",
+      "notes": "Address: Avenue de l'Indépendance, Den Den, 2011 Tunis (catalogue). Den Den is in Manouba governorate (general knowledge, medium confidence). Doctorat attribution inferred from catalogue page layout. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/5",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "esct-manouba",
+      "shortName": "ESCT",
+      "nameFr": "École Supérieure de Commerce de Tunis",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://esct.rnu.tn/fr",
+      "facebook": "https://www.facebook.com/EcoleSuperieureCommerceTunis/",
+      "instagram": "",
+      "otherLinks": [
+        "https://www.facebook.com/p/%C3%89cole-Sup%C3%A9rieure-de-Commerce-de-Tunis-ESCT-100057615551249",
+        "https://esct.rnu.tn/fr/nouveautes/annonces-actualites/calendrier-universitaire",
+        "https://esct.rnu.tn/fr/vie-estudiantine/informations-etudiants/documents-a-telecharger",
+        "https://esct.rnu.tn/fr/etudiants/clubs-footer"
+      ],
+      "newsPage": "https://esct.rnu.tn/fr/categories/1/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de Gestion (parcours Finance, Marketing, Management)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "12318",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Sciences Économiques (parcours DSEF, MFBA, CFI, ETL)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "12312",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Géopolitique et Relations Internationales (co-diplomation FLAH-ESCT)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10160",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère Professionnel Entreprenariat et Développement d'Activités Innovantes en Régions",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://esct.rnu.tn/userfiles/files/Service%20Mast%C3%A8re/Mast%C3%A8re%20Professionnel%20Entreprenariat%20et%20D%C3%A9veloppement%20d%27Activit%C3%A9s%20Innovantes%20en%20R%C3%A9gions%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Finance - Ingénierie financière (IF)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://esct.rnu.tn/userfiles/files/Service%20Mast%C3%A8re/Mast%C3%A8re%20Professionnel%20en%20Finance%20Ing%C3%A9nierie%20financi%C3%A8re%20%28IF%29%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Doctorat en Sciences Economiques",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Doctorat en Sciences de Gestion",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Site has an 'avis/actualités' section and a calendar page (https://esct.rnu.tn/fr/nouveautes/annonces-actualites/calendrier-universitaire), PFE guides and student downloads. UMA web catalogue lists many more mastères (marketing, finance, management, transport-logistique, etc.) right after ESCT licences without an establishment heading, likely ESCT; doctorates attributed with medium confidence. UMA page lists a different Facebook URL (see otherLinks). UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/3",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://esct.rnu.tn/fr",
+        "https://uma.rnu.tn/fr/catalogue-de-formation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "esen-manouba",
+      "shortName": "ESEN",
+      "nameFr": "École Supérieure de l'Économie Numérique",
+      "nameAr": "المدرسة العليا للاقتصاد الرقمي",
+      "type": "ecole",
+      "city": "Manouba (Technopole de la Manouba)",
+      "governorate": "Manouba",
+      "website": "https://www.esen.tn/",
+      "facebook": "https://www.facebook.com/esenien/",
+      "instagram": "",
+      "otherLinks": [
+        "https://esen.rnu.tn/"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Informatique de Gestion (parcours Business Intelligence, E-Business, Business Information System)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "12311",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Informatique de Gestion",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Management",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère de Recherche en Science de l'informatique (Intelligence Web)",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère professionnel en eBusiness (formation continue)",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/university-establishments/4"
+        },
+        {
+          "nameFr": "Master Professionnel Contrôle de Gestion et Business Intelligence (CGBI), co-habilité ISCAE-ESEN",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/11707/Candidature-aux-masters-de-l-Institut-Superieur-de-Comptabilite-et-d-Administration-des-Entreprises-de-Manouba-2023-2024"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-tutelle with the Ministry of Communication Technologies. www.esen.tn redirects to esen.rnu.tn (refused connections during research). CGBI master from orientini (2023-2024, cross-check only). UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/4",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://uma.rnu.tn/fr/catalogue-de-formation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iscae-manouba",
+      "shortName": "ISCAE",
+      "nameFr": "Institut Supérieur de Comptabilité et d'Administration des Entreprises",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://iscae.rnu.tn/fr",
+      "facebook": "https://www.facebook.com/profile.php?id=61558230734353",
+      "instagram": "",
+      "otherLinks": [
+        "https://iscae.rnu.tn/fr/formation/calendrier-universitaire",
+        "https://iscae.rnu.tn/fr/vie-estudiantine/guide-de-letudiant",
+        "https://iscae.rnu.tn/fr/etudiant/clubs-et-associations"
+      ],
+      "newsPage": "https://iscae.rnu.tn/fr/actualites/archives-des-annonces",
+      "moodleOrElearning": "https://iscae.rnu.tn/fr/formation/e-learning",
+      "studentSpace": "https://iscae.rnu.tn/fr/espace-extranet-iscae",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences de Gestion (parcours Finance, Management, GRH, Comptabilité)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "15318",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Sciences Économiques (Commerce et Finance Internationale)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "15312",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Certificat d'Études Supérieures de Révision Comptable (CES)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/university-establishments/10"
+        },
+        {
+          "nameFr": "Doctorat en sciences comptables",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/fr/university-establishments/10"
+        },
+        {
+          "nameFr": "Master Professionnel Contrôle de Gestion et Business Intelligence (CGBI), co-habilité ISCAE-ESEN",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://www.orientini.com/FR/Annonces_Orientation_Formation_Emploi/11707/Candidature-aux-masters-de-l-Institut-Superieur-de-Comptabilite-et-d-Administration-des-Entreprises-de-Manouba-2023-2024"
+        }
+      ],
+      "studentGroups": [
+        {
+          "name": "ISCAE Facebook group linked from UMA establishment page (nature unclear)",
+          "url": "https://www.facebook.com/groups/712031548899044/",
+          "platform": "facebook",
+          "public": true
+        }
+      ],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Site has annonces, calendrier universitaire (https://iscae.rnu.tn/fr/formation/calendrier-universitaire), clubs and a student guide (https://iscae.rnu.tn/fr/vie-estudiantine/guide-de-letudiant). E-learning page does not name the platform. UMA page links a Facebook group (https://www.facebook.com/groups/712031548899044/) - nature (official/student) unclear. Research and professional mastères exist (UMA page) but names not individually confirmed except CGBI. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/10",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://iscae.rnu.tn/fr",
+        "https://iscae.rnu.tn/fr/article/732/e-learning"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "intes-tunis",
+      "shortName": "INTES",
+      "nameFr": "Institut National du Travail et des Études Sociales",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Tunis (Charguia 2)",
+      "governorate": "Tunis",
+      "website": "http://www.intes.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Santé et Sécurité au Travail",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10547",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Sciences du Travail",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10347",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Service Social",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10355",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Droit Social",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10346",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Gestion des Ressources Humaines (présentiel et à distance)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "16318",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-tutelle with the Ministry of Social Affairs. Siège: 44 rue de l'Artisanat, Charguia 2 (catalogue); UMA page footer shows campus address. No Facebook found. Site refused connections during research. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/18",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "flah-manouba",
+      "shortName": "FLAH (FLAHM)",
+      "nameFr": "Faculté des Lettres, des Arts et des Humanités de la Manouba",
+      "nameAr": "",
+      "type": "faculte",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://flm.rnu.tn/",
+      "facebook": "https://www.facebook.com/profile.php?id=100067117307805",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Cycle préparatoire Lettres - spécialité Arabe (préparation concours ENS)",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "11190",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Cycle préparatoire Lettres - spécialité Français",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "11191",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Cycle préparatoire Lettres - spécialité Anglais",
+          "degree": "prep",
+          "kind": null,
+          "officialCode": "11192",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Arabe",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11101",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Anglais",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11102",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Français",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11103",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Espagnol",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10104",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Italien",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10105",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Allemand",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10106",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Histoire (Sciences sociales; Sciences du patrimoine)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11123",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Archéologie et Histoire de l'Art",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10166",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Géographie: Aménagement, Environnement et Risques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "11124",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Géomatique: Environnement et Aménagement",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10158",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Géopolitique et Relations Internationales (co-diplomation avec l'ESCT)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10160",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Géomatique de l'information pour le développement durable et la maîtrise de l'environnement",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère Professionnel en Traduction",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère de recherche en langue, littérature et civilisation arabes",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Mastère de recherche en Langue, Littérature et Civilisation françaises",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Formerly Faculté des Lettres de la Manouba (domain flm.rnu.tn). Web catalogue was truncated so FLAH master list is incomplete. Spanish/Italian/German licences require that option at lycée. Site refused connections during research. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/6",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://uma.rnu.tn/fr/catalogue-de-formation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ipsi-manouba",
+      "shortName": "IPSI",
+      "nameFr": "Institut de Presse et des Sciences de l'Information",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://ipsi.rnu.tn/fr",
+      "facebook": "https://www.facebook.com/IPSI.TN",
+      "instagram": "https://www.instagram.com/ipsi_tunisie",
+      "otherLinks": [
+        "https://www.facebook.com/profile.php?id=100063889311343",
+        "https://tn.linkedin.com/company/ipsi-institut-de-presse-et-sciences-de-l-information",
+        "https://www.youtube.com/@officielipsi",
+        "https://ipsi.rnu.tn/fr/vie-etudiante1/clubs-etudiants"
+      ],
+      "newsPage": "https://ipsi.rnu.tn/fr/categories/1/actualites",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Communication (filière à test)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10612",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Journalisme (filière à test)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10611",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Médias et Narrations Numériques",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10613",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère professionnel en journalisme international",
+          "degree": "master",
+          "kind": "professionnel",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ipsi.rnu.tn/fr"
+        },
+        {
+          "nameFr": "Master de recherche en sciences des médias et de la communication",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://ipsi.rnu.tn/fr"
+        },
+        {
+          "nameFr": "Doctorat en sciences de l'information et de la communication",
+          "degree": "doctorat",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://ipsi.rnu.tn/fr"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Admission to test-based licences: written exams in general culture (FR and AR). Avis for 2026-2027 registration posted on site. Student clubs listed on site: IPSI Health, IPSI Hope, IPSI UMA GREEN, Media Makers Club, Club des Ambassadeurs SOS Villages d'Enfants. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/7",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "https://ipsi.rnu.tn/fr",
+        "https://ipsi.rnu.tn/fr/vie-etudiante1/clubs-etudiants"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "isd-manouba",
+      "shortName": "ISD",
+      "nameFr": "Institut Supérieur de Documentation",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "https://isd.rnu.tn/",
+      "facebook": "https://www.facebook.com/isd.rnu.tn",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Documentation, Bibliothéconomie et Archivistique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10363",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Gestion Électronique de l'Information et des Documents",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10362",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "UMA page names it 'Institut Supérieur de Documentation de Tunis' but catalogue gives Campus Universitaire de la Manouba address. UMA page states it also offers licence fondamentale, licences professionnelles, mastères professionnels, mastère de recherche and doctoral cycle (names not found). Site refused connections. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/11",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "isbst-sidi-thabet",
+      "shortName": "ISBST",
+      "nameFr": "Institut Supérieur de Biotechnologie de Sidi Thabet",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Sidi Thabet",
+      "governorate": "Ariana",
+      "website": "https://www.isbst.rnu.tn/",
+      "facebook": "https://www.facebook.com/p/Institut-Sup%C3%A9rieur-de-Biotechnologie-de-Sidi-Thabet-Officielle-100063575636485",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Biotechnologie (Biotechnologie et industrie pharmaceutique; Analyses biologiques et expérimentation; Compléments alimentaires & nutraceutiques)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10546",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Bio-informatique",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "12511",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Licence en Biologie Moléculaire Appliquée à la Santé (BMAS)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10509",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Address: Sidi Thabet, Ariana, BP-66, 2020 (catalogue). Lab-based programmes (travaux pratiques, PCR, chromatographie) but no official equipment list (e.g. lab coat) found. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/9",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "issep-ksar-said",
+      "shortName": "ISSEP Ksar Saïd",
+      "nameFr": "Institut Supérieur du Sport et de l'Éducation Physique de Ksar Saïd",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Manouba (Ksar Saïd)",
+      "governorate": "Manouba",
+      "website": "https://www.issep-ks.rnu.tn/",
+      "facebook": "",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Sciences et Techniques des Activités Physiques et Sportives (Éducation et motricité; Entraînement sportif)",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10450",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-tutelle with the Ministry of Youth and Sports. Address: 20 Rue des Travailleurs, Manouba (catalogue). Licence for students not exempted at bac sport. No Facebook found. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/14",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ises-manouba",
+      "shortName": "ISES",
+      "nameFr": "Institut Supérieur de l'Éducation Spécialisée",
+      "nameAr": "",
+      "type": "institut",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "http://www.ises.rnu.tn/",
+      "facebook": "https://www.facebook.com/profile.php?id=100057270017592",
+      "instagram": "",
+      "otherLinks": [],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Licence en Éducation Spécialisée",
+          "degree": "licence",
+          "kind": null,
+          "officialCode": "10473",
+          "durationYears": 3,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-tutelle with the Ministry of Social Affairs. Address: 2 Rue Jabran Khalil Jabran, 2010 Manouba. Catalogue: automatic scholarship for all licence students. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/12",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "enmv-sidi-thabet",
+      "shortName": "ENMV",
+      "nameFr": "École Nationale de Médecine Vétérinaire de Sidi Thabet",
+      "nameAr": "",
+      "type": "ecole",
+      "city": "Sidi Thabet",
+      "governorate": "Ariana",
+      "website": "https://www.enmv.agrinet.tn/",
+      "facebook": "https://www.facebook.com/E.N.M.VET.TUNISIA/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.enmv.agrinet.tn/index.php/fr/2021-05-28-11-00-36/emploi-du-temps/dv-1"
+      ],
+      "newsPage": "http://www.enmv.agrinet.tn/index.php/fr/",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [
+        {
+          "nameFr": "Diplôme national de docteur en médecine vétérinaire (admission par concours national)",
+          "degree": "medicine",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": 5,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        },
+        {
+          "nameFr": "Mastère de Recherche One Health",
+          "degree": "master",
+          "kind": "recherche",
+          "officialCode": "",
+          "durationYears": 2,
+          "source": "https://uma.rnu.tn/fr/catalogue-de-formation"
+        },
+        {
+          "nameFr": "Résidanat en médecine vétérinaire (spécialisation, concours)",
+          "degree": "other",
+          "kind": null,
+          "officialCode": "",
+          "durationYears": null,
+          "source": "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+        }
+      ],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Co-tutelle with the Ministry of Agriculture. Catalogue says 5 years; UMA page says six years including a preparatory year and internship year. Site publishes emplois du temps (DV1, DV2, PV1, PV2). Rentrée 1 Sept 2026 per national calendar. UVT hosts a dedicated space for each public institution on its Moodle-based ENT (https://ent.uvt.rnu.tn), managed by a local CEL referent (source: https://www.uvt.rnu.tn/documents/liste-referents-cel/Feuille-de-route-CEL.pdf); not confirmed specifically for this institute.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/1",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf",
+        "http://www.enmv.agrinet.tn/index.php/fr/",
+        "https://uma.rnu.tn/fr/catalogue-de-formation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ishtc-manouba",
+      "shortName": "ISHTC",
+      "nameFr": "Institut Supérieur de l'Histoire de la Tunisie Contemporaine",
+      "nameAr": "المعهد العالي لتاريخ تونس المعاصر",
+      "type": "other",
+      "city": "Manouba",
+      "governorate": "Manouba",
+      "website": "http://www.ishtc.rnu.tn",
+      "facebook": "https://www.facebook.com/ishtctunisie/",
+      "instagram": "",
+      "otherLinks": [
+        "http://www.ishmn.rnu.tn"
+      ],
+      "newsPage": "",
+      "moodleOrElearning": "",
+      "studentSpace": "",
+      "programs": [],
+      "studentGroups": [],
+      "examArchives": [],
+      "equipmentNotes": "",
+      "notes": "Research institution (établissement de recherche scientifique); holds a microfilmed archive collection. Catalogue lists website www.ishmn.rnu.tn while UMA page lists ishtc.rnu.tn. No undergraduate programmes listed.",
+      "sources": [
+        "https://uma.rnu.tn/fr/university-establishments/13",
+        "https://uma.rnu.tn/userfiles/files/Catalogue_offres%20de%20formation26_UMA%20%281%29.pdf"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "calendars": [
+    {
+      "title": "Calendrier de l'année universitaire 2026-2027 (circulaire du Ministère de l'Enseignement Supérieur, relayée par la presse)",
+      "academicYear": "2026-2027",
+      "url": "https://www.webdo.tn/fr/actualite/national/rentree-universitaire-2026-27-en-tunisie-le-calendrier-officiel-devoile/400656/",
+      "summary": "Rentrée 1 Sept 2026 for engineering prep institutes, engineering schools, ENMV Sidi Thabet, medicine/pharmacy, ISETs; 12 Sept 2026 for all other institutions. Winter break 12-27 Dec 2026; spring break 19 Mar (after classes) - 4 Apr 2027. Holidays: 15 Oct 2026, 17 Dec 2026, 1 Jan 2027, 20 Mar 2027, 9 Apr 2027, 1 May 2027; Eid dates TBA. Min 28 weeks of teaching. No UMA-specific calendar found."
+    }
+  ],
+  "gaps": [
+    "No UMA-specific 2026-2027 calendar found (only national circular via press); ESCT and ISCAE have calendar pages not read in detail",
+    "Many institute sites (ensi.rnu.tn, esen.rnu.tn, flm, isd, isbst, ises, intes, issep-ks, essted, ishtc) refused connections during research; news pages/Moodle URLs for them not verified",
+    "Per-institute Moodle URLs not found; UVT ENT (ent.uvt.rnu.tn) hosts institution spaces nationally",
+    "No public student Facebook/Telegram groups or old-exam archives could be verified (Facebook not searchable without login)",
+    "No official equipment lists found for ISAMM, ESSTED, ISBST or ENMV",
+    "Arabic names missing for most institutes",
+    "Full master's lists missing for ISCAE, ISD, ISAMM, IPSI (partial), FLAH (truncated); orientation codes for masters not applicable",
+    "Tunis Business School appears in Wikipedia's UMA list but is not in UMA's 2026 establishment list (belongs to Université de Tunis) - excluded"
+  ]
+}
