@@ -1,6 +1,6 @@
 import "server-only";
 import { randomUUID } from "node:crypto";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 // Runtime-only location; the turbopackIgnore hints keep Next from tracing the whole project into the build.
@@ -37,6 +37,12 @@ export async function saveUpload(file: File) {
   await mkdir(/*turbopackIgnore: true*/ UPLOAD_DIR, { recursive: true });
   await writeFile(filePath(key), bytes);
   return key;
+}
+
+/** Removes a stored file; missing files are ignored. */
+export async function deleteUpload(key: string) {
+  if (!KEY_PATTERN.test(key)) return;
+  await rm(filePath(key), { force: true });
 }
 
 /** Reads a stored file, or returns null for unknown or malformed keys. */

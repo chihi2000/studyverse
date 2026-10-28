@@ -22,7 +22,8 @@ export async function getUser() {
 
 export async function requireRole(...roles: Role[]) {
   const user = await getUser();
-  if (!user) redirect("/connexion");
+  // requireRole only guards the panel, so send people back there after signing in.
+  if (!user) redirect("/connexion?next=/panel");
   if (!roles.includes(user.role)) forbidden();
   return user;
 }

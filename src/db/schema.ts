@@ -10,6 +10,7 @@ import {
   text,
   timestamp,
   unique,
+  uniqueIndex,
   uuid,
 } from "drizzle-orm/pg-core";
 
@@ -183,13 +184,19 @@ export const subjects = pgTable(
     code: text(),
     ...timestamps,
   },
-  (t) => [index().on(t.levelId)],
+  // Students create subjects while uploading; one subject per name (any case) and year.
+  (t) => [uniqueIndex("subjects_level_name_unique").on(t.levelId, sql`lower(${t.nameFr})`)],
 );
 
+// Old exams, corrections, courses and TDs shared by students, visible once an ambassador approves them.
 export const documents = pgTable(
   "documents",
   {
     id: uuid().primaryKey().defaultRandom(),
+    // Denormalized from subject -> level -> program for the moderation queue.
+    instituteId: uuid()
+      .notNull()
+      .references(() => institutes.id, { onDelete: "cascade" }),
     subjectId: uuid()
       .notNull()
       .references(() => subjects.id, { onDelete: "cascade" }),
@@ -199,9 +206,12 @@ export const documents = pgTable(
     session: examSessionEnum(),
     fileKey: text().notNull(),
     status: moderationStatusEnum().notNull().default("pending"),
+    uploadedBy: text().references(() => users.id, { onDelete: "set null" }),
+    reviewedBy: text().references(() => users.id, { onDelete: "set null" }),
+    reviewedAt: timestamp({ withTimezone: true }),
     ...timestamps,
   },
-  (t) => [index().on(t.subjectId, t.status)],
+  (t) => [index().on(t.subjectId, t.status), index().on(t.instituteId, t.status)],
 );
 
 // Scope, from widest to narrowest: national (no university or institute), one university,

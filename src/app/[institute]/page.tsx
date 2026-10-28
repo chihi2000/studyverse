@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { and, asc, desc, eq, gte, isNull, or, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
-import { institutes, levels, posts, programs } from "@/db/schema";
+import { posts, programs } from "@/db/schema";
 import { vapidPublicKey } from "@/lib/push";
 import { NotifyButton } from "./notify-button";
+import { getInstitute, InstituteTabs, loadProgramFilter, ProgramYearFilter } from "./shared";
 import {
   categoryLabels,
   categoryStyles,
@@ -30,11 +31,6 @@ type Props = {
   searchParams: Promise<{ categorie?: string; programme?: string; annee?: string }>;
 };
 
-async function getInstitute(slug: string) {
-  const [inst] = await db.select().from(institutes).where(eq(institutes.slug, slug));
-  return inst;
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const inst = await getInstitute((await params).institute);
   return { title: inst ? `Actualités ${inst.shortName}` : "Introuvable" };
@@ -48,23 +44,8 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
   const category = isPostCategory(query.categorie) ? query.categorie : undefined;
   const vapidKey = vapidPublicKey();
 
-  const instPrograms = await db
-    .select({
-      id: programs.id,
-      slug: programs.slug,
-      nameFr: programs.nameFr,
-      degree: programs.degree,
-      officialCode: programs.officialCode,
-    })
-    .from(programs)
-    .where(eq(programs.instituteId, inst.id))
-    .orderBy(asc(programs.degree), asc(programs.nameFr));
-  const program = instPrograms.find((p) => p.slug === query.programme);
-
-  const programLevels = program
-    ? await db.select().from(levels).where(eq(levels.programId, program.id)).orderBy(asc(levels.year))
-    : [];
-  const level = programLevels.find((l) => String(l.year) === query.annee);
+  const filter = await loadProgramFilter(inst.id, query);
+  const { instPrograms, program, level } = filter;
 
   // National, university-wide and institute-wide posts always show; narrower posts only when they match the filters.
   const filters: (SQL | undefined)[] = [
@@ -162,44 +143,9 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
         </details>
       )}
 
-      <form className="flex flex-wrap items-end gap-2" action={`/${inst.slug}`}>
-        {category && <input type="hidden" name="categorie" value={category} />}
-        <label className="flex flex-col gap-1 text-sm">
-          Filière
-          <select
-            name="programme"
-            defaultValue={program?.slug ?? ""}
-            className="rounded-lg border border-black/15 bg-transparent px-2 py-1.5 dark:border-white/15"
-          >
-            <option value="">Toutes</option>
-            {instPrograms.map((p) => (
-              <option key={p.id} value={p.slug}>
-                {p.nameFr}
-              </option>
-            ))}
-          </select>
-        </label>
-        {program && (
-          <label className="flex flex-col gap-1 text-sm">
-            Année
-            <select
-              name="annee"
-              defaultValue={level ? String(level.year) : ""}
-              className="rounded-lg border border-black/15 bg-transparent px-2 py-1.5 dark:border-white/15"
-            >
-              <option value="">Toutes</option>
-              {programLevels.map((l) => (
-                <option key={l.id} value={l.year}>
-                  {l.label}
-                </option>
-              ))}
-            </select>
-          </label>
-        )}
-        <button className="rounded-lg bg-foreground px-3 py-1.5 text-sm font-medium text-background">
-          Filtrer
-        </button>
-      </form>
+      <InstituteTabs slug={inst.slug} active="news" />
+
+      <ProgramYearFilter action={`/${inst.slug}`} filter={filter} hidden={{ categorie: category }} />
 
       <nav className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
         <CategoryChip href={hrefWith({})} active={!category}>

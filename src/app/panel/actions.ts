@@ -6,10 +6,19 @@ import { after } from "next/server";
 import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
-import { ambassadorAssignments, institutes, levels, postCategoryEnum, posts, programs, users } from "@/db/schema";
+import {
+  ambassadorAssignments,
+  documents,
+  institutes,
+  levels,
+  postCategoryEnum,
+  posts,
+  programs,
+  users,
+} from "@/db/schema";
 import { notifyPost } from "@/lib/push";
 import { canPublishFor, requireRole } from "@/lib/session";
-import { saveUpload, UploadError } from "@/lib/uploads";
+import { deleteUpload, saveUpload, UploadError } from "@/lib/uploads";
 
 export type FormState = { error?: string; ok?: boolean } | undefined;
 
@@ -164,4 +173,31 @@ export async function unassignInstitute(formData: FormData) {
     .delete(ambassadorAssignments)
     .where(and(eq(ambassadorAssignments.userId, userId), eq(ambassadorAssignments.instituteId, instituteId)));
   revalidatePath("/panel/admin");
+}
+
+// --- Document moderation ---
+
+async function moderatableDocument(formData: FormData) {
+  const user = await requireRole("ambassador", "admin");
+  const id = z.uuid().parse(formData.get("documentId"));
+  const [doc] = await db.select().from(documents).where(eq(documents.id, id));
+  if (!doc || !(await canPublishFor(user, doc.instituteId))) forbidden();
+  return { user, doc };
+}
+
+export async function approveDocument(formData: FormData) {
+  const { user, doc } = await moderatableDocument(formData);
+  await db
+    .update(documents)
+    .set({ status: "approved", reviewedBy: user.id, reviewedAt: new Date() })
+    .where(eq(documents.id, doc.id));
+  revalidatePath("/", "layout");
+}
+
+export async function rejectDocument(formData: FormData) {
+  const { doc } = await moderatableDocument(formData);
+  // Rejected files are not kept.
+  await db.delete(documents).where(eq(documents.id, doc.id));
+  await deleteUpload(doc.fileKey);
+  revalidatePath("/", "layout");
 }

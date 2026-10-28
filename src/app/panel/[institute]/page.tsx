@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { forbidden, notFound } from "next/navigation";
-import { asc, desc, eq } from "drizzle-orm";
+import { and, asc, count, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { institutes, levels, posts, programs } from "@/db/schema";
+import { documents, institutes, levels, posts, programs } from "@/db/schema";
 import { categoryLabels, formatDate } from "@/lib/posts";
 import { canPublishFor, requireRole } from "@/lib/session";
 import { deletePost } from "../actions";
@@ -34,6 +34,11 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
     if (r.levelId) audiences.push({ value: `l:${r.levelId}`, label: `${r.program} · ${r.level}` });
   }
 
+  const [{ pending }] = await db
+    .select({ pending: count() })
+    .from(documents)
+    .where(and(eq(documents.instituteId, inst.id), eq(documents.status, "pending")));
+
   const recent = await db
     .select()
     .from(posts)
@@ -49,6 +54,20 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
           Voir la page publique
         </Link>
       </div>
+
+      <Link
+        href={`/panel/${inst.slug}/moderation`}
+        className="flex items-center justify-between rounded-xl border border-black/10 px-4 py-3 text-sm font-medium dark:border-white/10"
+      >
+        Documents à valider
+        <span
+          className={`rounded-full px-2 py-0.5 text-xs ${
+            pending ? "bg-amber-100 text-amber-900 dark:bg-amber-900 dark:text-amber-100" : "bg-black/5 dark:bg-white/10"
+          }`}
+        >
+          {pending}
+        </span>
+      </Link>
 
       <PostForm instituteId={inst.id} audiences={audiences} />
 
