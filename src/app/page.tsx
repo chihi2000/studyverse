@@ -221,15 +221,15 @@ function Pillar({
     <li className="flex flex-col gap-4 border-b border-line py-10 last:border-b-0 md:border-b-0 md:border-e md:px-8 md:first:ps-0 md:last:border-e-0 md:last:pe-0">
       <div data-reveal style={delay(0)} className="flex items-end justify-between">
         <span className="text-brand">{icon}</span>
-        <span className="display text-[2.75rem] leading-none text-accent">0{index + 1}</span>
+        <span className="p-num display text-[2.75rem] leading-none text-accent">0{index + 1}</span>
       </div>
-      <h3 data-reveal style={delay(1)} className="display text-[1.65rem] leading-tight">
+      <h3 data-reveal style={delay(1)} className="p-title display text-[1.65rem] leading-tight">
         {title}
       </h3>
-      <p data-reveal style={delay(1)} className="leading-relaxed text-muted">
+      <p data-reveal style={delay(1)} className="p-text leading-relaxed text-muted">
         {text}
       </p>
-      <div data-reveal style={delay(2)} className="mt-auto pt-2">
+      <div data-reveal style={delay(2)} className="p-link mt-auto pt-2">
         <Link href={link.href} className="group inline-flex items-center gap-2 font-medium text-brand">
           <span className="border-b border-current pb-0.5">{link.label}</span>
           <ArrowRightIcon size={17} className="transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
@@ -249,7 +249,8 @@ function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref:
         </h2>
       </div>
 
-      <ul className="grid border-t border-ink md:grid-cols-3">
+      <div aria-hidden className="pillar-rule h-px bg-ink" />
+      <ul className="pillars-scroll grid md:grid-cols-3">
         <Pillar
           index={0}
           icon={<CoursesIcon />}

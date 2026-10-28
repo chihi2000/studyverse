@@ -577,3 +577,90 @@ body {
   .reveal-ready [data-reveal] .draw-icon :is(path, circle):nth-child(5) { transition-delay: 480ms; }
   .reveal-ready [data-reveal] .draw-icon :is(path, circle):nth-child(n + 6) { transition-delay: 600ms; }
 }
+
+/* Homepage pillars, driven by the scroll position (each column has its own view timeline).
+   The IntersectionObserver reveal above stays as the fallback where scroll timelines aren't supported. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal-ready .pillars-scroll [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    .reveal-ready .pillars-scroll .draw-icon :is(path, circle, rect, line) {
+      transition: none;
+    }
+
+    .pillar-rule {
+      transform-origin: left center;
+      animation: rule-scale linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+    [dir="rtl"] .pillar-rule {
+      transform-origin: right center;
+    }
+
+    .pillars-scroll > li {
+      view-timeline: --pillar block;
+      --o: 0%;
+    }
+    @media (min-width: 768px) {
+      /* Side-by-side columns: the 2nd and 3rd follow slightly behind the 1st. */
+      .pillars-scroll > li:nth-child(2) {
+        --o: 6%;
+      }
+      .pillars-scroll > li:nth-child(3) {
+        --o: 12%;
+      }
+    }
+
+    .pillars-scroll :is(.p-num, .p-title, .p-text, .p-link) {
+      animation: p-rise linear both;
+      animation-timeline: --pillar;
+    }
+    .pillars-scroll .p-num {
+      animation-range: entry calc(5% + var(--o)) cover calc(22% + var(--o));
+    }
+    .pillars-scroll .p-title {
+      animation-range: entry calc(20% + var(--o)) cover calc(28% + var(--o));
+    }
+    .pillars-scroll .p-text {
+      animation-range: entry calc(35% + var(--o)) cover calc(33% + var(--o));
+    }
+    .pillars-scroll .p-link {
+      animation-range: entry calc(50% + var(--o)) cover calc(38% + var(--o));
+    }
+    .pillars-scroll .draw-icon :is(path, circle, rect, line) {
+      animation: p-draw linear both;
+      animation-timeline: --pillar;
+      animation-range: entry calc(0% + var(--o)) cover calc(30% + var(--o));
+    }
+  }
+}
+@keyframes rule-scale {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes p-rise {
+  from {
+    opacity: 0;
+    transform: translateY(2.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes p-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
