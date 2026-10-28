@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { clubs, institutes, levels, posts, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
 import { ClubMonogram } from "@/components/club-monogram";
+import Image, { type StaticImageData } from "next/image";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
 import { TypedHeadline } from "@/components/typed-headline";
@@ -11,6 +12,9 @@ import { AgendaItem } from "@/components/posts";
 import { clubCategoryLabels } from "@/lib/clubs";
 import crowdImage from "../../public/img/hall-crowd.jpg";
 import heroImage from "../../public/img/hero-hall.jpg";
+import annoncesImage from "../../public/img/pillar-annonces.jpg";
+import clubsImage from "../../public/img/pillar-clubs.jpg";
+import coursImage from "../../public/img/pillar-cours.jpg";
 import studyImage from "../../public/img/students-studying.jpg";
 
 export const dynamic = "force-dynamic";
@@ -235,6 +239,18 @@ function PreviewFrame({ caption, children }: { caption: string; children: React.
   );
 }
 
+/** A photo revealed with the scroll, with the UI preview overlapping its lower corner. */
+function PhotoPreview({ image, alt, children }: { image: StaticImageData; alt: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <div data-reveal="clip" className="scroll-media">
+        <Image src={image} alt={alt} placeholder="blur" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[4/3] w-full object-cover" />
+      </div>
+      <div className="relative -mt-20 ms-auto w-[88%] sm:-mt-28 sm:w-[78%]">{children}</div>
+    </div>
+  );
+}
+
 function Pillar({
   index,
   title,
@@ -283,6 +299,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         title="Cours, TD, corrigés et anciens examens."
         text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre et la matière, ouvre le document."
         preview={
+          <PhotoPreview image={coursImage} alt="Des mains surlignent un polycopié de cours sur une table de salle de lecture, à côté d'un examen annoté.">
           <PreviewFrame caption="Exemple d'organisation">
             <div className="py-3">
               <p className="eyebrow pb-2">Semestre 1</p>
@@ -300,6 +317,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
               </ul>
             </div>
           </PreviewFrame>
+          </PhotoPreview>
         }
       />
 
@@ -309,6 +327,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         title="Les clubs de ton établissement."
         text="Robotique, IEEE, entrepreneuriat, design, culture… Découvre les clubs, leurs prochains événements et tout ce qu'ils ont déjà réalisé."
         preview={
+          <PhotoPreview image={clubsImage} alt="Des étudiants d'un club construisent ensemble un petit robot dans un atelier de la faculté.">
           <PreviewFrame caption="Clubs sur Studyverse">
             {clubList.length ? (
               <ul className="divide-y divide-line">
@@ -334,6 +353,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
               <p className="py-6 text-sm text-muted">Les premiers clubs arrivent bientôt.</p>
             )}
           </PreviewFrame>
+          </PhotoPreview>
         }
       />
 
@@ -342,6 +362,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         title="Les annonces officielles, et une notification quand ça te concerne."
         text="Emplois du temps, examens, règlements et vacances, publiés par les ambassadeurs avec la photo de l'affiche. Suis ta filière et ton année pour être prévenu."
         preview={
+          <PhotoPreview image={annoncesImage} alt="Une étudiante photographie une annonce officielle tamponnée sur le panneau d'affichage de la faculté.">
           <PreviewFrame caption="Calendrier officiel 2026-2027">
             {agenda.length ? (
               <ul className="divide-y divide-line">
@@ -356,6 +377,7 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
               <BellIcon size={14} /> Source : Ministère de l&apos;Enseignement supérieur
             </p>
           </PreviewFrame>
+          </PhotoPreview>
         }
       />
     </section>
