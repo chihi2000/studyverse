@@ -702,3 +702,52 @@ body {
     transform: none;
   }
 }
+
+/* Directory rows: the divider draws across, the name slides in, then the count. */
+.uni-row {
+  position: relative;
+}
+.uni-row::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--line);
+  transform-origin: left center;
+}
+[dir="rtl"] .uni-row::after {
+  transform-origin: right center;
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .uni-row {
+      view-timeline: --uni block;
+    }
+    .uni-row::after {
+      animation: rule-scale linear both;
+      animation-timeline: --uni;
+      animation-range: entry 0% cover 30%;
+    }
+    .uni-row .uni-name {
+      animation: uni-in linear both;
+      animation-timeline: --uni;
+      animation-range: entry 10% cover 22%;
+    }
+    .uni-row .uni-meta {
+      animation: fade-in linear both;
+      animation-timeline: --uni;
+      animation-range: entry 40% cover 28%;
+    }
+  }
+}
+@keyframes uni-in {
+  from {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

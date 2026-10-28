@@ -86,27 +86,63 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </div>
         </header>
 
-        <main id="contenu" className="flex-1">
+        {/* The page sits above the footer like a curtain; scrolling to the end lifts it off the footer. */}
+        <main
+          id="contenu"
+          className="relative z-10 flex-1 overflow-clip rounded-b-[2rem] bg-canvas shadow-[0_32px_64px_-32px_rgb(0_0_0/0.45)]"
+        >
           {children}
         </main>
 
-        <footer className="border-t border-line">
-          <div className="page grid gap-6 py-10 text-sm text-muted sm:grid-cols-[1fr_auto]">
-            <div className="space-y-2">
-              <Wordmark className="text-ink" />
-              <p className="max-w-md">
-                Portail gratuit et indépendant pour les étudiants en Tunisie. Les fiches des établissements sans
-                ambassadeur proviennent de sources publiques et peuvent être incomplètes.
+        <footer className="sticky bottom-0 z-0 -mt-[2rem] bg-[#0e1d19] pt-[2rem] text-[#f7f5ef]">
+          <div className="page grid gap-10 pb-12 pt-16 md:grid-cols-12">
+            <div className="space-y-4 md:col-span-6">
+              <p className="eyebrow !text-[#f7f5ef]/60">Le portail des étudiants en Tunisie</p>
+              <p className="max-w-md leading-relaxed text-[#f7f5ef]/75">
+                Gratuit et indépendant. Les fiches des établissements sans ambassadeur proviennent de sources publiques
+                et peuvent être incomplètes.
               </p>
             </div>
-            <nav aria-label="Pied de page" className="flex gap-5 sm:flex-col sm:items-end sm:gap-2">
-              <Link href="/#annuaire" className="hover:text-ink">
-                Établissements
-              </Link>
-              <Link href={canPublish ? "/panel" : "/connexion"} className="hover:text-ink">
-                {canPublish ? "Mon espace" : "Connexion"}
-              </Link>
+            <nav aria-label="Pied de page" className="grid grid-cols-2 gap-8 text-sm md:col-span-5 md:col-start-8">
+              <div className="space-y-3">
+                <p className="eyebrow !text-[#f7f5ef]/50">Explorer</p>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href="/#annuaire" className="text-[#f7f5ef]/80 transition-colors hover:text-[#f7f5ef]">
+                      Établissements
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#campus-title" className="text-[#f7f5ef]/80 transition-colors hover:text-[#f7f5ef]">
+                      Mon campus
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="space-y-3">
+                <p className="eyebrow !text-[#f7f5ef]/50">Compte</p>
+                <ul className="space-y-2">
+                  <li>
+                    <Link
+                      href={canPublish ? "/panel" : "/connexion"}
+                      className="text-[#f7f5ef]/80 transition-colors hover:text-[#f7f5ef]"
+                    >
+                      {canPublish ? "Mon espace" : "Connexion"}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </nav>
+          </div>
+          <div className="page overflow-hidden">
+            <p aria-hidden className="display -mb-[0.14em] select-none text-[clamp(4.5rem,17.5vw,15.5rem)] leading-[0.85]">
+              Studyverse<span className="text-accent">.</span>
+            </p>
+          </div>
+          <div className="border-t border-white/10">
+            <p className="page py-5 text-xs text-[#f7f5ef]/50">
+              © {new Date().getFullYear()} Studyverse · Images d&apos;illustration générées
+            </p>
           </div>
         </footer>
 

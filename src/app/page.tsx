@@ -1,12 +1,13 @@
 import Link from "next/link";
-import { and, asc, count, eq, ilike, isNotNull, or, sql } from "drizzle-orm";
+import { asc, count, eq, ilike, or, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { clubs, institutes, levels, programs, universities } from "@/db/schema";
+import { clubs, institutes, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, SearchIcon } from "@/components/icons";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
 import { AnnouncementsIcon, ClubsIcon, CoursesIcon } from "@/components/pillar-icons";
 import { ScrollWords } from "@/components/scroll-words";
+import { CampusPicker } from "./campus-picker";
 import { TypedHeadline } from "@/components/typed-headline";
 import crowdImage from "../../public/img/hall-crowd.jpg";
 import heroImage from "../../public/img/hero-hall.jpg";
@@ -45,7 +46,7 @@ export default async function Home({ searchParams }: Props) {
 
   if (q) return <SearchResults q={q} rows={rows} />;
 
-  const [[{ instituteCount }], [{ programCount }], pilots, example, [clubHome]] = await Promise.all([
+  const [[{ instituteCount }], [{ programCount }], pilots, universityList, [clubHome]] = await Promise.all([
     db.select({ instituteCount: count() }).from(institutes),
     db.select({ programCount: count() }).from(programs),
     db
@@ -63,24 +64,11 @@ export default async function Home({ searchParams }: Props) {
       .innerJoin(universities, eq(institutes.universityId, universities.id))
       .where(eq(institutes.isActive, true))
       .orderBy(asc(institutes.shortName)),
-    // A real path through the hierarchy, from an active institute.
+    // Universities for the campus picker: public ones first, then the ISET network, then private.
     db
-      .select({
-        university: universities.nameFr,
-        instituteSlug: institutes.slug,
-        institute: institutes.shortName,
-        programSlug: programs.slug,
-        program: programs.nameFr,
-        level: levels.label,
-        year: levels.year,
-      })
-      .from(levels)
-      .innerJoin(programs, eq(levels.programId, programs.id))
-      .innerJoin(institutes, eq(programs.instituteId, institutes.id))
-      .innerJoin(universities, eq(institutes.universityId, universities.id))
-      .where(and(eq(institutes.isActive, true), eq(programs.degree, "licence"), isNotNull(programs.officialCode), eq(levels.year, 1)))
-      .orderBy(asc(institutes.shortName), asc(programs.officialCode))
-      .limit(1),
+      .select({ slug: universities.slug, name: universities.nameFr })
+      .from(universities)
+      .orderBy(asc(universities.sector), sql`${universities.slug} = 'dget'`, asc(universities.nameFr)),
     // The first institute that already lists clubs.
     db
       .select({ slug: institutes.slug })
@@ -97,7 +85,7 @@ export default async function Home({ searchParams }: Props) {
         clubsHref={clubHome ? `/${clubHome.slug}/clubs` : "#annuaire"}
         calendarHref={pilots[0] ? `/${pilots[0].slug}?categorie=holiday` : "#annuaire"}
       />
-      {example[0] && <Hierarchy example={example[0]} />}
+      <CampusSection universities={universityList} />
       <Directory rows={rows} pilots={pilots} />
       <ClosingCta />
     </>
@@ -146,9 +134,9 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
       <section className="relative isolate flex min-h-[calc(100svh-var(--header-h))] items-end overflow-hidden bg-forest">
         <HeroSlideshow
           slides={[
+            { image: crowdImage, position: "45% center" },
             { image: heroImage, position: "30% center" },
             { image: studyImage, position: "30% center" },
-            { image: crowdImage, position: "45% center" },
           ]}
         />
         {/* Darkens only where the text sits: the bottom on mobile, the right half on desktop. */}
@@ -278,72 +266,28 @@ function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref:
   );
 }
 
-/* ── 03 Hierarchy ────────────────────────────────────────────────────── */
+/* ── 03 Campus picker ───────────────────────────────────────────────── */
 
-type Example = {
-  university: string;
-  instituteSlug: string;
-  institute: string;
-  programSlug: string;
-  program: string;
-  level: string;
-  year: number;
-};
-
-function Hierarchy({ example }: { example: Example }) {
-  const feedHref = `/${example.instituteSlug}?programme=${example.programSlug}&annee=${example.year}`;
-  const steps = [
-    { label: "Université", value: example.university, href: "#annuaire" },
-    { label: "Établissement", value: example.institute, href: `/${example.instituteSlug}` },
-    { label: "Filière", value: example.program, href: `/${example.instituteSlug}?programme=${example.programSlug}` },
-    { label: "Année", value: example.level, href: feedHref },
-  ];
+function CampusSection({ universities }: { universities: { slug: string; name: string }[] }) {
   return (
-    <section aria-labelledby="hierarchie-title" className="bg-surface-2/60">
+    <section aria-labelledby="campus-title" className="bg-surface-2/60">
       <div className="page py-24 md:py-32">
         <div className="mb-12 grid gap-6 lg:grid-cols-12">
           <div className="space-y-3 lg:col-span-6">
-            <p data-reveal className="scroll-rise eyebrow">03 — Ton campus, tes infos</p>
-            <h2 id="hierarchie-title" className="scroll-words display text-[clamp(2.2rem,5vw,3.5rem)]">
-              <ScrollWords text="Quatre choix, et tout ce qui te concerne." />
+            <p data-reveal className="scroll-rise eyebrow">03 — Ton campus</p>
+            <h2 id="campus-title" className="scroll-words display text-[clamp(2.2rem,5vw,3.5rem)]">
+              <ScrollWords text="Choisis ton campus, on s'occupe du reste." />
             </h2>
           </div>
           <p
             style={{ "--o": "12%" } as React.CSSProperties}
             className="scroll-rise self-end text-lg leading-relaxed text-muted lg:col-span-5 lg:col-start-8"
           >
-            Chaque annonce peut viser tout le pays, ton université, ton établissement, ou seulement ta filière et ton
-            année. Tu ne vois que ce qui te concerne.
+            Université, établissement, filière, année : ton fil d&apos;actualités, tes examens et tes cours, filtrés
+            pour toi. Ton choix est gardé sur cet appareil.
           </p>
         </div>
-
-        <ol className="grid border-t border-line md:grid-cols-4">
-          {steps.map((step, i) => (
-            <li
-              key={step.label}
-              data-reveal
-              style={{ "--i": i, "--o": `${i * 7}%` } as React.CSSProperties}
-              className="scroll-rise border-b border-line md:border-b-0 md:border-e md:last:border-e-0"
-            >
-              <Link href={step.href} className="group flex h-full flex-col gap-3 py-6 md:px-5 md:py-8 md:first:ps-0">
-                <span className="flex items-center gap-3">
-                  <span className="grid size-7 place-items-center rounded-full border border-ink/30 text-xs font-semibold">
-                    {i + 1}
-                  </span>
-                  <span className="eyebrow">{step.label}</span>
-                </span>
-                <span className="display text-[1.35rem] leading-snug transition-colors group-hover:text-brand">
-                  {step.value}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ol>
-
-        <Link href={feedHref} style={{ "--o": "10%" } as React.CSSProperties} className="scroll-rise btn btn-primary mt-10">
-          Voir les actualités de {example.institute} · {example.level}
-          <ArrowRightIcon size={17} />
-        </Link>
+        <CampusPicker universities={universities} />
       </div>
     </section>
   );
@@ -360,11 +304,11 @@ function UniversityIndex({ rows, open }: { rows: DirectoryRow[]; open?: boolean 
   return (
     <div className="border-t border-ink">
       {[...groups.values()].map((list) => (
-        <details key={list[0].universitySlug} open={open} className="group border-b border-line">
-          <summary className="flex cursor-pointer list-none items-center gap-4 py-4 transition-colors hover:text-brand [&::-webkit-details-marker]:hidden">
-            <span className="display flex-1 text-[1.3rem]">{list[0].university}</span>
-            <span className="text-sm tabular-nums text-muted">{list.length}</span>
-            <span aria-hidden className="text-muted transition-transform duration-200 group-open:rotate-45">
+        <details key={list[0].universitySlug} open={open} className="uni-row group">
+          <summary className="flex cursor-pointer list-none items-center gap-4 py-4 transition-[color,padding] duration-200 hover:ps-3 hover:text-brand [&::-webkit-details-marker]:hidden">
+            <span className="uni-name display flex-1 text-[1.3rem]">{list[0].university}</span>
+            <span className="uni-meta text-sm tabular-nums text-muted">{list.length}</span>
+            <span aria-hidden className="uni-meta text-muted transition-transform duration-200 group-open:rotate-45">
               +
             </span>
           </summary>
