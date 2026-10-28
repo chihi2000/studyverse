@@ -10,12 +10,13 @@ export const categoryLabels: Record<PostCategory, string> = {
   event: "Événement",
 };
 
-export const categoryStyles: Record<PostCategory, string> = {
-  schedule: "bg-sky-50 text-sky-800 ring-sky-200 dark:bg-sky-950 dark:text-sky-200 dark:ring-sky-800",
-  exam_calendar: "bg-rose-50 text-rose-800 ring-rose-200 dark:bg-rose-950 dark:text-rose-200 dark:ring-rose-800",
-  announcement: "bg-amber-50 text-amber-900 ring-amber-200 dark:bg-amber-950 dark:text-amber-200 dark:ring-amber-800",
-  holiday: "bg-emerald-50 text-emerald-800 ring-emerald-200 dark:bg-emerald-950 dark:text-emerald-200 dark:ring-emerald-800",
-  event: "bg-violet-50 text-violet-800 ring-violet-200 dark:bg-violet-950 dark:text-violet-200 dark:ring-violet-800",
+// Category marks use two brand colours, told apart by fill vs. outline rather than a rainbow.
+export const categoryMarks: Record<PostCategory, string> = {
+  exam_calendar: "bg-accent",
+  schedule: "bg-brand",
+  announcement: "bg-ink",
+  holiday: "border-[1.5px] border-brand",
+  event: "border-[1.5px] border-accent",
 };
 
 export function isPostCategory(value: unknown): value is PostCategory {
@@ -37,4 +38,19 @@ export function formatPeriod(startsAt: Date | null, endsAt: Date | null) {
   if (startsAt && endsAt) return dateFormat.formatRange(startsAt, endsAt);
   if (startsAt) return formatDate(startsAt);
   return null;
+}
+
+const dayFormat = new Intl.DateTimeFormat("fr-TN", { day: "numeric", timeZone: "Africa/Tunis" });
+const monthFormat = new Intl.DateTimeFormat("fr-TN", { month: "short", timeZone: "Africa/Tunis" });
+const weekdayFormat = new Intl.DateTimeFormat("fr-TN", { weekday: "long", timeZone: "Africa/Tunis" });
+
+/** Pieces for a calendar-style date block: "17", "déc.", "jeudi". */
+export function dateParts(date: Date) {
+  return { day: dayFormat.format(date), month: monthFormat.format(date), weekday: weekdayFormat.format(date) };
+}
+
+const shortDate = new Intl.DateTimeFormat("fr-TN", { day: "numeric", month: "short", timeZone: "Africa/Tunis" });
+
+export function formatShortDate(date: Date) {
+  return shortDate.format(date);
 }

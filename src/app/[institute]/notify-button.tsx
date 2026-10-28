@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { BellIcon, CheckIcon } from "@/components/icons";
 import { followedInstitute, subscribe, unsubscribe } from "../push-actions";
 
 type Status = "loading" | "unsupported" | "ios-install" | "denied" | "off" | "on" | "other";
@@ -86,45 +87,45 @@ export function NotifyButton({ vapidKey, instituteSlug, shortName, programSlug, 
   }
 
   const target = filterLabel ? `${shortName} · ${filterLabel}` : shortName;
-  const box = "rounded-xl border border-black/10 p-3 text-sm dark:border-white/10";
+  const note = "max-w-xs text-sm leading-relaxed text-muted";
 
   switch (status) {
     case "loading":
-      return <div className={`${box} h-[46px] animate-pulse`} aria-hidden />;
+      return <div className="skeleton h-11 w-64" aria-hidden />;
     case "unsupported":
       return null;
     case "ios-install":
       return (
-        <p className={box}>
-          🔔 Pour recevoir les notifications sur iPhone : touche <strong>Partager</strong> puis{" "}
-          <strong>Sur l&apos;écran d&apos;accueil</strong>, et ouvre Studyverse depuis l&apos;icône.
+        <p className={note}>
+          <BellIcon size={16} className="me-1 inline align-[-3px] text-brand" />
+          Pour les notifications sur iPhone : <strong className="font-medium text-ink">Partager</strong> puis{" "}
+          <strong className="font-medium text-ink">Sur l&apos;écran d&apos;accueil</strong>, et ouvre Studyverse depuis
+          l&apos;icône.
         </p>
       );
     case "denied":
-      return (
-        <p className={`${box} text-black/60 dark:text-white/60`}>
-          Les notifications sont bloquées pour ce site. Autorise-les dans les réglages du navigateur.
-        </p>
-      );
+      return <p className={note}>Notifications bloquées pour ce site. Autorise-les dans les réglages du navigateur.</p>;
     case "on":
       return (
-        <div className={`${box} flex items-center gap-3`}>
-          <span className="flex-1">🔔 Notifications activées pour {shortName}</span>
-          <button onClick={disable} className="underline underline-offset-2">
-            Désactiver
+        <div className="flex items-center gap-3" role="status">
+          <span className="inline-flex items-center gap-2 text-sm font-medium text-success">
+            <CheckIcon size={17} /> Tu suis {shortName}
+          </span>
+          <button onClick={disable} className="link text-sm">
+            Ne plus suivre
           </button>
         </div>
       );
     default:
       return (
-        <div className="space-y-1">
-          <button
-            onClick={enable}
-            className="w-full rounded-xl bg-foreground px-4 py-3 text-sm font-medium text-background"
-          >
-            🔔 {status === "other" ? `Suivre ${target} à la place` : `Recevoir les actualités de ${target}`}
+        <div className="space-y-2">
+          <button onClick={enable} className="btn btn-primary max-w-full">
+            <BellIcon size={17} />
+            <span className="truncate">{status === "other" ? `Suivre ${target} à la place` : `Suivre ${target}`}</span>
           </button>
-          {error && <p className="text-sm text-rose-700 dark:text-rose-400">{error}</p>}
+          <p className="text-xs text-muted">
+            {error ? <span className="text-danger">{error}</span> : "Une notification à chaque nouvelle annonce."}
+          </p>
         </div>
       );
   }

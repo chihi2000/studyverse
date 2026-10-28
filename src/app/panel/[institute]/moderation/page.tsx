@@ -4,6 +4,7 @@ import { forbidden, notFound } from "next/navigation";
 import { and, asc, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { documents, institutes, levels, programs, subjects, users } from "@/db/schema";
+import { CheckIcon, FileIcon } from "@/components/icons";
 import { documentTitle } from "@/lib/documents";
 import { formatDate } from "@/lib/posts";
 import { canPublishFor, requireRole } from "@/lib/session";
@@ -36,57 +37,66 @@ export default async function ModerationPage({ params }: { params: Promise<{ ins
     .orderBy(asc(documents.createdAt));
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Documents à valider</h1>
-        <Link href={`/panel/${inst.slug}`} className="text-sm underline underline-offset-2">
+    <div className="max-w-3xl space-y-8 pt-10">
+      <div className="space-y-2">
+        <Link href={`/panel/${inst.slug}`} className="link text-sm">
           ← {inst.shortName}
         </Link>
+        <h1 className="display text-[clamp(2rem,5vw,3rem)]">Documents à vérifier</h1>
       </div>
 
-      <p className="text-sm text-black/60 dark:text-white/60">
-        Ouvre chaque fichier avant de valider : il doit être lisible, correspondre à la matière indiquée et ne contenir
-        aucune donnée personnelle (noms, notes, numéros d&apos;étudiants).
-      </p>
+      <div className="callout callout-info">
+        <p>
+          Ouvre chaque fichier avant de valider. Il doit être <strong>lisible</strong>, correspondre à la{" "}
+          <strong>matière</strong> indiquée et ne contenir <strong>aucune donnée personnelle</strong> (noms, notes,
+          numéros d&apos;étudiants).
+        </p>
+      </div>
 
       {queue.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-black/15 p-8 text-center text-black/60 dark:border-white/15 dark:text-white/60">
-          Rien à valider pour le moment.
-        </p>
+        <div className="space-y-2 border-t border-line py-12">
+          <p className="display text-2xl">Tout est à jour.</p>
+          <p className="text-muted">Aucun document en attente pour {inst.shortName}.</p>
+        </div>
       ) : (
-        <ul className="space-y-3">
-          {queue.map(({ doc, subject, semester, level, program, uploader }) => (
-            <li key={doc.id} className="space-y-3 rounded-xl border border-black/10 p-4 dark:border-white/10">
-              <div>
-                <p className="font-medium">
-                  {subject} <span className="font-normal text-black/50 dark:text-white/50">· S{semester}</span>
-                </p>
-                <p className="text-sm text-black/70 dark:text-white/70">
-                  {program} · {level}
-                </p>
-                <p className="text-sm">{documentTitle(doc.type, doc.session, doc.academicYear)}</p>
-                <p className="mt-1 text-xs text-black/50 dark:text-white/50">
-                  Envoyé par {uploader ?? "un compte supprimé"} le {formatDate(doc.createdAt)}
-                </p>
-              </div>
-              <div className="flex flex-wrap items-center gap-3 text-sm">
-                <a href={`/files/${doc.fileKey}`} target="_blank" className="underline underline-offset-2">
-                  Ouvrir le fichier
-                </a>
-                <form action={approveDocument} className="ms-auto">
-                  <input type="hidden" name="documentId" value={doc.id} />
-                  <button className="rounded-lg bg-emerald-700 px-3 py-1.5 font-medium text-white">Valider</button>
-                </form>
-                <form action={rejectDocument}>
-                  <input type="hidden" name="documentId" value={doc.id} />
-                  <button className="rounded-lg border border-rose-300 px-3 py-1.5 text-rose-700 dark:border-rose-800 dark:text-rose-400">
-                    Refuser
-                  </button>
-                </form>
+        <ol className="border-t border-ink">
+          {queue.map(({ doc, subject, semester, level, program, uploader }, i) => (
+            <li key={doc.id} className="grid gap-4 border-b border-line py-6 sm:grid-cols-[2rem_1fr]">
+              <span className="display hidden text-xl text-muted sm:block">{i + 1}</span>
+              <div className="space-y-4">
+                <div className="space-y-1">
+                  <p className="eyebrow">
+                    {documentTitle(doc.type, doc.session, doc.academicYear)}
+                  </p>
+                  <p className="display text-[1.4rem] leading-snug">
+                    {subject} <span className="text-muted">· S{semester}</span>
+                  </p>
+                  <p className="text-sm text-muted">
+                    {program} · {level}
+                  </p>
+                  <p className="text-xs text-muted">
+                    Envoyé par {uploader ?? "un compte supprimé"} le {formatDate(doc.createdAt)}
+                  </p>
+                </div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <a href={`/files/${doc.fileKey}`} target="_blank" className="btn btn-secondary btn-sm me-auto">
+                    <FileIcon size={16} /> Ouvrir le fichier
+                  </a>
+                  <form action={rejectDocument}>
+                    <input type="hidden" name="documentId" value={doc.id} />
+                    <button className="btn btn-danger btn-sm">Refuser</button>
+                  </form>
+                  <form action={approveDocument}>
+                    <input type="hidden" name="documentId" value={doc.id} />
+                    <button className="btn btn-primary btn-sm">
+                      <CheckIcon size={16} /> Valider
+                    </button>
+                  </form>
+                </div>
               </div>
             </li>
           ))}
-        </ul>
+        </ol>
       )}
     </div>
   );

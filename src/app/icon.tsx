@@ -16,8 +16,8 @@ export default async function Icon({ id }: { id: Promise<string> }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#171717",
-          color: "#ffffff",
+          background: "#193d35",
+          color: "#f7f5ef",
           fontSize: size * 0.6,
           fontWeight: 700,
         }}

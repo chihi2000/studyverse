@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { asc, eq } from "drizzle-orm";
 import { db } from "@/db";
@@ -45,11 +46,15 @@ export default async function UploadPage({ params, searchParams }: Props) {
     .orderBy(asc(subjects.nameFr));
 
   return (
-    <div className="space-y-6">
-      <div className="space-y-1">
-        <h1 className="text-2xl font-semibold tracking-tight">Partager un document</h1>
-        <p className="text-sm text-black/60 dark:text-white/60">
-          Anciens examens, corrigés, cours ou TD de {inst.shortName}.
+    <div className="page-narrow pb-24 pt-10 md:pt-14">
+      <Link href={`/${inst.slug}/examens`} className="link text-sm">
+        ← Examens & cours · {inst.shortName}
+      </Link>
+      <div className="mb-10 mt-6 space-y-3">
+        <p className="eyebrow">Bibliothèque partagée</p>
+        <h1 className="display text-[clamp(2.2rem,6vw,3.25rem)]">Partager un document</h1>
+        <p className="text-lg leading-relaxed text-muted">
+          Anciens examens, corrigés, cours ou TD de {inst.shortName}. Tout est vérifié avant publication.
         </p>
       </div>
       <UploadForm

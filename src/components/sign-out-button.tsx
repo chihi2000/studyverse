@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 
-export function SignOutButton() {
+export function SignOutButton({ className = "link text-sm" }: { className?: string }) {
   const router = useRouter();
   return (
     <button
@@ -12,7 +12,7 @@ export function SignOutButton() {
         router.push("/");
         router.refresh();
       }}
-      className="underline underline-offset-2"
+      className={className}
     >
       Déconnexion
     </button>

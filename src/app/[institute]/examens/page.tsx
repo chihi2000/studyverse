@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { and, asc, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { documents, subjects } from "@/db/schema";
-import { documentTitle } from "@/lib/documents";
-import { getInstitute, InstituteTabs, loadProgramFilter, ProgramYearFilter } from "../shared";
+import { FileIcon, ImageIcon, UploadIcon } from "@/components/icons";
+import { documentTypeLabels, sessionLabels } from "@/lib/documents";
+import { getInstitute, InstituteHeader, InstituteTabs, loadProgramFilter, ProgramYearFilter } from "../shared";
 
 type Props = {
   params: Promise<{ institute: string }>;
@@ -52,69 +53,120 @@ export default async function ExamsPage({ params, searchParams }: Props) {
   const uploadHref = `/${inst.slug}/examens/envoyer${
     program ? `?programme=${program.slug}${level ? `&annee=${level.year}` : ""}` : ""
   }`;
+  const uploadLink = (
+    <Link href={uploadHref} className="btn btn-secondary">
+      <UploadIcon size={17} /> Partager un document
+    </Link>
+  );
 
   return (
-    <div className="space-y-6">
-      <section>
-        <p className="text-sm text-black/50 dark:text-white/50">{inst.city}</p>
-        <h1 className="text-2xl font-semibold tracking-tight">{inst.shortName}</h1>
-      </section>
+    <div className="page pb-24">
+      <InstituteHeader inst={inst} />
 
       <InstituteTabs slug={inst.slug} active="exams" />
 
-      {query.envoye && (
-        <p className="rounded-xl bg-emerald-50 p-3 text-sm text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200">
-          Merci ! Ton document sera visible dès qu&apos;un ambassadeur l&apos;aura validé.
-        </p>
-      )}
+      <div className="grid gap-x-14 gap-y-8 pt-8 lg:grid-cols-12">
+        <div className="min-w-0 space-y-8 lg:col-span-8">
+          {query.envoye && (
+            <p role="status" className="callout callout-success">
+              <span>
+                <strong className="font-semibold">Merci !</strong> Ton document sera visible dès qu&apos;un ambassadeur
+                l&apos;aura vérifié.
+              </span>
+            </p>
+          )}
 
-      <ProgramYearFilter action={`/${inst.slug}/examens`} filter={filter} allLabel="Choisir…" />
+          <ProgramYearFilter action={`/${inst.slug}/examens`} filter={filter} allLabel="Choisir…" />
 
-      {!level ? (
-        <p className="rounded-xl border border-dashed border-black/15 p-8 text-center text-black/60 dark:border-white/15 dark:text-white/60">
-          Choisis ta filière puis ton année pour voir les anciens examens, corrigés et cours.
-        </p>
-      ) : bySemester.size === 0 ? (
-        <p className="rounded-xl border border-dashed border-black/15 p-8 text-center text-black/60 dark:border-white/15 dark:text-white/60">
-          Aucun document pour {level.label} pour le moment. Sois le premier à en partager un !
-        </p>
-      ) : (
-        [...bySemester.entries()].map(([semester, subjectMap]) => (
-          <section key={semester} className="space-y-3">
-            <h2 className="text-sm font-medium uppercase tracking-wide text-black/50 dark:text-white/50">
-              Semestre {semester}
-            </h2>
-            {[...subjectMap.entries()].map(([id, subject]) => (
-              <details key={id} className="rounded-xl border border-black/10 dark:border-white/10">
-                <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-medium">
-                  {subject.name}
-                  <span className="text-sm font-normal text-black/50 dark:text-white/50">{subject.docs.length}</span>
-                </summary>
-                <ul className="space-y-1 px-4 pb-3 text-sm">
-                  {subject.docs.map((d) => (
-                    <li key={d.id}>
-                      <a
-                        href={`/files/${d.fileKey}`}
-                        target="_blank"
-                        className="underline underline-offset-2"
-                      >
-                        {documentTitle(d.type, d.session, d.academicYear)}
-                      </a>
-                    </li>
+          {!level ? (
+            <EmptyState
+              title="Choisis ta filière et ton année."
+              text="Les examens, corrigés, cours et TD sont rangés par année d'études, puis par semestre et par matière."
+            />
+          ) : bySemester.size === 0 ? (
+            <EmptyState
+              title={`Aucun document pour ${level.label} pour le moment.`}
+              text="Tu as un ancien examen ou un cours de cette année ? Partage-le : il sera vérifié avant d'être publié."
+              action={uploadLink}
+            />
+          ) : (
+            [...bySemester.entries()].map(([semester, subjectMap]) => (
+              <section key={semester} aria-labelledby={`s${semester}`}>
+                <h2
+                  id={`s${semester}`}
+                  className="eyebrow sticky top-[calc(var(--header-h)+3rem)] z-10 border-b border-ink bg-canvas py-2"
+                >
+                  Semestre {semester}
+                </h2>
+                <div className="divide-y divide-line">
+                  {[...subjectMap.entries()].map(([id, subject]) => (
+                    <details key={id} className="group">
+                      <summary className="flex cursor-pointer list-none items-center gap-4 py-4 transition-colors hover:text-brand [&::-webkit-details-marker]:hidden">
+                        <span className="display flex-1 text-[1.25rem] leading-snug">{subject.name}</span>
+                        <span className="text-sm tabular-nums text-muted">
+                          {subject.docs.length} doc{subject.docs.length > 1 ? "s" : ""}
+                        </span>
+                        <span aria-hidden className="text-muted transition-transform duration-200 group-open:rotate-45">
+                          +
+                        </span>
+                      </summary>
+                      <ul className="mb-4 border-t border-line bg-surface">
+                        {subject.docs.map((d) => {
+                          const isPdf = d.fileKey.endsWith(".pdf");
+                          return (
+                            <li key={d.id} className="border-b border-line last:border-b-0">
+                              <a
+                                href={`/files/${d.fileKey}`}
+                                target="_blank"
+                                className="grid grid-cols-[auto_1fr_auto] items-center gap-3 px-3 py-3 text-sm transition-colors hover:bg-surface-2/60"
+                              >
+                                {isPdf ? (
+                                  <FileIcon size={17} className="text-brand" />
+                                ) : (
+                                  <ImageIcon size={17} className="text-brand" />
+                                )}
+                                <span className="min-w-0">
+                                  <span className="font-medium">{documentTypeLabels[d.type]}</span>
+                                  {d.session && <span className="text-muted"> · {sessionLabels[d.session]}</span>}
+                                  <span className="text-muted"> · {d.academicYear}</span>
+                                </span>
+                                <span className="text-[0.7rem] font-semibold tracking-wider text-muted">
+                                  {isPdf ? "PDF" : "IMAGE"}
+                                </span>
+                              </a>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </details>
                   ))}
-                </ul>
-              </details>
-            ))}
-          </section>
-        ))
-      )}
+                </div>
+              </section>
+            ))
+          )}
+        </div>
 
-      <Link
-        href={uploadHref}
-        className="block rounded-xl bg-foreground px-4 py-3 text-center text-sm font-medium text-background"
-      >
-        Partager un examen ou un cours
-      </Link>
+        <aside className="lg:col-span-4">
+          <div className="space-y-4 border-t border-ink pt-4 lg:sticky lg:top-[calc(var(--header-h)+4.5rem)]">
+            <h2 className="eyebrow">Une bibliothèque partagée</h2>
+            <p className="text-sm leading-relaxed text-muted">
+              Les documents sont envoyés par des étudiants de {inst.shortName} et vérifiés par un ambassadeur avant
+              publication.
+            </p>
+            {uploadLink}
+          </div>
+        </aside>
+      </div>
+    </div>
+  );
+}
+
+function EmptyState({ title, text, action }: { title: string; text: string; action?: React.ReactNode }) {
+  return (
+    <div className="space-y-3 border-t border-line py-12">
+      <p className="display text-2xl">{title}</p>
+      <p className="max-w-md text-muted">{text}</p>
+      {action}
     </div>
   );
 }

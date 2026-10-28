@@ -4,7 +4,8 @@ import { forbidden, notFound } from "next/navigation";
 import { and, asc, count, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { documents, institutes, levels, posts, programs } from "@/db/schema";
-import { categoryLabels, formatDate } from "@/lib/posts";
+import { CategoryLabel } from "@/components/posts";
+import { formatDate } from "@/lib/posts";
 import { canPublishFor, requireRole } from "@/lib/session";
 import { deletePost } from "../actions";
 import { PostForm, type AudienceOption } from "./post-form";
@@ -47,47 +48,61 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
     .limit(20);
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight">{inst.shortName}</h1>
-        <Link href={`/${inst.slug}`} className="text-sm underline underline-offset-2">
-          Voir la page publique
-        </Link>
+    <div className="grid gap-x-14 gap-y-12 pt-10 lg:grid-cols-12">
+      <div className="space-y-8 lg:col-span-7">
+        <div className="space-y-2">
+          <p className="eyebrow">Nouvelle publication</p>
+          <h1 className="display text-[clamp(2.2rem,6vw,3.5rem)]">{inst.shortName}</h1>
+          <Link href={`/${inst.slug}`} className="link text-sm">
+            Voir la page publique
+          </Link>
+        </div>
+        <PostForm instituteId={inst.id} audiences={audiences} />
       </div>
 
-      <Link
-        href={`/panel/${inst.slug}/moderation`}
-        className="flex items-center justify-between rounded-xl border border-black/10 px-4 py-3 text-sm font-medium dark:border-white/10"
-      >
-        Documents à valider
-        <span
-          className={`rounded-full px-2 py-0.5 text-xs ${
-            pending ? "bg-amber-100 text-amber-900 dark:bg-amber-900 dark:text-amber-100" : "bg-black/5 dark:bg-white/10"
-          }`}
+      <aside className="space-y-10 lg:col-span-5">
+        <Link
+          href={`/panel/${inst.slug}/moderation`}
+          className="group flex items-center justify-between gap-4 border border-line bg-surface px-4 py-4 transition-colors hover:border-ink"
         >
-          {pending}
-        </span>
-      </Link>
+          <span>
+            <span className="block font-medium">Documents à vérifier</span>
+            <span className="block text-sm text-muted">Examens et cours envoyés par les étudiants</span>
+          </span>
+          <span
+            className={`grid min-w-9 place-items-center px-2 py-1 text-sm font-semibold tabular-nums ${
+              pending ? "bg-accent text-white" : "bg-surface-2 text-muted"
+            }`}
+          >
+            {pending}
+          </span>
+        </Link>
 
-      <PostForm instituteId={inst.id} audiences={audiences} />
-
-      <section className="space-y-2">
-        <h2 className="font-medium">Dernières publications</h2>
-        {recent.length === 0 && <p className="text-sm text-black/60 dark:text-white/60">Rien pour le moment.</p>}
-        <ul className="divide-y divide-black/10 dark:divide-white/10">
-          {recent.map((post) => (
-            <li key={post.id} className="flex items-center gap-3 py-2 text-sm">
-              <span className="w-28 shrink-0 text-black/50 dark:text-white/50">{categoryLabels[post.category]}</span>
-              <span className="min-w-0 flex-1 truncate">{post.title}</span>
-              <span className="shrink-0 text-xs text-black/40 dark:text-white/40">{formatDate(post.publishedAt)}</span>
-              <form action={deletePost}>
-                <input type="hidden" name="postId" value={post.id} />
-                <button className="text-rose-700 underline underline-offset-2 dark:text-rose-400">Supprimer</button>
-              </form>
-            </li>
-          ))}
-        </ul>
-      </section>
+        <section aria-labelledby="recentes">
+          <h2 id="recentes" className="eyebrow border-b border-ink pb-2">
+            Dernières publications
+          </h2>
+          {recent.length === 0 ? (
+            <p className="py-6 text-sm text-muted">Rien de publié pour le moment.</p>
+          ) : (
+            <ul className="divide-y divide-line">
+              {recent.map((post) => (
+                <li key={post.id} className="flex items-start gap-3 py-3">
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <CategoryLabel category={post.category} />
+                    <p className="truncate text-sm font-medium">{post.title}</p>
+                    <p className="text-xs text-muted">{formatDate(post.publishedAt)}</p>
+                  </div>
+                  <form action={deletePost}>
+                    <input type="hidden" name="postId" value={post.id} />
+                    <button className="btn btn-danger btn-sm">Supprimer</button>
+                  </form>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      </aside>
     </div>
   );
 }

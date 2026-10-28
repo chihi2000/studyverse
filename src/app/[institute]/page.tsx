@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { and, asc, desc, eq, gte, isNull, or, sql, type SQL } from "drizzle-orm";
+import { and, asc, desc, eq, gte, inArray, isNull, or, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
-import { posts, programs } from "@/db/schema";
+import { levels, posts, programs } from "@/db/schema";
+import { ExternalIcon } from "@/components/icons";
+import { AgendaItem, audienceLabel, FeedItem } from "@/components/posts";
 import { vapidPublicKey } from "@/lib/push";
+import { categoryLabels, isPostCategory, type PostCategory } from "@/lib/posts";
 import { NotifyButton } from "./notify-button";
-import { getInstitute, InstituteTabs, loadProgramFilter, ProgramYearFilter } from "./shared";
-import {
-  categoryLabels,
-  categoryStyles,
-  formatDate,
-  formatPeriod,
-  isPostCategory,
-  type PostCategory,
-} from "@/lib/posts";
+import { getInstitute, InstituteHeader, InstituteTabs, loadProgramFilter, ProgramYearFilter } from "./shared";
 
 const degreeLabels: Record<(typeof programs.$inferSelect)["degree"], string> = {
   licence: "Licence",
@@ -48,193 +43,197 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
   const { instPrograms, program, level } = filter;
 
   // National, university-wide and institute-wide posts always show; narrower posts only when they match the filters.
-  const filters: (SQL | undefined)[] = [
+  const scope: (SQL | undefined)[] = [
     or(
       eq(posts.instituteId, inst.id),
       and(isNull(posts.instituteId), or(isNull(posts.universityId), eq(posts.universityId, inst.universityId))),
     ),
   ];
-  if (category) filters.push(eq(posts.category, category));
-  if (program) filters.push(or(isNull(posts.programId), eq(posts.programId, program.id)));
-  if (level) filters.push(or(isNull(posts.levelId), eq(posts.levelId, level.id)));
+  if (program) scope.push(or(isNull(posts.programId), eq(posts.programId, program.id)));
+  if (level) scope.push(or(isNull(posts.levelId), eq(posts.levelId, level.id)));
+  const notPast = gte(sql`coalesce(${posts.endsAt}, ${posts.startsAt})`, sql`now() - interval '1 day'`);
 
   // Holidays and exam calendars read as an agenda: upcoming dates first, past ones hidden.
   const agenda = category === "holiday" || category === "exam_calendar";
-  if (agenda) filters.push(gte(sql`coalesce(${posts.endsAt}, ${posts.startsAt})`, sql`now() - interval '1 day'`));
+  const feedFilters = [...scope, category && eq(posts.category, category), agenda ? notPast : undefined];
 
-  const feed = await db
-    .select()
-    .from(posts)
-    .where(and(...filters))
-    .orderBy(agenda ? asc(posts.startsAt) : desc(posts.publishedAt))
-    .limit(50);
+  const [feed, upcoming] = await Promise.all([
+    db
+      .select({ post: posts, programName: programs.nameFr, levelLabel: levels.label })
+      .from(posts)
+      .leftJoin(programs, eq(posts.programId, programs.id))
+      .leftJoin(levels, eq(posts.levelId, levels.id))
+      .where(and(...feedFilters))
+      .orderBy(agenda ? asc(posts.startsAt) : desc(posts.publishedAt))
+      .limit(50),
+    agenda
+      ? Promise.resolve([])
+      : db
+          .select()
+          .from(posts)
+          .where(and(...scope, inArray(posts.category, ["exam_calendar", "holiday", "event"]), notPast))
+          .orderBy(asc(posts.startsAt))
+          .limit(4),
+  ]);
 
-  const hrefWith = (next: { categorie?: PostCategory }) => {
+  const hrefWith = (next?: PostCategory) => {
     const sp = new URLSearchParams();
-    if (next.categorie) sp.set("categorie", next.categorie);
+    if (next) sp.set("categorie", next);
     if (program) sp.set("programme", program.slug);
     if (level) sp.set("annee", String(level.year));
     const qs = sp.toString();
     return qs ? `/${inst.slug}?${qs}` : `/${inst.slug}`;
   };
 
-  return (
-    <div className="space-y-6">
-      <section>
-        <p className="text-sm text-black/50 dark:text-white/50">{inst.city}</p>
-        <h1 className="text-2xl font-semibold tracking-tight">{inst.shortName}</h1>
-        <p className="text-black/70 dark:text-white/70">{inst.nameFr}</p>
-        {inst.nameAr && (
-          <p dir="rtl" lang="ar" className="text-black/70 dark:text-white/70">
-            {inst.nameAr}
-          </p>
-        )}
-        <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-          {[
-            ["Site officiel", inst.website],
-            ["Annonces", inst.newsUrl],
-            ["Facebook", inst.facebook],
-            ["Instagram", inst.instagram],
-            ["E-learning", inst.elearningUrl],
-          ].map(([label, url]) =>
-            url && /^https?:\/\//i.test(url) ? (
-              <a key={label} href={url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
-                {label}
-              </a>
-            ) : null,
-          )}
-        </div>
-      </section>
+  const links: [string, string][] = [];
+  for (const [label, url] of [
+    ["Site officiel", inst.website],
+    ["Annonces officielles", inst.newsUrl],
+    ["Facebook", inst.facebook],
+    ["Instagram", inst.instagram],
+    ["E-learning", inst.elearningUrl],
+  ] as const) {
+    if (url && /^https?:\/\//i.test(url)) links.push([label, url]);
+  }
 
-      {inst.isActive && vapidKey && (
-        <NotifyButton
-          vapidKey={vapidKey}
-          instituteSlug={inst.slug}
-          shortName={inst.shortName}
-          programSlug={program?.slug}
-          year={level?.year}
-          filterLabel={program ? [program.nameFr, level?.label].filter(Boolean).join(" · ") : undefined}
-        />
-      )}
+  const upcomingBlock = upcoming.length > 0 && (
+    <section aria-labelledby="a-venir">
+      <h2 id="a-venir" className="eyebrow border-b border-ink pb-2">
+        À venir
+      </h2>
+      <ul className="divide-y divide-line">
+        {upcoming.map((p) => (
+          <AgendaItem key={p.id} post={p} />
+        ))}
+      </ul>
+    </section>
+  );
+
+  return (
+    <div className="page pb-24">
+      <InstituteHeader
+        inst={inst}
+        action={
+          inst.isActive && vapidKey ? (
+            <NotifyButton
+              vapidKey={vapidKey}
+              instituteSlug={inst.slug}
+              shortName={inst.shortName}
+              programSlug={program?.slug}
+              year={level?.year}
+              filterLabel={program ? [program.nameFr, level?.label].filter(Boolean).join(" · ") : undefined}
+            />
+          ) : undefined
+        }
+      />
 
       {!inst.isActive && (
-        <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-950 dark:text-amber-200">
-          Cet établissement n&apos;a pas encore d&apos;ambassadeur sur Studyverse. Les informations ci-dessous viennent
-          de sources publiques et peuvent être incomplètes ou dépassées.
+        <p className="callout callout-warning mb-6 max-w-3xl">
+          <span>
+            <strong className="font-semibold">Pas encore d&apos;ambassadeur.</strong> Les informations de cette page
+            viennent de sources publiques et peuvent être incomplètes ou dépassées.
+          </span>
         </p>
-      )}
-
-      {instPrograms.length > 0 && (
-        <details className="rounded-xl border border-black/10 dark:border-white/10">
-          <summary className="cursor-pointer px-4 py-3 font-medium">Formations ({instPrograms.length})</summary>
-          <ul className="space-y-1 px-4 pb-3 text-sm">
-            {instPrograms.map((p) => (
-              <li key={p.id} className="flex gap-2">
-                <span className="w-24 shrink-0 text-black/50 dark:text-white/50">{degreeLabels[p.degree]}</span>
-                <span>
-                  {p.nameFr}
-                  {p.officialCode && (
-                    <span className="text-black/40 dark:text-white/40"> · code {p.officialCode}</span>
-                  )}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </details>
       )}
 
       <InstituteTabs slug={inst.slug} active="news" />
 
-      <ProgramYearFilter action={`/${inst.slug}`} filter={filter} hidden={{ categorie: category }} />
+      <div className="grid gap-x-14 gap-y-10 pt-8 lg:grid-cols-12">
+        <div className="min-w-0 space-y-6 lg:col-span-8">
+          <ProgramYearFilter action={`/${inst.slug}`} filter={filter} hidden={{ categorie: category }} />
 
-      <nav className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
-        <CategoryChip href={hrefWith({})} active={!category}>
-          Tout
-        </CategoryChip>
-        {(Object.keys(categoryLabels) as PostCategory[]).map((c) => (
-          <CategoryChip key={c} href={hrefWith({ categorie: c })} active={category === c}>
-            {categoryLabels[c]}
-          </CategoryChip>
-        ))}
-      </nav>
+          <nav aria-label="Catégories" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
+            <Link href={hrefWith()} className="chip" aria-current={!category ? "true" : undefined}>
+              Tout
+            </Link>
+            {(Object.keys(categoryLabels) as PostCategory[]).map((c) => (
+              <Link key={c} href={hrefWith(c)} className="chip" aria-current={category === c ? "true" : undefined}>
+                {categoryLabels[c]}
+              </Link>
+            ))}
+          </nav>
 
-      {feed.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-black/15 p-8 text-center text-black/60 dark:border-white/15 dark:text-white/60">
-          Aucune actualité pour le moment.
-        </p>
-      ) : (
-        <ul className="space-y-3">
-          {feed.map((post) => {
-            const period = formatPeriod(post.startsAt, post.endsAt);
-            return (
-              <li key={post.id} className="rounded-xl border border-black/10 p-4 dark:border-white/10">
-                <div className="flex flex-wrap items-center gap-2 text-xs">
-                  <span className={`rounded-full px-2 py-0.5 font-medium ring-1 ring-inset ${categoryStyles[post.category]}`}>
-                    {categoryLabels[post.category]}
+          {upcomingBlock && <div className="lg:hidden">{upcomingBlock}</div>}
+
+          <section aria-labelledby="fil">
+            <h2 id="fil" className="eyebrow border-b border-ink pb-2">
+              {agenda ? `${categoryLabels[category!]} à venir` : "Dernières annonces"}
+            </h2>
+            {feed.length === 0 ? (
+              <div className="space-y-2 py-12">
+                <p className="display text-2xl">
+                  {agenda ? "Aucune date à venir." : "Rien de publié pour le moment."}
+                </p>
+                <p className="max-w-md text-muted">
+                  {inst.isActive
+                    ? "Les ambassadeurs publient ici les annonces officielles dès qu'elles sont affichées."
+                    : "Les annonces apparaîtront ici dès qu'un ambassadeur représentera cet établissement."}
+                </p>
+              </div>
+            ) : (
+              <div className="divide-y divide-line">
+                {feed.map(({ post, programName, levelLabel }) => (
+                  <FeedItem
+                    key={post.id}
+                    post={post}
+                    audience={audienceLabel(post, programName, levelLabel)}
+                    eventDate={agenda}
+                  />
+                ))}
+              </div>
+            )}
+          </section>
+        </div>
+
+        <aside className="space-y-10 lg:col-span-4">
+          <div className="space-y-10 lg:sticky lg:top-[calc(var(--header-h)+4.5rem)]">
+            {upcomingBlock && <div className="hidden lg:block">{upcomingBlock}</div>}
+
+            {instPrograms.length > 0 && (
+              <details className="group">
+                <summary className="flex cursor-pointer list-none items-center justify-between border-b border-ink pb-2 [&::-webkit-details-marker]:hidden">
+                  <span className="eyebrow">Formations · {instPrograms.length}</span>
+                  <span aria-hidden className="text-muted transition-transform duration-200 group-open:rotate-45">
+                    +
                   </span>
-                  {!post.instituteId && (
-                    <span className="text-black/60 dark:text-white/60">
-                      {post.universityId ? "Université" : "National"}
-                    </span>
-                  )}
-                  {post.verified && (
-                    <span className="font-medium text-emerald-700 dark:text-emerald-400">✓ Vérifié</span>
-                  )}
-                  <span className="ms-auto text-black/50 dark:text-white/50">{formatDate(post.publishedAt)}</span>
-                </div>
-                <h2 className="mt-2 font-semibold">{post.title}</h2>
-                {period && <p className="mt-1 text-sm font-medium">{period}</p>}
-                {post.body && <p className="mt-2 text-sm text-black/70 dark:text-white/70">{post.body}</p>}
-                {post.sourceFileKey &&
-                  (post.sourceFileKey.endsWith(".pdf") ? (
-                    <a
-                      href={`/files/${post.sourceFileKey}`}
-                      target="_blank"
-                      className="mt-3 inline-block text-sm underline underline-offset-2"
-                    >
-                      Voir l&apos;affiche (PDF)
-                    </a>
-                  ) : (
-                    <a href={`/files/${post.sourceFileKey}`} target="_blank" className="mt-3 block">
-                      {/* eslint-disable-next-line @next/next/no-img-element -- user uploads, served as-is */}
-                      <img
-                        src={`/files/${post.sourceFileKey}`}
-                        alt={`Affiche : ${post.title}`}
-                        loading="lazy"
-                        className="max-h-80 rounded-lg border border-black/10 dark:border-white/10"
-                      />
-                    </a>
+                </summary>
+                <ul className="max-h-96 divide-y divide-line overflow-y-auto text-sm">
+                  {instPrograms.map((p) => (
+                    <li key={p.id} className="py-2.5">
+                      <span className="eyebrow me-2 text-[0.65rem]">{degreeLabels[p.degree]}</span>
+                      {p.nameFr}
+                      {p.officialCode && <span className="text-muted"> · {p.officialCode}</span>}
+                    </li>
                   ))}
-                {post.sourceUrl && /^https?:\/\//i.test(post.sourceUrl) && (
-                  <a
-                    href={post.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 inline-block text-sm underline underline-offset-2"
-                  >
-                    Source officielle
-                  </a>
-                )}
-              </li>
-            );
-          })}
-        </ul>
-      )}
-    </div>
-  );
-}
+                </ul>
+              </details>
+            )}
 
-function CategoryChip({ href, active, children }: { href: string; active: boolean; children: React.ReactNode }) {
-  return (
-    <Link
-      href={href}
-      className={`shrink-0 rounded-full border px-3 py-1 text-sm transition ${
-        active
-          ? "border-foreground bg-foreground text-background"
-          : "border-black/15 hover:border-black/40 dark:border-white/15 dark:hover:border-white/40"
-      }`}
-    >
-      {children}
-    </Link>
+            {links.length > 0 && (
+              <section aria-labelledby="liens">
+                <h2 id="liens" className="eyebrow border-b border-ink pb-2">
+                  Liens officiels
+                </h2>
+                <ul className="divide-y divide-line text-sm">
+                  {links.map(([label, url]) => (
+                    <li key={label}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between py-2.5 transition-colors hover:text-brand"
+                      >
+                        {label}
+                        <ExternalIcon size={15} className="text-muted" />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+          </div>
+        </aside>
+      </div>
+    </div>
   );
 }
