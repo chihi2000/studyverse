@@ -6,6 +6,7 @@ import { ArrowRightIcon, SearchIcon } from "@/components/icons";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
 import { AnnouncementsIcon, ClubsIcon, CoursesIcon } from "@/components/pillar-icons";
+import { ScrollWords } from "@/components/scroll-words";
 import { TypedHeadline } from "@/components/typed-headline";
 import crowdImage from "../../public/img/hall-crowd.jpg";
 import heroImage from "../../public/img/hero-hall.jpg";
@@ -243,9 +244,9 @@ function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref:
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
       <div className="mb-12 max-w-2xl space-y-3">
-        <p data-reveal className="eyebrow">02 — Ce que Studyverse réunit</p>
-        <h2 id="piliers-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
-          Ce dont tu as besoin, toute l&apos;année.
+        <p data-reveal className="scroll-rise eyebrow">02 — Ce que Studyverse réunit</p>
+        <h2 id="piliers-title" className="scroll-words display text-[clamp(2.2rem,5vw,3.5rem)]">
+          <ScrollWords text="Ce dont tu as besoin, toute l'année." />
         </h2>
       </div>
 
@@ -302,12 +303,15 @@ function Hierarchy({ example }: { example: Example }) {
       <div className="page py-24 md:py-32">
         <div className="mb-12 grid gap-6 lg:grid-cols-12">
           <div className="space-y-3 lg:col-span-6">
-            <p data-reveal className="eyebrow">03 — Ton campus, tes infos</p>
-            <h2 id="hierarchie-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
-              Quatre choix, et tout ce qui te concerne.
+            <p data-reveal className="scroll-rise eyebrow">03 — Ton campus, tes infos</p>
+            <h2 id="hierarchie-title" className="scroll-words display text-[clamp(2.2rem,5vw,3.5rem)]">
+              <ScrollWords text="Quatre choix, et tout ce qui te concerne." />
             </h2>
           </div>
-          <p className="self-end text-lg leading-relaxed text-muted lg:col-span-5 lg:col-start-8">
+          <p
+            style={{ "--o": "12%" } as React.CSSProperties}
+            className="scroll-rise self-end text-lg leading-relaxed text-muted lg:col-span-5 lg:col-start-8"
+          >
             Chaque annonce peut viser tout le pays, ton université, ton établissement, ou seulement ta filière et ton
             année. Tu ne vois que ce qui te concerne.
           </p>
@@ -318,8 +322,8 @@ function Hierarchy({ example }: { example: Example }) {
             <li
               key={step.label}
               data-reveal
-              style={{ "--i": i } as React.CSSProperties}
-              className="border-b border-line md:border-b-0 md:border-e md:last:border-e-0"
+              style={{ "--i": i, "--o": `${i * 7}%` } as React.CSSProperties}
+              className="scroll-rise border-b border-line md:border-b-0 md:border-e md:last:border-e-0"
             >
               <Link href={step.href} className="group flex h-full flex-col gap-3 py-6 md:px-5 md:py-8 md:first:ps-0">
                 <span className="flex items-center gap-3">
@@ -336,7 +340,7 @@ function Hierarchy({ example }: { example: Example }) {
           ))}
         </ol>
 
-        <Link href={feedHref} className="btn btn-primary mt-10">
+        <Link href={feedHref} style={{ "--o": "10%" } as React.CSSProperties} className="scroll-rise btn btn-primary mt-10">
           Voir les actualités de {example.institute} · {example.level}
           <ArrowRightIcon size={17} />
         </Link>
@@ -389,19 +393,26 @@ function Directory({ rows, pilots }: { rows: DirectoryRow[]; pilots: Pilot[] }) 
     <section id="annuaire" aria-labelledby="annuaire-title" className="page py-24 md:py-32">
       <div className="grid gap-10 lg:grid-cols-12">
         <div className="space-y-6 lg:col-span-5">
-          <p data-reveal className="eyebrow">04 — Explorer</p>
-          <h2 id="annuaire-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
-            Trouve ton établissement.
+          <p data-reveal className="scroll-rise eyebrow">04 — Explorer</p>
+          <h2 id="annuaire-title" className="scroll-words display text-[clamp(2.2rem,5vw,3.5rem)]">
+            <ScrollWords text="Trouve ton établissement." />
           </h2>
-          <SearchForm id="directory-search" />
+          <div style={{ "--o": "12%" } as React.CSSProperties} className="scroll-rise">
+            <SearchForm id="directory-search" />
+          </div>
         </div>
 
         {pilots.length > 0 && (
           <div className="lg:col-span-6 lg:col-start-7">
-            <p className="eyebrow mb-3">Déjà actifs</p>
+            <p className="scroll-rise eyebrow mb-3">Déjà actifs</p>
             <ul className="border-t border-ink">
               {pilots.map((p, i) => (
-                <li key={p.slug} data-reveal style={{ "--i": i } as React.CSSProperties} className="border-b border-line">
+                <li
+                  key={p.slug}
+                  data-reveal
+                  style={{ "--i": i, "--o": `${6 + i * 6}%` } as React.CSSProperties}
+                  className="scroll-rise border-b border-line"
+                >
                   <Link href={`/${p.slug}`} className="group grid grid-cols-[1fr_auto] items-center gap-x-4 gap-y-1 py-5">
                     <span className="display text-[1.75rem] leading-tight transition-colors group-hover:text-brand">
                       {p.shortName}
@@ -419,7 +430,7 @@ function Directory({ rows, pilots }: { rows: DirectoryRow[]; pilots: Pilot[] }) 
       </div>
 
       <div className="mt-16">
-        <div className="mb-4 flex items-baseline justify-between gap-4">
+        <div className="scroll-rise mb-4 flex items-baseline justify-between gap-4">
           <h3 className="eyebrow">Tous les établissements</h3>
           <p className="flex items-center gap-2 text-xs text-muted">
             <span className="size-1.5 rounded-full bg-accent" /> animé par des ambassadeurs
@@ -461,12 +472,14 @@ function ClosingCta() {
   return (
     <section className="bg-forest text-on-forest">
       <div className="page grid gap-10 py-24 md:py-28 lg:grid-cols-12 lg:items-end">
-        <h2 data-reveal className="display text-[clamp(2.4rem,6vw,4.5rem)] lg:col-span-8">
-          Trouve ton établissement.
+        <h2 className="scroll-words display text-[clamp(2.4rem,6vw,4.5rem)] lg:col-span-8">
+          <ScrollWords text="Trouve ton établissement." />
           <br />
-          <span className="italic opacity-80">Suis ce qui te concerne.</span>
+          <span className="italic opacity-80">
+            <ScrollWords text="Suis ce qui te concerne." start={3} />
+          </span>
         </h2>
-        <div data-reveal style={{ "--i": 1 } as React.CSSProperties} className="space-y-4 lg:col-span-4">
+        <div data-reveal style={{ "--i": 1, "--o": "18%" } as React.CSSProperties} className="scroll-rise space-y-4 lg:col-span-4">
           <p className="opacity-80">
             Gratuit, sans publicité. Active les notifications pour ta filière et ton année en un geste.
           </p>
