@@ -29,6 +29,13 @@
       "when": 1793211392847,
       "tag": "0003_yellow_warstar",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793212658952,
+      "tag": "0004_faithful_multiple_man",
+      "breakpoints": true
     }
   ]
 }

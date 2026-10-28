@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
     // Enables forbidden() for role checks in the panel.
     authInterrupts: true,
   },
+  async headers() {
+    // Browsers must always revalidate the service worker so updates reach students.
+    return [{ source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache, no-store, must-revalidate" }] }];
+  },
 };
 
 export default nextConfig;

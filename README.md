@@ -25,6 +25,10 @@ National announcements (official calendar, holidays) live in `data/posts/*.json`
 2. In `/panel/admin`, assign an institute to an account. This makes the account an ambassador and activates the institute.
 3. Ambassadors publish from `/panel/<institute-slug>` (photo of the notice, dates, target program/year).
 
+### Notifications
+
+Students follow an active institute (optionally a program/year) from its page and get a Web Push notification when an ambassador publishes. Generate keys with `npx web-push generate-vapid-keys` and set `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `VAPID_SUBJECT`. Push needs HTTPS (localhost is fine in dev); on iPhone it only works once the site is added to the home screen.
+
 Schema changes: edit `src/db/schema.ts`, then `npm run db:generate && npm run db:migrate`.
 
 ## Production

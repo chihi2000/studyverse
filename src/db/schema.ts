@@ -335,3 +335,22 @@ export const ambassadorAssignments = pgTable(
   },
   (t) => [primaryKey({ columns: [t.userId, t.instituteId] }), index().on(t.instituteId)],
 );
+
+// One row per browser/device. Students follow an institute, optionally narrowed to a program and year.
+export const pushSubscriptions = pgTable(
+  "push_subscriptions",
+  {
+    id: uuid().primaryKey().defaultRandom(),
+    endpoint: text().notNull().unique(),
+    p256dh: text().notNull(),
+    auth: text().notNull(),
+    instituteId: uuid()
+      .notNull()
+      .references(() => institutes.id, { onDelete: "cascade" }),
+    programId: uuid().references(() => programs.id, { onDelete: "set null" }),
+    levelId: uuid().references(() => levels.id, { onDelete: "set null" }),
+    lastSuccessAt: timestamp({ withTimezone: true }),
+    ...timestamps,
+  },
+  (t) => [index().on(t.instituteId)],
+);

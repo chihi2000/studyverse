@@ -2,10 +2,12 @@
 
 import { revalidatePath } from "next/cache";
 import { forbidden } from "next/navigation";
+import { after } from "next/server";
 import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
 import { ambassadorAssignments, institutes, levels, postCategoryEnum, posts, programs, users } from "@/db/schema";
+import { notifyPost } from "@/lib/push";
 import { canPublishFor, requireRole } from "@/lib/session";
 import { saveUpload, UploadError } from "@/lib/uploads";
 
@@ -89,21 +91,27 @@ export async function createPost(_prev: FormState, formData: FormData): Promise<
     }
   }
 
-  await db.insert(posts).values({
-    instituteId: input.instituteId,
-    programId,
-    levelId,
-    category: input.category,
-    title: input.title,
-    body: input.body ?? null,
-    startsAt: input.startsAt ?? null,
-    endsAt: input.endsAt ?? null,
-    sourceUrl: input.sourceUrl ?? null,
-    sourceFileKey,
-    // "Verified" means the ambassador vouches for it and attached the official notice.
-    verified: Boolean(input.official && (input.sourceUrl || sourceFileKey)),
-    authorId: user.id,
-  });
+  const [created] = await db
+    .insert(posts)
+    .values({
+      instituteId: input.instituteId,
+      programId,
+      levelId,
+      category: input.category,
+      title: input.title,
+      body: input.body ?? null,
+      startsAt: input.startsAt ?? null,
+      endsAt: input.endsAt ?? null,
+      sourceUrl: input.sourceUrl ?? null,
+      sourceFileKey,
+      // "Verified" means the ambassador vouches for it and attached the official notice.
+      verified: Boolean(input.official && (input.sourceUrl || sourceFileKey)),
+      authorId: user.id,
+    })
+    .returning({ id: posts.id });
+
+  // Send notifications after the response so publishing stays fast.
+  after(() => notifyPost(created.id));
 
   revalidatePath("/", "layout");
   return { ok: true };

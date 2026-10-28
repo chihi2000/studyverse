@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { and, asc, desc, eq, gte, isNull, or, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { institutes, levels, posts, programs } from "@/db/schema";
+import { vapidPublicKey } from "@/lib/push";
+import { NotifyButton } from "./notify-button";
 import {
   categoryLabels,
   categoryStyles,
@@ -44,6 +46,7 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
   if (!inst) notFound();
 
   const category = isPostCategory(query.categorie) ? query.categorie : undefined;
+  const vapidKey = vapidPublicKey();
 
   const instPrograms = await db
     .select({
@@ -121,6 +124,17 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
           )}
         </div>
       </section>
+
+      {inst.isActive && vapidKey && (
+        <NotifyButton
+          vapidKey={vapidKey}
+          instituteSlug={inst.slug}
+          shortName={inst.shortName}
+          programSlug={program?.slug}
+          year={level?.year}
+          filterLabel={program ? [program.nameFr, level?.label].filter(Boolean).join(" · ") : undefined}
+        />
+      )}
 
       {!inst.isActive && (
         <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900 dark:bg-amber-950 dark:text-amber-200">
