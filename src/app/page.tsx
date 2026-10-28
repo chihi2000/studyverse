@@ -4,7 +4,9 @@ import { db } from "@/db";
 import { clubs, institutes, levels, posts, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
 import { ClubMonogram } from "@/components/club-monogram";
+import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
+import { TypedHeadline } from "@/components/typed-headline";
 import { AgendaItem } from "@/components/posts";
 import { clubCategoryLabels } from "@/lib/clubs";
 import crowdImage from "../../public/img/hall-crowd.jpg";
@@ -14,8 +16,6 @@ import studyImage from "../../public/img/students-studying.jpg";
 export const dynamic = "force-dynamic";
 
 type Props = { searchParams: Promise<{ q?: string }> };
-
-const numberFormat = new Intl.NumberFormat("fr-TN");
 
 async function loadDirectory(q: string) {
   const search = q
@@ -148,10 +148,10 @@ function SearchForm({ q = "", id, onImage = false }: { q?: string; id: string; o
 
 function Hero({ instituteCount, programCount, activeCount }: { instituteCount: number; programCount: number; activeCount: number }) {
   const figures = [
-    [numberFormat.format(instituteCount), "établissements référencés"],
-    [numberFormat.format(programCount), "formations"],
-    [numberFormat.format(activeCount), activeCount > 1 ? "établissements actifs" : "établissement actif"],
-  ];
+    [instituteCount, "établissements référencés"],
+    [programCount, "formations"],
+    [activeCount, activeCount > 1 ? "établissements actifs" : "établissement actif"],
+  ] as const;
   return (
     <>
       <section className="relative isolate flex min-h-[calc(100svh-var(--header-h))] items-end overflow-hidden bg-forest">
@@ -173,14 +173,13 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
             <p className="eyebrow load-in !text-[#f7f5ef]/80" style={{ "--d": 0 } as React.CSSProperties}>
               Le portail des étudiants en Tunisie
             </p>
-            <h1 className="display text-[clamp(3rem,7.5vw,6rem)]">
-              <span className="load-in block" style={{ "--d": 1 } as React.CSSProperties}>
-                Tout ton campus.
-              </span>
-              <span className="load-in block italic text-[#f3d9c6]" style={{ "--d": 2 } as React.CSSProperties}>
-                Au même endroit.
-              </span>
-            </h1>
+            <TypedHeadline
+              className="display text-[clamp(3rem,7.5vw,6rem)]"
+              lines={[
+                { text: "Tout ton campus." },
+                { text: "Au même endroit.", className: "italic text-[#f3d9c6]" },
+              ]}
+            />
             <p className="load-in max-w-lg text-lg leading-relaxed text-[#f7f5ef]/85" style={{ "--d": 3 } as React.CSSProperties}>
               Cours, TD, anciens examens, clubs et annonces officielles de ton établissement. Enfin réunis.
             </p>
@@ -202,7 +201,9 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
         <dl aria-label="L'annuaire en chiffres" className="grid grid-cols-3 divide-x divide-line border-b border-line">
           {figures.map(([value, label]) => (
             <div key={label} className="space-y-1 px-3 py-5 first:ps-0 sm:px-6">
-              <dd className="display text-[clamp(1.75rem,4vw,2.5rem)] leading-none tabular-nums">{value}</dd>
+              <dd className="display text-[clamp(1.75rem,4vw,2.5rem)] leading-none">
+                <CountUp value={value} />
+              </dd>
               <dt className="text-xs leading-snug text-muted sm:text-sm">{label}</dt>
             </div>
           ))}
@@ -218,7 +219,7 @@ type AgendaPost = typeof posts.$inferSelect;
 
 function PreviewFrame({ caption, children }: { caption: string; children: React.ReactNode }) {
   return (
-    <div data-reveal="clip">
+    <div data-reveal="clip" className="scroll-media">
       <figure className="border border-line bg-surface shadow-[0_1px_0_var(--line),0_24px_48px_-32px_rgb(25_61_53/0.35)]">
         <figcaption className="flex items-center justify-between border-b border-line px-4 py-2.5">
           <span className="eyebrow">{caption}</span>
@@ -271,8 +272,8 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
       <div className="mb-6 max-w-2xl space-y-3">
-        <p className="eyebrow">02 — Ce que Studyverse réunit</p>
-        <h2 id="piliers-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
+        <p data-reveal className="eyebrow">02 — Ce que Studyverse réunit</p>
+        <h2 id="piliers-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
           Ce dont tu as besoin, toute l&apos;année.
         </h2>
       </div>
@@ -386,8 +387,8 @@ function Hierarchy({ example }: { example: Example }) {
       <div className="page py-24 md:py-32">
         <div className="mb-12 grid gap-6 lg:grid-cols-12">
           <div className="space-y-3 lg:col-span-6">
-            <p className="eyebrow">03 — Ton campus, tes infos</p>
-            <h2 id="hierarchie-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
+            <p data-reveal className="eyebrow">03 — Ton campus, tes infos</p>
+            <h2 id="hierarchie-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
               Quatre choix, et tout ce qui te concerne.
             </h2>
           </div>
@@ -473,8 +474,8 @@ function Directory({ rows, pilots }: { rows: DirectoryRow[]; pilots: Pilot[] }) 
     <section id="annuaire" aria-labelledby="annuaire-title" className="page py-24 md:py-32">
       <div className="grid gap-10 lg:grid-cols-12">
         <div className="space-y-6 lg:col-span-5">
-          <p className="eyebrow">04 — Explorer</p>
-          <h2 id="annuaire-title" className="display text-[clamp(2.2rem,5vw,3.5rem)]">
+          <p data-reveal className="eyebrow">04 — Explorer</p>
+          <h2 id="annuaire-title" data-reveal style={{ "--i": 1 } as React.CSSProperties} className="display text-[clamp(2.2rem,5vw,3.5rem)]">
             Trouve ton établissement.
           </h2>
           <SearchForm id="directory-search" />

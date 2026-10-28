@@ -42,7 +42,16 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     user?.role === "ambassador" || user?.role === "admin" || (user ? (await managedClubIds(user.id)).length > 0 : false);
 
   return (
-    <html lang="fr" className={`${dmSans.variable} ${newsreader.variable} ${plexArabic.variable}`}>
+    <html
+      lang="fr"
+      className={`${dmSans.variable} ${newsreader.variable} ${plexArabic.variable}`}
+      // The inline script below adds "js" before hydration.
+      suppressHydrationWarning
+    >
+      <head>
+        {/* Flags JS support before first paint, so JS-only animations can hide content without a flash. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
       <body className="flex min-h-dvh flex-col">
         <a
           href="#contenu"

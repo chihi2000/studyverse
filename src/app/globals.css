@@ -512,3 +512,48 @@ body {
     letter-spacing: -0.02em;
   }
 }
+
+/* Hero headline typing. Letters are hidden only once JS has flagged the page (html.js),
+   so without JS or with reduced motion the headline is simply there. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .typed-headline .type-char:not(.typed) {
+    opacity: 0;
+  }
+}
+.type-caret {
+  display: inline-block;
+  width: 0.055em;
+  height: 0.8em;
+  margin-inline-start: 0.04em;
+  vertical-align: -0.02em;
+  background: var(--accent);
+  animation: caret-blink 1s steps(1) infinite;
+}
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Section media reveals with the scroll position itself, after the text has appeared.
+   Browsers without scroll timelines fall back to the IntersectionObserver clip reveal. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal-ready .scroll-media > * {
+      transition: none;
+      animation: media-in linear both;
+      animation-timeline: view();
+      animation-range: entry 40% cover 45%;
+    }
+  }
+}
+@keyframes media-in {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(2rem);
+  }
+  to {
+    clip-path: inset(0);
+    transform: none;
+  }
+}
