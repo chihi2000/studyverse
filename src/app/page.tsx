@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { clubs, institutes, levels, posts, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, BellIcon, FileIcon, SearchIcon } from "@/components/icons";
 import { ClubMonogram } from "@/components/club-monogram";
-import Image from "next/image";
+import { HeroSlideshow } from "@/components/hero-slideshow";
 import { AgendaItem } from "@/components/posts";
 import { clubCategoryLabels } from "@/lib/clubs";
 import crowdImage from "../../public/img/hall-crowd.jpg";
@@ -155,14 +155,12 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
   return (
     <>
       <section className="relative isolate flex min-h-[calc(100svh-var(--header-h))] items-end overflow-hidden bg-forest">
-        <Image
-          src={heroImage}
-          alt="Une étudiante marche dans le couloir ensoleillé d'une faculté, entre les fenêtres en arcades et les panneaux d'affichage."
-          priority
-          fill
-          placeholder="blur"
-          sizes="100vw"
-          className="-z-10 object-cover object-[30%_center]"
+        <HeroSlideshow
+          slides={[
+            { image: heroImage, position: "30% center" },
+            { image: studyImage, position: "30% center" },
+            { image: crowdImage, position: "45% center" },
+          ]}
         />
         {/* Darkens only where the text sits: the bottom on mobile, the right half on desktop. */}
         <div
@@ -197,7 +195,7 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
             </div>
           </div>
         </div>
-        <p className="absolute bottom-3 start-4 text-[0.7rem] text-[#f7f5ef]/60 sm:start-6">Image d&apos;illustration</p>
+        <p className="absolute bottom-4 start-4 text-[0.7rem] text-[#f7f5ef]/60 sm:start-6">Images d&apos;illustration</p>
       </section>
 
       <div className="page">
@@ -232,32 +230,6 @@ function PreviewFrame({ caption, children }: { caption: string; children: React.
         </figcaption>
         <div className="px-4">{children}</div>
       </figure>
-    </div>
-  );
-}
-
-/** A photo with the UI preview overlapping its lower corner. */
-function PhotoPreview({
-  image,
-  alt,
-  children,
-}: {
-  image: import("next/image").StaticImageData;
-  alt: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div>
-      <div data-reveal="clip">
-        <Image
-          src={image}
-          alt={alt}
-          placeholder="blur"
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          className="aspect-[4/3] w-full object-cover"
-        />
-      </div>
-      <div className="relative -mt-20 ms-auto w-[88%] sm:-mt-28 sm:w-[78%]">{children}</div>
     </div>
   );
 }
@@ -310,10 +282,6 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         title="Cours, TD, corrigés et anciens examens."
         text="Une bibliothèque partagée par les étudiants et vérifiée avant publication. Choisis ta filière et ton année, retrouve le semestre et la matière, ouvre le document."
         preview={
-          <PhotoPreview
-            image={studyImage}
-            alt="Des étudiants travaillent dans la salle de lecture d'une faculté, sous la lumière des claustras."
-          >
           <PreviewFrame caption="Exemple d'organisation">
             <div className="py-3">
               <p className="eyebrow pb-2">Semestre 1</p>
@@ -331,7 +299,6 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
               </ul>
             </div>
           </PreviewFrame>
-          </PhotoPreview>
         }
       />
 
@@ -374,10 +341,6 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
         title="Les annonces officielles, et une notification quand ça te concerne."
         text="Emplois du temps, examens, règlements et vacances, publiés par les ambassadeurs avec la photo de l'affiche. Suis ta filière et ton année pour être prévenu."
         preview={
-          <PhotoPreview
-            image={crowdImage}
-            alt="Le couloir d'une faculté entre deux cours, des étudiants rassemblés devant le panneau d'affichage."
-          >
           <PreviewFrame caption="Calendrier officiel 2026-2027">
             {agenda.length ? (
               <ul className="divide-y divide-line">
@@ -392,7 +355,6 @@ function Pillars({ agenda, clubList }: { agenda: AgendaPost[]; clubList: ClubPre
               <BellIcon size={14} /> Source : Ministère de l&apos;Enseignement supérieur
             </p>
           </PreviewFrame>
-          </PhotoPreview>
         }
       />
     </section>
