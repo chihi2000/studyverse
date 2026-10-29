@@ -67,6 +67,12 @@ export function PostForm({ instituteId, audiences }: { instituteId: string; audi
 
       <fieldset className="space-y-5">
         <legend className="eyebrow mb-4 w-full border-b border-ink pb-2">3 · Preuve officielle</legend>
+        <p className="callout callout-info">
+          <span>
+            <strong className="font-semibold">Résultats :</strong> mets seulement le lien vers la page officielle. Ne
+            publie jamais la liste des noms et des notes.
+          </span>
+        </p>
         <label className="block cursor-pointer border border-dashed border-ink/30 bg-surface px-4 py-5 text-center transition-colors hover:border-brand">
           <span className="field-label">Photo de l&apos;affiche ou PDF</span>
           <input

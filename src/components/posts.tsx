@@ -133,7 +133,7 @@ export function FeedItem({
         {source && (
           <p>
             <a href={source} target="_blank" rel="noopener noreferrer" className="link inline-flex items-center gap-1 text-sm">
-              Source officielle
+              {post.category === "results" ? "Voir les résultats officiels" : "Source officielle"}
               <ExternalIcon size={14} />
             </a>
           </p>

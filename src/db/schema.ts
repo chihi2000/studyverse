@@ -45,6 +45,8 @@ export const moderationStatusEnum = pgEnum("moderation_status", ["pending", "app
 export const postCategoryEnum = pgEnum("post_category", [
   "schedule",
   "exam_calendar",
+  // Announces that results are out, linking to the official page; lists of names are never hosted here.
+  "results",
   "announcement",
   "holiday",
   "event",

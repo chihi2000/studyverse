@@ -93,8 +93,16 @@ export async function createPost(_prev: FormState, formData: FormData): Promise<
     if (!program) return { error: "Public concerné introuvable." };
   }
 
-  let sourceFileKey: string | null = null;
+  // Results: only a link to the official page. Lists of names and grades are never uploaded here.
   const photo = formData.get("photo");
+  if (input.category === "results") {
+    if (photo instanceof File && photo.size > 0) {
+      return { error: "Pour les résultats, n'ajoute pas de photo ni de PDF : les listes nominatives ne sont pas publiées sur Studyverse. Mets le lien officiel." };
+    }
+    if (!input.sourceUrl) return { error: "Pour les résultats, ajoute le lien vers la page officielle où ils sont publiés." };
+  }
+
+  let sourceFileKey: string | null = null;
   if (photo instanceof File && photo.size > 0) {
     try {
       sourceFileKey = await saveUpload(photo);

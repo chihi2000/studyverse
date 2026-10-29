@@ -5,6 +5,7 @@ export type PostCategory = (typeof postCategoryEnum.enumValues)[number];
 export const categoryLabels: Record<PostCategory, string> = {
   schedule: "Emploi du temps",
   exam_calendar: "Examens",
+  results: "Résultats",
   announcement: "Annonce",
   holiday: "Vacances",
   event: "Événement",
@@ -13,6 +14,7 @@ export const categoryLabels: Record<PostCategory, string> = {
 // Category marks use two brand colours, told apart by fill vs. outline rather than a rainbow.
 export const categoryMarks: Record<PostCategory, string> = {
   exam_calendar: "bg-accent",
+  results: "border-[1.5px] border-ink",
   schedule: "bg-brand",
   announcement: "bg-ink",
   holiday: "border-[1.5px] border-brand",
