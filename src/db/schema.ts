@@ -455,3 +455,30 @@ export const clubEvents = pgTable(
   },
   (t) => [index().on(t.clubId, t.startsAt)],
 );
+
+// --- Ambassador applications ---
+
+export const applicantPositionEnum = pgEnum("applicant_position", ["student", "class_rep", "club_member", "other"]);
+
+// Students asking to become an institute's ambassador; an admin approves or rejects them.
+export const ambassadorApplications = pgTable(
+  "ambassador_applications",
+  {
+    id: uuid().primaryKey().defaultRandom(),
+    userId: text()
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    instituteId: uuid()
+      .notNull()
+      .references(() => institutes.id, { onDelete: "cascade" }),
+    studyProgram: text().notNull(),
+    position: applicantPositionEnum().notNull(),
+    motivation: text().notNull(),
+    status: moderationStatusEnum().notNull().default("pending"),
+    reviewNote: text(),
+    reviewedBy: text().references(() => users.id, { onDelete: "set null" }),
+    reviewedAt: timestamp({ withTimezone: true }),
+    ...timestamps,
+  },
+  (t) => [index().on(t.status, t.createdAt), index().on(t.userId)],
+);

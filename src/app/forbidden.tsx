@@ -6,11 +6,16 @@ export default function Forbidden() {
       <p className="eyebrow">Accès réservé</p>
       <h1 className="display text-[clamp(2.2rem,6vw,3.25rem)]">Cet espace est réservé aux ambassadeurs.</h1>
       <p className="text-lg leading-relaxed text-muted">
-        Tu veux représenter ton établissement et publier ses annonces officielles ? Contacte l&apos;équipe Studyverse.
+        Tu veux représenter ton établissement et publier ses annonces officielles ? Envoie ta candidature.
       </p>
-      <Link href="/" className="btn btn-secondary">
-        Retour à l&apos;accueil
-      </Link>
+      <div className="flex flex-wrap gap-3">
+        <Link href="/devenir-ambassadeur" className="btn btn-primary">
+          Devenir ambassadeur
+        </Link>
+        <Link href="/" className="btn btn-secondary">
+          Retour à l&apos;accueil
+        </Link>
+      </div>
     </div>
   );
 }

@@ -57,6 +57,13 @@
       "when": 1793272196007,
       "tag": "0007_workable_johnny_storm",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793273577412,
+      "tag": "0008_fat_marvel_boy",
+      "breakpoints": true
     }
   ]
 }

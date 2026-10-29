@@ -16,7 +16,7 @@ export default async function PanelLayout({ children }: { children: React.ReactN
           </Link>
           {user.role === "admin" && (
             <Link href="/panel/admin" className="text-muted transition-colors hover:text-ink">
-              Ambassadeurs
+              Administration
             </Link>
           )}
         </nav>

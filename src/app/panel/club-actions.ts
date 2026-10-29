@@ -5,7 +5,7 @@ import { forbidden, redirect } from "next/navigation";
 import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
-import { clubAdmins, clubCategoryEnum, clubEvents, clubs, users } from "@/db/schema";
+import { clubAdmins, clubCategoryEnum, clubEvents, clubs, institutes, users } from "@/db/schema";
 import { canManageClub, canPublishFor, getUser, requirePanelUser, requireRole } from "@/lib/session";
 import { deleteUpload, saveUpload, UploadError } from "@/lib/uploads";
 
@@ -60,7 +60,16 @@ function revalidateClub(clubId: string) {
 
 export async function createClub(formData: FormData) {
   const user = await requireRole("ambassador", "admin");
-  const instituteId = z.uuid().parse(formData.get("instituteId"));
+  // The institute panel sends its id; the admin console sends a slug.
+  const instituteSlug = formData.get("instituteSlug");
+  let instituteId: string;
+  if (typeof instituteSlug === "string" && instituteSlug) {
+    const [inst] = await db.select({ id: institutes.id }).from(institutes).where(eq(institutes.slug, instituteSlug.trim()));
+    if (!inst) forbidden();
+    instituteId = inst.id;
+  } else {
+    instituteId = z.uuid().parse(formData.get("instituteId"));
+  }
   if (!(await canPublishFor(user, instituteId))) forbidden();
   const name = z.string().trim().min(2).max(120).parse(formData.get("name"));
   const category = z.enum(clubCategoryEnum.enumValues).parse(formData.get("category"));

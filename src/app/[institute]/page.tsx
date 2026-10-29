@@ -131,7 +131,10 @@ export default async function InstituteFeed({ params, searchParams }: Props) {
         <p className="callout callout-warning mb-6 max-w-3xl">
           <span>
             <strong className="font-semibold">Pas encore d&apos;ambassadeur.</strong> Les informations de cette page
-            viennent de sources publiques et peuvent être incomplètes ou dépassées.
+            viennent de sources publiques et peuvent être incomplètes ou dépassées.{" "}
+            <Link href={`/devenir-ambassadeur?etablissement=${inst.slug}`} className="link font-medium">
+              Deviens ambassadeur de {inst.shortName}
+            </Link>
           </span>
         </p>
       )}

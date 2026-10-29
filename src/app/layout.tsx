@@ -76,7 +76,12 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
                 </Link>
               )}
               {user ? (
-                <SignOutButton className="text-muted transition-colors hover:text-ink" />
+                <>
+                  <Link href="/compte" className="whitespace-nowrap text-muted transition-colors hover:text-ink">
+                    Mon compte
+                  </Link>
+                  <SignOutButton className="hidden text-muted transition-colors hover:text-ink sm:inline" />
+                </>
               ) : (
                 <Link href="/connexion" className="btn btn-secondary btn-sm">
                   Connexion
@@ -122,6 +127,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
               <div className="space-y-3">
                 <p className="eyebrow !text-[#f7f5ef]/50">Compte</p>
                 <ul className="space-y-2">
+                  <li>
+                    <Link href="/devenir-ambassadeur" className="text-[#f7f5ef]/80 transition-colors hover:text-[#f7f5ef]">
+                      Devenir ambassadeur
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       href={canPublish ? "/panel" : "/connexion"}

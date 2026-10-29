@@ -7,7 +7,10 @@ import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
 import {
+  ambassadorApplications,
   ambassadorAssignments,
+  clubEvents,
+  clubs,
   documents,
   institutes,
   levels,
@@ -16,6 +19,7 @@ import {
   programs,
   users,
 } from "@/db/schema";
+import { grantAmbassador } from "@/lib/ambassadors";
 import { notifyPost } from "@/lib/push";
 import { canPublishFor, requireRole } from "@/lib/session";
 import { deleteUpload, saveUpload, UploadError } from "@/lib/uploads";
@@ -145,7 +149,7 @@ export async function setRole(formData: FormData) {
   // Avoid locking the last admin out by accident.
   if (userId === admin.id) return;
   await db.update(users).set({ role }).where(eq(users.id, userId));
-  revalidatePath("/panel/admin");
+  revalidatePath("/panel/admin", "layout");
 }
 
 export async function assignInstitute(formData: FormData): Promise<void> {
@@ -155,13 +159,8 @@ export async function assignInstitute(formData: FormData): Promise<void> {
   const [inst] = await db.select({ id: institutes.id }).from(institutes).where(eq(institutes.slug, slug));
   if (!inst) return;
 
-  await db.insert(ambassadorAssignments).values({ userId, instituteId: inst.id }).onConflictDoNothing();
   // Assigning an ambassador onboards the institute and promotes students.
-  await db.update(institutes).set({ isActive: true }).where(eq(institutes.id, inst.id));
-  await db
-    .update(users)
-    .set({ role: "ambassador" })
-    .where(and(eq(users.id, userId), eq(users.role, "student")));
+  await grantAmbassador(userId, inst.id);
   revalidatePath("/", "layout");
 }
 
@@ -172,7 +171,7 @@ export async function unassignInstitute(formData: FormData) {
   await db
     .delete(ambassadorAssignments)
     .where(and(eq(ambassadorAssignments.userId, userId), eq(ambassadorAssignments.instituteId, instituteId)));
-  revalidatePath("/panel/admin");
+  revalidatePath("/panel/admin", "layout");
 }
 
 // --- Document moderation ---
@@ -199,5 +198,61 @@ export async function rejectDocument(formData: FormData) {
   // Rejected files are not kept.
   await db.delete(documents).where(eq(documents.id, doc.id));
   await deleteUpload(doc.fileKey);
+  revalidatePath("/", "layout");
+}
+
+// --- Ambassador applications (admins) ---
+
+async function pendingApplication(formData: FormData) {
+  const admin = await requireRole("admin");
+  const id = z.uuid().parse(formData.get("applicationId"));
+  const [application] = await db
+    .select()
+    .from(ambassadorApplications)
+    .where(and(eq(ambassadorApplications.id, id), eq(ambassadorApplications.status, "pending")));
+  return { admin, application };
+}
+
+export async function approveApplication(formData: FormData) {
+  const { admin, application } = await pendingApplication(formData);
+  if (!application) return;
+  await grantAmbassador(application.userId, application.instituteId);
+  await db
+    .update(ambassadorApplications)
+    .set({ status: "approved", reviewedBy: admin.id, reviewedAt: new Date() })
+    .where(eq(ambassadorApplications.id, application.id));
+  revalidatePath("/", "layout");
+}
+
+export async function rejectApplication(formData: FormData) {
+  const { admin, application } = await pendingApplication(formData);
+  if (!application) return;
+  const note = z.string().trim().max(500).parse(formData.get("note") ?? "");
+  await db
+    .update(ambassadorApplications)
+    .set({ status: "rejected", reviewNote: note || null, reviewedBy: admin.id, reviewedAt: new Date() })
+    .where(eq(ambassadorApplications.id, application.id));
+  revalidatePath("/", "layout");
+}
+
+// --- Admin console ---
+
+export async function deleteClub(formData: FormData) {
+  await requireRole("admin");
+  const clubId = z.uuid().parse(formData.get("clubId"));
+  const [club] = await db.select().from(clubs).where(eq(clubs.id, clubId));
+  if (!club) return;
+  const events = await db.select({ image: clubEvents.imageFileKey }).from(clubEvents).where(eq(clubEvents.clubId, clubId));
+  // Events and club admins go with the club (cascade); their files are removed too.
+  await db.delete(clubs).where(eq(clubs.id, clubId));
+  for (const key of [club.logoFileKey, ...events.map((e) => e.image)]) if (key) await deleteUpload(key);
+  revalidatePath("/", "layout");
+}
+
+export async function setInstituteActive(formData: FormData) {
+  await requireRole("admin");
+  const instituteId = z.uuid().parse(formData.get("instituteId"));
+  const active = formData.get("active") === "1";
+  await db.update(institutes).set({ isActive: active }).where(eq(institutes.id, instituteId));
   revalidatePath("/", "layout");
 }
