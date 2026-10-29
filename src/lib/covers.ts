@@ -3,6 +3,7 @@ import enit from "../../public/img/covers/enit.jpg";
 import fmsSfax from "../../public/img/covers/fms-sfax.jpg";
 import fmtTunis from "../../public/img/covers/fmt-tunis.jpg";
 import isetMahdia from "../../public/img/covers/iset-mahdia.jpg";
+import isticBorjCedria from "../../public/img/covers/istic-borj-cedria.jpg";
 import isimaMahdia from "../../public/img/covers/isima-mahdia.jpg";
 import mahdia from "../../public/img/covers/mahdia.jpg";
 import manouba from "../../public/img/covers/universite-de-la-manouba.jpg";
@@ -12,20 +13,26 @@ import tunis from "../../public/img/covers/universite-de-tunis.jpg";
 import zitouna from "../../public/img/covers/universite-ez-zitouna.jpg";
 import elManar from "../../public/img/covers/universite-tunis-el-manar.jpg";
 
-// Real photos from Wikimedia Commons, credited as their licences require.
+// Real photos: from Wikimedia Commons (credited as their licences require) or provided by the site owner.
 export type Cover = {
   image: StaticImageData;
   /** What the photo shows, shown with the credit. */
   caption: string;
-  author: string;
-  license: string;
+  /** Credit fields; omitted for photos provided directly by the site owner. */
+  author?: string;
+  license?: string;
   /** The Commons file page, which carries the full licence. */
-  source: string;
+  source?: string;
 };
 
 const commons = (file: string) => `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file.replaceAll(" ", "_"))}`;
 
 const institutes: Record<string, Cover> = {
+  // Provided by the site owner.
+  "istic-borj-cedria": {
+    image: isticBorjCedria,
+    caption: "ISTIC Borj Cédria",
+  },
   "fmt-tunis": {
     image: fmtTunis,
     caption: "Faculté de Médecine de Tunis",

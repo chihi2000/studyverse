@@ -93,14 +93,20 @@ export function InstituteHeader({ inst, action }: { inst: Institute; action?: Re
             </p>
           )}
         </div>
-        <a
-          href={cover.source}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute bottom-2 end-3 max-w-[60%] truncate text-[0.68rem] text-[#f7f5ef]/60 transition-colors hover:text-[#f7f5ef] sm:end-5"
-        >
-          {cover.caption} · Photo : {cover.author}, {cover.license}
-        </a>
+        {cover.source ? (
+          <a
+            href={cover.source}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-2 end-3 max-w-[60%] truncate text-[0.68rem] text-[#f7f5ef]/60 transition-colors hover:text-[#f7f5ef] sm:end-5"
+          >
+            {cover.caption} · Photo : {cover.author}, {cover.license}
+          </a>
+        ) : (
+          <p className="absolute bottom-2 end-3 max-w-[60%] truncate text-[0.68rem] text-[#f7f5ef]/60 sm:end-5">
+            {cover.caption}
+          </p>
+        )}
       </div>
       {action && <div className="flex justify-start pt-6 lg:justify-end">{action}</div>}
     </header>
