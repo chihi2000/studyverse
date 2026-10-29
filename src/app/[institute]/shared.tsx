@@ -1,11 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import { asc, eq, getTableColumns } from "drizzle-orm";
 import { db } from "@/db";
 import { institutes, levels, programs, universities } from "@/db/schema";
+import { coverFor } from "@/lib/covers";
 
 export async function getInstitute(slug: string) {
   const [inst] = await db
-    .select({ ...getTableColumns(institutes), universityName: universities.nameFr })
+    .select({ ...getTableColumns(institutes), universityName: universities.nameFr, universitySlug: universities.slug })
     .from(institutes)
     .innerJoin(universities, eq(institutes.universityId, universities.id))
     .where(eq(institutes.slug, slug));
@@ -40,22 +42,67 @@ export async function loadProgramFilter(instituteId: string, query: { programme?
 type Filter = Awaited<ReturnType<typeof loadProgramFilter>>;
 
 export function InstituteHeader({ inst, action }: { inst: Institute; action?: React.ReactNode }) {
-  return (
-    <header className="grid gap-6 pb-8 pt-10 md:pt-14 lg:grid-cols-12 lg:items-end">
-      <div className="min-w-0 space-y-3 lg:col-span-8">
-        <p className="eyebrow">
-          {inst.universityName}
-          {inst.city && <> · {inst.city}</>}
-        </p>
-        <h1 className="display text-[clamp(2.6rem,7vw,4.5rem)]">{inst.shortName}</h1>
-        {inst.shortName !== inst.nameFr && <p className="max-w-2xl text-lg leading-snug text-muted">{inst.nameFr}</p>}
-        {inst.nameAr && (
-          <p lang="ar" dir="rtl" className="w-fit max-w-2xl text-muted">
-            {inst.nameAr}
+  const cover = coverFor(inst);
+  if (!cover) {
+    return (
+      <header className="grid gap-6 pb-8 pt-10 md:pt-14 lg:grid-cols-12 lg:items-end">
+        <div className="min-w-0 space-y-3 lg:col-span-8">
+          <p className="eyebrow">
+            {inst.universityName}
+            {inst.city && <> · {inst.city}</>}
           </p>
-        )}
+          <h1 className="display text-[clamp(2.6rem,7vw,4.5rem)]">{inst.shortName}</h1>
+          {inst.shortName !== inst.nameFr && <p className="max-w-2xl text-lg leading-snug text-muted">{inst.nameFr}</p>}
+          {inst.nameAr && (
+            <p lang="ar" dir="rtl" className="w-fit max-w-2xl text-muted">
+              {inst.nameAr}
+            </p>
+          )}
+        </div>
+        {action && <div className="lg:col-span-4 lg:justify-self-end">{action}</div>}
+      </header>
+    );
+  }
+
+  return (
+    <header className="pb-6">
+      {/* Full-bleed band: breaks out of the page container to span the viewport. */}
+      <div className="relative isolate ms-[calc(50%-50vw)] flex min-h-[clamp(20rem,46vh,30rem)] w-screen items-end overflow-hidden bg-forest">
+        <Image
+          src={cover.image}
+          alt={cover.caption}
+          fill
+          priority
+          placeholder="blur"
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-[#0d1714]/90 via-[#0d1714]/45 to-[#0d1714]/10" />
+        <div className="page pb-10 pt-24 text-[#f7f5ef]">
+          <p className="eyebrow !text-[#f7f5ef]/80">
+            {inst.universityName}
+            {inst.city && <> · {inst.city}</>}
+          </p>
+          <h1 className="display mt-3 text-[clamp(2.6rem,7vw,4.75rem)]">{inst.shortName}</h1>
+          {inst.shortName !== inst.nameFr && (
+            <p className="mt-2 max-w-2xl text-lg leading-snug text-[#f7f5ef]/85">{inst.nameFr}</p>
+          )}
+          {inst.nameAr && (
+            <p lang="ar" dir="rtl" className="mt-1 w-fit max-w-2xl text-[#f7f5ef]/75">
+              {inst.nameAr}
+            </p>
+          )}
+        </div>
+        <a
+          href={cover.source}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-2 end-3 max-w-[60%] truncate text-[0.68rem] text-[#f7f5ef]/60 transition-colors hover:text-[#f7f5ef] sm:end-5"
+        >
+          {cover.caption} · Photo : {cover.author}, {cover.license}
+        </a>
       </div>
-      {action && <div className="lg:col-span-4 lg:justify-self-end">{action}</div>}
+      {action && <div className="flex justify-start pt-6 lg:justify-end">{action}</div>}
     </header>
   );
 }
@@ -114,7 +161,7 @@ export function InstituteTabs({ slug, active }: { slug: string; active: "news" |
     <Link
       href={href}
       aria-current={isActive ? "page" : undefined}
-      className={`-mb-px border-b-2 py-3 text-[0.95rem] font-medium transition-colors ${
+      className={`-mb-px shrink-0 whitespace-nowrap border-b-2 py-3 text-[0.95rem] font-medium transition-colors ${
         isActive ? "border-brand text-ink" : "border-transparent text-muted hover:text-ink"
       }`}
     >
