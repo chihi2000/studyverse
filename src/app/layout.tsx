@@ -62,8 +62,14 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 
         <header className="site-header sticky top-0 z-40 bg-canvas">
           <div className="page flex h-[var(--header-h)] items-center gap-5">
-            <Link href="/" aria-label="Studyverse, accueil" className="me-auto">
+            <Link href="/" aria-label="Studyverse, accueil, version bêta" className="me-auto flex items-center gap-2.5">
               <Wordmark />
+              <span
+                title="Version de test, gratuite"
+                className="rounded-full border border-accent/50 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-accent-ink"
+              >
+                Bêta
+              </span>
             </Link>
             <nav aria-label="Navigation principale" className="flex items-center gap-4 text-sm sm:gap-6">
               <Link href="/#annuaire" className="hidden text-muted transition-colors hover:text-ink sm:inline">
@@ -151,7 +157,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </div>
           <div className="border-t border-white/10">
             <p className="page py-5 text-xs text-[#f7f5ef]/50">
-              © {new Date().getFullYear()} Studyverse
+              © {new Date().getFullYear()} Studyverse · Version bêta, gratuite, en cours de test
             </p>
           </div>
         </footer>
