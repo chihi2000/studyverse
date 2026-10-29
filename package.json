@@ -15,6 +15,7 @@
     "user:role": "tsx --env-file=.env src/scripts/set-role.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.8.2",
     "better-auth": "^1.7.14",
     "drizzle-orm": "^0.45.4",
@@ -22,6 +23,7 @@
     "postgres": "^3.4.9",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
+    "resend": "^6.35.0",
     "server-only": "^0.0.1",
     "web-push": "^3.6.7",
     "zod": "^4.6.7"

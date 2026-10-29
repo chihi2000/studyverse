@@ -5,6 +5,7 @@ import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db";
 import { ambassadorApplications, ambassadorAssignments, applicantPositionEnum, institutes } from "@/db/schema";
+import { emailEnabled } from "@/lib/email";
 import { getUser } from "@/lib/session";
 
 export type ApplicationState = { error?: string; ok?: boolean } | undefined;
@@ -25,6 +26,9 @@ export async function submitApplication(_prev: ApplicationState, formData: FormD
   const user = await getUser();
   if (!user) return { error: "Connecte-toi pour envoyer ta candidature." };
   if (user.role === "admin") return { error: "Tu es déjà administrateur." };
+  if (emailEnabled && !user.emailVerified) {
+    return { error: "Confirme d'abord ton adresse e-mail (lien envoyé à l'inscription, ou renvoie-le depuis Mon compte)." };
+  }
 
   const parsed = applicationSchema.safeParse(Object.fromEntries(formData));
   if (!parsed.success) return { error: parsed.error.issues[0].message };

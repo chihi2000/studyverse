@@ -4,6 +4,8 @@ import { DM_Sans, IBM_Plex_Sans_Arabic, Newsreader } from "next/font/google";
 import { RevealObserver } from "@/components/reveal-observer";
 import { SignOutButton } from "@/components/sign-out-button";
 import { Wordmark } from "@/components/wordmark";
+import { Analytics } from "@vercel/analytics/next";
+import { site } from "@/lib/site";
 import { getUser, managedClubIds } from "@/lib/session";
 import "./globals.css";
 
@@ -156,13 +158,27 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             </p>
           </div>
           <div className="border-t border-white/10">
-            <p className="page py-5 text-xs text-[#f7f5ef]/50">
-              © {new Date().getFullYear()} Studyverse · Version bêta, gratuite, en cours de test
-            </p>
+            <div className="page flex flex-wrap items-center gap-x-5 gap-y-2 py-5 text-xs text-[#f7f5ef]/50">
+              <p className="me-auto">© {new Date().getFullYear()} Studyverse · Version bêta, gratuite, en cours de test</p>
+              <Link href="/mentions-legales" className="hover:text-[#f7f5ef]">
+                Mentions légales
+              </Link>
+              <Link href="/confidentialite" className="hover:text-[#f7f5ef]">
+                Confidentialité
+              </Link>
+              <Link href="/conditions" className="hover:text-[#f7f5ef]">
+                Conditions
+              </Link>
+              <a href={`mailto:${site.contactEmail}`} className="hover:text-[#f7f5ef]">
+                Contact
+              </a>
+            </div>
           </div>
         </footer>
 
         <RevealObserver />
+        {/* Cookieless audience stats; active once Web Analytics is enabled on the Vercel project. */}
+        <Analytics />
       </body>
     </html>
   );

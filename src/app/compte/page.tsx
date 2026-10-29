@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getUser } from "@/lib/session";
+import { emailEnabled } from "@/lib/email";
+import { DeleteAccount, VerifyEmailBanner } from "./account-actions";
 import { PasswordForm } from "./password-form";
 
 export const metadata: Metadata = { title: "Mon compte" };
@@ -31,12 +33,21 @@ export default async function AccountPage() {
           )}
         </div>
       </div>
+      {emailEnabled && !user.emailVerified && <VerifyEmailBanner email={user.email} />}
       <section aria-labelledby="password" className="space-y-5">
         <h2 id="password" className="eyebrow border-b border-ink pb-2">
           Mot de passe
         </h2>
         <PasswordForm />
       </section>
+      {user.role !== "admin" && (
+        <section aria-labelledby="danger" className="space-y-4">
+          <h2 id="danger" className="eyebrow border-b border-ink pb-2">
+            Supprimer mon compte
+          </h2>
+          <DeleteAccount />
+        </section>
+      )}
     </div>
   );
 }
