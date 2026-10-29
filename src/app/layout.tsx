@@ -141,7 +141,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </div>
           <div className="border-t border-white/10">
             <p className="page py-5 text-xs text-[#f7f5ef]/50">
-              © {new Date().getFullYear()} Studyverse · Images d&apos;illustration générées
+              © {new Date().getFullYear()} Studyverse
             </p>
           </div>
         </footer>

@@ -15,6 +15,7 @@
     "user:role": "tsx --env-file=.env src/scripts/set-role.ts"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.2",
     "better-auth": "^1.7.14",
     "drizzle-orm": "^0.45.4",
     "next": "^16.4.3",

@@ -5,7 +5,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ key: string }>
   const file = await readUpload(key);
   if (!file) return new Response("Not found", { status: 404 });
 
-  return new Response(new Uint8Array(file.bytes), {
+  return new Response(file.body, {
     headers: {
       "Content-Type": file.mime,
       "Content-Disposition": "inline",

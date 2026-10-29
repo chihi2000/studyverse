@@ -171,7 +171,6 @@ function Hero({ instituteCount, programCount, activeCount }: { instituteCount: n
             </div>
           </div>
         </div>
-        <p className="absolute bottom-4 start-4 text-[0.7rem] text-[#f7f5ef]/60 sm:start-6">Images d&apos;illustration</p>
       </section>
 
       <div className="page">
