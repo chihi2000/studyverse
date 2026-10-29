@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { asc, count, eq, ilike, or, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { clubs, institutes, programs, universities } from "@/db/schema";
+import { clubs, equipmentItems, institutes, programs, universities } from "@/db/schema";
 import { ArrowRightIcon, SearchIcon } from "@/components/icons";
 import { CountUp } from "@/components/count-up";
 import { HeroSlideshow } from "@/components/hero-slideshow";
-import { AnnouncementsIcon, ClubsIcon, CoursesIcon } from "@/components/pillar-icons";
+import { AnnouncementsIcon, ClubsIcon, CoursesIcon, EquipmentIcon } from "@/components/pillar-icons";
 import { ScrollWords } from "@/components/scroll-words";
 import { CampusPicker } from "./campus-picker";
 import { TypedHeadline } from "@/components/typed-headline";
@@ -46,7 +46,7 @@ export default async function Home({ searchParams }: Props) {
 
   if (q) return <SearchResults q={q} rows={rows} />;
 
-  const [[{ instituteCount }], [{ programCount }], pilots, universityList, [clubHome]] = await Promise.all([
+  const [[{ instituteCount }], [{ programCount }], pilots, universityList, [clubHome], [equipmentHome]] = await Promise.all([
     db.select({ instituteCount: count() }).from(institutes),
     db.select({ programCount: count() }).from(programs),
     db
@@ -76,6 +76,13 @@ export default async function Home({ searchParams }: Props) {
       .innerJoin(institutes, eq(clubs.instituteId, institutes.id))
       .orderBy(asc(institutes.shortName))
       .limit(1),
+    // The first institute that already has an equipment list.
+    db
+      .select({ slug: institutes.slug })
+      .from(equipmentItems)
+      .innerJoin(institutes, eq(equipmentItems.instituteId, institutes.id))
+      .orderBy(asc(institutes.shortName))
+      .limit(1),
   ]);
 
   return (
@@ -84,6 +91,7 @@ export default async function Home({ searchParams }: Props) {
       <Pillars
         clubsHref={clubHome ? `/${clubHome.slug}/clubs` : "#annuaire"}
         calendarHref={pilots[0] ? `/${pilots[0].slug}?categorie=holiday` : "#annuaire"}
+        equipmentHref={equipmentHome ? `/${equipmentHome.slug}/materiel` : "#annuaire"}
       />
       <CampusSection universities={universityList} />
       <Directory rows={rows} pilots={pilots} />
@@ -206,7 +214,7 @@ function Pillar({
 }) {
   const delay = (n: number) => ({ "--i": index * 2 + n }) as React.CSSProperties;
   return (
-    <li className="flex flex-col gap-4 border-b border-line py-10 last:border-b-0 md:border-b-0 md:border-e md:px-8 md:first:ps-0 md:last:border-e-0 md:last:pe-0">
+    <li className="flex flex-col gap-4 border-b border-line py-10 last:border-b-0 md:odd:pe-6 md:even:ps-6 lg:border-b-0 lg:border-e lg:px-6 lg:odd:pe-6 lg:even:ps-6 lg:first:ps-0 lg:last:border-e-0 lg:last:pe-0">
       <div data-reveal style={delay(0)} className="flex items-end justify-between">
         <span className="text-brand">{icon}</span>
         <span className="p-num display text-[2.75rem] leading-none text-accent">0{index + 1}</span>
@@ -227,7 +235,7 @@ function Pillar({
   );
 }
 
-function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref: string }) {
+function Pillars({ clubsHref, calendarHref, equipmentHref }: { clubsHref: string; calendarHref: string; equipmentHref: string }) {
   return (
     <section aria-labelledby="piliers-title" className="page py-24 md:py-32">
       <div className="mb-12 max-w-2xl space-y-3">
@@ -238,13 +246,13 @@ function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref:
       </div>
 
       <div aria-hidden className="pillar-rule h-px bg-ink" />
-      <ul className="pillars-scroll grid md:grid-cols-3">
+      <ul className="pillars-scroll grid md:grid-cols-2 lg:grid-cols-4">
         <Pillar
           index={0}
           icon={<CoursesIcon />}
           title="Cours, TD, corrigés et anciens examens."
           text="Une bibliothèque partagée par les étudiants et vérifiée avant publication, rangée par filière, année, semestre et matière."
-          link={{ href: "#annuaire", label: "Trouver mes cours et examens" }}
+          link={{ href: "#annuaire", label: "Mes cours et examens" }}
         />
         <Pillar
           index={1}
@@ -256,9 +264,16 @@ function Pillars({ clubsHref, calendarHref }: { clubsHref: string; calendarHref:
         <Pillar
           index={2}
           icon={<AnnouncementsIcon />}
-          title="Les annonces officielles, et une notification quand ça te concerne."
+          title="Les annonces officielles, au bon moment."
           text="Emplois du temps, examens, règlements et vacances, publiés avec la photo de l'affiche. Suis ta filière et ton année."
           link={{ href: calendarHref, label: "Voir le calendrier officiel" }}
+        />
+        <Pillar
+          index={3}
+          icon={<EquipmentIcon />}
+          title="Le matériel de ta filière."
+          text="Blouse, instruments, fournitures d'atelier, logiciels : la liste de ce qu'il faut acheter, avec les prix et les bonnes adresses."
+          link={{ href: equipmentHref, label: "Voir le matériel" }}
         />
       </ul>
     </section>

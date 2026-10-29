@@ -251,23 +251,41 @@ export const posts = pgTable(
   ],
 );
 
+export const equipmentCategoryEnum = pgEnum("equipment_category", [
+  "clothing",
+  "tools",
+  "supplies",
+  "software",
+  "books",
+  "other",
+]);
+
+// What students must (or may) buy. Scope, like posts: the whole institute, a program, or a program's year.
 export const equipmentItems = pgTable(
   "equipment_items",
   {
     id: uuid().primaryKey().defaultRandom(),
-    programId: uuid()
+    instituteId: uuid()
       .notNull()
-      .references(() => programs.id, { onDelete: "cascade" }),
+      .references(() => institutes.id, { onDelete: "cascade" }),
+    programId: uuid().references(() => programs.id, { onDelete: "cascade" }),
+    levelId: uuid().references(() => levels.id, { onDelete: "cascade" }),
+    category: equipmentCategoryEnum().notNull().default("other"),
     name: text().notNull(),
     description: text(),
     priceMinTnd: integer(),
     priceMaxTnd: integer(),
     whereToBuy: text(),
     required: boolean().notNull().default(true),
+    // Official rule or list this item comes from, when there is one.
+    sourceUrl: text(),
+    // Stable id for items loaded by the seed script.
+    importKey: text().unique(),
+    authorId: text().references(() => users.id, { onDelete: "set null" }),
     sortOrder: integer().notNull().default(0),
     ...timestamps,
   },
-  (t) => [index().on(t.programId)],
+  (t) => [index().on(t.instituteId), index().on(t.programId)],
 );
 
 // Auth tables, shaped for Better Auth's Drizzle adapter (see src/lib/auth.ts).

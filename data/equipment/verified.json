@@ -1,0 +1,13 @@
+{
+  "note": "Only items backed by an official rule. Everything else comes from ambassadors in the panel.",
+  "items": [
+    {
+      "importKey": "fmt-tunis-blouse-blanche",
+      "institute": "fmt-tunis",
+      "category": "clothing",
+      "name": "Blouse blanche en coton",
+      "description": "Obligatoire pendant les TP et les TD. En stage clinique : blouse blanche propre et boutonnée, avec badge d'identification (règlement intérieur de la FMT, juillet 2022).",
+      "required": true
+    }
+  ]
+}

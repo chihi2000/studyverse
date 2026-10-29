@@ -87,6 +87,19 @@ export default async function PanelInstitute({ params }: { params: Promise<{ ins
           </span>
         </Link>
 
+        <Link
+          href={`/panel/${inst.slug}/materiel`}
+          className="group flex items-center justify-between gap-4 border border-line bg-surface px-4 py-4 transition-colors hover:border-ink"
+        >
+          <span>
+            <span className="block font-medium">Liste du matériel</span>
+            <span className="block text-sm text-muted">Ce que les étudiants doivent acheter, par filière</span>
+          </span>
+          <span aria-hidden className="text-muted transition-transform duration-200 group-hover:translate-x-1">
+            →
+          </span>
+        </Link>
+
         <section aria-labelledby="clubs-panel" className="space-y-3">
           <h2 id="clubs-panel" className="eyebrow border-b border-ink pb-2">
             Clubs · {instClubs.length}

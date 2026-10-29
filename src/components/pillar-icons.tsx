@@ -66,3 +66,17 @@ export function AnnouncementsIcon(props: Props) {
     </DrawIcon>
   );
 }
+
+/** A set square, a ruler and a pencil: the kit students buy before the year starts. */
+export function EquipmentIcon(props: Props) {
+  return (
+    <DrawIcon {...props}>
+      <path pathLength={1} d="M10 52V14l38 38z" />
+      <path pathLength={1} d="M18 44V33l11 11z" />
+      <path pathLength={1} d="M10 22h4M10 30h4M10 38h4M18 52v-4M26 52v-4M34 52v-4" />
+      <path pathLength={1} d="m40 10 14 14-18 18-14-14z" />
+      <path pathLength={1} className="text-accent" stroke="currentColor" d="M50 14 54 10" />
+      <path pathLength={1} d="m26 32 3-3M31 37l3-3" />
+    </DrawIcon>
+  );
+}

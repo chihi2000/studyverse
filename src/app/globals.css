@@ -605,13 +605,21 @@ body {
       view-timeline: --pillar block;
       --o: 0%;
     }
+    /* Side-by-side columns follow slightly behind the one on their left. */
     @media (min-width: 768px) {
-      /* Side-by-side columns: the 2nd and 3rd follow slightly behind the 1st. */
+      .pillars-scroll > li:nth-child(even) {
+        --o: 6%;
+      }
+    }
+    @media (min-width: 1024px) {
       .pillars-scroll > li:nth-child(2) {
         --o: 6%;
       }
       .pillars-scroll > li:nth-child(3) {
         --o: 12%;
+      }
+      .pillars-scroll > li:nth-child(4) {
+        --o: 18%;
       }
     }
 

@@ -8,6 +8,8 @@ import {
   clubCategoryEnum,
   clubs,
   degreeEnum,
+  equipmentCategoryEnum,
+  equipmentItems,
   instituteLinks,
   institutes,
   levels,
@@ -250,10 +252,11 @@ async function seed() {
 
   const postCount = await importNationalPosts();
   const clubCount = await importClubs();
+  const equipmentCount = await importEquipment();
 
   if (process.argv.includes("--demo")) await seedDemoPosts();
   console.log(
-    `Imported ${files.length} universities, ${instituteCount} institutes, ${programCount} programs, ${postCount} national posts, ${clubCount} clubs.`,
+    `Imported ${files.length} universities, ${instituteCount} institutes, ${programCount} programs, ${postCount} national posts, ${clubCount} clubs, ${equipmentCount} equipment items.`,
   );
 }
 
@@ -308,6 +311,43 @@ async function importClubs() {
       };
       // Don't overwrite what club admins edited (description, links) on re-import.
       await db.insert(clubs).values(values).onConflictDoNothing({ target: [clubs.instituteId, clubs.slug] });
+      count++;
+    }
+  }
+  return count;
+}
+
+type RawEquipmentFile = {
+  items: {
+    importKey: string;
+    institute: string;
+    category: (typeof equipmentCategoryEnum.enumValues)[number];
+    name: string;
+    description?: string;
+    required?: boolean;
+    sourceUrl?: string;
+  }[];
+};
+
+// Equipment backed by an official rule, from data/equipment/*.json.
+async function importEquipment() {
+  const dir = path.join(process.cwd(), "data/equipment");
+  let count = 0;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+    const file: RawEquipmentFile = JSON.parse(readFileSync(path.join(dir, f), "utf8"));
+    for (const item of file.items) {
+      const [inst] = await db.select({ id: institutes.id }).from(institutes).where(eq(institutes.slug, item.institute));
+      if (!inst) throw new Error(`Unknown institute ${item.institute} in data/equipment/${f}`);
+      const values = {
+        importKey: item.importKey,
+        instituteId: inst.id,
+        category: item.category,
+        name: item.name,
+        description: opt(item.description),
+        required: item.required ?? true,
+        sourceUrl: opt(item.sourceUrl),
+      };
+      await db.insert(equipmentItems).values(values).onConflictDoUpdate({ target: equipmentItems.importKey, set: values });
       count++;
     }
   }

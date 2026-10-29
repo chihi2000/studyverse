@@ -109,7 +109,7 @@ export function ProgramYearFilter({
   );
 }
 
-export function InstituteTabs({ slug, active }: { slug: string; active: "news" | "exams" | "clubs" }) {
+export function InstituteTabs({ slug, active }: { slug: string; active: "news" | "exams" | "clubs" | "equipment" }) {
   const tab = (href: string, isActive: boolean, label: string) => (
     <Link
       href={href}
@@ -129,6 +129,7 @@ export function InstituteTabs({ slug, active }: { slug: string; active: "news" |
       {tab(`/${slug}`, active === "news", "Actualités")}
       {tab(`/${slug}/examens`, active === "exams", "Examens & cours")}
       {tab(`/${slug}/clubs`, active === "clubs", "Clubs")}
+      {tab(`/${slug}/materiel`, active === "equipment", "Matériel")}
     </nav>
   );
 }
