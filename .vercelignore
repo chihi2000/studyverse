@@ -1,0 +1,7 @@
+# Never upload local secrets, local uploads or tooling folders to Vercel.
+.env*
+!.env.example
+uploads
+.agents
+.claude
+skills-lock.json
